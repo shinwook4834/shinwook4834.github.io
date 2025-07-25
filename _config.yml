@@ -124,7 +124,7 @@ comments:
     category: General
     category_id: DIC_kwDOPSqy-s4CtaB4
     mapping: pathname # optional, default to 'pathname'
-    strict: 1 # optional, default to '0'
+    strict: 0 # optional, default to '0'
     input_position: bottom  # optional, default to 'bottom'
     lang: ko # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
