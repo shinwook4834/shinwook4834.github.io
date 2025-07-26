@@ -1,6 +1,6 @@
 ---
 title: 블로그에 오신 걸 환영해요 😊
-author: SSU-COOK SSU-COOK
+author: "SSU-COOK SSU-COOK"
 date: 2025-07-25 22:00:00 +0900
 last_modified_at: 2025-07-25 21:00:00 +0900  
 tags: [인삿말, 육아일기, 베이킹, 이유식, 한식]
@@ -9,7 +9,7 @@ image: /assets/img/2025-07-25-02.png
 comments: true
 ---
 
-안녕하세요 😊
+안녕하세요
 
 삼시 세끼를 꼬박꼬박 챙겨 먹는 남편과,  
 아침마다 배고프다며 울음을 터뜨리는 9개월 아기와 함께  
