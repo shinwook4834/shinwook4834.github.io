@@ -1,8 +1,10 @@
 ---
 title: 블로그에 오신 걸 환영해요 :)
+author: SSU-COOK SSU-COOK
 date: 2025-07-25 22:00:00 +0900
 tags: [인삿말, 육아일기, 베이킹, 이유식, 한식]
 categories: [소개]
+image: /assets/img/2025-07-25-01.png
 comments: true
 ---
 
