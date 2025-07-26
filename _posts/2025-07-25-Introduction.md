@@ -4,7 +4,7 @@ author: SSU-COOK SSU-COOK
 date: 2025-07-25 22:00:00 +0900
 tags: [인삿말, 육아일기, 베이킹, 이유식, 한식]
 categories: [소개]
-image: /assets/img/2025-07-25-01.png
+image: /assets/img/2025-07-25-02.png
 comments: true
 ---
 
