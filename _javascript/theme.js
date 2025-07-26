@@ -1,13 +1,14 @@
 /**
  * Theme management class
- *
+ * static switchable = !document.documentElement.hasAttribute(this.#modeAttr);
  * To reduce flickering during page load, this script should be loaded synchronously.
  */
 class Theme {
   static #modeKey = 'mode';
   static #modeAttr = 'data-mode';
   static #darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
-  static switchable = !document.documentElement.hasAttribute(this.#modeAttr);
+  static switchable = true;
+
 
   static get DARK() {
     return 'dark';
