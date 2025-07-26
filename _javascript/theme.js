@@ -87,7 +87,9 @@ class Theme {
       }
     });
 
+  // 👇 추가: 사용자 설정이 없으면 무조건 라이트 모드로
     if (!this.#hasMode) {
+      this.#setLight();  // 라이트 모드 강제 설정
       return;
     }
 
