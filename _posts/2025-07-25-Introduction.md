@@ -1,5 +1,5 @@
 ---
-title: 블로그에 오신 걸 환영해요 :)
+title: 블로그에 오신 걸 환영해요 😊
 author: SSU-COOK SSU-COOK
 date: 2025-07-25 22:00:00 +0900
 last_modified_at: 2025-07-25 21:00:00 +0900  
