@@ -6,7 +6,7 @@
 class Theme {
   static #modeKey = 'mode';
   static #modeAttr = 'data-mode';
-  static #darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
+  static #darkMedia = window.matchMedia('(prefers-color-scheme: light)');
   static switchable = true;
 
 
