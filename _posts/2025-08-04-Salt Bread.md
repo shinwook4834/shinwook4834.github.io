@@ -106,7 +106,7 @@ comments: true
 
 ---
 
-{% include embed/youtube.html id='3Zh_YO1eAxg' %}
+{% include embed/youtube.html id='wjd3T2If18I' %}
 
 ## 💛 마무리하며
 
