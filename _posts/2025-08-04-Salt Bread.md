@@ -38,7 +38,7 @@ comments: true
 ## 🌀 반죽 시작!
 
 30분 후, 본격적인 반죽을 시작해요.  
-저는 **Wiswell 반죽기**를 사용했어요 (내돈내산 후기입니다 😊).  
+저는 **L'EQUIP 반죽기**를 사용했어요 (내돈내산 후기입니다 😊).  
 이 반죽기의 장점은 버튼 하나로 자동으로 속도와 시간을 조절해주고,  
 버터를 넣는 시점도 알려줘서 홈베이킹 하시는 분들께 정말 유용하답니다.
 
@@ -106,7 +106,7 @@ comments: true
 
 ---
 
-{% include embed/youtube.html id='VD8pw6HPfgs' %}
+{% include embed/youtube.html id='3Zh_YO1eAxg' %}
 
 ## 💛 마무리하며
 
