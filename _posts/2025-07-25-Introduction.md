@@ -7,6 +7,7 @@ tags: [인삿말, 육아일기, 베이킹, 이유식, 한식]
 categories: [소개]
 image: /assets/img/2025-07-25-02.png
 comments: true
+lang: ko
 ---
 
 안녕하세요
