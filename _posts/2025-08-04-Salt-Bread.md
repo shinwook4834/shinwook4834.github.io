@@ -3,7 +3,7 @@ title: "집에서 만드는 소금빵 - 고소한 향기가 가득한 하루"
 author: SSUCOOK
 date: 2025-08-04 22:27:00 +0900
 last_modified_at: 2025-08-04 23:00:00 +0900  
-tags: [소금빵, 베이킹, 홈베이킹]
+tags: [소금빵, 홈베이킹]
 categories: [베이킹]
 image: /assets/img/01_saltbread-main.JPG
 comments: true
