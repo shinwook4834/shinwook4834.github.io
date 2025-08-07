@@ -766,27 +766,29 @@
 </footer>
 
 <script>
-  function changeLang(targetLang) {
-    const currentPath = window.location.pathname;
-    const langs = ["ko", "en"];
-    const defaultLang = "en";
+  document.addEventListener("DOMContentLoaded", () => {
+    window.changeLang = function(targetLang) {
+      const currentPath = window.location.pathname;
+      const langs = ["ko", "en"];
+      const defaultLang = "en";
 
-    let newPath;
+      let newPath;
 
-    if (targetLang === defaultLang) {
-      // 한국어에서 영어로 바꾸는 경우 → /ko/ 제거
-      newPath = currentPath.replace(/^\/ko(\/|$)/, '/');
-    } else {
-      // 영어에서 한국어로 바꾸는 경우 → /ko 추가
-      if (currentPath.startsWith("/ko/")) {
-        newPath = currentPath; // 이미 ko면 그대로
+      if (targetLang === defaultLang) {
+        // 한국어에서 영어로 바꾸는 경우 → /ko/ 제거
+        newPath = currentPath.replace(/^\/ko(\/|$)/, '/');
       } else {
-        newPath = "/ko" + currentPath;
+        // 영어에서 한국어로 바꾸는 경우 → /ko 추가
+        if (currentPath.startsWith("/ko/")) {
+          newPath = currentPath; // 이미 ko면 그대로
+        } else {
+          newPath = "/ko" + currentPath;
+        }
       }
-    }
 
-    window.location.pathname = newPath;
-  }
+      window.location.pathname = newPath;
+    };
+  });
 </script>
           </div>
         </div>
