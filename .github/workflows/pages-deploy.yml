@@ -58,7 +58,7 @@ jobs:
       
       - name: Setup Naver Site Verification
         run: |
-          echo "naver-site-verification: naver123abc456xyz.html" > ./_site/naver123abc456xyz.html
+          echo "naver-site-verification: ${{ secrets.NAVER_VERIFICATION_CODE }}" > ./_site/${{ secrets.NAVER_VERIFICATION_CODE }}.html
     
       - name: Setup Ads.txt
         run: |
