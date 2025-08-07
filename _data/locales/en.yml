@@ -1,5 +1,10 @@
 # The layout text of site
 
+# _data/locales/en.yml
+home:
+  title: "SSUCOOK"
+  tagline: "Home-Cooked Everything<br><br>Life with a Baby and a Husband Who Never Eat Out"
+
 # ----- Commons label -----
 
 layout:

@@ -25,88 +25,73 @@
     {% seo title=false %}
   {%- endcapture %}
 
+  <!-- 다국어 지원 - tagline 및 description 설정 -->
+  {% if site.active_lang == 'ko' %}
+    <meta name="description" content="프론트엔드 개발자 김윤서의 블로그입니다. 최신 웹 기술과 개발 인사이트를 공유합니다.">
+    <meta property="og:description" content="프론트엔드 개발자 김윤서의 블로그입니다. 최신 웹 기술과 개발 인사이트를 공유합니다.">
+    <meta name="twitter:description" content="프론트엔드 개발자 김윤서의 블로그입니다. 최신 웹 기술과 개발 인사이트를 공유합니다.">
+  {% else %}
+    <meta name="description" content="A blog by Yunseo Kim, frontend developer sharing web development insights and tutorials.">
+    <meta property="og:description" content="A blog by Yunseo Kim, frontend developer sharing web development insights and tutorials.">
+    <meta name="twitter:description" content="A blog by Yunseo Kim, frontend developer sharing web development insights and tutorials.">
+  {% endif %}
+
   <!-- CDN Preconnect -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
 
-  <!-- Setup Open Graph image -->
-
+  <!-- Open Graph image 처리 -->
   {% if page.image -%}
     {% assign src = page.image.path | default: page.image %}
-
     {% unless src contains '://' -%}
-      {%- capture img_url -%}
-        {% include media-url.html src=src subpath=page.media_subpath absolute=true %}
-      {%- endcapture -%}
-
-      {%- capture old_url -%}{{ src | absolute_url }}{%- endcapture -%}
-      {%- capture new_url -%}{{ img_url }}{%- endcapture -%}
-
+      {% capture img_url %}{% include media-url.html src=src subpath=page.media_subpath absolute=true %}{% endcapture %}
+      {% capture old_url %}{{ src | absolute_url }}{% endcapture %}
+      {% capture new_url %}{{ img_url }}{% endcapture %}
       {% assign seo_tags = seo_tags | replace: old_url, new_url %}
-    {%- endunless %}
-
+    {% endunless %}
   {% elsif site.social_preview_image %}
-    {%- capture img_url -%}
-      {% include media-url.html src=site.social_preview_image absolute=true %}
-    {%- endcapture -%}
-
-    {%- capture og_image -%}
-      <meta property="og:image" content="{{ img_url }}" />
-    {%- endcapture -%}
-
-    {%- capture twitter_image -%}
+    {% capture img_url %}{% include media-url.html src=site.social_preview_image absolute=true %}{% endcapture %}
+    {% capture og_image %}<meta property="og:image" content="{{ img_url }}" />{% endcapture %}
+    {% capture twitter_image %}
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content="{{ img_url }}" />
-    {%- endcapture -%}
-
+    {% endcapture %}
     {% assign old_meta_clip = '<meta name="twitter:card" content="summary" />' %}
     {% assign new_meta_clip = og_image | append: twitter_image %}
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
   {% endif %}
 
-  {%- capture old_og_locale -%}
-    <meta property="og:locale" content="{{site.lang}}" />
-  {%- endcapture -%}
-  {%- capture new_og_locale -%}
+  {% capture old_og_locale %}<meta property="og:locale" content="{{site.lang}}" />{% endcapture %}
+  {% capture new_og_locale %}
     <meta property="og:locale" content="{{site.active_lang}}" />
-    {% for lang in site.languages -%}
-      {%- if lang == site.active_lang -%}
-        {%- continue -%}
-      {%- endif %}
-    <meta property="og:locale:alternate" content="{{lang}}" />
-    {%- endfor %}
-  {%- endcapture -%}
+    {% for lang in site.languages %}
+      {% if lang == site.active_lang %}{% continue %}{% endif %}
+      <meta property="og:locale:alternate" content="{{lang}}" />
+    {% endfor %}
+  {% endcapture %}
   {% assign seo_tags = seo_tags | replace: old_og_locale, new_og_locale %}
-  
-  {% unless site.active_lang == site.default_lang -%}
-    {%- capture old_canonical_link -%}
-      <link rel="canonical" href="{{site.url}}{{page.url}}" />
-    {%- endcapture -%}
-    {%- capture old_og_url -%}
-      <meta property="og:url" content="{{site.url}}{{page.url}}" />
-    {%- endcapture -%}
-    {%- capture new_canonical_link -%}
-      <link rel="canonical" href="{{site.url}}/{{site.active_lang}}{{page.url}}" />
-    {%- endcapture -%}
-    {%- capture new_og_url -%}
-      <meta property="og:url" content="{{site.url}}/{{site.active_lang}}{{page.url}}" />
-    {%- endcapture -%}
+
+  {% unless site.active_lang == site.default_lang %}
+    {% capture old_canonical_link %}<link rel="canonical" href="{{site.url}}{{page.url}}" />{% endcapture %}
+    {% capture old_og_url %}<meta property="og:url" content="{{site.url}}{{page.url}}" />{% endcapture %}
+    {% capture new_canonical_link %}<link rel="canonical" href="{{site.url}}/{{site.active_lang}}{{page.url}}" />{% endcapture %}
+    {% capture new_og_url %}<meta property="og:url" content="{{site.url}}/{{site.active_lang}}{{page.url}}" />{% endcapture %}
     {% assign seo_tags = seo_tags | replace: old_canonical_link, new_canonical_link %}
     {% assign seo_tags = seo_tags | replace: old_og_url, new_og_url %}
-  {%- endunless %}
+  {% endunless %}
 
   {{ seo_tags }}
 
   <title>
-    {%- unless page.layout == 'home' -%}
+    {% unless page.layout == 'home' %}
       {{ page.title | append: ' | ' }}
-    {%- endunless -%}
+    {% endunless %}
     {{ site.title }}
   </title>
 
   {% include_cached favicons.html %}
 
   <!-- Resource Hints -->
-  {% unless site.assets.self_host.enabled -%}
+  {% unless site.assets.self_host.enabled %}
     {% for hint in site.data.origin.cors.resource_hints %}
       {% for link in hint.links %}
         <link rel="{{ link.rel }}" href="{{ hint.url }}" {{ link.opts | join: ' ' }}>
@@ -115,84 +100,65 @@
   {% endunless %}
 
   <!-- Bootstrap -->
-  {% unless jekyll.environment == 'production' -%}
+  {% unless jekyll.environment == 'production' %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
-  {%- endunless %}
+  {% endunless %}
 
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}">
-  <link rel="preload" as="style" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-std-dynamic-subset.min.css">
-  <link rel="preload" as="style" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp-dynamic-subset.min.css">
-  <link rel="preload" as="style" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-  <link rel="stylesheet" as="style" type="text/css" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-std-dynamic-subset.min.css" />
-  <link rel="stylesheet" as="style" type="text/css" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp-dynamic-subset.min.css" />
-  <link rel="stylesheet" as="style" type="text/css" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
 
-  <!-- Font Awesome Icons -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ site.data.origin[type].fontawesome.css | relative_url }}">
 
-  <!-- 3rd-party Dependencies -->
-
-  {% if site.toc and page.toc -%}
+  {% if site.toc and page.toc %}
     <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
-  {%- endif %}
+  {% endif %}
 
-  {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' -%}
+  {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
     <link rel="stylesheet" href="{{ site.data.origin[type]['lazy-polyfill'].css | relative_url }}">
-  {%- endif %}
+  {% endif %}
 
-  {% if page.layout == 'page' or page.layout == 'post' -%}
-    <!-- Image Popup -->
-  <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
-  {%- endif %}
+  {% if page.layout == 'page' or page.layout == 'post' %}
+    <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
+  {% endif %}
 
   <!-- Scripts -->
-
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
-
   {% include js-selector.html lang=lang %}
 
-  {% if jekyll.environment == 'production' -%}
-    <!-- PWA -->
-    {%- if site.pwa.enabled -%}
-      <script
-        defer
-        src="{{ '/app.min.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"
-      ></script>
-    {%- endif %}
-
-    <!-- Web Analytics -->
-    {% for analytics in site.analytics -%}
-      {%- capture str -%}{{ analytics }}{%- endcapture -%}
-      {%- assign platform = str | split: '{' | first -%}
-      {% if site.analytics[platform].id and site.analytics[platform].id != empty -%}
+  {% if jekyll.environment == 'production' %}
+    {% if site.pwa.enabled %}
+      <script defer src="{{ '/app.min.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"></script>
+    {% endif %}
+    {% for analytics in site.analytics %}
+      {% capture str %}{{ analytics }}{% endcapture %}
+      {% assign platform = str | split: '{' | first %}
+      {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
         {% include analytics/{{ platform }}.html %}
-      {%- endif %}
-    {%- endfor %}
-  {%- endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
   {% include metadata-hook.html %}
 
-
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBSWTJ27CE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-FBSWTJ27CE');
   </script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8691553075583022"
-    crossorigin="anonymous">
-  </script>
+    crossorigin="anonymous"></script>
 
-  <!-- Clarity tracking code for https://www.yunseo.kim/ -->
+  <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

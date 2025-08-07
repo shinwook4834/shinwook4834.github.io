@@ -1,8 +1,6 @@
-<!-- The Side Bar -->
-
-<!-- The Side Bar -->
-
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+
+  {% assign lang = include.lang | default: page.lang | default: site.lang %}
 
   <header class="profile-wrapper mt-0 pt-0">
     <div style="margin-left: 38px; margin-top: 40px;">
@@ -24,32 +22,32 @@
     <a class="site-title d-block" 
       href="{{ '/' | relative_url }}" 
       style="position: relative; left: 33px;">
-      {{ site.title }}
+      {{ site.data.locales[lang].home.title }}
     </a>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <p class="site-subtitle fst-italic mb-0">
+      {{ site.data.locales[lang].home.tagline | markdownify }}
+    </p>
   </header>
   <!-- .profile-wrapper -->
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+      <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
-          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+          <span>{{ site.data.locales[lang].tabs.home | upcase }}</span>
         </a>
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+        {% assign tab_name = tab.url | remove: '/' %}
+        <li class="nav-item{% if tab.url == page.url %} active{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            <span>{{ site.data.locales[lang].tabs[tab_name] | default: tab.title | upcase }}</span>
           </a>
         </li>
-        <!-- .nav-item -->
       {% endfor %}
     </ul>
   </nav>
@@ -108,4 +106,3 @@
   </div>
   <!-- .sidebar-bottom -->
 </aside>
-<!-- #sidebar -->
