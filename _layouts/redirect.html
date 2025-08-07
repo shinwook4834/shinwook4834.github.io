@@ -1,10 +1,13 @@
-<!-- jekyll-redirect-from will use this template to implement redirects. This modification to the template helps polyglot redirect accounting for languages -->
-{% assign redirection = page.redirect.to | remove_first: site.url %}
+<!-- jekyll-redirect-from 플러그인용 리디렉트 템플릿
+  다국어 사이트 지원을 위해 수정함 -->
+{% assign redirection = page.redirect.to | remove_first: site.url | default: '/' %}
+
 {% if site.active_lang == site.default_lang %}
-  {% assign redirectTo =  site.url | append: redirection %}
+  {% assign redirectTo = site.url | append: redirection | default: '/' %}
 {% else %}
-  {% assign redirectTo = site.url | append: "/" | append: site.active_lang | append: redirection %}
+  {% assign redirectTo = site.url | append: "/" | append: site.active_lang | append: redirection | default: '/' %}
 {% endif %}
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -17,6 +20,7 @@
   </head>
   <body>
     <h1>Redirecting&hellip;</h1>
-    <a href="{{ redirectTo | default: '/' }}">Click here if you are not redirected.</a>
+    <!-- redirectTo가 빈 값일 경우 대비해 조건문 추가 -->
+    <a href="{% if redirectTo and redirectTo != '' %}{{ redirectTo }}{% else %}/{% endif %}">Click here if you are not redirected.</a>
   </body>
 </html>
