@@ -253,6 +253,13 @@ jekyll-archives:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-paginate  
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
 
 whitelist:
   - jekyll-redirect-from
