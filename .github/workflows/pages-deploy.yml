@@ -58,8 +58,8 @@ jobs:
       
       - name: Setup Naver Site Verification
         run: |
-          echo naver-site-verification: ${{ secrets.NAVER_SITE_VERIFICATION }} > ./_site/${{ secrets.NAVER_SITE_VERIFICATION }}
-      
+          echo "naver-site-verification: naver123abc456xyz.html" > ./_site/naver123abc456xyz.html
+    
       - name: Setup Ads.txt
         run: |
           echo google.com, pub-8691553075583022, DIRECT, f08c47fec0942fa0 > ./_site/ads.txt
