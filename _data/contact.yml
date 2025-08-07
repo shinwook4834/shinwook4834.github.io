@@ -3,8 +3,9 @@
 - type: github
   icon: "fa-brands fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: youtube
+  icon: "fa-brands fa-youtube"
+  url: "https://www.youtube.com/@쑤쿡쑤쿡" 
 
 - type: email
   icon: "fa-solid fa-envelope"
