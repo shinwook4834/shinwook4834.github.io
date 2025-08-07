@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yunseo Kim's Study Notes        # the main title
+title: SSUCOOK        # the main title
 
-tagline: Mathematics, Physics, and Engineering. # it will display as the subtitle
+tagline:  "Raising Kids and Feeding a Homebound Eater: My Everyday Circus." # it will display as the subtitle
 
 description: >-                        # used by seo meta and the atom feed
-  Yunseo Kim's personal blog mainly covering mathematics, physics, and engineering.
+  "I'm an ordinary mom living with a husband who never misses a meal and a 9-month-old baby who cries for food every morning. I spend my days busily moving between the kitchen and the living room."
 
 # fill in the protocol & hostname for your site
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -27,34 +27,34 @@ url: "https://ssucook.github.io"
 baseurl: ""
 
 github:
-  username: yunseo-kim                    # change to your GitHub username
+  username: ssucook                    # change to your GitHub username
 
 twitter:
-  username: yunse0_kim                 # change to your Twitter username
+  username:                 # change to your Twitter username
 
 author:
-  name: Yunseo Kim
-  twitter: yunse0_kim
-  url: https://www.yunseo.kim/
+  name: ssucook
+#  twitter: yunse0_kim
+#  url: https://www.yunseo.kim/
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Yunseo Kim
-  email: contact@yunseo.kim        # change to your email address
+  name: SSUCOOK
+  email: example@domain.com        # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/yunseo-kim       # change to your GitHub homepage
-    - https://twitter.com/yunse0_kim   # change to your Twitter homepage
+    - https://github.com/ssucook       # change to your GitHub homepage
+    # - https://twitter.com/yunse0_kim   # change to your Twitter homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/yunse0.kim
-    - https://www.linkedin.com/in/yunseo-kim
-    - https://www.kaggle.com/yunseo47
-    - https://www.threads.net/@yxnseo.k
+    # - https://www.facebook.com/yunse0.kim
+    # - https://www.linkedin.com/in/yunseo-kim
+    # - https://www.kaggle.com/yunseo47
+    # - https://www.threads.net/@yxnseo.k
 
 # Site Verification Settings
 webmaster_verifications:
-  google: AUlHZNteJbS4CdnOj-2_RSqAmRuvZGuSqxlSXrrLVhY # fill in your Google verification code
+  google: # AUlHZNteJbS4CdnOj-2_RSqAmRuvZGuSqxlSXrrLVhY # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -67,9 +67,9 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: 'G-FBSWTJ27CE' # fill in your Google Analytics ID
+    id: #'G-FBSWTJ27CE' # fill in your Google Analytics ID
   goatcounter:
-    id: yunseo # fill in your GoatCounter ID
+    id: # yunseo # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -83,7 +83,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: goatcounter # now only supports 'goatcounter'
+  provider: # goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
