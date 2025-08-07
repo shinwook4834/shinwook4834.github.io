@@ -266,7 +266,6 @@
 
   <body>
     <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-
   
 
   <header class="profile-wrapper mt-0 pt-0">
@@ -307,7 +306,7 @@
           <span>홈</span>
         </a>
       </li>
-      <!-- the real tabs -->
+      <!-- tabs -->
       
         
         <li class="nav-item">
@@ -344,107 +343,126 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
-    
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
+  <!-- 사이드바 하단 -->
+<div class="sidebar-bottom d-flex flex-wrap align-items-center w-100 justify-content-center" style="gap: 0.15rem;">
 
-      
-        <span class="icon-border"></span>
-      
-    
+  
+    <!-- 다크모드 토글 버튼 -->
+    <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+      <i class="fas fa-adjust"></i>
+    </button>
 
     
-      
-
-      
-        <a
-          href="https://github.com/ssucook"
-          aria-label="github"
-          
-
-          
-            target="_blank"
-            
-          
-
-          
-
-          
-            rel="noopener noreferrer"
-          
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-      
+      <span class="icon-border"></span>
     
-      
+  
 
-      
-        <a
-          href="https://www.youtube.com/@쑤쿡쑤쿡"
-          aria-label="youtube"
-          
-
-          
-            target="_blank"
-            
-          
-
-          
-
-          
-            rel="noopener noreferrer"
-          
-        >
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-      
+  <!-- 기존 소셜 아이콘들 -->
+  
     
-      
 
-      
-        <a
-          href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
-          aria-label="email"
-          
-
-          
-
-          
-
-          
-        >
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-      
     
-      
+      <a
+        href="https://youtube.com/"
+        aria-label="youtube"
+        
 
-      
-        <a
-          href="/ko/feed.xml"
-          aria-label="rss"
+        
+          target="_blank"
           
+        
 
-          
+        
 
-          
-
-          
-        >
-          <i class="fa-solid fa-rss"></i>
-        </a>
-      
+        
+          rel="noopener noreferrer"
+        
+        class="nav-link px-2"
+      >
+        <i class="fa-brands fa-youtube"></i>
+      </a>
     
-      
-
-      
+  
     
-  </div>
-  <!-- .sidebar-bottom -->
+
+    
+      <a
+        href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
+        aria-label="email"
+        
+
+        
+
+        
+
+        
+        class="nav-link px-2"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    
+  
+    
+
+    
+      <a
+        href="/ko/feed.xml"
+        aria-label="rss"
+        
+
+        
+
+        
+
+        
+        class="nav-link px-2"
+      >
+        <i class="fa-solid fa-rss"></i>
+      </a>
+    
+  
+    
+
+    
+  
+
+  <!-- 🌐 언어 전환 아이콘 -->
+  <a
+    role="button"
+    tabindex="0"
+    id="sidebar-lang-toggle"
+    class="nav-link px-2"
+    style="font-size: 1.2rem;"
+    title=""
+    aria-label=""
+    onclick="toggleLang()"
+    onkeydown="if(event.key==='Enter' || event.key===' ') { toggleLang(); }"
+  >
+    <i class="fas fa-globe"></i>
+  </a>
+</div>
 </aside>
+
+<!-- 언어 전환 스크립트 -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const iconEl = document.getElementById("sidebar-lang-toggle");
+    const currentPath = window.location.pathname;
+    const isKorean = currentPath.startsWith("/ko/");
+
+    if (iconEl) {
+      iconEl.title = isKorean ? "Switch to English" : "한국어로 전환";
+      iconEl.setAttribute("aria-label", iconEl.title);
+    }
+
+    window.toggleLang = function () {
+      const newPath = isKorean
+        ? currentPath.replace(/^\/ko(\/|$)/, "/")
+        : "/ko" + currentPath;
+      window.location.pathname = newPath;
+    };
+  });
+</script>
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
@@ -832,6 +850,7 @@
             
 
             <!-- The Footer -->
+
 <footer
   aria-label="Site Info"
   class="
@@ -839,64 +858,24 @@
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
 >
-  <!-- 왼쪽 영역: 언어 전환 + 저작권 -->
-  <div class="d-flex align-items-center gap-3 mb-2 mb-lg-0">
-    <!-- 언어 전환 아이콘 -->
-    <div class="lang-icons d-flex gap-2 align-items-center">
-      
-      
-        <span
-          class="lang-icon"
-          role="button"
-          tabindex="0"
-          title="한국어"
-          aria-current="true"
-          onclick="changeLang('ko')"
-          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('ko'); }"
-          style="font-size: 1.4rem; cursor: pointer; user-select: none;"
-        >
-          🇰🇷
-            
-        </span>
-      
-        <span
-          class="lang-icon"
-          role="button"
-          tabindex="0"
-          title="English"
-          aria-current="false"
-          onclick="changeLang('en')"
-          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('en'); }"
-          style="font-size: 1.4rem; cursor: pointer; user-select: none;"
-        >
-          🇺🇸
-          
-        </span>
-      
-    </div>
+  <p>©
+    2025 / 12025
+    <span data-bs-toggle="tooltip" data-bs-placement="top" title="Holocene Era">HE</span>
 
-    <p class="mb-0">©
-      <time>
-        2025 <span data-bs-toggle="tooltip" title="Common Era">CE</span> /
-        12025 <span data-bs-toggle="tooltip" title="Holocene Era">HE</span>
-      </time>
+    
+      <a href="https://github.com/ssucook">SSUCOOK</a>.
+    
 
-      
-        <a href="https://github.com/ssucook">SSUCOOK</a>.
-      
+    
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="따로 명시하지 않는 한 이 사이트의 블로그 게시물은 작성자의 Creative Commons Attribution-NonCommercial 4.0 International(CC BY-NC 4.0) 라이선스에 따라 사용을 허가합니다."
+      >일부 권리 보유</span>
+    
+  </p>
 
-      
-        <span
-          data-bs-toggle="tooltip"
-          data-bs-placement="top"
-          title="따로 명시하지 않는 한 이 사이트의 블로그 게시물은 작성자의 Creative Commons Attribution-NonCommercial 4.0 International(CC BY-NC 4.0) 라이선스에 따라 사용을 허가합니다."
-        >일부 권리 보유</span>
-      
-    </p>
-  </div>
-
-  <!-- 오른쪽 영역: 기술 정보 -->
-  <p class="mb-0">Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a
+  <p>Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="v7.3.1"
@@ -906,32 +885,6 @@
       >Chirpy</a> theme
   </p>
 </footer>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    window.changeLang = function(targetLang) {
-      const currentPath = window.location.pathname;
-      const langs = ["ko", "en"];
-      const defaultLang = "en";
-
-      let newPath;
-
-      if (targetLang === defaultLang) {
-        // 한국어에서 영어로 바꾸는 경우 → /ko/ 제거
-        newPath = currentPath.replace(/^\/ko(\/|$)/, '/');
-      } else {
-        // 영어에서 한국어로 바꾸는 경우 → /ko 추가
-        if (currentPath.startsWith("/ko/")) {
-          newPath = currentPath; // 이미 ko면 그대로
-        } else {
-          newPath = "/ko" + currentPath;
-        }
-      }
-
-      window.location.pathname = newPath;
-    };
-  });
-</script>
           </div>
         </div>
 
