@@ -51,10 +51,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
       
-      - name: Setup IndexNow
-        # Generate files dynamically to prevent them from being leaked in public repositories.
-        # This example will put the file in the root directory of the site.You may change the location by yourself.
-        run: echo ${{ secrets.INDEXNOW_KEY }} > ./_site/${{ secrets.INDEXNOW_KEY }}.txt
       
       - name: Setup Naver Site Verification
         run: |
@@ -73,27 +69,7 @@ jobs:
           bundle exec htmlproofer _site \
             \-\-disable-external \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
-      
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      
-      - name: Update SHA256 hash table
-        run: |
-          python3 ./tools/compare_hash.py
-      
-      - name: Commit and Push updated hash table
-        run: |
-          git config user.name "김윤서(Yunseo Kim)"
-          git config user.email "git@yunseo.kim"
-          git add ./tools/hash.csv
-          if ! git diff-index --quiet HEAD --; then
-            git commit -m "Auto-update hash.csv"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+              
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -111,12 +87,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       
-      - name: indexnow-action
-        uses: bojieyang/indexnow-action@v2 # v2 is the latest major version following the action-versioning.
-        with:
-          # Currently, XML Sitemap, Sitemap index, RSS and Atom formats are supported.
-          # The location of your sitemap must start with http(s). 
-          sitemap-location: 'https://www.yunseo.kim/sitemap.xml' 
-          key: ${{ secrets.INDEXNOW_KEY }} # The key you get from IndexNow.
-          since: 2
-          since-unit: 'week'
