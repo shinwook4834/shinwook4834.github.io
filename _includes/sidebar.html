@@ -4,7 +4,8 @@
   <header class="profile-wrapper">
     <div style="margin-left: 38px; margin-top: 10px;">  <!-- 원하는 위치 조정 -->
       <a href="{{ '/' | relative_url }}" id="avatar">  <!-- 'rounded-circle' 제거 -->
-        {% if site.avatar != empty and site.avatar %}
+      {% if site.avatar != empty and site.avatar %}
+        <a href="{{ '/' | relative_url }}" id="avatar">
           {% capture avatar_url %}
             {% include media-url.html src=site.avatar %}
           {% endcapture %}
@@ -12,9 +13,10 @@
               width="140"
               height="140"
               alt="avatar"
-              style="border-radius: 5; object-fit: cover;"
+              style="border-radius: 5px; object-fit: cover;"
               onerror="this.style.display='none'">
-        {% endif %}
+        </a>
+      {% endif %}
       </a>
     </div>
 
