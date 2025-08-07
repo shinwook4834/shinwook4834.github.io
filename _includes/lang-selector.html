@@ -60,24 +60,26 @@ function changeLang(url) {
 <link rel="stylesheet" href="{{ '/assets/css/lang-selector.css' | relative_url }}">
 
 <div class="lang-dropdown">
-    <select class="lang-select" onchange="changeLang(this.value)" aria-label="Select Language">
+  <select class="lang-select" onchange="changeLang(this.value)" aria-label="Select Language">
     {%- for lang in site.languages -%}
+      {% if lang == "ko" or lang == "en" %}
         <option value="{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
                 {% if lang == site.active_lang %}selected{% endif %}>
-            {% case lang %}
-            {% when 'ko' %}🇰🇷 한국어
-            {% when 'en' %}🇺🇸 English
-            {% when 'ja' %}🇯🇵 日本語
-            {% when 'zh-TW' %}🇹🇼 正體中文
-            {% when 'es' %}🇪🇸 Español
-            {% when 'pt-BR' %}🇧🇷 Português
-            {% when 'fr' %}🇫🇷 Français
-            {% when 'de' %}🇩🇪 Deutsch
-            {% else %}{{ lang }}
-            {% endcase %}
+          {% case lang %}
+          {% when 'ko' %}🇰🇷 한국어
+          {% when 'en' %}🇺🇸 English
+          {% endcase %}
         </option>
+      {% else %}
+        {% comment %}
+        <option value="{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
+                {% if lang == site.active_lang %}selected{% endif %}>
+          {{ lang }}
+        </option>
+        {% endcomment %}
+      {% endif %}
     {%- endfor -%}
-    </select>
+  </select>
 </div>
 
 <script>

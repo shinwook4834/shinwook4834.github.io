@@ -2,11 +2,11 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Yunseo Kim's Study Notes</title>
-  <subtitle>Yunseo Kim's personal blog mainly covering mathematics, physics, and engineering.</subtitle>
-  <updated>2025-08-07T11:23:43+09:00</updated>
+  <title>SSUCOOK</title>
+  <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
+  <updated>2025-08-07T17:17:58+09:00</updated>
   <author>
-    <name>Yunseo Kim</name>
+    <name>SSUCOOK</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
@@ -14,23 +14,157 @@
   
   <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4000/ko/" />
   
-  <link rel="alternate" type="text/html" hreflang="ja" href="http://localhost:4000/ja/" />
-  
-  <link rel="alternate" type="text/html" hreflang="zh-TW" href="http://localhost:4000/zh-TW/" />
-  
-  <link rel="alternate" type="text/html" hreflang="es" href="http://localhost:4000/es/" />
-  
-  <link rel="alternate" type="text/html" hreflang="pt-BR" href="http://localhost:4000/pt-BR/" />
-  
-  <link rel="alternate" type="text/html" hreflang="fr" href="http://localhost:4000/fr/" />
-  
-  <link rel="alternate" type="text/html" hreflang="de" href="http://localhost:4000/de/" />
-  
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 Yunseo Kim </rights>
+  <rights> © 2025 SSUCOOK </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title xml:lang="en">Homemade Salt Butter Rolling  – A Day Filled with Savory Aroma</title>
+    <link href="http://localhost:4000/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="en" />
+    
+    <link href="http://localhost:4000/ko/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="ko" />
+    
+    <published>2025-08-04T22:27:00+09:00</published>
+  
+    <updated>2025-08-04T23:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Salt-Bread/</id>
+    <author>
+      <name>SSUCOOK</name>
+    </author>
+
+  
+    
+    <category term="Baking" />
+    
+  
+
+    <summary xml:lang="en">Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients  First, let’s measure everything: ...</summary>
+    <content type="html" xml:lang="en" src="http://localhost:4000/posts/Salt-Bread/">
+    Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients  First, let’s measure everything: ...
+    <![CDATA[
+    <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
+    <p>Hello there :)<br />
+Today, I’d love to share my experience making one of my favorite breads — <strong>salt bread</strong> — at home.<br />
+My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe.<br />
+I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.</p>
+
+<hr />
+
+<h2 id="-lets-start-with-the-ingredients">🧑‍🍳 Let’s Start with the Ingredients</h2>
+
+<p>First, let’s measure everything:</p>
+<ul>
+  <li>Bread flour: 200g</li>
+  <li>Cake flour: 50g</li>
+  <li>Skim milk powder: 15g (I used leftover baby formula instead)</li>
+  <li>Dry yeast: 3g</li>
+  <li>Salt: 5g</li>
+  <li>Sugar: 15g</li>
+</ul>
+
+<p>It’s important to keep the yeast, salt, and sugar from touching each other directly.<br />
+Coat each with flour before mixing all the dry ingredients evenly.</p>
+
+<p>Next, add 165ml of water.<br />
+Here’s a key tip! Use <strong>tap water</strong> — it helps fermentation more than purified water.<br />
+Mix with a spatula until it clumps together, then let it <strong>rest at room temperature for about 30 minutes</strong>.</p>
+
+<hr />
+
+<h2 id="-time-to-knead">🌀 Time to Knead!</h2>
+
+<p>After 30 minutes, it’s time to knead.<br />
+I used the <strong>L’EQUIP dough mixer</strong> (not sponsored 😊).<br />
+The great thing about this mixer is that it automatically adjusts speed and time with one button,<br />
+and even tells you when to add butter — super helpful for home bakers!</p>
+
+<p><img src="/assets/img/01_saltbread-mixer.JPG" alt="Using the mixer" /></p>
+
+<p>Once the dough is ready, tidy it up and start fermentation.<br />
+Cover with plastic wrap to prevent drying, and let it <strong>ferment at room temperature for 60 minutes</strong>.</p>
+
+<hr />
+
+<h2 id="-shaping-and-resting">🍞 Shaping and Resting</h2>
+
+<p>After fermentation, divide the dough into <strong>70g portions</strong>.<br />
+This recipe makes 6 salt breads.<br />
+If there’s leftover dough, just add a bit to each of the 6 portions.</p>
+
+<p>Now let’s round the dough.<br />
+Fold it inward, then roll it into a ball on a mat or with your palm.<br />
+Next, shape it into a <strong>tadpole shape</strong> — tapering toward the tail is key!</p>
+
+<p><img src="/assets/img/01_saltbread-shaping01.JPG" alt="Rounding and shaping" /></p>
+
+<p>Let the shaped dough <strong>rest at room temperature for 20 minutes</strong>.<br />
+After resting, stretch the dough.<br />
+Push the top part and pull the bottom part downward as you roll.</p>
+
+<p><img src="/assets/img/01_saltbread-shaping02.JPG" alt="Tadpole shape" /></p>
+
+<hr />
+
+<h2 id="-butter-filling-and-shaping-tips">🧈 Butter Filling and Shaping Tips</h2>
+
+<p>Now place the butter filling on the top part and gently roll it up.<br />
+Repeat the same for the rest of the dough.</p>
+
+<p>Some salt bread recipes suggest sealing the sides after adding butter,<br />
+while others leave them open.</p>
+
+<p>Korean master baker <strong>Bread Junseo</strong> says:<br />
+“For salt bread, leaving the sides open allows the butter to naturally flow out and absorb into the bottom,<br />
+making it crispy.”<br />
+So I also leave the sides open.</p>
+
+<hr />
+
+<h2 id="-final-proof-and-baking">🔥 Final Proof and Baking</h2>
+
+<p>Let the shaped dough <strong>proof for about 60 minutes</strong>.<br />
+Usually, you sprinkle a bit of salt on top after proofing,<br />
+but I skipped that this time.</p>
+
+<p>Preheat the oven to <strong>220°C</strong>,<br />
+then bake at <strong>200°C for 20 minutes</strong>.</p>
+
+<p><img src="/assets/img/01_saltbread-beforebake.JPG" alt="Before baking" /></p>
+
+<p>Once baked, your salt bread is ready!<br />
+It’s delicious as is, but if you <strong>brush a little leftover butter on top</strong>,<br />
+it adds a glossy finish and makes it look even more appetizing.</p>
+
+<p><img src="/assets/img/01_saltbread-baked.JPG" alt="Baked salt bread" /></p>
+
+<p>After cooling a bit, cracks may appear on the surface —<br />
+but I find that adds to its charm.</p>
+
+<hr />
+
+<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/wjd3T2If18I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="-wrapping-up">💛 Wrapping Up</h2>
+
+<p>Though I’m self-taught and still learning,<br />
+the biggest reward is seeing my <strong>family enjoy the bread</strong>.<br />
+Since it’s my husband’s favorite, I keep coming back to it.</p>
+
+<p>Salt bread uses simple ingredients,<br />
+and with a little care, you can make it delicious at home.</p>
+
+<p>I hope you give it a try :)<br />
+The savory aroma from the oven and a warm table<br />
+can make your day just a little happier.</p>
+
+    ]]>
+    </content>
+
+  </entry>
 
 </feed>
 

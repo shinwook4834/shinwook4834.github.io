@@ -9,7 +9,10 @@
 >
   <p>
     {{- '©' }}
-    <time>1{{ 'now' | date: '%Y' }} <span data-bs-toggle="tooltip" data-bs-placement="top" title="Holocene Era">HE</span></time>
+    <time>
+      {{ 'now' | date: '%Y' }} <span data-bs-toggle="tooltip" title="Common Era">CE</span> /
+      1{{ 'now' | date: '%Y' }} <span data-bs-toggle="tooltip" title="Holocene Era">HE</span>
+    </time>
 
     {% if site.social.links %}
       <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.

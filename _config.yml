@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: SSUCOOK        # the main title
 
-tagline:  "Raising Kids and Feeding a Homebound Eater: My Everyday Circus." # it will display as the subtitle
+tagline:  “Home-Cooked Everything" <br><br>Life with a Baby and a Husband Who Never Eat Out # it will display as the subtitle
 
 description: >-                        # used by seo meta and the atom feed
-  "I'm an ordinary mom living with a husband who never misses a meal and a 9-month-old baby who cries for food every morning. I spend my days busily moving between the kitchen and the living room."
+  “I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”
 
 # fill in the protocol & hostname for your site
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -106,7 +106,7 @@ theme_mode:   # [light|dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://avatars.githubusercontent.com/u/65203374' # '/assets/img/profile.tiff'
+avatar: "./assets/img/avatar.png" # '/assets/img/profile.tiff'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -120,7 +120,7 @@ comments:
   provider: disqus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: yunseo47-github   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: ssucook   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
@@ -163,7 +163,7 @@ baseurl: ""
 # --------------------------
 
 # Polyglot Settings
-languages: ["en", "ko", "ja", "zh-TW", "es", "pt-BR", "fr", "de"]
+languages: ["en", "ko"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", "assets", "sitemap.xml"]
 parallel_localization: false
@@ -258,8 +258,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-polyglot
 
 
 
 whitelist:
   - jekyll-redirect-from
+

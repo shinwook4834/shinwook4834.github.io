@@ -2,11 +2,11 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/ko/</id>
-  <title>Yunseo Kim's Study Notes</title>
-  <subtitle>Yunseo Kim's personal blog mainly covering mathematics, physics, and engineering.</subtitle>
-  <updated>2025-08-07T11:23:43+09:00</updated>
+  <title>SSUCOOK</title>
+  <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
+  <updated>2025-08-07T17:17:58+09:00</updated>
   <author>
-    <name>Yunseo Kim</name>
+    <name>SSUCOOK</name>
     <uri>http://localhost:4000/ko/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/ko/feed.xml"/>
@@ -14,23 +14,157 @@
   
   <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4000/ko/" />
   
-  <link rel="alternate" type="text/html" hreflang="ja" href="http://localhost:4000/ja/" />
-  
-  <link rel="alternate" type="text/html" hreflang="zh-TW" href="http://localhost:4000/zh-TW/" />
-  
-  <link rel="alternate" type="text/html" hreflang="es" href="http://localhost:4000/es/" />
-  
-  <link rel="alternate" type="text/html" hreflang="pt-BR" href="http://localhost:4000/pt-BR/" />
-  
-  <link rel="alternate" type="text/html" hreflang="fr" href="http://localhost:4000/fr/" />
-  
-  <link rel="alternate" type="text/html" hreflang="de" href="http://localhost:4000/de/" />
-  
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 Yunseo Kim </rights>
+  <rights> © 2025 SSUCOOK </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title xml:lang="ko">집에서 만드는 소금빵 - 고소한 향기가 가득한 하루</title>
+    <link href="http://localhost:4000/ko/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="en" />
+    
+    <link href="http://localhost:4000/ko/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="ko" />
+    
+    <published>2025-08-04T22:27:00+09:00</published>
+  
+    <updated>2025-08-04T23:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/ko/posts/Salt-Bread/</id>
+    <author>
+      <name>SSUCOOK</name>
+    </author>
+
+  
+    
+    <category term="베이킹" />
+    
+  
+
+    <summary xml:lang="ko">안녕하세요 :) 오늘은 제가 가장 좋아하는 빵 중 하나인 소금빵을 집에서 만들어본 이야기를 나눠보려고 해요. 남편이 특히 좋아하는 빵이라 자주 굽게 되는데요, 이번에는 듀크님 레시피를 참고해서 만들어봤어요. 독학으로 하는 베이킹이라 엉성한 부분도 있지만, 그만큼 애정이 담긴 레시피랍니다.    🧑‍🍳 재료 준비부터 시작해요  먼저 계량부터 시작할게요.    강력분 200g   박력분 50g   탈지분유 15g (저는 남은 아기 분유로 대체했어요)   드라이이스트 3g   소금 5g   설탕 15g   이스트, 소금, 설탕은 서로 닿지 않게 넣어주는 게 중요해요. 밀가루로 각각 코팅해준 뒤, 가루 재료들을 골고루 섞어줍니다.  그다음 물 165ml를 넣어줄게요. 여기서 중요한 팁! 수돗물을 사용해주세요....</summary>
+    <content type="html" xml:lang="ko" src="http://localhost:4000/ko/posts/Salt-Bread/">
+    안녕하세요 :) 오늘은 제가 가장 좋아하는 빵 중 하나인 소금빵을 집에서 만들어본 이야기를 나눠보려고 해요. 남편이 특히 좋아하는 빵이라 자주 굽게 되는데요, 이번에는 듀크님 레시피를 참고해서 만들어봤어요. 독학으로 하는 베이킹이라 엉성한 부분도 있지만, 그만큼 애정이 담긴 레시피랍니다.    🧑‍🍳 재료 준비부터 시작해요  먼저 계량부터 시작할게요.    강력분 200g   박력분 50g   탈지분유 15g (저는 남은 아기 분유로 대체했어요)   드라이이스트 3g   소금 5g   설탕 15g   이스트, 소금, 설탕은 서로 닿지 않게 넣어주는 게 중요해요. 밀가루로 각각 코팅해준 뒤, 가루 재료들을 골고루 섞어줍니다.  그다음 물 165ml를 넣어줄게요. 여기서 중요한 팁! 수돗물을 사용해주세요....
+    <![CDATA[
+    <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
+    <p>안녕하세요 :)<br />
+오늘은 제가 가장 좋아하는 빵 중 하나인 <strong>소금빵</strong>을 집에서 만들어본 이야기를 나눠보려고 해요.<br />
+남편이 특히 좋아하는 빵이라 자주 굽게 되는데요, 이번에는 듀크님 레시피를 참고해서 만들어봤어요.<br />
+독학으로 하는 베이킹이라 엉성한 부분도 있지만, 그만큼 애정이 담긴 레시피랍니다.</p>
+
+<hr />
+
+<h2 id="-재료-준비부터-시작해요">🧑‍🍳 재료 준비부터 시작해요</h2>
+
+<p>먼저 계량부터 시작할게요.</p>
+<ul>
+  <li>강력분 200g</li>
+  <li>박력분 50g</li>
+  <li>탈지분유 15g (저는 남은 아기 분유로 대체했어요)</li>
+  <li>드라이이스트 3g</li>
+  <li>소금 5g</li>
+  <li>설탕 15g</li>
+</ul>
+
+<p>이스트, 소금, 설탕은 서로 닿지 않게 넣어주는 게 중요해요.<br />
+밀가루로 각각 코팅해준 뒤, 가루 재료들을 골고루 섞어줍니다.</p>
+
+<p>그다음 물 165ml를 넣어줄게요.<br />
+여기서 중요한 팁! <strong>수돗물</strong>을 사용해주세요. 정수된 물보다 발효에 더 도움이 된다고 해요.<br />
+주걱으로 섞다 보면 덩어리처럼 뭉쳐지는데, 이 상태로 <strong>상온에서 30분 정도 휴지</strong>시켜줍니다.</p>
+
+<hr />
+
+<h2 id="-반죽-시작">🌀 반죽 시작!</h2>
+
+<p>30분 후, 본격적인 반죽을 시작해요.<br />
+저는 <strong>L’EQUIP 반죽기</strong>를 사용했어요 (내돈내산 후기입니다 😊).<br />
+이 반죽기의 장점은 버튼 하나로 자동으로 속도와 시간을 조절해주고,<br />
+버터를 넣는 시점도 알려줘서 홈베이킹 하시는 분들께 정말 유용하답니다.</p>
+
+<p><img src="/assets/img/01_saltbread-mixer.JPG" alt="반죽기 사용" /></p>
+
+<p>반죽이 완성되면 살짝 정리해서 발효에 들어갈게요.<br />
+반죽이 마르지 않도록 랩을 씌운 후, <strong>상온에서 60분 발효</strong>합니다.</p>
+
+<hr />
+
+<h2 id="-성형과-휴지">🍞 성형과 휴지</h2>
+
+<p>발효가 끝나면 반죽을 <strong>70g씩 분할</strong>해줍니다.<br />
+이 레시피로는 소금빵 6개가 나와요.<br />
+혹시 반죽이 남는다면, 6개로 나눈 반죽에 조금씩 더해주면 됩니다.</p>
+
+<p>이제 반죽을 둥글리기 해줄게요.<br />
+반죽을 안으로 접은 후, 매트나 손바닥 위에서 동글동글하게 굴려줍니다.<br />
+그다음 <strong>올챙이 모양</strong>으로 성형해요. 꼬리 부분으로 갈수록 얇아지게 만들어주는 게 포인트!</p>
+
+<p><img src="/assets/img/01_saltbread-shaping01.JPG" alt="둥글리기와 성형" /></p>
+
+<p>성형한 반죽은 <strong>20분간 실온 휴지</strong>시켜줍니다.<br />
+휴지가 끝나면 반죽을 길게 펴줄게요.<br />
+윗부분을 밀어주고, 밑부분은 아래로 당기면서 밀어줍니다.</p>
+
+<p><img src="/assets/img/01_saltbread-shaping02.JPG" alt="올챙이모양" /></p>
+
+<hr />
+
+<h2 id="-버터-충전과-성형-팁">🧈 버터 충전과 성형 팁</h2>
+
+<p>이제 충전용 버터를 윗부분에 올리고 가볍게 말아줍니다.<br />
+나머지 반죽도 같은 방식으로 성형해요.</p>
+
+<p>소금빵 레시피를 찾아보면, 버터를 넣은 후 반죽 옆부분을 막는 방법도 있고,<br />
+막지 않는 방법도 있더라고요.</p>
+
+<p>우리나라 제과명장 <strong>빵준서님</strong>께서는<br />
+“소금빵은 옆부분을 열어놔야 버터가 자연스럽게 흘러나와 흡수되면서<br />
+바닥이 바삭하게 된다”고 하셨어요.<br />
+그래서 저도 옆부분을 막지 않고 만들고 있어요.</p>
+
+<hr />
+
+<h2 id="-마지막-발효와-굽기">🔥 마지막 발효와 굽기</h2>
+
+<p>성형이 끝난 반죽은 <strong>60분 정도 발효</strong>시켜줍니다.<br />
+발효 후에는 반죽 위에 소금을 살짝 올려주는 게 일반적이지만,<br />
+저는 이번엔 생략했어요.</p>
+
+<p>오븐은 <strong>220도에서 예열</strong>,<br />
+굽는 온도는 <strong>200도에서 20분</strong>입니다.</p>
+
+<p><img src="/assets/img/01_saltbread-beforebake.JPG" alt="굽기 전 모습" /></p>
+
+<p>굽고 나면 소금빵이 완성돼요!<br />
+이대로도 너무 맛있지만, <strong>남은 버터를 위에 살짝 발라주면</strong><br />
+윤기가 나면서 훨씬 먹음직스러워 보여요.</p>
+
+<p><img src="/assets/img/01_saltbread-baked.JPG" alt="구운 소금빵" /></p>
+
+<p>조금 식힌 후에는 빵 표면에 크랙이 생기기도 했는데,<br />
+그 모습도 나름 매력적이더라고요.</p>
+
+<hr />
+
+<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/wjd3T2If18I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="-마무리하며">💛 마무리하며</h2>
+
+<p>독학으로 하는 베이킹이라 부족한 점도 많지만,<br />
+무엇보다 <strong>가족이 맛있게 먹어주는 모습</strong>이 가장 큰 보람이에요.<br />
+남편이 제일 좋아하는 빵이라 자꾸 만들게 되네요.</p>
+
+<p>소금빵은 재료도 간단하고,<br />
+조금만 정성 들이면 집에서도 충분히 맛있게 만들 수 있어요.</p>
+
+<p>여러분도 꼭 한번 만들어보세요 :)<br />
+오븐에서 퍼지는 고소한 냄새와 따뜻한 식탁이<br />
+하루를 더 행복하게 만들어줄 거예요.</p>
+
+    ]]>
+    </content>
+
+  </entry>
 
 </feed>
 

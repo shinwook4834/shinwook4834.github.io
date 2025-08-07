@@ -26,7 +26,7 @@
   --bs-body-line-height:1.5;
   --bs-body-color:#212529;
   --bs-body-color-rgb:33,37,41;
-  --bs-body-bg:#fff;
+  --bs-body-bg:#f8c4d1;
   --bs-body-bg-rgb:255,255,255;
   --bs-emphasis-color:#000;
   --bs-secondary-color:rgba(33, 37, 41, 0.75);
@@ -61,7 +61,7 @@ h1 {
 }
 
 body {
-  background:var(--main-bg);
+  background:var(--bs--body-bg);
   padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   color:var(--text-color);
   -webkit-font-smoothing:antialiased;

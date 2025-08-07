@@ -4,21 +4,21 @@
 platforms:
   - type: Twitter
     icon: "fa-brands fa-square-x-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL&via=yunse0_kim"
+#    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL&via=yunse0_kim"
 
   - type: Facebook
     icon: "fa-brands fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+#    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
   - type: Telegram
     icon: "fa-brands fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+ #   link: "https://t.me/share/url?url=URL&text=TITLE"
 
   # Uncomment below if you need to.
   #
   - type: Linkedin
     icon: "fa-brands fa-linkedin"
-    link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
+ #   link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
@@ -39,12 +39,12 @@ platforms:
   #
   - type: Bluesky
     icon: "fa-brands fa-bluesky"
-    link: "https://bsky.app/intent/compose?text=TITLE%20URL"
+#    link: "https://bsky.app/intent/compose?text=TITLE%20URL"
   
   - type: Reddit
     icon: "fa-brands fa-square-reddit"
-    link: "https://www.reddit.com/submit?url=URL&title=TITLE"
+#    link: "https://www.reddit.com/submit?url=URL&title=TITLE"
   
   - type: Threads
     icon: "fa-brands fa-square-threads"
-    link: "https://www.threads.net/intent/post?text=TITLE%20URL"
+ #   link: "https://www.threads.net/intent/post?text=TITLE%20URL"

@@ -6,103 +6,93 @@ seo:
   type: ProfilePage
 ---
 
-## 김윤서 (Yunseo Kim)
 
-<h3 align="center"><em>"I sell here, Sir, what all the world desires to have—POWER."</em></h3>
-<p align="right">―<a href="https://en.wikipedia.org/wiki/Matthew_Boulton"><i>Matthew Boulton</i></a></p>
+안녕하세요
 
-👋 Hello, I'm Yunseo Kim. I'm an undergraduate student majoring in Nuclear Engineering at Seoul National University. I'm interested in *Fusion Power*, *Machine Learning*, and *Quantum Computing*. I usually organize works related to machine learning and quantum computing on GitHub.
+삼시 세끼를 꼬박꼬박 챙겨 먹는 남편과,  
+아침마다 배고프다며 울음을 터뜨리는 9개월 아기와 함께  
+부엌과 거실 사이를 분주히 오가며 살아가는 평범한 엄마입니다.
 
-I agree with *[Lev Artsimovich](https://en.wikipedia.org/wiki/Lev_Artsimovich)*: fusion power will arrive **"when mankind needs it – maybe a short time before that"**!
-- - -
+이 블로그는 그런 저의 소소한 일상, 요리와 육아의 흔적들을 기록하고 나누고 싶어 시작하게 되었어요.  
+특별할 것 없는 하루들이지만, 그 안에 담긴 따뜻한 순간들을 함께 나누고 싶습니다.  
+누군가에게는 평범한 하루일지 몰라도, 저에게는 매일이 새로운 도전이고, 사랑이 쌓여가는 시간이에요.
 
-### Social Links <img src = "https://media.giphy.com/media/pLo39nQ9yGahnDFbay/giphy.gif" width=32 alt="">
-[![Blog Badge](https://img.shields.io/badge/-Blog-3884FF?style=flat-square&logo=Gitbook&logoColor=white&link=https://www.yunseo.kim/)](https://www.yunseo.kim)
-[![Email Badge](https://img.shields.io/badge/-Email-8B89CC?style=flat-square&logo=Mail.Ru&logoColor=white&link=mailto:contact@yunseo.kim)](mailto:contact@yunseo.kim)
-[![GitHub Badge](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/yunseo-kim)](https://github.com/yunseo-kim)
-[![Facebook Badge](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white&link=https://www.facebook.com/yunse0-kim/)](https://www.facebook.com/yunse0-kim/)
-[![Threads Badge](https://img.shields.io/badge/-Threads-000000?style=flat-square&logo=threads&logoColor=white&link=https://www.threads.net/@yxnseo.k)](https://www.threads.net/@yxnseo.k)
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&link=https://www.linkedin.com/in/yunseo-kim/)](https://www.linkedin.com/in/yunseo-kim/)
-- - -
+---
 
-### Education <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTgzYnlsaGZwZWhqajI5ZzR2d3I0b2NrbTYxZTdtZXR1Zmp2NXg5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dBrXAuiJQpBTgFhHFH/giphy.gif" width=32 alt="">
-12021 - Present | **Seoul National University**  
-B.S. in Nuclear Engineering
-- - -
+## 🍞 베이킹 이야기
 
-### Badges <img src = "https://media.giphy.com/media/oUhQb6SSMXEDnvBnbJ/giphy.gif" width=32 alt="">
-<!--START_SECTION:badges-->
-[![Qiskit Global Summer School 2022 - Quantum Excellence](https://images.credly.com/images/36d21fa5-2f19-4cdc-a80d-29488161b6cd/image.png){: width="150" }](https://www.credly.com/badges/0a42bffd-1d2e-49ec-ab59-f8a150cec992)
-<!--END_SECTION:badges-->
-- - -
+아이가 낮잠 자는 짧은 틈을 타 후다닥 반죽하고,  
+오븐에서 퍼지는 고소한 냄새에 기분이 좋아지는 순간들.  
+그 짧은 여유 속에서 저는 제 자신을 다시 찾곤 해요.
 
-### Code Stats <img src = "https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width=32 alt="">
-[![Docker Pulls](https://img.shields.io/docker/pulls/yunseokim/dl-env?style=flat-square&logo=docker&logoColor=2496ED&link=https%3A%2F%2Fhub.docker.com%2Fu%2Fyunseokim)](https://hub.docker.com/u/yunseokim)
-![GitHub User's stars](https://img.shields.io/github/stars/yunseo-kim?affiliations=OWNER%2CCOLLABORATOR&label=GitHub%20stars&logo=GitHub&style=flat-square){: .normal }
+![소금빵과 오븐](/assets/img/2025-07-25-02.png)
 
-[![Yunseo Kim's GitHub stats](https://github-readme-stats.vercel.app/api?username=yunseo-kim&show_icons=true&include_all_commits=true&disable_animations=false&count_private=true)](https://github.com/anuraghazra/github-readme-stats){: .normal }
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yunseo-kim&hide=jupyter%20notebook&layout=donut)](https://github.com/anuraghazra/github-readme-stats){: .normal }
-[![Solved.ac profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=yunseo47)](https://solved.ac/yunseo47){: .normal }
-- - -
+아직은 저와 남편만 먹을 수 있지만, 언젠가 아이가 제가 만든 빵을 먹으며 웃어줄 날을 기다리며 굽고 있어요.  
+사실 저는 빵 굽는 냄새나는 행복한 집을 결혼 전부터 꿈꾸며 살아왔거든요.  
+소금빵이 오븐에서 노릇노릇 구워질 때면, 그 향기만으로도 마음이 따뜻해지고,  
+작은 성취감이 하루를 더 힘차게 만들어줘요.
 
-### Skills & Favorite Tools <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32" alt="">
+---
 
-![Clang](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=C&logoColor=white){: .normal }
-![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=C%2B%2B&logoColor=white){: .normal }
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white){: .normal }
-![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white){: .normal }  
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white){: .normal }
-![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white){: .normal }
-![pandas](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white){: .normal }
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white){: .normal }
-![tqdm](https://img.shields.io/badge/-tqdm-FFC107?style=flat-square&logo=tqdm&logoColor=white){: .normal }
-![tmux](https://img.shields.io/badge/-tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white){: .normal }  
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white){: .normal }
-![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=Keras&logoColor=white){: .normal }
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white){: .normal }
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white){: .normal }
-![Qiskit](https://img.shields.io/badge/-Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white){: .normal }
-![PennyLane](https://img.shields.io/badge/-PennyLane-2c7c7f?style=flat-square){: .normal }  
-![Anaconda](https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white){: .normal }
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white){: .normal }
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white){: .normal }
-![Podman](https://img.shields.io/badge/-Podman-892CA0?style=flat-square&logo=podman&logoColor=white){: .normal }  
-![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white){: .normal }
-![Fedora](https://img.shields.io/badge/-Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white){: .normal }
-![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=Apple&logoColor=white){: .normal }
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white){: .normal }
-![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white){: .normal }  
-![DaVinci Resolve](https://img.shields.io/badge/-DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white){: .normal }
-![Wix](https://img.shields.io/badge/-Wix-0C6EFC?style=flat-square&logo=wix&logoColor=white){: .normal }
-![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white){: .normal }
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white){: .normal }
-![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?style=flat-square&logo=jekyll&logoColor=white){: .normal }  
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white){: .normal }
-![Proxmox](https://img.shields.io/badge/-Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white){: .normal }
-![openmediavault](https://img.shields.io/badge/-openmediavault-5DACDF?style=flat-square&logo=openmediavault&logoColor=white){: .normal }
-![OPNSense](https://img.shields.io/badge/-OPNSense-D94F00?style=flat-square&logo=opnsense&logoColor=white){: .normal }
-![Portainer](https://img.shields.io/badge/-Portainer-13BEF9?style=flat-square&logo=portainer&logoColor=white){: .normal }
-![Nginx Proxy Manager](https://img.shields.io/badge/-Nginx%20Proxy%20Manager-F15833?style=flat-square&logo=nginxproxymanager&logoColor=white){: .normal }
-![Nextcloud](https://img.shields.io/badge/-Nextcloud-0082C9?style=flat-square&logo=nextcloud&logoColor=white){: .normal }  
-![LibreOffice](https://img.shields.io/badge/-LibreOffice-18A303?style=flat-square&logo=libreoffice&logoColor=white){: .normal }
-![ONLYOFFICE](https://img.shields.io/badge/-ONLYOFFICE-444444?style=flat-square&logo=onlyoffice&logoColor=white){: .normal }
-![Obsidian](https://img.shields.io/badge/-Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white){: .normal }
-![Mermaid](https://img.shields.io/badge/-Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white){: .normal }
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown&logoColor=white){: .normal }  
-![GNU Privacy Guard](https://img.shields.io/badge/-GNU%20Privacy%20Guard-0093DD?style=flat-square&logo=gnuprivacyguard&logoColor=white){: .normal }
-![Thunderbird](https://img.shields.io/badge/-Thunderbird-0A84FF?style=flat-square&logo=thunderbird&logoColor=white){: .normal }
-![Proton Mail](https://img.shields.io/badge/-Proton%20Mail-6D4AFF?style=flat-square&logo=protonmail&logoColor=white){: .normal }
-![SimpleLogin](https://img.shields.io/badge/-SimpleLogin-EA319F?style=flat-square&logo=simplelogin&logoColor=white){: .normal }  
-![Firefox](https://img.shields.io/badge/-Firefox-FF7139?style=flat-square&logo=firefox&logoColor=white){: .normal }
-![Startpage](https://img.shields.io/badge/-Startpage-6563FF?style=flat-square&logo=startpage&logoColor=white){: .normal }
-![uBlock Origin](https://img.shields.io/badge/-uBlock%20Origin-800000?style=flat-square&logo=ublockorigin&logoColor=white){: .normal }
-![AdGuard](https://img.shields.io/badge/-AdGuard-68BC71?style=flat-square&logo=adguard&logoColor=white){: .normal }
-![Bitwarden](https://img.shields.io/badge/-Bitwarden-175DDC?style=flat-square&logo=bitwarden&logoColor=white){: .normal }
-![WebAuthn](https://img.shields.io/badge/-WebAuthn-3423A6?style=flat-square&logo=webauthn&logoColor=white){: .normal }
-![YubiKey](https://img.shields.io/badge/-YubiKey-84BD00?style=flat-square&logo=yubico&logoColor=white){: .normal }
-![Ente Auth](https://img.shields.io/badge/-Ente%20Auth-9610D6?style=flat-square){: .normal }  
-![Tor Project](https://img.shields.io/badge/-Tor%20Project-7D4698?style=flat-square&logo=torproject&logoColor=white){: .normal }
-![Proton VPN](https://img.shields.io/badge/-Proton%20VPN-66DEB1?style=flat-square&logo=protonvpn&logoColor=white){: .normal }
-![WireGuard](https://img.shields.io/badge/-WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white){: .normal }
-![Signal](https://img.shields.io/badge/-Signal-3B45FD?style=flat-square&logo=signal&logoColor=white){: .normal }
-![SimpleX](https://img.shields.io/badge/-SimpleX-000000?style=flat-square&logo=simplex&logoColor=white){: .normal }
+## 🥣 이유식 도전기
+
+처음엔 모든 게 낯설고 어려웠어요.  
+“이렇게 해도 될까?” “너무 묽은가?” “양은 적당한 걸까?”  
+매일이 실험이었고, 아이가 안 먹을 땐 속상하기도 했죠.
+
+하지만 그 속에서도 배워가는 게 많았어요.  
+아이가 좋아하는 재료를 하나씩 알아가고,  
+조금씩 먹는 양이 늘어날 때마다 마음이 뿌듯해졌어요.
+
+그래서 저처럼 이유식을 처음 시작하는 분들에게  
+작은 위로와 도움이 되었으면 해요.  
+완벽하지 않아도 괜찮다는 걸,  
+우리 모두 그렇게 조금씩 배워가고 있다는 걸 함께 나누고 싶어요.
+
+---
+
+## 🍚 한식의 따뜻함
+
+엄마가 해주시던 된장찌개, 멸치볶음 같은 소박한 반찬들이  
+이젠 제 손끝에서 다시 태어나 우리 가족 식탁에 오를 때면  
+참 뿌듯하고 따뜻하답니다.
+
+요즘은 화려한 요리보다 이런 정갈한 한식이 더 좋아졌어요.  
+재료 본연의 맛을 살리고,  
+가족의 건강을 생각하며 만든 음식은  
+그 자체로 사랑이 담긴 선물 같아요.
+
+아이도 조금씩 밥을 먹기 시작하면서,  
+한식의 깊은 맛을 천천히 배워가고 있어요.  
+그 모습을 보면, 제가 엄마에게 배웠던 따뜻한 식탁이  
+이제 제 아이에게도 이어지고 있다는 생각에 마음이 벅차오릅니다.
+
+---
+
+## 👶 육아 성장일기
+
+아이가 처음 뒤집고, 기어 다니고,  
+두 손으로 저를 붙잡는 그 모든 순간들이 너무 소중해서  
+이 공간에 하나씩 기록해두려 해요.
+
+![아이와 이유식 만드는 사진](/assets/img/2025-07-25-01.png)
+
+처음엔 하루하루가 너무 정신없고 힘들었지만,  
+그 속에서도 아이의 작은 변화 하나하나가  
+저에게는 큰 기쁨이었어요.
+
+언젠가 아이와 함께 꺼내 보며 웃을 수 있는 추억이 되길 바라면서요.  
+“이때 너는 이렇게 작았단다”, “이유식 먹을 때 이렇게 귀여웠어”  
+그런 이야기를 나눌 수 있는 날이 오겠죠.
+
+---
+
+그리고 이 블로그는 완벽한 정답을 알려주는 곳은 아니에요.  
+그저 같은 길을 걷는 분들과 “나만 그런 게 아니구나”,  
+“이런 방법도 있겠네!” 하고  
+소소하게 공감하고 나눌 수 있는 따뜻한 공간이 되었으면 해요.
+
+자주 놀러 와 주세요 😊  
+댓글로 수다도 떨고, 서로의 이야기를 나누며  
+따뜻한 인연으로 이어졌으면 좋겠습니다.  
+오늘도 함께, 소중한 하루 보내시길 바랍니다.
