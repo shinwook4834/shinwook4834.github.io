@@ -1,0 +1,103 @@
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+  <div
+    id="topbar"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+  >
+    <!-- 기존 breadcrumb, sidebar 버튼, 타이틀 -->
+    <nav id="breadcrumb" aria-label="Breadcrumb" class="d-flex align-items-center gap-2" style="white-space: nowrap;">
+      {% assign paths = page.url | split: '/' %}
+      {% if paths.size == 0 or page.layout == 'home' %}
+        <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+      {% else %}
+        {% for item in paths %}
+          {% if forloop.first %}
+            <span>
+              <a href="{{ '/' | relative_url }}">
+                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
+              </a>
+            </span>
+          {% elsif forloop.last %}
+            {% if page.collection == 'tabs' %}
+              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+            {% else %}
+              <span>{{ page.title }}</span>
+            {% endif %}
+          {% elsif page.layout == 'category' or page.layout == 'tag' %}
+            <span>
+              <a href="{{ item | append: '/' | relative_url }}">
+                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
+              </a>
+            </span>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </nav>
+
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
+
+    <div id="topbar-title">
+      {% if page.layout == 'home' %}
+        {{- site.data.locales[include.lang].title | default: site.title -}}
+      {% elsif page.collection == 'tabs' or page.layout == 'page' %}
+        {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
+        {{- site.data.locales[include.lang].tabs[tab_key] | default: page.title -}}
+      {% else %}
+        {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
+      {% endif %}
+    </div>
+
+    <!-- 오른쪽 그룹: margin-left 로 띄우기 -->
+    <div class="d-flex align-items-center gap-2 flex-shrink-0" style="margin-left: 3rem;">
+      <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
+        <i class="fas fa-search fa-fw"></i>
+      </button>
+
+      <!-- 검색창 -->
+      <search id="search" class="align-items-center d-flex flex-shrink-0" style="width: 200px; min-width: 260px;">
+        <i class="fas fa-search fa-fw"></i>
+        <input
+          class="form-control"
+          id="search-input"
+          type="search"
+          aria-label="search"
+          autocomplete="off"
+          placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
+        >
+      </search>
+
+      <!-- 언어 전환 아이콘 -->
+      <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
+        {% assign langs = "ko,en" | split: "," %}
+        {% for lang in langs %}
+          <span
+            class="lang-icon"
+            role="button"
+            tabindex="0"
+            title="{% if lang == 'ko' %}한국어{% else %}English{% endif %}"
+            aria-current="{% if lang == site.active_lang %}true{% else %}false{% endif %}"
+            onclick="changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}')"
+            onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}'); }"
+            style="font-size: 2rem; cursor: pointer; user-select: none;"
+          >
+            {% case lang %}
+              {% when 'ko' %}🇰🇷
+              {% when 'en' %}🇺🇸
+            {% endcase %}
+          </span>
+        {% endfor %}
+      </div>
+
+      <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
+        {{- site.data.locales[include.lang].search.cancel -}}
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+function changeLang(url) {
+  window.location.href = url;
+}
+</script>

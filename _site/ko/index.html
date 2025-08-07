@@ -257,9 +257,12 @@
   <body>
     <!-- The Side Bar -->
 
+<!-- The Side Bar -->
+
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
-    <div style="margin-left: 38px; margin-top: 10px;">
+
+  <header class="profile-wrapper mt-0 pt-0">
+    <div style="margin-left: 38px; margin-top: 40px;">
       
         
         <a href="/ko/" id="avatar">
@@ -337,34 +340,6 @@
       
     </ul>
   </nav>
-
-  <!-- 언어 선택기를 별도 섹션으로 분리 -->
-  <div class="lang-selector-wrapper w-100">
-
-<!-- 드롭다운 리스트 버전 -->
-<link rel="stylesheet" href="/assets/css/lang-selector.css">
-
-<div class="lang-dropdown">
-  <select class="lang-select" onchange="changeLang(this.value)" aria-label="Select Language">
-        <option value="/"
-                >
-          🇺🇸 English
-          
-        </option>
-      
-        <option value="/ko/"
-                selected>
-          🇰🇷 한국어
-          
-        </option>
-      </select>
-</div>
-
-<script>
-function changeLang(url) {
-    window.location.href = url;
-}
-</script></div>
 
   <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     
@@ -460,6 +435,10 @@ function changeLang(url) {
         </a>
       
     
+      
+
+      
+    
   </div>
   <!-- .sidebar-bottom -->
 </aside>
@@ -468,23 +447,18 @@ function changeLang(url) {
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
-        <!-- The Top Bar -->
-
-<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+        <header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
   <div
     id="topbar"
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
-    <nav id="breadcrumb" aria-label="Breadcrumb">
+    <!-- 기존 breadcrumb, sidebar 버튼, 타이틀 -->
+    <nav id="breadcrumb" aria-label="Breadcrumb" class="d-flex align-items-center gap-2" style="white-space: nowrap;">
       
-
       
-        <!-- index page -->
         <span>홈</span>
-
       
     </nav>
-    <!-- endof #breadcrumb -->
 
     <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>
@@ -494,25 +468,69 @@ function changeLang(url) {
       SSUCOOK
     </div>
 
-    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
-      <i class="fas fa-search fa-fw"></i>
-    </button>
+    <!-- 오른쪽 그룹: margin-left 로 띄우기 -->
+    <div class="d-flex align-items-center gap-2 flex-shrink-0" style="margin-left: 3rem;">
+      <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
+        <i class="fas fa-search fa-fw"></i>
+      </button>
 
-    <search id="search" class="align-items-center ms-3 ms-lg-0">
-      <i class="fas fa-search fa-fw"></i>
-      <input
-        class="form-control"
-        id="search-input"
-        type="search"
-        aria-label="search"
-        autocomplete="off"
-        placeholder="검색..."
-      >
-    </search>
-    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">취소</button>
+      <!-- 검색창 -->
+      <search id="search" class="align-items-center d-flex flex-shrink-0" style="width: 200px; min-width: 260px;">
+        <i class="fas fa-search fa-fw"></i>
+        <input
+          class="form-control"
+          id="search-input"
+          type="search"
+          aria-label="search"
+          autocomplete="off"
+          placeholder="검색..."
+        >
+      </search>
+
+      <!-- 언어 전환 아이콘 -->
+      <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
+        
+        
+          <span
+            class="lang-icon"
+            role="button"
+            tabindex="0"
+            title="한국어"
+            aria-current="true"
+            onclick="changeLang('/ko/')"
+            onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/ko/'); }"
+            style="font-size: 2rem; cursor: pointer; user-select: none;"
+          >
+            🇰🇷
+              
+          </span>
+        
+          <span
+            class="lang-icon"
+            role="button"
+            tabindex="0"
+            title="English"
+            aria-current="false"
+            onclick="changeLang('/')"
+            onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/'); }"
+            style="font-size: 2rem; cursor: pointer; user-select: none;"
+          >
+            🇺🇸
+            
+          </span>
+        
+      </div>
+
+      <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">취소</button>
+    </div>
   </div>
 </header>
 
+<script>
+function changeLang(url) {
+  window.location.href = url;
+}
+</script>
 
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
@@ -700,7 +718,7 @@ function changeLang(url) {
             <h1 class="card-title my-2 mt-md-0">집에서 만드는 소금빵 - 고소한 향기가 가득한 하루</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>안녕하세요 :) 오늘은 제가 가장 좋아하는 빵 중 하나인 소금빵을 집에서 만들어본 이야기를 나눠보려고 해요. 남편이 특히 좋아하는 빵이라 자주 굽게 되는데요, 이번에는 듀크님 레시피를 참고해서 만들어봤어요. 독학으로 하는 베이킹이라 엉성한 부분도 있지만, 그만큼 애정이 담긴 레시피랍니다.    🧑‍🍳 재료 준비부터 시작해요  먼저 계량부터 시작할게요....</p>
+              <p>안녕하세요 :)  <br>오늘은 제가 가장 좋아하는 빵 중 하나인 **소금빵**을 집에서 만들어본 이야기를 나눠보려고 해요. <br>남편이 특히 좋아하는 빵이라 자주 굽게 되는데요, 이번에는 듀크님 레시피를 참고해서 만들어봤어요. <br>독학으로 하는 베이킹이라 엉성한 부분도 있지만, 그만큼 애정이 담긴 레시피랍니다.</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">

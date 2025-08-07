@@ -1,89 +1,45 @@
-{% comment %}
-<!-- 라디오 버튼 버전 -->
+<!-- 언어 아이콘 선택 버전 -->
 <style>
-.lang-selector {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px 0;
+.lang-icons {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
 }
 
-.lang-radio {
-    display: none;
+.lang-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.lang-label {
-    display: inline-block;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.lang-radio:checked + .lang-label {
-    background-color: #007bff;
-    color: white;
-    border-color: #0056b3;
-}
-
-.lang-label:hover {
-    background-color: #f8f9fa;
-}
-
-.lang-radio:checked + .lang-label:hover {
-    background-color: #0056b3;
+.lang-icon:hover {
+  transform: scale(1.2);
 }
 </style>
 
-<div class="lang-selector">
-{%- for lang in site.languages -%}
-    <input type="radio" 
-           id="lang-{{ lang }}" 
-           name="language" 
-           class="lang-radio" 
-           value="{{ lang }}"
-           {% if lang == site.active_lang %}checked{% endif %}
-           onchange="changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}')">
-    <label for="lang-{{ lang }}" class="lang-label">{{ lang }}</label>
-{%- endfor -%}
+<div class="lang-icons" role="list" aria-label="Select Language">
+  {%- for lang in site.languages -%}
+    {% if lang == "ko" or lang == "en" %}
+      <span
+        role="listitem"
+        class="lang-icon"
+        onclick="changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}')"
+        title="{% if lang == 'ko' %}한국어{% else %}English{% endif %}"
+        aria-current="{% if lang == site.active_lang %}true{% else %}false{% endif %}"
+        tabindex="0"
+        onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}'); }"
+      >
+        {% case lang %}
+        {% when 'ko' %}🇰🇷
+        {% when 'en' %}🇺🇸
+        {% endcase %}
+      </span>
+    {% endif %}
+  {%- endfor -%}
 </div>
 
 <script>
 function changeLang(url) {
-    window.location.href = url;
-}
-</script>
-{% endcomment %}
-
-<!-- 드롭다운 리스트 버전 -->
-<link rel="stylesheet" href="{{ '/assets/css/lang-selector.css' | relative_url }}">
-
-<div class="lang-dropdown">
-  <select class="lang-select" onchange="changeLang(this.value)" aria-label="Select Language">
-    {%- for lang in site.languages -%}
-      {% if lang == "ko" or lang == "en" %}
-        <option value="{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
-                {% if lang == site.active_lang %}selected{% endif %}>
-          {% case lang %}
-          {% when 'ko' %}🇰🇷 한국어
-          {% when 'en' %}🇺🇸 English
-          {% endcase %}
-        </option>
-      {% else %}
-        {% comment %}
-        <option value="{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
-                {% if lang == site.active_lang %}selected{% endif %}>
-          {{ lang }}
-        </option>
-        {% endcomment %}
-      {% endif %}
-    {%- endfor -%}
-  </select>
-</div>
-
-<script>
-function changeLang(url) {
-    window.location.href = url;
+  window.location.href = url;
 }
 </script>

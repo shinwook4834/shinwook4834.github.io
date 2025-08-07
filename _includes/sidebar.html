@@ -1,8 +1,11 @@
 <!-- The Side Bar -->
 
+<!-- The Side Bar -->
+
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
-    <div style="margin-left: 38px; margin-top: 10px;">
+
+  <header class="profile-wrapper mt-0 pt-0">
+    <div style="margin-left: 38px; margin-top: 40px;">
       {% if site.avatar != empty and site.avatar %}
         {% capture avatar_url %}
           {% include media-url.html src=site.avatar %}
@@ -50,11 +53,6 @@
       {% endfor %}
     </ul>
   </nav>
-
-  <!-- 언어 선택기를 별도 섹션으로 분리 -->
-  <div class="lang-selector-wrapper w-100">
-    {%- include lang-selector.html -%}
-  </div>
 
   <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     {% unless site.theme_mode %}
