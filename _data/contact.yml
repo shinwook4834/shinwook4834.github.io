@@ -1,6 +1,6 @@
 #  The contact options.
 
-- type: youtube
+- type: youtube-custom
   icon: "fa-brands fa-youtube"
   url: "https://www.youtube.com/@쑤쿡쑤쿡" 
 
