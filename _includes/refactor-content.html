@@ -184,13 +184,12 @@
 
       {% else %}
         <!-- create the image wrapper -->
-        {% assign _wrapper_start = _final_src
-          | default: _src
-          | prepend: '<a href="'
-          | append: '" class="popup img-link'
-          | append: _wrapper_class
-          | append: '">'
-        %}
+        {% if _final_src or _src %}
+          {% assign _link_href = _final_src | default: _src %}
+          {% assign _wrapper_start = '<a href="' | append: _link_href | append: '" class="popup img-link' | append: _wrapper_class | append: '">' %}
+          {% assign _img_content = _img_content | append: _wrapper_start %}
+          {% assign _right = '></a' | append: _right %}
+        {% endif %}
 
         {% assign _img_content = _img_content | append: _wrapper_start %}
         {% assign _right = '></a' | append: _right %}
