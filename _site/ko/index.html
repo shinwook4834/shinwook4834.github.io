@@ -453,10 +453,11 @@
     id="topbar"
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
-    <!-- 기존 breadcrumb, sidebar 버튼, 타이틀 -->
-    <nav id="breadcrumb" aria-label="Breadcrumb" class="d-flex align-items-center gap-2" style="white-space: nowrap;">
+    <nav id="breadcrumb" aria-label="Breadcrumb">
       
+
       
+        <!-- index page -->
         <span>홈</span>
       
     </nav>
@@ -469,69 +470,59 @@
       SSUCOOK
     </div>
 
-    <!-- 오른쪽 그룹: margin-left 로 띄우기 -->
-    <div class="d-flex align-items-center gap-2 flex-shrink-0" style="margin-left: 3rem;">
-      <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
-        <i class="fas fa-search fa-fw"></i>
-      </button>
-
-      <!-- 검색창 -->
-      <search id="search" class="align-items-center d-flex flex-shrink-0" style="width: 200px; min-width: 260px;">
-        <i class="fas fa-search fa-fw"></i>
-        <input
-          class="form-control"
-          id="search-input"
-          type="search"
-          aria-label="search"
-          autocomplete="off"
-          placeholder="검색..."
+    <!-- 🌐 언어 전환 아이콘 추가 -->
+    <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
+      
+      
+        <span
+          class="lang-icon"
+          role="button"
+          tabindex="0"
+          title="한국어"
+          aria-current="true"
+          onclick="changeLang('/ko/')"
+          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/ko/'); }"
+          style="font-size: 2rem; cursor: pointer; user-select: none;"
         >
-      </search>
-
-      <!-- 언어 전환 아이콘 -->
-      <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
-        
-        
-          <span
-            class="lang-icon"
-            role="button"
-            tabindex="0"
-            title="한국어"
-            aria-current="true"
-            onclick="changeLang('/ko/')"
-            onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/ko/'); }"
-            style="font-size: 2rem; cursor: pointer; user-select: none;"
-          >
-            🇰🇷
-              
-          </span>
-        
-          <span
-            class="lang-icon"
-            role="button"
-            tabindex="0"
-            title="English"
-            aria-current="false"
-            onclick="changeLang('/')"
-            onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/'); }"
-            style="font-size: 2rem; cursor: pointer; user-select: none;"
-          >
-            🇺🇸
+          🇰🇷
             
-          </span>
-        
-      </div>
-
-      <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">취소</button>
+        </span>
+      
+        <span
+          class="lang-icon"
+          role="button"
+          tabindex="0"
+          title="English"
+          aria-current="false"
+          onclick="changeLang('/')"
+          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/'); }"
+          style="font-size: 2rem; cursor: pointer; user-select: none;"
+        >
+          🇺🇸
+          
+        </span>
+      
     </div>
+
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+
+    <search id="search" class="align-items-center ms-3 ms-lg-0">
+      <i class="fas fa-search fa-fw"></i>
+      <input
+        class="form-control"
+        id="search-input"
+        type="search"
+        aria-label="search"
+        autocomplete="off"
+        placeholder="검색..."
+      >
+    </search>
+
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">취소</button>
   </div>
 </header>
-
-<script>
-function changeLang(url) {
-  window.location.href = url;
-}
-</script>
 
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
