@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
         <url>
-          <loc>http://localhost:4000/assets/img/favicons/browserconfig.xml</loc>
-          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/browserconfig.xml" />
-          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/browserconfig.xml" />
-        </url>
-      
-        <url>
           <loc>http://localhost:4000/feed.xml</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/feed.xml" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/feed.xml" />
@@ -18,12 +12,6 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/" />
         </url>
-      
-        <url>
-          <loc>http://localhost:4000/assets/img/favicons/site.webmanifest</loc>
-          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/site.webmanifest" />
-          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/site.webmanifest" />
-        </url>
       <url>
           <loc>http://localhost:4000/sitemap.xml</loc>
       </url>
@@ -31,6 +19,18 @@
           <loc>http://localhost:4000/404.html</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/404.html" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/404.html" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/assets/img/favicons/browserconfig.xml</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/browserconfig.xml" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/browserconfig.xml" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/assets/img/favicons/site.webmanifest</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/site.webmanifest" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/site.webmanifest" />
         </url>
       
         <url>
@@ -81,39 +81,33 @@
     
       <url>
         <loc>http://localhost:4000/categories/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/tags/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/archives/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/about/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/about/" />
       </url>
     
   
-        <url>
-          <loc>http://localhost:4000/ko/assets/img/favicons/browserconfig.xml</loc>
-          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/browserconfig.xml" />
-          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/browserconfig.xml" />
-        </url>
-      
         <url>
           <loc>http://localhost:4000/ko/feed.xml</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/feed.xml" />
@@ -125,12 +119,6 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/" />
         </url>
-      
-        <url>
-          <loc>http://localhost:4000/ko/assets/img/favicons/site.webmanifest</loc>
-          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/site.webmanifest" />
-          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/site.webmanifest" />
-        </url>
       <url>
           <loc>http://localhost:4000/sitemap.xml</loc>
       </url>
@@ -138,6 +126,18 @@
           <loc>http://localhost:4000/ko/404.html</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/404.html" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/404.html" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/ko/assets/img/favicons/browserconfig.xml</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/browserconfig.xml" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/browserconfig.xml" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/ko/assets/img/favicons/site.webmanifest</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/assets/img/favicons/site.webmanifest" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/assets/img/favicons/site.webmanifest" />
         </url>
       
         <url>
@@ -188,28 +188,28 @@
     
       <url>
         <loc>http://localhost:4000/ko/categories/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/tags/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/archives/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/about/</loc>
-        <lastmod>2025-08-07T17:17:58+09:00</lastmod>
+        <lastmod>2025-08-07T17:43:04+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/about/" />
       </url>
