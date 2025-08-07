@@ -1,21 +1,23 @@
+
+
 {
-  "name": "Yunseo Kim's Study Notes",
-  "short_name": "Y.K.'s Study Notes",
+  "name": "SSUCOOK",
+  "short_name": "SSUCOOK",
+  "description": "“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”",
   "icons": [
     {
-      "src": "/assets/img/favicons/web-app-manifest-192x192.png",
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
-      "src": "/assets/img/favicons/web-app-manifest-512x512.png",
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "theme_color": "#ffffff",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "fullscreen"
 }
+
