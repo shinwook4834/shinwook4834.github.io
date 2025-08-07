@@ -1,18 +1,22 @@
 <!-- jekyll-redirect-from will use this template to implement redirects. This modification to the template helps polyglot redirect accounting for languages -->
 {% assign redirection = page.redirect.to | remove_first: site.url %}
 {% if site.active_lang == site.default_lang %}
-{% assign redirectTo =  site.url | append: redirection %}
+  {% assign redirectTo =  site.url | append: redirection %}
 {% else %}
-{% assign redirectTo = site.url | append: "/" | append: site.active_lang | append: redirection  %}
+  {% assign redirectTo = site.url | append: "/" | append: site.active_lang | append: redirection %}
 {% endif %}
 <!DOCTYPE html>
 <html lang="en-US">
   <meta charset="utf-8">
   <title>Redirecting&hellip;</title>
-  <link rel="canonical" {% static_href %}href="{{ redirectTo }}"{% endstatic_href %}>
-  <script>location="{{ redirectTo }}"</script>
-  <meta http-equiv="refresh" content="0; url={{ redirectTo }}">
+  <link rel="canonical" {% static_href %}href="{{ redirectTo | default: '/' }}"{% endstatic_href %}>
+  <script>location = "{{ redirectTo | default: '/' }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ redirectTo | default: '/' }}">
   <meta name="robots" content="noindex">
   <h1>Redirecting&hellip;</h1>
-  <a href="{{ redirectTo | default: '/' }}">Click here if you are not redirected.</a>
+  {% if redirectTo %}
+    <a href="{{ redirectTo }}">Click here if you are not redirected.</a>
+  {% else %}
+    <a href="/">Click here if you are not redirected.</a>
+  {% endif %}
 </html>
