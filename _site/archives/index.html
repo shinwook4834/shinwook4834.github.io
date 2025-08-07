@@ -69,13 +69,13 @@
 <meta property="og:url" content="http://localhost:4000/archives/" />
 <meta property="og:site_name" content="SSUCOOK" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-08T00:03:35+09:00" />
+<meta property="article:published_time" content="2025-08-08T00:21:54+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Archives" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@ssucook" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ssucook"},"dateModified":"2025-08-08T00:03:35+09:00","datePublished":"2025-08-08T00:03:35+09:00","description":"“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/archives/"},"url":"http://localhost:4000/archives/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ssucook"},"dateModified":"2025-08-08T00:21:54+09:00","datePublished":"2025-08-08T00:21:54+09:00","description":"“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/archives/"},"url":"http://localhost:4000/archives/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -438,7 +438,9 @@
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
-        <header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+        <!-- The Top Bar -->
+
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
   <div
     id="topbar"
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
@@ -452,16 +454,19 @@
             <span>
               <a href="/">Home</a>
             </span>
+
           
         
           
             
               <span>Archives</span>
             
+
           
         
       
     </nav>
+    <!-- endof #breadcrumb -->
 
     <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>
@@ -469,40 +474,6 @@
 
     <div id="topbar-title">
       Archives
-    </div>
-
-    <!-- 🌐 언어 전환 아이콘 추가 -->
-    <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
-      
-      
-        <span
-          class="lang-icon"
-          role="button"
-          tabindex="0"
-          title="한국어"
-          aria-current="false"
-          onclick="changeLang('/ko/archives/')"
-          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/ko/archives/'); }"
-          style="font-size: 2rem; cursor: pointer; user-select: none;"
-        >
-          🇰🇷
-            
-        </span>
-      
-        <span
-          class="lang-icon"
-          role="button"
-          tabindex="0"
-          title="English"
-          aria-current="true"
-          onclick="changeLang('/archives/')"
-          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('/archives/'); }"
-          style="font-size: 2rem; cursor: pointer; user-select: none;"
-        >
-          🇺🇸
-          
-        </span>
-      
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -520,7 +491,6 @@
         placeholder="Search..."
       >
     </search>
-
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
   </div>
 </header>
@@ -682,7 +652,6 @@
             
 
             <!-- The Footer -->
-
 <footer
   aria-label="Site Info"
   class="
@@ -690,26 +659,64 @@
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
 >
-  <p>©
-    <time>
-      2025 <span data-bs-toggle="tooltip" title="Common Era">CE</span> /
-      12025 <span data-bs-toggle="tooltip" title="Holocene Era">HE</span>
-    </time>
+  <!-- 왼쪽 영역: 언어 전환 + 저작권 -->
+  <div class="d-flex align-items-center gap-3 mb-2 mb-lg-0">
+    <!-- 언어 전환 아이콘 -->
+    <div class="lang-icons d-flex gap-2 align-items-center">
+      
+      
+        <span
+          class="lang-icon"
+          role="button"
+          tabindex="0"
+          title="한국어"
+          aria-current="false"
+          onclick="changeLang('ko')"
+          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('ko'); }"
+          style="font-size: 1.4rem; cursor: pointer; user-select: none;"
+        >
+          🇰🇷
+            
+        </span>
+      
+        <span
+          class="lang-icon"
+          role="button"
+          tabindex="0"
+          title="English"
+          aria-current="true"
+          onclick="changeLang('en')"
+          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('en'); }"
+          style="font-size: 1.4rem; cursor: pointer; user-select: none;"
+        >
+          🇺🇸
+          
+        </span>
+      
+    </div>
 
-    
-      <a href="https://github.com/ssucook">SSUCOOK</a>.
-    
+    <p class="mb-0">©
+      <time>
+        2025 <span data-bs-toggle="tooltip" title="Common Era">CE</span> /
+        12025 <span data-bs-toggle="tooltip" title="Holocene Era">HE</span>
+      </time>
 
-    
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License by the author."
-      >Some rights reserved.</span>
-    
-  </p>
+      
+        <a href="https://github.com/ssucook">SSUCOOK</a>.
+      
 
-  <p>Using the <a
+      
+        <span
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License by the author."
+        >Some rights reserved.</span>
+      
+    </p>
+  </div>
+
+  <!-- 오른쪽 영역: 기술 정보 -->
+  <p class="mb-0">Using the <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="v7.3.1"
@@ -719,6 +726,30 @@
       >Chirpy</a> theme for <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>.
   </p>
 </footer>
+
+<script>
+  function changeLang(targetLang) {
+    const currentPath = window.location.pathname;
+    const langs = ["ko", "en"];
+    const defaultLang = "en";
+
+    let newPath;
+
+    if (targetLang === defaultLang) {
+      // 한국어에서 영어로 바꾸는 경우 → /ko/ 제거
+      newPath = currentPath.replace(/^\/ko(\/|$)/, '/');
+    } else {
+      // 영어에서 한국어로 바꾸는 경우 → /ko 추가
+      if (currentPath.startsWith("/ko/")) {
+        newPath = currentPath; // 이미 ko면 그대로
+      } else {
+        newPath = "/ko" + currentPath;
+      }
+    }
+
+    window.location.pathname = newPath;
+  }
+</script>
           </div>
         </div>
 

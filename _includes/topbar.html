@@ -1,3 +1,5 @@
+<!-- The Top Bar -->
+
 <header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
   <div
     id="topbar"
@@ -9,6 +11,7 @@
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
         <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}
@@ -17,12 +20,14 @@
                 {{- site.data.locales[include.lang].tabs.home | capitalize -}}
               </a>
             </span>
+
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
+
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
@@ -33,6 +38,7 @@
         {% endfor %}
       {% endif %}
     </nav>
+    <!-- endof #breadcrumb -->
 
     <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>
@@ -47,28 +53,6 @@
       {% else %}
         {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
       {% endif %}
-    </div>
-
-    <!-- 🌐 언어 전환 아이콘 추가 -->
-    <div class="lang-icons d-flex gap-2 align-items-center ms-3 flex-shrink-0">
-      {% assign langs = "ko,en" | split: "," %}
-      {% for lang in langs %}
-        <span
-          class="lang-icon"
-          role="button"
-          tabindex="0"
-          title="{% if lang == 'ko' %}한국어{% else %}English{% endif %}"
-          aria-current="{% if lang == site.active_lang %}true{% else %}false{% endif %}"
-          onclick="changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}')"
-          onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}'); }"
-          style="font-size: 2rem; cursor: pointer; user-select: none;"
-        >
-          {% case lang %}
-            {% when 'ko' %}🇰🇷
-            {% when 'en' %}🇺🇸
-          {% endcase %}
-        </span>
-      {% endfor %}
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -86,7 +70,6 @@
         placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
       >
     </search>
-
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
       {{- site.data.locales[include.lang].search.cancel -}}
     </button>
