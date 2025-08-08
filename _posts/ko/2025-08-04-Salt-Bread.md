@@ -100,7 +100,7 @@ description: 안녕하세요 :)  <br>오늘은 제가 가장 좋아하는 빵 �
 
 ---
 
-{% include embed/youtube.html id='wjd3T2If18I' %}
+{% include embed/youtube.html id='wjd3T2If18I' autoplay='1' muted='1' %}
 
 ## 💛 마무리하며
 
