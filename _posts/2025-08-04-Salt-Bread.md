@@ -7,7 +7,6 @@ tags: [소금빵, 홈베이킹]
 categories: [베이킹]
 image: /assets/img/01_saltbread-main.JPG
 comments: true
-lang: ko
 ---
 
 안녕하세요 :)  
