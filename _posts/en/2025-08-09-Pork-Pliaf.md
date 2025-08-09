@@ -12,18 +12,18 @@ description: Hello :) Today I made one of our family’s favorite dishes — por
 
 🧅 Preparing the Vegetables and Marinating the Pork Neck
 >
-I used whatever vegetables we had at home for the pilaf:
-	•	Zucchini
-	•	Carrot
-	•	Onion
-	•	Mushrooms
+I used whatever vegetables we had at home for the pilaf:  
+	•	Zucchini  
+	•	Carrot  
+	•	Onion  
+	•	Mushrooms  
 
-The pork neck was marinated overnight beforehand:
-	•	400g pork neck
-	•	1 tbsp minced garlic
-	•	1 tbsp sugar
-	•	3 tbsp soy sauce
-	•	3 tbsp olive oil
+The pork neck was marinated overnight beforehand:  
+	•	400g pork neck  
+	•	1 tbsp minced garlic  
+	•	1 tbsp sugar  
+	•	3 tbsp soy sauce  
+	•	3 tbsp olive oil  
 {: .prompt-tip }
 
 Bell peppers feel like an essential ingredient — they definitely add more flavor!
