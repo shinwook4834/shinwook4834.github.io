@@ -17,8 +17,6 @@ I used whatever vegetables we had at home for the pilaf:
 	•	Carrot  
 	•	Onion  
 	•	Mushrooms  
-
-The pork neck was marinated overnight beforehand:  
 	•	400g pork neck  
 	•	1 tbsp minced garlic  
 	•	1 tbsp sugar  
@@ -26,10 +24,9 @@ The pork neck was marinated overnight beforehand:
 	•	3 tbsp olive oil  
 {: .prompt-tip }
 
+The pork neck was marinated overnight beforehand.
 Bell peppers feel like an essential ingredient — they definitely add more flavor!
 It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.
-
----
 
 Adjust the seasoning to your taste.
 My husband loves meat, so I used a generous amount of pork neck 😄

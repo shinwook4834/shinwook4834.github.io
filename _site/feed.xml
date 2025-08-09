@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>SSUCOOK</title>
   <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
-  <updated>2025-08-09T23:01:10+09:00</updated>
+  <updated>2025-08-09T23:46:52+09:00</updated>
   <author>
     <name>SSUCOOK</name>
     <uri>http://localhost:4000/</uri>
@@ -19,6 +19,99 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title xml:lang="en">Pork Neck Pilaf at Home – A Meal of Happiness</title>
+    <link href="http://localhost:4000/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="en" />
+    
+    <link href="http://localhost:4000/ko/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="ko" />
+    
+    <published>2025-08-09T23:18:00+09:00</published>
+  
+    <updated>2025-08-09T23:35:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Pork-Pliaf/</id>
+    <author>
+      <name>SSUCOOK</name>
+    </author>
+
+  
+    
+    <category term="cooking" />
+    
+  
+
+    <summary xml:lang="en">Hello :) Today I made one of our family’s favorite dishes — pork neck pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.</summary>
+    <content type="html" xml:lang="en" src="http://localhost:4000/posts/Pork-Pliaf/">
+    Hello :) Today I made one of our family’s favorite dishes — pork neck pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
+    <![CDATA[
+    <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
+    <p>🧅 Preparing the Vegetables and Marinating the Pork Neck</p>
+<blockquote class="prompt-tip">
+
+  <p>I used whatever vegetables we had at home for the pilaf:<br />
+	•	Zucchini<br />
+	•	Carrot<br />
+	•	Onion<br />
+	•	Mushrooms<br />
+	•	400g pork neck<br />
+	•	1 tbsp minced garlic<br />
+	•	1 tbsp sugar<br />
+	•	3 tbsp soy sauce<br />
+	•	3 tbsp olive oil</p>
+</blockquote>
+
+<p>The pork neck was marinated overnight beforehand.
+Bell peppers feel like an essential ingredient — they definitely add more flavor!
+It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.</p>
+
+<p>Adjust the seasoning to your taste.
+My husband loves meat, so I used a generous amount of pork neck 😄
+Make sure the marinade isn’t too salty so the meat’s natural flavor shines through.
+Marinating overnight makes the meat more tender and flavorful.</p>
+
+<hr />
+
+<h2 id="-lets-start-stir-frying">🍳 Let’s Start Stir-Frying!</h2>
+
+<p>First, stir-fry the onions and carrots.
+You don’t need much oil since the vegetables release moisture as they cook naturally.
+Next, add the zucchini and mushrooms and stir-fry together.
+When they’re somewhat cooked, add the marinated pork neck.</p>
+
+<p>Once the meat starts cooking, add 2 bowls of cooled rice and stir-fry together.
+It’s better if the rice isn’t too hot.
+Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
+Stir-fry until the bottom gets slightly crispy — that makes it even tastier!
+The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.</p>
+
+<hr />
+
+<h2 id="-with-fried-eggs">🍳 With Fried Eggs</h2>
+
+<p>No pilaf is complete without fried eggs!
+Since it was for two people, I fried 4 eggs generously.
+The yolks cooked slightly runny, which tastes best.
+We also enjoyed it with some spicy chopped chili on the side.</p>
+
+<p>Adding fried eggs makes the dish look more appealing and adds a nutty richness, making the pilaf more hearty.</p>
+
+<hr />
+
+<h2 id="-mealtime-together">💛 Mealtime Together</h2>
+
+<p>Sharing this meal with my beloved husband and baby
+feels warmer and more special than any fancy dish.
+This one plate of pilaf enriches our day.</p>
+
+<p>I hope you try making this at home :)
+This simple pork neck pilaf recipe will bring more happiness to your day.</p>
+
+    ]]>
+    </content>
+
+  </entry>
 
   
   <entry>
