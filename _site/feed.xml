@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>SSUCOOK</title>
   <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
-  <updated>2025-08-09T22:44:13+09:00</updated>
+  <updated>2025-08-09T23:01:10+09:00</updated>
   <author>
     <name>SSUCOOK</name>
     <uri>http://localhost:4000/</uri>
@@ -42,9 +42,9 @@
     
   
 
-    <summary xml:lang="en">Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients  First, let’s measure everything: ...</summary>
+    <summary xml:lang="en">Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients     First, let’s measure everythin...</summary>
     <content type="html" xml:lang="en" src="http://localhost:4000/posts/Salt-Bread/">
-    Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients  First, let’s measure everything: ...
+    Hello there :) Today, I’d love to share my experience making one of my favorite breads — salt bread — at home. My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe. I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.    🧑‍🍳 Let’s Start with the Ingredients     First, let’s measure everythin...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
     <p>Hello there :)<br />
@@ -55,16 +55,18 @@ I’m self-taught in baking, so there may be some rough edges, but that just mea
 <hr />
 
 <h2 id="-lets-start-with-the-ingredients">🧑‍🍳 Let’s Start with the Ingredients</h2>
+<blockquote class="prompt-tip">
 
-<p>First, let’s measure everything:</p>
-<ul>
-  <li>Bread flour: 200g</li>
-  <li>Cake flour: 50g</li>
-  <li>Skim milk powder: 15g (I used leftover baby formula instead)</li>
-  <li>Dry yeast: 3g</li>
-  <li>Salt: 5g</li>
-  <li>Sugar: 15g</li>
-</ul>
+  <p>First, let’s measure everything:</p>
+  <ul>
+    <li>Bread flour: 200g</li>
+    <li>Cake flour: 50g</li>
+    <li>Skim milk powder: 15g (I used leftover baby formula instead)</li>
+    <li>Dry yeast: 3g</li>
+    <li>Salt: 5g</li>
+    <li>Sugar: 15g</li>
+  </ul>
+</blockquote>
 
 <p>It’s important to keep the yeast, salt, and sugar from touching each other directly.<br />
 Coat each with flour before mixing all the dry ingredients evenly.</p>

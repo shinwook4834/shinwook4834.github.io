@@ -17,7 +17,7 @@ I’m self-taught in baking, so there may be some rough edges, but that just mea
 ---
 
 ## 🧑‍🍳 Let’s Start with the Ingredients
-
+> 
 First, let’s measure everything:  
 - Bread flour: 200g  
 - Cake flour: 50g  
@@ -25,6 +25,7 @@ First, let’s measure everything:
 - Dry yeast: 3g  
 - Salt: 5g  
 - Sugar: 15g  
+{: .prompt-tip }
 
 It’s important to keep the yeast, salt, and sugar from touching each other directly.  
 Coat each with flour before mixing all the dry ingredients evenly.

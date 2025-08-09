@@ -4,7 +4,7 @@
   <id>http://localhost:4000/ko/</id>
   <title>SSUCOOK</title>
   <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
-  <updated>2025-08-09T22:44:14+09:00</updated>
+  <updated>2025-08-09T23:01:10+09:00</updated>
   <author>
     <name>SSUCOOK</name>
     <uri>http://localhost:4000/ko/</uri>
@@ -49,15 +49,18 @@
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
     <h2 id="-재료-준비부터-시작해요">🧑‍🍳 재료 준비부터 시작해요</h2>
 
-<p>먼저 계량부터 시작할게요.</p>
-<ul>
-  <li>강력분 200g</li>
-  <li>박력분 50g</li>
-  <li>탈지분유 15g (저는 남은 아기 분유로 대체했어요)</li>
-  <li>드라이이스트 3g</li>
-  <li>소금 5g</li>
-  <li>설탕 15g</li>
-</ul>
+<blockquote class="prompt-tip">
+
+  <p>먼저 계량부터 시작할게요.</p>
+  <ul>
+    <li>강력분 200g</li>
+    <li>박력분 50g</li>
+    <li>탈지분유 15g (저는 남은 아기 분유로 대체했어요)</li>
+    <li>드라이이스트 3g</li>
+    <li>소금 5g</li>
+    <li>설탕 15g</li>
+  </ul>
+</blockquote>
 
 <p>이스트, 소금, 설탕은 서로 닿지 않게 넣어주는 게 중요해요.<br />
 밀가루로 각각 코팅해준 뒤, 가루 재료들을 골고루 섞어줍니다.</p>
