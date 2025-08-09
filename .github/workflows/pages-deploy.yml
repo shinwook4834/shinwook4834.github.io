@@ -50,12 +50,14 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          # 경로 지정 (base_path가 있으면 _site+base_path, 없으면 _site)
           path: ${{ steps.pages.outputs.base_path && format('_site{0}', steps.pages.outputs.base_path) || '_site' }}
 
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
             
  #     - name: Setup Ads.txt
