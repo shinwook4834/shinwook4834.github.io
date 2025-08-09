@@ -106,7 +106,7 @@ but I find that adds to its charm.
 
 ---
 
-{% include embed/youtube.html id='wjd3T2If18I' %}
+{% include embed/youtube.html id='wjd3T2If18I' autoplay='1' muted='1' %}
 
 ## 💛 Wrapping Up
 
