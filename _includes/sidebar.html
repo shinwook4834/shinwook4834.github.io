@@ -18,13 +18,15 @@
       {% endif %}
     </div>
 
-    <a class="site-title d-block" 
-      href="{{ '/' | relative_url }}" 
-      style="position: relative; left: 33px;">
+    <a class="site-title d-block"
+      href="{{ '/' | relative_url }}"
+      style="{% if lang == 'en' %}text-align: left; margin-left: 33px;{% elsif lang == 'ko' %}text-align: center; margin-left: 45px;{% endif %}">
       {{ site.data.locales[lang].home.title }}
     </a>
-    <p class="site-subtitle fst-italic mb-0">
-      {{ site.data.locales[lang].home.tagline | markdownify }}
+
+    <p class="site-subtitle fst-italic mb-0"
+      style="{% if lang == 'en' %}text-align: center; margin-left: -12px;{% elsif lang == 'ko' %}text-align: center; margin-left: -12px;{% endif %}">
+      {{ site.data.locales[lang].home.tagline }}
     </p>
   </header>
   <!-- .profile-wrapper -->

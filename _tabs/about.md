@@ -6,93 +6,98 @@ seo:
   type: ProfilePage
 ---
 
+Hello,  
 
-안녕하세요
+I’m an ordinary mom living with my husband, who never misses his three meals a day,  
+and our baby born in Oct 2024, who bursts into tears every morning claiming he’s hungry.  
+Most of my day is spent busily going back and forth between the kitchen and the living room.  
 
-삼시 세끼를 꼬박꼬박 챙겨 먹는 남편과,  
-아침마다 배고프다며 울음을 터뜨리는 9개월 아기와 함께  
-부엌과 거실 사이를 분주히 오가며 살아가는 평범한 엄마입니다.
-
-이 블로그는 그런 저의 소소한 일상, 요리와 육아의 흔적들을 기록하고 나누고 싶어 시작하게 되었어요.  
-특별할 것 없는 하루들이지만, 그 안에 담긴 따뜻한 순간들을 함께 나누고 싶습니다.  
-누군가에게는 평범한 하루일지 몰라도, 저에게는 매일이 새로운 도전이고, 사랑이 쌓여가는 시간이에요.
-
----
-
-## 🍞 베이킹 이야기
-
-아이가 낮잠 자는 짧은 틈을 타 후다닥 반죽하고,  
-오븐에서 퍼지는 고소한 냄새에 기분이 좋아지는 순간들.  
-그 짧은 여유 속에서 저는 제 자신을 다시 찾곤 해요.
-
-![소금빵과 오븐](/assets/img/2025-07-25-02.png)
-
-아직은 저와 남편만 먹을 수 있지만, 언젠가 아이가 제가 만든 빵을 먹으며 웃어줄 날을 기다리며 굽고 있어요.  
-사실 저는 빵 굽는 냄새나는 행복한 집을 결혼 전부터 꿈꾸며 살아왔거든요.  
-소금빵이 오븐에서 노릇노릇 구워질 때면, 그 향기만으로도 마음이 따뜻해지고,  
-작은 성취감이 하루를 더 힘차게 만들어줘요.
+I started this blog to record and share my small daily life — traces of cooking and parenting.  
+These days may seem ordinary, but within them are warm moments I want to share.  
+What might be a regular day for someone else is, for me, a new challenge every day —  
+a time when love accumulates, little by little.  
 
 ---
 
-## 🥣 이유식 도전기
+## 🍞 Baking Stories
 
-처음엔 모든 게 낯설고 어려웠어요.  
-“이렇게 해도 될까?” “너무 묽은가?” “양은 적당한 걸까?”  
-매일이 실험이었고, 아이가 안 먹을 땐 속상하기도 했죠.
+I knead dough quickly during the short naps my baby takes,  
+and feel so happy when the warm, toasty smell spreads from the oven.  
+In those brief moments of peace, I often find myself again.  
 
-하지만 그 속에서도 배워가는 게 많았어요.  
-아이가 좋아하는 재료를 하나씩 알아가고,  
-조금씩 먹는 양이 늘어날 때마다 마음이 뿌듯해졌어요.
+![Salt bread and oven](/assets/img/2025-07-25-02.png)
 
-그래서 저처럼 이유식을 처음 시작하는 분들에게  
-작은 위로와 도움이 되었으면 해요.  
-완벽하지 않아도 괜찮다는 걸,  
-우리 모두 그렇게 조금씩 배워가고 있다는 걸 함께 나누고 싶어요.
-
----
-
-## 🍚 한식의 따뜻함
-
-엄마가 해주시던 된장찌개, 멸치볶음 같은 소박한 반찬들이  
-이젠 제 손끝에서 다시 태어나 우리 가족 식탁에 오를 때면  
-참 뿌듯하고 따뜻하답니다.
-
-요즘은 화려한 요리보다 이런 정갈한 한식이 더 좋아졌어요.  
-재료 본연의 맛을 살리고,  
-가족의 건강을 생각하며 만든 음식은  
-그 자체로 사랑이 담긴 선물 같아요.
-
-아이도 조금씩 밥을 먹기 시작하면서,  
-한식의 깊은 맛을 천천히 배워가고 있어요.  
-그 모습을 보면, 제가 엄마에게 배웠던 따뜻한 식탁이  
-이제 제 아이에게도 이어지고 있다는 생각에 마음이 벅차오릅니다.
+For now, only my husband and I can eat them,  
+but I’m looking forward to the day when my child will smile while eating bread I baked.  
+In fact, I’ve dreamed of a home that smells of freshly baked bread even before I got married.  
+When salt bread comes out of the oven golden brown,  
+the scent alone warms my heart,  
+and that small sense of accomplishment makes the rest of my day brighter.  
 
 ---
 
-## 👶 육아 성장일기
+## 🥣 Baby Food Journey
 
-아이가 처음 뒤집고, 기어 다니고,  
-두 손으로 저를 붙잡는 그 모든 순간들이 너무 소중해서  
-이 공간에 하나씩 기록해두려 해요.
+At first, everything felt strange and difficult.  
+“Is this okay?” “Is it too watery?” “Is the amount just right?”  
+Every day was an experiment, and I felt sad when my baby didn’t eat.  
 
-![아이와 이유식 만드는 사진](/assets/img/2025-07-25-01.png)
+But even in that process, I learned a lot.  
+I discovered little by little which ingredients my baby liked,  
+and every time he ate a little more, I felt so proud.  
 
-처음엔 하루하루가 너무 정신없고 힘들었지만,  
-그 속에서도 아이의 작은 변화 하나하나가  
-저에게는 큰 기쁨이었어요.
-
-언젠가 아이와 함께 꺼내 보며 웃을 수 있는 추억이 되길 바라면서요.  
-“이때 너는 이렇게 작았단다”, “이유식 먹을 때 이렇게 귀여웠어”  
-그런 이야기를 나눌 수 있는 날이 오겠죠.
+So I hope this can bring a little comfort and help  
+to other parents who are starting baby food for the first time.  
+It’s okay to not be perfect —  
+we’re all learning step by step together.  
 
 ---
 
-그리고 이 블로그는 완벽한 정답을 알려주는 곳은 아니에요.  
-그저 같은 길을 걷는 분들과 “나만 그런 게 아니구나”,  
-“이런 방법도 있겠네!” 하고  
-소소하게 공감하고 나눌 수 있는 따뜻한 공간이 되었으면 해요.
+## 🍚 Warmth of Korean Cuisine
 
-자주 놀러 와 주세요 😊  
-댓글로 수다도 떨고, 서로의 이야기를 나누며  
-따뜻한 인연으로 이어졌으면 좋겠습니다.  
-오늘도 함께, 소중한 하루 보내시길 바랍니다.
+When simple dishes like my mom’s soybean paste stew and stir-fried anchovies  
+are reborn at my hands and appear on our family table,  
+I feel so proud and warm inside.  
+
+These days, I’ve come to prefer this kind of neat Korean food  
+over fancy dishes.  
+Food made to preserve the natural flavor of ingredients  
+and with my family’s health in mind  
+feels like a gift filled with love.  
+
+As my baby slowly starts eating rice,  
+he’s learning the deep flavors of Korean food too.  
+Watching that, I feel emotional knowing  
+that the warm dining table I learned from my mother  
+is now being passed down to my child.  
+
+---
+
+## 👶 Parenting Growth Diary
+
+When my baby first rolled over, crawled,  
+and grabbed my hands with both of his,  
+every single moment was so precious  
+that I wanted to record them here.  
+
+![Making baby food with my child](/assets/img/2025-07-25-01.png)
+
+At first, each day felt overwhelming and exhausting,  
+but even then, every little change in my baby  
+brought me great joy.  
+
+Someday, I hope we can look back at this together and smile.  
+“At that time, you were this small.”  
+“You were so cute when you were eating baby food.”  
+I’m sure the day will come when we can share such stories.  
+
+---
+
+And this blog is not a place to give perfect answers.  
+I simply hope it becomes a warm space where people walking the same path  
+can think, “It’s not just me” or “That’s another way to do it.”  
+
+Please visit often 😊  
+Let’s chat in the comments, share our stories,  
+and build warm connections.  
+Wishing you a precious day, today as well.  
