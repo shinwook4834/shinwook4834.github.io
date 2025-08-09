@@ -1,4 +1,5 @@
-name: "Build and Deploy"
+name: Build and Deploy
+
 on:
   push:
     branches:
@@ -8,8 +9,6 @@ on:
       - .gitignore
       - README.md
       - LICENSE
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -17,13 +16,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,9 +29,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
@@ -48,13 +43,20 @@ jobs:
       - name: Build site
         run: |
           if [ -z "${{ steps.pages.outputs.base_path }}" ]; then
-            bundle exec jekyll b -d _site
+            bundle exec jekyll build -d _site
           else
-            bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+            bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
           fi
-        continue-on-error: true
         env:
-          JEKYLL_ENV: "production"
+          JEKYLL_ENV: production
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          # 경로 지정 (base_path가 있으면 _site+base_path, 없으면 _site)
+          path: ${{ steps.pages.outputs.base_path && format('_site{0}', steps.pages.outputs.base_path) || '_site' }}
+
+
             
  #     - name: Setup Ads.txt
  #       run: |
@@ -70,20 +72,3 @@ jobs:
 #            \-\-disable-external \
 #            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
               
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_site${{ steps.pages.outputs.base_path }}"
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-      
