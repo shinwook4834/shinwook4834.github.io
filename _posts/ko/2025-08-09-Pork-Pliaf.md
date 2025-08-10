@@ -5,7 +5,7 @@ date: 2025-08-09 23:18:00 +0900
 last_modified_at: 2025-08-09 23:35:00 +0900  
 tags: [필라프, 목살, 집밥, 한식]
 categories: [요리]
-image: /assets/img/02_Pilaf-main.JPG
+image: /assets/img/02_Pliaf-main.JPG
 comments: true
 description: 안녕하세요 :)  <br>오늘은 저희 가족이 정말 좋아하는 메뉴, **목살 필라프**를 만들어봤어요. <br>특히 남편이 좋아해서 자주 만들어 먹는 요리인데요, 간단한 재료로 풍미 가득한 한 끼를 완성할 수 있어서 늘 만족스러워요.
 ---
