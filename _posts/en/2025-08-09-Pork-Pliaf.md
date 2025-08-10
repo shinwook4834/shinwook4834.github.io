@@ -2,17 +2,18 @@
 title: Boston butt Pilaf at Home – A Meal of Happiness
 author: SSUCOOK
 date: 2025-08-09 23:18:00 +0900
-last_modified_at: 2025-08-09 23:35:00 +0900
+last_modified_at: 2025-08-10 17:45:00 +0900
 tags: [pilaf, Boston butt, home cooking, Korean cuisine]
 categories: [cooking]
-image: /assets/img/02_Pilaf-main.JPG
+image: /assets/img/02_Pliaf-main.JPG
 comments: true
 description: Hello :) Today I made one of our family’s favorite dishes — Boston butt pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
 ---
 
-🧅 Preparing the Vegetables and Marinating the Boston butt
->
+🧅 Preparing the Vegetables and Marinating the Boston butt  
 I used whatever vegetables we had at home for the pilaf:  
+
+>
 	•	Zucchini  
 	•	Carrot  
 	•	Onion  
@@ -47,12 +48,8 @@ Next, add the zucchini and mushrooms and stir-fry together.
 
 When they’re somewhat cooked, add the marinated Boston butt.
 
-![재료준비](/assets/img/02_Pliaf-Moksal.JPG)
-
 Once the meat starts cooking, add 2 bowls of cooled rice and stir-fry together.
 It’s better if the rice isn’t too hot.
-
-![재료준비](/assets/img/02_Pliaf-Rice.JPG)
 
 Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
 Stir-fry until the bottom gets slightly crispy — that makes it even tastier!
@@ -79,10 +76,10 @@ Adding fried eggs makes the dish look more appealing and adds a nutty richness, 
 
 ## 💛 Mealtime Together
 
+![재료준비](/assets/img/02_Pliaf-Final.JPG)
+
 Sharing this meal with my beloved husband and baby
 feels warmer and more special than any fancy dish.
-
-![재료준비](/assets/img/02_Pliaf-Final.JPG)
 
 This one plate of pilaf enriches our day.
 
