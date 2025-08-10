@@ -14,15 +14,15 @@ description: Hello :) Today I made one of our family’s favorite dishes — Bos
 I used whatever vegetables we had at home for the pilaf:  
 
 >
-	•	Zucchini  
-	•	Carrot  
-	•	Onion  
-	•	Mushrooms  
-	•	400g Boston butt  
-	•	1 tbsp minced garlic  
-	•	1 tbsp sugar  
-	•	3 tbsp soy sauce  
-	•	3 tbsp olive oil  
+- Zucchini  
+- Carrot  
+- Onion  
+- Mushrooms  
+- 400g Boston butt  
+- 1 tbsp minced garlic  
+- 1 tbsp sugar  
+- 3 tbsp soy sauce  
+- 3 tbsp olive oil  
 {: .prompt-tip }
 
 The Boston butt was marinated overnight beforehand.
