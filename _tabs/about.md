@@ -24,7 +24,7 @@ I knead dough quickly during the short naps my baby takes,
 and feel so happy when the warm, toasty smell spreads from the oven.
 In those brief moments of peace, I often find myself again.
 
-![Salt bread and oven](/assets/img/2025-07-25-02.png)
+![Salt bread and oven](/assets/img/2025-07-25-02.webp)
 
 For now, only my husband and I can eat them,
 but I’m looking forward to the day when my child will smile while eating bread I baked.
@@ -78,7 +78,7 @@ and grabbed my hands with both of his,
 every single moment was so precious
 that I wanted to record them here.
 
-![Making baby food with my child](/assets/img/2025-07-25-01.png)
+![Making baby food with my child](/assets/img/2025-07-25-01.webp)
 
 At first, each day felt overwhelming and exhausting,
 but even then, every little change in my baby

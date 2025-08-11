@@ -5,7 +5,7 @@ date: 2025-08-09 23:18:00 +0900
 last_modified_at: 2025-08-10 17:45:00 +0900
 tags: [pilaf, Boston butt, home cooking, Korean cuisine]
 categories: [cooking]
-image: /assets/img/02_Pliaf-main.JPG
+image: /assets/img/02_Pliaf-main.webp
 comments: true
 description: Hello :) Today I made one of our family’s favorite dishes — Boston butt pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
 ---
@@ -29,7 +29,7 @@ The Boston butt was marinated overnight beforehand.
 Bell peppers feel like an essential ingredient — they definitely add more flavor!
 It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.
 
-![재료준비](/assets/img/02_Pliaf-preparation.JPG)
+![재료준비](/assets/img/02_Pliaf-preparation.webp)
 
 Adjust the seasoning to your taste.
 My husband loves meat, so I used a generous amount of Boston butt 😄
@@ -44,7 +44,7 @@ First, stir-fry the onions and carrots.
 You don’t need much oil since the vegetables release moisture as they cook naturally.
 Next, add the zucchini and mushrooms and stir-fry together.
 
-![재료준비](/assets/img/02_Pliaf-Vegis.JPG)
+![재료준비](/assets/img/02_Pliaf-Vegis.webp)
 
 When they’re somewhat cooked, add the marinated Boston butt.
 
@@ -54,7 +54,7 @@ It’s better if the rice isn’t too hot.
 Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
 Stir-fry until the bottom gets slightly crispy — that makes it even tastier!
 
-![재료준비](/assets/img/02_Pliaf-main.JPG)
+![재료준비](/assets/img/02_Pliaf-main.webp)
 
 The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.
 
@@ -65,7 +65,7 @@ The pilaf was a bit sticky since the rice was a little wet, but that’s part of
 No pilaf is complete without fried eggs!
 Since it was for two people, I fried 4 eggs generously.
 
-![재료준비](/assets/img/02_Pliaf-Egg.JPG)
+![재료준비](/assets/img/02_Pliaf-Egg.webp)
 
 The yolks cooked slightly runny, which tastes best.
 We also enjoyed it with some spicy chopped chili on the side.
@@ -76,7 +76,7 @@ Adding fried eggs makes the dish look more appealing and adds a nutty richness, 
 
 ## 💛 Mealtime Together
 
-![재료준비](/assets/img/02_Pliaf-Final.JPG)
+![재료준비](/assets/img/02_Pliaf-Final.webp)
 
 Sharing this meal with my beloved husband and baby
 feels warmer and more special than any fancy dish.

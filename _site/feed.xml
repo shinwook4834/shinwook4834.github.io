@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>SSUCOOK</title>
   <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
-  <updated>2025-08-09T23:46:52+09:00</updated>
+  <updated>2025-08-11T11:09:50+09:00</updated>
   <author>
     <name>SSUCOOK</name>
     <uri>http://localhost:4000/</uri>
@@ -22,14 +22,14 @@
 
   
   <entry>
-    <title xml:lang="en">Pork Neck Pilaf at Home – A Meal of Happiness</title>
+    <title xml:lang="en">Boston butt Pilaf at Home – A Meal of Happiness</title>
     <link href="http://localhost:4000/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="en" />
     
     <link href="http://localhost:4000/ko/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="ko" />
     
     <published>2025-08-09T23:18:00+09:00</published>
   
-    <updated>2025-08-09T23:35:00+09:00</updated>
+    <updated>2025-08-10T17:45:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Pork-Pliaf/</id>
     <author>
@@ -42,32 +42,37 @@
     
   
 
-    <summary xml:lang="en">Hello :) Today I made one of our family’s favorite dishes — pork neck pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.</summary>
+    <summary xml:lang="en">Hello :) Today I made one of our family’s favorite dishes — Boston butt pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.</summary>
     <content type="html" xml:lang="en" src="http://localhost:4000/posts/Pork-Pliaf/">
-    Hello :) Today I made one of our family’s favorite dishes — pork neck pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
+    Hello :) Today I made one of our family’s favorite dishes — Boston butt pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
-    <p>🧅 Preparing the Vegetables and Marinating the Pork Neck</p>
+    <p>🧅 Preparing the Vegetables and Marinating the Boston butt<br />
+I used whatever vegetables we had at home for the pilaf:</p>
+
 <blockquote class="prompt-tip">
 
-  <p>I used whatever vegetables we had at home for the pilaf:<br />
-	•	Zucchini<br />
-	•	Carrot<br />
-	•	Onion<br />
-	•	Mushrooms<br />
-	•	400g pork neck<br />
-	•	1 tbsp minced garlic<br />
-	•	1 tbsp sugar<br />
-	•	3 tbsp soy sauce<br />
-	•	3 tbsp olive oil</p>
+  <ul>
+    <li>Zucchini</li>
+    <li>Carrot</li>
+    <li>Onion</li>
+    <li>Mushrooms</li>
+    <li>400g Boston butt</li>
+    <li>1 tbsp minced garlic</li>
+    <li>1 tbsp sugar</li>
+    <li>3 tbsp soy sauce</li>
+    <li>3 tbsp olive oil</li>
+  </ul>
 </blockquote>
 
-<p>The pork neck was marinated overnight beforehand.
+<p>The Boston butt was marinated overnight beforehand.
 Bell peppers feel like an essential ingredient — they definitely add more flavor!
 It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.</p>
 
+<p><img src="/assets/img/02_Pliaf-preparation.webp" alt="재료준비" /></p>
+
 <p>Adjust the seasoning to your taste.
-My husband loves meat, so I used a generous amount of pork neck 😄
+My husband loves meat, so I used a generous amount of Boston butt 😄
 Make sure the marinade isn’t too salty so the meat’s natural flavor shines through.
 Marinating overnight makes the meat more tender and flavorful.</p>
 
@@ -77,22 +82,32 @@ Marinating overnight makes the meat more tender and flavorful.</p>
 
 <p>First, stir-fry the onions and carrots.
 You don’t need much oil since the vegetables release moisture as they cook naturally.
-Next, add the zucchini and mushrooms and stir-fry together.
-When they’re somewhat cooked, add the marinated pork neck.</p>
+Next, add the zucchini and mushrooms and stir-fry together.</p>
+
+<p><img src="/assets/img/02_Pliaf-Vegis.webp" alt="재료준비" /></p>
+
+<p>When they’re somewhat cooked, add the marinated Boston butt.</p>
 
 <p>Once the meat starts cooking, add 2 bowls of cooled rice and stir-fry together.
-It’s better if the rice isn’t too hot.
-Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
-Stir-fry until the bottom gets slightly crispy — that makes it even tastier!
-The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.</p>
+It’s better if the rice isn’t too hot.</p>
+
+<p>Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
+Stir-fry until the bottom gets slightly crispy — that makes it even tastier!</p>
+
+<p><img src="/assets/img/02_Pliaf-main.webp" alt="재료준비" /></p>
+
+<p>The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.</p>
 
 <hr />
 
 <h2 id="-with-fried-eggs">🍳 With Fried Eggs</h2>
 
 <p>No pilaf is complete without fried eggs!
-Since it was for two people, I fried 4 eggs generously.
-The yolks cooked slightly runny, which tastes best.
+Since it was for two people, I fried 4 eggs generously.</p>
+
+<p><img src="/assets/img/02_Pliaf-Egg.webp" alt="재료준비" /></p>
+
+<p>The yolks cooked slightly runny, which tastes best.
 We also enjoyed it with some spicy chopped chili on the side.</p>
 
 <p>Adding fried eggs makes the dish look more appealing and adds a nutty richness, making the pilaf more hearty.</p>
@@ -101,12 +116,17 @@ We also enjoyed it with some spicy chopped chili on the side.</p>
 
 <h2 id="-mealtime-together">💛 Mealtime Together</h2>
 
+<p><img src="/assets/img/02_Pliaf-Final.webp" alt="재료준비" /></p>
+
 <p>Sharing this meal with my beloved husband and baby
-feels warmer and more special than any fancy dish.
-This one plate of pilaf enriches our day.</p>
+feels warmer and more special than any fancy dish.</p>
+
+<p>This one plate of pilaf enriches our day.</p>
+
+<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/HSaADkbO5QY?autoplay=1&amp;amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p>I hope you try making this at home :)
-This simple pork neck pilaf recipe will bring more happiness to your day.</p>
+This simple Boston butt pilaf recipe will bring more happiness to your day.</p>
 
     ]]>
     </content>
@@ -177,7 +197,7 @@ I used the <strong>L’EQUIP dough mixer</strong> (not sponsored 😊).<br />
 The great thing about this mixer is that it automatically adjusts speed and time with one button,<br />
 and even tells you when to add butter — super helpful for home bakers!</p>
 
-<p><img src="/assets/img/01_saltbread-mixer.JPG" alt="Using the mixer" /></p>
+<p><img src="/assets/img/01_saltbread-mixer.webp" alt="Using the mixer" /></p>
 
 <p>Once the dough is ready, tidy it up and start fermentation.<br />
 Cover with plastic wrap to prevent drying, and let it <strong>ferment at room temperature for 60 minutes</strong>.</p>
@@ -194,13 +214,13 @@ If there’s leftover dough, just add a bit to each of the 6 portions.</p>
 Fold it inward, then roll it into a ball on a mat or with your palm.<br />
 Next, shape it into a <strong>tadpole shape</strong> — tapering toward the tail is key!</p>
 
-<p><img src="/assets/img/01_saltbread-shaping01.JPG" alt="Rounding and shaping" /></p>
+<p><img src="/assets/img/01_saltbread-shaping01.webp" alt="Rounding and shaping" /></p>
 
 <p>Let the shaped dough <strong>rest at room temperature for 20 minutes</strong>.<br />
 After resting, stretch the dough.<br />
 Push the top part and pull the bottom part downward as you roll.</p>
 
-<p><img src="/assets/img/01_saltbread-shaping02.JPG" alt="Tadpole shape" /></p>
+<p><img src="/assets/img/01_saltbread-shaping02.webp" alt="Tadpole shape" /></p>
 
 <hr />
 
@@ -228,13 +248,13 @@ but I skipped that this time.</p>
 <p>Preheat the oven to <strong>220°C</strong>,<br />
 then bake at <strong>200°C for 20 minutes</strong>.</p>
 
-<p><img src="/assets/img/01_saltbread-beforebake.JPG" alt="Before baking" /></p>
+<p><img src="/assets/img/01_saltbread-beforebake.webp" alt="Before baking" /></p>
 
 <p>Once baked, your salt bread is ready!<br />
 It’s delicious as is, but if you <strong>brush a little leftover butter on top</strong>,<br />
 it adds a glossy finish and makes it look even more appetizing.</p>
 
-<p><img src="/assets/img/01_saltbread-baked.JPG" alt="Baked salt bread" /></p>
+<p><img src="/assets/img/01_saltbread-baked.webp" alt="Baked salt bread" /></p>
 
 <p>After cooling a bit, cracks may appear on the surface —<br />
 but I find that adds to its charm.</p>
