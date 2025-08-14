@@ -22,6 +22,25 @@
   <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}/{{lang}}{{page.url}}" />
   {%- endfor %}
 
+  {%- if page.image -%}
+    {%- assign base = page.image | split: '.' | first -%}
+    {%- assign ext  = page.image | split: '.' | last  -%}
+    {%- assign widths = "360,540,720,960,1200" | split: "," -%}
+    {%- capture imagesrcset -%}
+    {%- for ww in widths -%}
+    {{ base }}-{{ ww | strip }}.{{ ext }} {{ ww | strip }}w{% if forloop.last == false %}, {% endif %}
+    {%- endfor -%}
+    {%- endcapture -%}
+    <link rel="preload"
+          as="image"
+          href="{{ page.image }}"
+          imagesrcset="{{ imagesrcset | strip }}"
+          imagesizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 388px"
+          fetchpriority="high">
+  {%- endif -%}
+
+
+
   {% capture seo_tags -%}
     {% seo title=false %}
   {%- endcapture %}

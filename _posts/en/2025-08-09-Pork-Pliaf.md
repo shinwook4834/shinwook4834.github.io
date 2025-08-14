@@ -29,7 +29,10 @@ The Boston butt was marinated overnight beforehand.
 Bell peppers feel like an essential ingredient — they definitely add more flavor!
 It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.
 
-![재료준비](/assets/img/02_Pliaf-preparation.webp)
+{% include img.html
+  src="/assets/img/02_Pliaf-preparation.webp"
+  w="972" h="688"
+%}
 
 Adjust the seasoning to your taste.
 My husband loves meat, so I used a generous amount of Boston butt 😄
@@ -44,7 +47,10 @@ First, stir-fry the onions and carrots.
 You don’t need much oil since the vegetables release moisture as they cook naturally.
 Next, add the zucchini and mushrooms and stir-fry together.
 
-![재료준비](/assets/img/02_Pliaf-Vegis.webp)
+{% include img.html
+  src="/assets/img/02_Pliaf-Moksal.webp"
+  w="972" h="688"
+%}
 
 When they’re somewhat cooked, add the marinated Boston butt.
 
@@ -54,7 +60,10 @@ It’s better if the rice isn’t too hot.
 Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
 Stir-fry until the bottom gets slightly crispy — that makes it even tastier!
 
-![재료준비](/assets/img/02_Pliaf-main.webp)
+{% include img.html
+  src="/assets/img/02_Pliaf-main.webp"
+  w="972" h="688"
+%}
 
 The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.
 
@@ -65,7 +74,10 @@ The pilaf was a bit sticky since the rice was a little wet, but that’s part of
 No pilaf is complete without fried eggs!
 Since it was for two people, I fried 4 eggs generously.
 
-![재료준비](/assets/img/02_Pliaf-Egg.webp)
+{% include img.html
+  src="/assets/img/02_Pliaf-Egg.webp"
+  w="972" h="688"
+%}
 
 The yolks cooked slightly runny, which tastes best.
 We also enjoyed it with some spicy chopped chili on the side.
@@ -76,7 +88,10 @@ Adding fried eggs makes the dish look more appealing and adds a nutty richness, 
 
 ## 💛 Mealtime Together
 
-![재료준비](/assets/img/02_Pliaf-Final.webp)
+{% include img.html
+  src="/assets/img/02_Pliaf-Final.webp"
+  w="972" h="688"
+%}
 
 Sharing this meal with my beloved husband and baby
 feels warmer and more special than any fancy dish.

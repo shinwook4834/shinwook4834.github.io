@@ -43,7 +43,10 @@ I used the **L’EQUIP dough mixer** (not sponsored 😊).
 The great thing about this mixer is that it automatically adjusts speed and time with one button,  
 and even tells you when to add butter — super helpful for home bakers!
 
-![Using the mixer](/assets/img/01_saltbread-mixer.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-mixer.webp"
+  w="972" h="688"
+%}
 
 Once the dough is ready, tidy it up and start fermentation.  
 Cover with plastic wrap to prevent drying, and let it **ferment at room temperature for 60 minutes**.
@@ -60,13 +63,19 @@ Now let’s round the dough.
 Fold it inward, then roll it into a ball on a mat or with your palm.  
 Next, shape it into a **tadpole shape** — tapering toward the tail is key!
 
-![Rounding and shaping](/assets/img/01_saltbread-shaping01.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-shaping01.webp"
+  w="972" h="688"
+%}
 
 Let the shaped dough **rest at room temperature for 20 minutes**.  
 After resting, stretch the dough.  
 Push the top part and pull the bottom part downward as you roll.
 
-![Tadpole shape](/assets/img/01_saltbread-shaping02.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-shaping02.webp"
+  w="972" h="688"
+%}
 
 ---
 
@@ -94,13 +103,19 @@ but I skipped that this time.
 Preheat the oven to **220°C**,  
 then bake at **200°C for 20 minutes**.
 
-![Before baking](/assets/img/01_saltbread-beforebake.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-beforebake.webp"
+  w="972" h="688"
+%}
 
 Once baked, your salt bread is ready!  
 It’s delicious as is, but if you **brush a little leftover butter on top**,  
 it adds a glossy finish and makes it look even more appetizing.
 
-![Baked salt bread](/assets/img/01_saltbread-baked.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-baked.webp"
+  w="972" h="688"
+%}
 
 After cooling a bit, cracks may appear on the surface —  
 but I find that adds to its charm.

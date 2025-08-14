@@ -1,0 +1,26 @@
+{%- assign filename = include.src | split: '/' | last -%}  
+{%- assign base = filename | split: '.' | first -%}        
+{%- assign ext  = filename | split: '.' | last  -%}        
+{%- assign widths = include.widths | default: "360,540,720,960,1200" | split: "," -%}
+{%- assign sizes  = include.sizes  | default: "(max-width: 576px) 100vw, (max-width: 992px) 50vw, 388px" -%}
+{%- assign alt    = include.alt    | default: page.title -%}
+{%- assign w      = include.w      | default: "" -%}
+{%- assign h      = include.h      | default: "" -%}
+{%- assign cls    = include.class  | default: "" -%}
+{%- assign priority = include.priority | default: false -%}
+
+{%- capture srcset -%}
+{%- for ww in widths -%}
+{{ "/assets/img/" | append: base }}-{{ ww | strip }}.{{ ext }} {{ ww | strip }}w{% if forloop.last == false %}, {% endif %}
+{%- endfor -%}
+{%- endcapture -%}
+
+<img
+  src="{{ include.src }}"
+  width="{{ include.w }}"
+  height="{{ include.h }}"
+  alt="{{ include.alt | escape }}"
+  decoding="async"
+  loading="eager"
+  class="{{ include.class }}"
+/>

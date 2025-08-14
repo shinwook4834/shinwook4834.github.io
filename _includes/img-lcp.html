@@ -1,0 +1,13 @@
+{%- assign src = include.src | default: page.image -%}
+{%- assign alt = include.alt | default: page.title -%}
+{%- assign w = include.w | default: "" -%}
+{%- assign h = include.h | default: "" -%}
+{%- assign cls = include.class | default: "" -%}
+{%- include img.html
+    src=src
+    alt=alt
+    w=w
+    h=h
+    class=cls
+    priority=true
+%}

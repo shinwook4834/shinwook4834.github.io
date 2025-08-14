@@ -38,7 +38,10 @@ description: 안녕하세요 :)  <br>오늘은 제가 가장 좋아하는 빵 �
 이 반죽기의 장점은 버튼 하나로 자동으로 속도와 시간을 조절해주고,  
 버터를 넣는 시점도 알려줘서 홈베이킹 하시는 분들께 정말 유용하답니다.
 
-![반죽기 사용](/assets/img/01_saltbread-mixer.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-mixer.webp"
+  w="972" h="688"
+%}
 
 반죽이 완성되면 살짝 정리해서 발효에 들어갈게요.  
 반죽이 마르지 않도록 랩을 씌운 후, **상온에서 60분 발효**합니다.
@@ -55,13 +58,19 @@ description: 안녕하세요 :)  <br>오늘은 제가 가장 좋아하는 빵 �
 반죽을 안으로 접은 후, 매트나 손바닥 위에서 동글동글하게 굴려줍니다.  
 그다음 **올챙이 모양**으로 성형해요. 꼬리 부분으로 갈수록 얇아지게 만들어주는 게 포인트!
 
-![둥글리기와 성형](/assets/img/01_saltbread-shaping01.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-shaping01.webp"
+  w="972" h="688"
+%}
 
 성형한 반죽은 **20분간 실온 휴지**시켜줍니다.  
 휴지가 끝나면 반죽을 길게 펴줄게요.  
 윗부분을 밀어주고, 밑부분은 아래로 당기면서 밀어줍니다.
 
-![올챙이모양](/assets/img/01_saltbread-shaping02.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-shaping02.webp"
+  w="972" h="688"
+%}
 
 ---
 
@@ -89,13 +98,19 @@ description: 안녕하세요 :)  <br>오늘은 제가 가장 좋아하는 빵 �
 오븐은 **220도에서 예열**,  
 굽는 온도는 **200도에서 20분**입니다.
 
-![굽기 전 모습](/assets/img/01_saltbread-beforebake.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-beforebake.webp"
+  w="972" h="688"
+%}
 
 굽고 나면 소금빵이 완성돼요!  
 이대로도 너무 맛있지만, **남은 버터를 위에 살짝 발라주면**  
 윤기가 나면서 훨씬 먹음직스러워 보여요.
 
-![구운 소금빵](/assets/img/01_saltbread-baked.webp)
+{% include img.html
+  src="/assets/img/01_saltbread-baked.webp"
+  w="972" h="688"
+%}
 
 조금 식힌 후에는 빵 표면에 크랙이 생기기도 했는데,  
 그 모습도 나름 매력적이더라고요.
