@@ -7,6 +7,7 @@ tags: [Salt Butter Rolling, Home Baking]
 categories: [Baking]
 image: /assets/img/01_saltbread-main.webp
 comments: true
+description: Salt Butter Rolling comes from Brittany, France, a coastal region famous for its sea salt and top-quality butter. Long ago, bakers combined these two treasures to create a bread that’s crisp on the outside, soft inside, and sprinkled with coarse salt for a delightful savory bite. It’s not sweet, making it perfect with coffee or tea. In recent years, it’s become a must-try treat in Korea, with people lining up to get a taste.
 ---
 
 Hello there :)  

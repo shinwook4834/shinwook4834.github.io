@@ -7,8 +7,12 @@ tags: [pilaf, Boston butt, home cooking, Korean cuisine]
 categories: [cooking]
 image: /assets/img/02_Pliaf-main.webp
 comments: true
-description: Hello :) Today I made one of our family’s favorite dishes — Boston butt pilaf. My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
+description: Pilaf might sound like something you can only find in foreign restaurants, but these days it’s easy to enjoy at home. Originally from the Middle East and Mediterranean, pilaf was made by sautéing rice with spices and spread to Europe through the Crusades and trade. By adding juicy Korean pork neck, soy sauce, and fresh vegetables, we get a Korean-style twist — Pork Neck Pilaf. The savory aroma of pork blends beautifully with the natural sweetness of veggies, making it a one-bowl comfort meal.
 ---
+
+Hello :)  
+Today I made one of our family’s favorite dishes — Boston butt pilaf.  
+My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.
 
 🧅 Preparing the Vegetables and Marinating the Boston butt  
 I used whatever vegetables we had at home for the pilaf:  
