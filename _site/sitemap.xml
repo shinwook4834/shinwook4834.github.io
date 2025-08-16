@@ -88,6 +88,30 @@
         </url>
       
         <url>
+          <loc>http://localhost:4000/tags/rejuveplate/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/rejuveplate/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/rejuveplate/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/tags/galbijjim/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/galbijjim/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/galbijjim/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/tags/japchae/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/japchae/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/japchae/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/tags/chive-pancake/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/chive-pancake/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/chive-pancake/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4000/categories/baking/</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/baking/" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/baking/" />
@@ -99,6 +123,19 @@
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/cooking/" />
         </url>
       
+        <url>
+          <loc>http://localhost:4000/categories/cooking/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/cooking/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/cooking/" />
+        </url>
+      
+    
+      <url>
+        <loc>http://localhost:4000/posts/RejuvePlate01/</loc>
+        <lastmod>2025-08-16T09:45:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/posts/RejuvePlate01/" />
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/posts/RejuvePlate01/" />
+      </url>
     
       <url>
         <loc>http://localhost:4000/posts/Pork-Pliaf/</loc>
@@ -118,28 +155,28 @@
     
       <url>
         <loc>http://localhost:4000/categories/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/tags/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/archives/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/about/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/about/" />
       </url>
@@ -232,6 +269,30 @@
         </url>
       
         <url>
+          <loc>http://localhost:4000/ko/tags/rejuveplate/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/rejuveplate/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/rejuveplate/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/ko/tags/galbijjim/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/galbijjim/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/galbijjim/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/ko/tags/japchae/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/japchae/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/japchae/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/ko/tags/chive-pancake/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/chive-pancake/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/chive-pancake/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4000/ko/categories/baking/</loc>
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/baking/" />
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/baking/" />
@@ -243,6 +304,19 @@
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/cooking/" />
         </url>
       
+        <url>
+          <loc>http://localhost:4000/ko/categories/cooking/</loc>
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/cooking/" />
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/cooking/" />
+        </url>
+      
+    
+      <url>
+        <loc>http://localhost:4000/ko/posts/RejuvePlate01/</loc>
+        <lastmod>2025-08-16T09:45:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/posts/RejuvePlate01/" />
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/posts/RejuvePlate01/" />
+      </url>
     
       <url>
         <loc>http://localhost:4000/ko/posts/Pork-Pliaf/</loc>
@@ -262,28 +336,28 @@
     
       <url>
         <loc>http://localhost:4000/ko/categories/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/tags/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/archives/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/ko/about/</loc>
-        <lastmod>2025-08-15T16:42:53+09:00</lastmod>
+        <lastmod>2025-08-16T10:33:05+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/ko/about/" />
       </url>
