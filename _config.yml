@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
@@ -14,37 +14,37 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: SSUCOOK        # the main title
+title: 매주 듣는 설교 말씀 일기       # the main title
 
-tagline:  “Home-Cooked Everything" <br><br>Life with a Baby and a Husband Who Never Eat Out # it will display as the subtitle
+tagline: 주일의 은혜, 평일의 삶으로 # it will display as the subtitle
 
 description: >-                        # used by seo meta and the atom feed
-  “I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”
+  “매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”
 
 # fill in the protocol & hostname for your site
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://ssucook.github.io"
-baseurl: "/blog"
+url: "https://shinwook4834.github.io"
+baseurl: "/sermon"
 
 github:
-  username: ssucook                    # change to your GitHub username
+  username: shinwook4834                    # change to your GitHub username
 
 twitter:
   username:                 # change to your Twitter username
 
 author: 
-  name: ssucook
+  name: shinwook4834
 #  twitter: yunse0_kim
 #  url: https://www.yunseo.kim/
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: SSUCOOK
+  name: shinwookkim
   email: example@domain.com        # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/ssucook       # change to your GitHub homepage
+    - https://github.com/shinwook4834      # change to your GitHub homepage
     # - https://twitter.com/yunse0_kim   # change to your Twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/yunse0.kim
@@ -117,10 +117,10 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: disqus # [disqus | utterances | giscus]
+  provider:  # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: ssucook   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
@@ -163,8 +163,8 @@ baseurl: ""
 # --------------------------
 
 # Polyglot Settings
-languages: ["en", "ko"]
-default_lang: "en"
+languages: ["ko", "en"]
+default_lang: "ko"
 exclude_from_localization: ["javascript", "images", "css", "public", "assets", "sitemap.xml"]
 parallel_localization: false
 lang_from_path: true
