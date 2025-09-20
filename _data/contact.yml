@@ -2,7 +2,7 @@
 
 - type: youtube-custom
   icon: "fa-brands fa-youtube"
-  url: "https://www.youtube.com/@쑤쿡쑤쿡" 
+  url: "https://www.youtube.com/" 
 
 - type: email
   icon: "fa-solid fa-envelope"

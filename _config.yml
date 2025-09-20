@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 매주 듣는 설교 말씀 일기       # the main title
+title: "매주 기록하는 설교 말씀"       # the main title
 
-tagline: 주일의 은혜, 평일의 삶으로 # it will display as the subtitle
+tagline: "주일의 은혜, 평일의 삶으로" # it will display as the subtitle
 
 description: >-                        # used by seo meta and the atom feed
   “매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”
@@ -33,14 +33,14 @@ twitter:
   username:                 # change to your Twitter username
 
 author: 
-  name: shinwook4834
+  name: SW Kim
 #  twitter: yunse0_kim
 #  url: https://www.yunseo.kim/
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: shinwookkim
+  name: SW Kim
   email: example@domain.com        # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -158,7 +158,6 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
 
 # --------------------------
 

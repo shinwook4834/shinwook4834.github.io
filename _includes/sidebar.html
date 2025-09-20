@@ -2,7 +2,7 @@
   {% assign lang = include.lang | default: page.lang | default: site.lang %}
 
   <header class="profile-wrapper mt-0 pt-0">
-    <div style="margin-left: 38px; margin-top: 40px;">
+    <div style="width: 80%; margin: 50px auto 0 auto;">
       {% if site.avatar != empty and site.avatar %}
         {% capture avatar_url %}
           {% include media-url.html src=site.avatar %}
@@ -20,12 +20,12 @@
 
     <a class="site-title d-block"
       href="{{ '/' | relative_url }}"
-      style="{% if lang == 'en' %}text-align: left; margin-left: 33px;{% elsif lang == 'ko' %}text-align: center; margin-left: 45px;{% endif %}">
+      style="text-align: left; margin: 0 auto;">
       {{ site.data.locales[lang].home.title }}
     </a>
 
     <p class="site-subtitle fst-italic mb-0"
-      style="{% if lang == 'en' %}text-align: center; margin-left: -12px;{% elsif lang == 'ko' %}text-align: center; margin-left: -12px;{% endif %}">
+      style="text-align: left; margin: 0 auto;">
       {{ site.data.locales[lang].home.tagline }}
     </p>
   </header>
@@ -129,21 +129,30 @@
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const iconEl = document.getElementById("sidebar-lang-toggle");
-    const currentPath = window.location.pathname;
-    const isKorean = currentPath.startsWith("/ko/");
+document.addEventListener("DOMContentLoaded", () => {
+  const iconEl = document.getElementById("sidebar-lang-toggle");
+  const currentPath = window.location.pathname;
 
-    if (iconEl) {
-      iconEl.title = isKorean ? "Switch to English" : "한국어로 전환";
-      iconEl.setAttribute("aria-label", iconEl.title);
+  // ko는 prefix 없이 루트, en은 /en/ prefix
+  const isEnglish = currentPath.includes("/en/");
+
+  if (iconEl) {
+    iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
+    iconEl.setAttribute("aria-label", iconEl.title);
+  }
+
+  window.toggleLang = function () {
+    let newPath;
+
+    if (!isEnglish) {
+      // 한국어 → 영어 : /en/ prefix 추가
+      newPath = currentPath.replace(/^\/(sermon\/?)/, "/$1en/");
+    } else {
+      // 영어 → 한국어 : /en/ 제거
+      newPath = currentPath.replace("/en/", "/");
     }
 
-    window.toggleLang = function () {
-      const newPath = isKorean
-        ? currentPath.replace(/^\/ko(\/|$)/, "/")
-        : "/ko" + currentPath;
-      window.location.pathname = newPath;
-    };
-  });
+    window.location.pathname = newPath;
+  };
+});
 </script>

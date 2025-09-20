@@ -23,11 +23,11 @@
       <span
         role="listitem"
         class="lang-icon"
-        onclick="changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}')"
+        onclick="changeLang('{% if lang == site.default_lang %}{{ page.url | replace: '/en/', '/' }}{% else %}{{ page.url | replace: '/'+site.default_lang+'/', '/' }}/{{ lang }}/{% endif %}')"
         title="{% if lang == 'ko' %}한국어{% else %}English{% endif %}"
         aria-current="{% if lang == site.active_lang %}true{% else %}false{% endif %}"
         tabindex="0"
-        onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}'); }"
+        onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url | replace: '/en/', '/' }}{% else %}{{ page.url | replace: '/'+site.default_lang+'/', '/' }}/{{ lang }}/{% endif %}'); }"
       >
         {% case lang %}
         {% when 'ko' %}🇰🇷

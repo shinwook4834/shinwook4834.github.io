@@ -1,424 +1,141 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4001/</id>
-  <title>SSUCOOK</title>
-  <subtitle>“I’m an ordinary mom living with a husband who never misses a meal at home and a baby born in 2024 who cries for food every morning. I spend my days busily moving between the kitchen and the living room.”</subtitle>
-  <updated>2025-09-20T17:26:09+09:00</updated>
+  <id>http://localhost:4002/sermon/</id>
+  <title>매주 기록하는 설교 말씀</title>
+  <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
+  <updated>2025-09-20T22:03:34+09:00</updated>
   <author>
-    <name>SSUCOOK</name>
-    <uri>http://localhost:4001/</uri>
+    <name>SW Kim</name>
+    <uri>http://localhost:4002/sermon/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4001/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4001/" />
+  <link rel="self" type="application/atom+xml" href="http://localhost:4002/sermon/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4002/" />
   
-  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4001/ko/" />
+  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4002/en/" />
   
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 SSUCOOK </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <rights> © 2025 SW Kim </rights>
+  <icon>/sermon/assets/img/favicons/favicon.ico</icon>
+  <logo>/sermon/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title xml:lang="en">Recovery Meal After Business Trip - Braised Short Ribs, Japchae, and Chive Pancakes</title>
-    <link href="http://localhost:4001/posts/RejuvePlate01/" rel="alternate" type="text/html" hreflang="en" />
+    <title xml:lang="ko">어찌하여 불안하여 하는가?</title>
+    <link href="http://localhost:4002/sermon/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/ko/posts/RejuvePlate01/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/sermon/en/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="en" />
     
-    <published>2025-08-16T09:45:00+09:00</published>
+    <published>2025-09-20T16:00:00+09:00</published>
   
-    <updated>2025-08-16T09:45:00+09:00</updated>
+    <updated>2025-09-20T16:00:00+09:00</updated>
   
-    <id>http://localhost:4001/posts/RejuvePlate01/</id>
+    <id>http://localhost:4002/sermon/posts/Why-Are-You-Anxious/</id>
     <author>
-      <name>SSUCOOK</name>
+      <name>SW Kim</name>
     </author>
 
   
     
-    <category term="Cooking" />
+    <category term="시편" />
     
   
 
-    <summary xml:lang="en">Galbijjim is a Korean-style braised short rib dish simmered in soy sauce, known for its sweet and savory flavor and often served during holidays. Japchae, made by stir-frying glass noodles with vegetables and meat, is a staple at festive tables. Chive pancakes are simple yet savory, loved by everyone for their aromatic and crispy texture.</summary>
-    <content type="html" xml:lang="en" src="http://localhost:4001/posts/RejuvePlate01/">
-    Galbijjim is a Korean-style braised short rib dish simmered in soy sauce, known for its sweet and savory flavor and often served during holidays. Japchae, made by stir-frying glass noodles with vegetables and meat, is a staple at festive tables. Chive pancakes are simple yet savory, loved by everyone for their aromatic and crispy texture.
+    <summary xml:lang="ko">시편 42장 1-11절 	1.	하나님이여 사슴이 시냇물을 찾기에 갈급함 같이 내 영혼이 주를 찾기에 갈급하니이다. 	2.	내 영혼이 하나님 곧 살아 계시는 하나님을 갈망하나니 내가 어느 때에 나아가서 하나님의 얼굴을 뵈올까. 	3.	사람들이 종일 내게 하는 말이 “네 하나님이 어디 있느뇨” 하오니 내 눈물이 주야로 내 음식이 되었도다. 	4.	내가 전에 성일을 지키는 무리와 동행하여 기쁨과 감사의 소리를 내며, 그들을 하나님의 집으로 인도하였더니 이제 이 일을 기억하고 내 마음이 상하는도다. 	5.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다. 	6.	내 하나님이여, 내 영혼이 내 속에서 낙...</summary>
+    <content type="html" xml:lang="ko" src="http://localhost:4002/sermon/posts/Why-Are-You-Anxious/">
+    시편 42장 1-11절 	1.	하나님이여 사슴이 시냇물을 찾기에 갈급함 같이 내 영혼이 주를 찾기에 갈급하니이다. 	2.	내 영혼이 하나님 곧 살아 계시는 하나님을 갈망하나니 내가 어느 때에 나아가서 하나님의 얼굴을 뵈올까. 	3.	사람들이 종일 내게 하는 말이 “네 하나님이 어디 있느뇨” 하오니 내 눈물이 주야로 내 음식이 되었도다. 	4.	내가 전에 성일을 지키는 무리와 동행하여 기쁨과 감사의 소리를 내며, 그들을 하나님의 집으로 인도하였더니 이제 이 일을 기억하고 내 마음이 상하는도다. 	5.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다. 	6.	내 하나님이여, 내 영혼이 내 속에서 낙...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
-    <h2 id="todays-recovery-meal-for-my-husband-returning-from-a-business-trip">Today’s Recovery Meal for My Husband Returning from a Business Trip</h2>
+    <blockquote class="prompt-info">
 
-<p>Whenever my husband comes back from a business trip, he looks especially tired. So I always prepare a <strong>recovery meal</strong> for him. This time, I made <strong>braised short ribs (galbijjim), japchae, and chive pancakes</strong>—his favorites. These dishes take time and effort, but they’re filled with love and care.</p>
-
-<hr />
-
-<h3 id="starting-with-galbijjim">Starting with Galbijjim</h3>
-
-<p>First, I thoroughly wash the <strong>beef short ribs</strong> and soak them in <strong>sugar water to remove the blood</strong>. It’s a time-consuming step, but essential to eliminate any unpleasant odor.</p>
-
-<p><img src="/assets/img/03_B-preparation-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>While the ribs soak, I prepare the <strong>sauce and ingredients</strong>. I followed a recipe from Salimpop:</p>
-
-<blockquote class="prompt-tip">
-
-  <ul>
-    <li>Soy sauce 20T</li>
-    <li>Mirim 10T</li>
-    <li>Sugar 3T</li>
-    <li>Oligodang (rice syrup) 4T</li>
-    <li>Garlic 4T</li>
-    <li>Oyster sauce 3T</li>
-    <li>Pepper 1T</li>
-    <li>Sesame oil 1T</li>
-    <li>Ginger 1T</li>
-  </ul>
+  <p>시편 42장 1-11절<br />
+	1.	하나님이여 사슴이 시냇물을 찾기에 갈급함 같이 내 영혼이 주를 찾기에 갈급하니이다.<br />
+	2.	내 영혼이 하나님 곧 살아 계시는 하나님을 갈망하나니 내가 어느 때에 나아가서 하나님의 얼굴을 뵈올까.<br />
+	3.	사람들이 종일 내게 하는 말이 “네 하나님이 어디 있느뇨” 하오니 내 눈물이 주야로 내 음식이 되었도다.<br />
+	4.	내가 전에 성일을 지키는 무리와 동행하여 기쁨과 감사의 소리를 내며, 그들을 하나님의 집으로 인도하였더니 이제 이 일을 기억하고 내 마음이 상하는도다.<br />
+	5.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다.<br />
+	6.	내 하나님이여, 내 영혼이 내 속에서 낙심이 되므로 내가 요단 땅과 헤르몬과 미살 산에서 주를 기억하나이다.<br />
+	7.	주의 폭포 소리에 깊은 바다가 서로 부르며, 주의 모든 파도와 물결이 나를 휩쓸었나이다.<br />
+	8.	낮에는 여호와께서 그의 인자하심을 베푸시고, 밤에는 그의 찬송이 내게 있어 생명의 하나님께 기도하리로다.<br />
+	9.	내 반석이신 하나님께 말하기를 “어찌하여 나를 잊으셨나이까? 내가 어찌하여 원수의 압제로 말미암아 슬프게 다니나이까?” 하리로다.<br />
+	10.	내 뼈를 찌르는 칼 같이 내 대적이 나를 비방하여 늘 내게 말하기를 “네 하나님이 어디 있느냐” 하도다.<br />
+	11.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 나는 그가 나타나 도우심으로 말미암아 내 하나님을 여전히 찬송하리로다.</p>
 </blockquote>
 
-<p>I cut the onions into large chunks for the galbijjim and thin slices for japchae and chive pancakes. Using a slicer makes prep much faster.</p>
+<h1 id="-우울의-현실">📖 우울의 현실</h1>
 
-<p><img src="/assets/img/03_V-preparation-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>I also prepare plenty of chives for both japchae and pancakes. I love adding chives to japchae—they help balance the richness. Shiitake mushrooms are cut into star shapes for galbijjim and thin slices for japchae. Colorful bell peppers are sliced to brighten the dish. After soaking, the ribs are blanched in boiling water for 10 minutes. I added <strong>star anise</strong> for extra aroma.</p>
-
-<p><img src="/assets/img/03_B-Boil-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Then I pour the sauce over the blanched ribs, add 2L of water, and toss in all the prepared vegetables. Once it starts boiling, I simmer it <strong>covered for 40 minutes</strong>, then <strong>uncovered for another 40 minutes</strong>.</p>
-
-<p><img src="/assets/img/03_B-Boiled-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Finally, I add <strong>shishito peppers</strong> for a pop of color and flavor. By now, the house is filled with a delicious aroma.</p>
+<p>요즘은 불안과 우울이 너무 흔한 시대입니다. 특별한 사람만 겪는 문제가 아니라 누구에게나 찾아올 수 있어요. 교회에 다니고, 기도하고, 봉사하는 사람들도 예외가 아닙니다. 오히려 책임감과 기대가 큰 이들이 감정적으로 탈진하기 쉬운 면도 있습니다. 세상은 우울을 사회적·의학적 문제로 설명하지만, 성경은 이를 하나님과의 관계와 연결하여 바라보게 합니다. 즉, 내면의 공허함과 단절이 영적 갈증으로 드러나는 경우가 많다는 뜻입니다.</p>
 
 <hr />
 
-<h3 id="simple-yet-delicious-chive-pancakes">Simple Yet Delicious Chive Pancakes</h3>
+<h1 id="-성경-속-사례">📖 성경 속 사례</h1>
 
-<p>Here are the ingredients for the chive pancakes:</p>
+<p>성경에는 위대한 신앙의 인물들도 우울과 절망을 겪은 흔적이 있습니다.</p>
+<ul>
+  <li>엘리야: 갈멜산의 대승리 후, 이세벨의 협박을 받고 광야에서 죽기를 원했습니다.</li>
+  <li>요나: 니느웨의 회개 소식을 듣고 오히려 절망과 분노에 빠졌습니다.</li>
+  <li>세례 요한: 옥중에서 흔들리고 의심하는 마음을 경험했습니다.</li>
+</ul>
 
-<blockquote class="prompt-tip">
+<p>이 기록들은 우리의 연약함을 부끄러워할 필요가 없음을 알려줍니다. 오히려 하나님 앞에 솔직하게 드러내는 것이 회복의 시작입니다.</p>
 
-  <ul>
-    <li>3T flour</li>
-    <li>Dried baby shrimp</li>
-    <li>Tuna fish sauce</li>
-    <li>Carrot</li>
-  </ul>
+<hr />
+
+<h1 id="-시편-기자의-자기-성찰">📖 시편 기자의 자기 성찰</h1>
+
+<p>시편 42편의 기자는 이렇게 고백합니다. “사슴이 시냇물을 찾기에 갈급함같이 내 영혼이 주를 찾기에 갈급하나이다.”</p>
+
+<p><img src="/assets/img/20250914-01-720.webp" alt="목마른 사슴" /></p>
+
+<p>이 문장은 단순한 슬픔이 아니라 존재의 근원이 마른 상태를 말합니다. 그는 또한 사람들의 조롱과 비난으로 상처받아 깊은 낙심과 불안을 경험합니다. 그러나 중요한 점은 그가 감정에만 머무르지 않고 스스로에게 묻는 태도를 보였다는 것입니다.</p>
+
+<blockquote>
+  <p>“내 영혼아, 어찌하여 낙심하며 어찌하여 내 속에서 불안해하는가?”</p>
 </blockquote>
 
-<p>I use minimal flour—just 3T. I add <strong>dried baby shrimp</strong> for texture and umami, and season with <strong>tuna fish sauce</strong>.</p>
-
-<p>Mix everything well and pan-fry until golden brown. The result is crispy pancakes with a fragrant chive aroma.</p>
-
-<p><img src="/assets/img/03_J-boil-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Though simple, chive pancakes require attention. The batter consistency and pan temperature are key. But the crispy texture and chive flavor make it a perfect dish for my husband.</p>
+<p>자기 성찰을 통해 그는 감정의 뿌리를 들여다보고, 문제 중심에서 하나님 중심으로 시선을 돌립니다. 이 과정 자체가 회복의 한 걸음입니다.</p>
 
 <hr />
 
-<h3 id="japchaeeven-with-a-small-mistake">Japchae—Even with a Small Mistake</h3>
+<h1 id="-하나님께-소망-두기">📖 하나님께 소망 두기</h1>
 
-<p>Japchae sauce includes:</p>
-
-<blockquote class="prompt-tip">
-
-  <ul>
-    <li>Olive oil 2T</li>
-    <li>Soy sauce 5T</li>
-    <li>Sugar 1T</li>
-    <li>Mirin 1T</li>
-    <li>Oligodang 2T</li>
-  </ul>
-</blockquote>
-
-<p>When the sauce starts boiling, I was supposed to add the noodles—but I accidentally added the meat first 😅 It was past midnight, and I was losing focus.</p>
-
-<p><img src="/assets/img/03_J-done-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Still, I didn’t give up. I added fresh vegetables and stir-fried them with the noodles. Finished with <strong>sesame oil and toasted sesame seeds</strong>.</p>
-
-<p>Japchae requires a lot of prep and careful timing. Though things got a bit mixed up, I tried my best to make it tasty. With chives, bell peppers, and shiitake mushrooms, it turned out colorful and flavorful.</p>
+<p>시편 기자는 결론적으로 자기에게 말합니다. “너는 하나님께 소망을 두라.”<br />
+감정은 때때로 사실을 왜곡합니다. 그러나 하나님은 변하지 않는 반석이며 목마른 영혼을 채우시는 분입니다. 엘리야가 절망 속에서 하나님의 ‘세미한 음성’을 들었듯이, 우리도 절망 가운데서 하나님의 임재를 경험할 수 있습니다. 바울이 고난 속에서 “죽은 자를 다시 살리시는 하나님”만 의지했던 것처럼, 우리의 근본 소망은 오직 하나님께 있습니다. 과거에도 그분은 건지셨고, 지금도 건지시며, 앞으로도 건지실 것입니다.</p>
 
 <hr />
 
-<h3 id="all-done-a-meal-full-of-love">All Done! A Meal Full of Love</h3>
+<h1 id="-회복과-적용">📖 회복과 적용</h1>
 
-<p>After finishing galbijjim, japchae, and chive pancakes, it was nearly dawn. Thankfully, my mom helped with cleanup and organizing the kitchen—her help was invaluable.</p>
+<p>우울과 낙심은 피할 수 없는 경험일 수 있습니다. 그러나 그 안에 머물지 않고, 자기 성찰을 통해 하나님께 시선을 돌리는 것이 회복의 핵심입니다. 하나님은 임마누엘, 곧 항상 함께하시는 분이므로 우리가 낙심 가운데서도 찬송하고 소망할 이유가 있습니다.</p>
 
-<p><img src="/assets/img/03_all-done-960.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Seeing my husband enjoy the meal made all the effort worthwhile. Though I was exhausted, his smile and satisfaction filled me with gratitude.</p>
-
-<hr />
-
-<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/ZIgnDYBPgMA?autoplay=1&amp;amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<p>Cooking takes time, but it’s a way to express love. Especially when it’s for family. Next time, I’ll share a simpler yet equally comforting recovery meal. Wishing you a delicious day!</p>
-
-    ]]>
-    </content>
-
-  </entry>
-
-  
-  <entry>
-    <title xml:lang="en">Boston butt Pilaf at Home – A Meal of Happiness</title>
-    <link href="http://localhost:4001/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="en" />
-    
-    <link href="http://localhost:4001/ko/posts/Pork-Pliaf/" rel="alternate" type="text/html" hreflang="ko" />
-    
-    <published>2025-08-09T23:18:00+09:00</published>
-  
-    <updated>2025-08-10T17:45:00+09:00</updated>
-  
-    <id>http://localhost:4001/posts/Pork-Pliaf/</id>
-    <author>
-      <name>SSUCOOK</name>
-    </author>
-
-  
-    
-    <category term="cooking" />
-    
-  
-
-    <summary xml:lang="en">Pilaf might sound like something you can only find in foreign restaurants, but these days it’s easy to enjoy at home. Originally from the Middle East and Mediterranean, pilaf was made by sautéing rice with spices and spread to Europe through the Crusades and trade. By adding juicy Korean pork neck, soy sauce, and fresh vegetables, we get a Korean-style twist — Pork Neck Pilaf. The savory aroma ...</summary>
-    <content type="html" xml:lang="en" src="http://localhost:4001/posts/Pork-Pliaf/">
-    Pilaf might sound like something you can only find in foreign restaurants, but these days it’s easy to enjoy at home. Originally from the Middle East and Mediterranean, pilaf was made by sautéing rice with spices and spread to Europe through the Crusades and trade. By adding juicy Korean pork neck, soy sauce, and fresh vegetables, we get a Korean-style twist — Pork Neck Pilaf. The savory aroma ...
-    <![CDATA[
-    <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
-    <p>Hello :)<br />
-Today I made one of our family’s favorite dishes — Boston butt pilaf.<br />
-My husband especially loves it, and it’s a simple recipe packed with flavor that makes a satisfying meal.</p>
-
-<p>🧅 Preparing the Vegetables and Marinating the Boston butt<br />
-I used whatever vegetables we had at home for the pilaf:</p>
-
-<blockquote class="prompt-tip">
-
-  <ul>
-    <li>Zucchini</li>
-    <li>Carrot</li>
-    <li>Onion</li>
-    <li>Mushrooms</li>
-    <li>400g Boston butt</li>
-    <li>1 tbsp minced garlic</li>
-    <li>1 tbsp sugar</li>
-    <li>3 tbsp soy sauce</li>
-    <li>3 tbsp olive oil</li>
-  </ul>
-</blockquote>
-
-<p>The Boston butt was marinated overnight beforehand.
-Bell peppers feel like an essential ingredient — they definitely add more flavor!
-It’s best to chop the vegetables into small pieces so they cook evenly and mix well with the rice.</p>
-
-<p><img src="/assets/img/02_Pliaf-preparation.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Adjust the seasoning to your taste.
-My husband loves meat, so I used a generous amount of Boston butt 😄
-Make sure the marinade isn’t too salty so the meat’s natural flavor shines through.
-Marinating overnight makes the meat more tender and flavorful.</p>
+<p><strong>짧은 적용 질문</strong></p>
+<ul>
+  <li>지금 내 영혼은 무엇을 갈망하고 있는가?</li>
+  <li>나는 고립을 선택하고 있진 않은가? 누군가와 이 감정을 나눌 수 있는가?</li>
+  <li>오늘 내가 하나님께 소망을 두는 한 가지 실천은 무엇인가?</li>
+</ul>
 
 <hr />
 
-<h2 id="-lets-start-stir-frying">🍳 Let’s Start Stir-Frying!</h2>
+<h1 id="-말씀-묵상-qa">💡 말씀 묵상 Q&amp;amp;A</h1>
 
-<p>First, stir-fry the onions and carrots.
-You don’t need much oil since the vegetables release moisture as they cook naturally.
-Next, add the zucchini and mushrooms and stir-fry together.</p>
+<p><strong><span style="color:lightblue">1. 시인의 정서적 문제는 무엇이며 우리가 알 수 있는 사실은 무엇입니까? (1-2절)</span></strong><br />
+시인은 영혼이 목마르고 갈급한 상태입니다. 하나님과의 단절감, 공동체로부터의 고립감이 있으며 깊은 낙심과 불안을 겪고 있습니다. 이로부터 알 수 있는 사실은, 신앙인이라고 해도 우울과 낙심에서 자유롭지 않다는 것과, 하나님을 향한 갈급함이 인간 영혼의 본질적인 필요라는 점입니다.</p>
 
-<p><img src="/assets/img/02_Pliaf-Moksal.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
+<p><strong><span style="color:lightblue">2. 시인이 영적으로 우울함과 불안함을 느끼는 이유는 무엇입니까? (4, 6절)</span></strong><br />
+그는 과거에 누렸던 예배의 기쁨과 하나님의 임재를 잃어버린 상태입니다. 과거의 은혜와 현재의 공허함이 대비되면서 상실감과 불안이 증폭되었습니다. 또한 지리적·심리적으로 예루살렘(성소)으로부터 멀리 떨어져 있다는 이미지가 영적 소외를 상징합니다.</p>
 
-<p>When they’re somewhat cooked, add the marinated Boston butt.</p>
+<p><strong><span style="color:lightblue">3. 시인을 향해 ‘네 하나님이 어디 있느뇨’ 하고 조롱하는 악인들의 목적은 무엇입니까? (3절)</span></strong><br />
+그들의 목적은 시인의 믿음을 약화시키고 그를 완전히 낙심시켜 하나님의 보호와 임재를 의심하게 만드는 것입니다. 조롱은 외적 압박으로 작용해 내면의 상처를 더 깊게 합니다.</p>
 
-<p>Once the meat starts cooking, add 2 bowls of cooled rice and stir-fry together.
-It’s better if the rice isn’t too hot.</p>
+<p><strong><span style="color:lightblue">4. 시인은 우울하고 불안한 상태에서 어떻게 벗어나게 됩니까?</span></strong><br />
+시인은 자신의 감정을 숨기지 않고 직면한 뒤, 자기 영혼에게 질문을 던져 성찰합니다. 그리고 하나님께 시선을 돌려 “너는 하나님께 소망을 두라”라고 스스로 격려하며 방향을 전환합니다. 이 내적 대화와 하나님 중심의 회복이 그의 탈출구가 됩니다.</p>
 
-<p>Add 1 tbsp oyster sauce and 1 tbsp Worcestershire sauce to enhance the flavor.
-Stir-fry until the bottom gets slightly crispy — that makes it even tastier!</p>
-
-<p><img src="/assets/img/02_Pliaf-main.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>The pilaf was a bit sticky since the rice was a little wet, but that’s part of its charm too, haha.</p>
+<p><strong><span style="color:lightblue">5. 시인은 하나님께 소망을 두는 방향전환을 통해 무엇을 경험하게 됩니까? (5, 11절)</span></strong><br />
+그는 다시금 하나님이 자신의 반석이자 구원이심을 깨닫고 찬송과 소망을 회복합니다. 상황은 당장 바뀌지 않을 수 있지만, 하나님을 바라보는 믿음으로 내적 평안과 회복이 시작됩니다.</p>
 
 <hr />
-
-<h2 id="-with-fried-eggs">🍳 With Fried Eggs</h2>
-
-<p>No pilaf is complete without fried eggs!
-Since it was for two people, I fried 4 eggs generously.</p>
-
-<p><img src="/assets/img/02_Pliaf-Egg.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>The yolks cooked slightly runny, which tastes best.
-We also enjoyed it with some spicy chopped chili on the side.</p>
-
-<p>Adding fried eggs makes the dish look more appealing and adds a nutty richness, making the pilaf more hearty.</p>
-
-<hr />
-
-<h2 id="-mealtime-together">💛 Mealtime Together</h2>
-
-<p><img src="/assets/img/02_Pliaf-Final.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Sharing this meal with my beloved husband and baby
-feels warmer and more special than any fancy dish.</p>
-
-<p>This one plate of pilaf enriches our day.</p>
-
-<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/HSaADkbO5QY?autoplay=1&amp;amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<p>I hope you try making this at home :)
-This simple Boston butt pilaf recipe will bring more happiness to your day.</p>
-
-    ]]>
-    </content>
-
-  </entry>
-
-  
-  <entry>
-    <title xml:lang="en">Homemade Salt Butter Rolling  – A Day Filled with Savory Aroma</title>
-    <link href="http://localhost:4001/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="en" />
-    
-    <link href="http://localhost:4001/ko/posts/Salt-Bread/" rel="alternate" type="text/html" hreflang="ko" />
-    
-    <published>2025-08-04T22:27:00+09:00</published>
-  
-    <updated>2025-08-04T23:00:00+09:00</updated>
-  
-    <id>http://localhost:4001/posts/Salt-Bread/</id>
-    <author>
-      <name>SSUCOOK</name>
-    </author>
-
-  
-    
-    <category term="Baking" />
-    
-  
-
-    <summary xml:lang="en">Salt Butter Rolling comes from Brittany, France, a coastal region famous for its sea salt and top-quality butter. Long ago, bakers combined these two treasures to create a bread that’s crisp on the outside, soft inside, and sprinkled with coarse salt for a delightful savory bite. It’s not sweet, making it perfect with coffee or tea. In recent years, it’s become a must-try treat in Korea, with p...</summary>
-    <content type="html" xml:lang="en" src="http://localhost:4001/posts/Salt-Bread/">
-    Salt Butter Rolling comes from Brittany, France, a coastal region famous for its sea salt and top-quality butter. Long ago, bakers combined these two treasures to create a bread that’s crisp on the outside, soft inside, and sprinkled with coarse salt for a delightful savory bite. It’s not sweet, making it perfect with coffee or tea. In recent years, it’s become a must-try treat in Korea, with p...
-    <![CDATA[
-    <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
-    <p>Hello there :)<br />
-Today, I’d love to share my experience making one of my favorite breads — <strong>salt bread</strong> — at home.<br />
-My husband especially loves this bread, so I bake it quite often. This time, I followed Duke’s recipe.<br />
-I’m self-taught in baking, so there may be some rough edges, but that just means the recipe is full of love.</p>
-
-<hr />
-
-<h2 id="-lets-start-with-the-ingredients">🧑‍🍳 Let’s Start with the Ingredients</h2>
-<blockquote class="prompt-tip">
-
-  <p>First, let’s measure everything:</p>
-  <ul>
-    <li>Bread flour: 200g</li>
-    <li>Cake flour: 50g</li>
-    <li>Skim milk powder: 15g (I used leftover baby formula instead)</li>
-    <li>Dry yeast: 3g</li>
-    <li>Salt: 5g</li>
-    <li>Sugar: 15g</li>
-  </ul>
-</blockquote>
-
-<p>It’s important to keep the yeast, salt, and sugar from touching each other directly.<br />
-Coat each with flour before mixing all the dry ingredients evenly.</p>
-
-<p>Next, add 165ml of water.<br />
-Here’s a key tip! Use <strong>tap water</strong> — it helps fermentation more than purified water.<br />
-Mix with a spatula until it clumps together, then let it <strong>rest at room temperature for about 30 minutes</strong>.</p>
-
-<hr />
-
-<h2 id="-time-to-knead">🌀 Time to Knead!</h2>
-
-<p>After 30 minutes, it’s time to knead.<br />
-I used the <strong>L’EQUIP dough mixer</strong> (not sponsored 😊).<br />
-The great thing about this mixer is that it automatically adjusts speed and time with one button,<br />
-and even tells you when to add butter — super helpful for home bakers!</p>
-
-<p><img src="/assets/img/01_saltbread-mixer.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Once the dough is ready, tidy it up and start fermentation.<br />
-Cover with plastic wrap to prevent drying, and let it <strong>ferment at room temperature for 60 minutes</strong>.</p>
-
-<hr />
-
-<h2 id="-shaping-and-resting">🍞 Shaping and Resting</h2>
-
-<p>After fermentation, divide the dough into <strong>70g portions</strong>.<br />
-This recipe makes 6 salt breads.<br />
-If there’s leftover dough, just add a bit to each of the 6 portions.</p>
-
-<p>Now let’s round the dough.<br />
-Fold it inward, then roll it into a ball on a mat or with your palm.<br />
-Next, shape it into a <strong>tadpole shape</strong> — tapering toward the tail is key!</p>
-
-<p><img src="/assets/img/01_saltbread-shaping01.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Let the shaped dough <strong>rest at room temperature for 20 minutes</strong>.<br />
-After resting, stretch the dough.<br />
-Push the top part and pull the bottom part downward as you roll.</p>
-
-<p><img src="/assets/img/01_saltbread-shaping02.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<hr />
-
-<h2 id="-butter-filling-and-shaping-tips">🧈 Butter Filling and Shaping Tips</h2>
-
-<p>Now place the butter filling on the top part and gently roll it up.<br />
-Repeat the same for the rest of the dough.</p>
-
-<p>Some salt bread recipes suggest sealing the sides after adding butter,<br />
-while others leave them open.</p>
-
-<p>Korean master baker <strong>Bread Junseo</strong> says:<br />
-“For salt bread, leaving the sides open allows the butter to naturally flow out and absorb into the bottom,<br />
-making it crispy.”<br />
-So I also leave the sides open.</p>
-
-<hr />
-
-<h2 id="-final-proof-and-baking">🔥 Final Proof and Baking</h2>
-
-<p>Let the shaped dough <strong>proof for about 60 minutes</strong>.<br />
-Usually, you sprinkle a bit of salt on top after proofing,<br />
-but I skipped that this time.</p>
-
-<p>Preheat the oven to <strong>220°C</strong>,<br />
-then bake at <strong>200°C for 20 minutes</strong>.</p>
-
-<p><img src="/assets/img/01_saltbread-beforebake.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>Once baked, your salt bread is ready!<br />
-It’s delicious as is, but if you <strong>brush a little leftover butter on top</strong>,<br />
-it adds a glossy finish and makes it look even more appetizing.</p>
-
-<p><img src="/assets/img/01_saltbread-baked.webp" width="972" height="688" alt="" decoding="async" loading="eager" class="" /></p>
-
-<p>After cooling a bit, cracks may appear on the surface —<br />
-but I find that adds to its charm.</p>
-
-<hr />
-
-<iframe class="embed-video" loading="lazy" src="https://www.youtube.com/embed/wjd3T2If18I?autoplay=1&amp;amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<h2 id="-wrapping-up">💛 Wrapping Up</h2>
-
-<p>Though I’m self-taught and still learning,<br />
-the biggest reward is seeing my <strong>family enjoy the bread</strong>.<br />
-Since it’s my husband’s favorite, I keep coming back to it.</p>
-
-<p>Salt bread uses simple ingredients,<br />
-and with a little care, you can make it delicious at home.</p>
-
-<p>I hope you give it a try :)<br />
-The savory aroma from the oven and a warm table<br />
-can make your day just a little happier.</p>
 
     ]]>
     </content>
