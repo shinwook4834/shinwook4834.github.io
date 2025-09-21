@@ -89,12 +89,13 @@
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  const base = "/sermon"; // site.baseurl
+  const base = "{{ site.baseurl }}"; // "/sermon"
 
   function toggleLang() {
-    const path = window.location.pathname;
-    let newPath;
+    let path = window.location.pathname; // 현재 URL path
+    if (!path.startsWith(base)) path = base + path; // baseurl 보정
 
+    let newPath;
     if (path.startsWith(base + "/en")) {
       // 영어 → 한국어
       newPath = path.replace(base + "/en", base);
@@ -102,7 +103,7 @@
       // 한국어 → 영어
       newPath = path.replace(base, base + "/en");
     } else {
-      // base 경로가 아닌 경우 fallback
+      // base가 아닌 경우 fallback
       newPath = base;
     }
 
