@@ -403,17 +403,18 @@ Google AdSense
 
   function toggleLang() {
     const path = window.location.pathname;
-    const isEnglish = path.includes("/en/");
+    const isEnglish = path.includes("/sermon/en/");
     let newPath;
 
     if (isEnglish) {
-      newPath = path.replace("/en/", "/");
+      // 영어 → 한국어
+      newPath = path.replace("/sermon/en/", "/sermon/");
     } else {
-      const parts = path.split("/sermon/");
-      newPath = "/sermon/en/" + parts[1];
+      // 한국어 → 영어
+      newPath = path.replace("/sermon/", "/sermon/en/");
     }
 
-    window.location.href = base + newPath;
+    window.location.href = newPath;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
