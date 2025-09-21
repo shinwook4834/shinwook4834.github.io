@@ -68,13 +68,13 @@
 <meta property="og:url" content="http://localhost:4001/sermon/tags/" />
 <meta property="og:site_name" content="매주 기록하는 설교 말씀" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-09-21T21:05:01+09:00" />
+<meta property="article:published_time" content="2025-09-21T21:11:36+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Tags" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@SW Kim" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SW Kim"},"dateModified":"2025-09-21T21:05:01+09:00","datePublished":"2025-09-21T21:05:01+09:00","description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"Tags","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/sermon/tags/"},"url":"http://localhost:4001/sermon/tags/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SW Kim"},"dateModified":"2025-09-21T21:11:36+09:00","datePublished":"2025-09-21T21:11:36+09:00","description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"Tags","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/sermon/tags/"},"url":"http://localhost:4001/sermon/tags/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -361,27 +361,42 @@ Google AdSense
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  const base = "/sermon";  // 예: "/sermon"
+  const base = "/sermon";  // "/sermon"
 
   function toggleLang() {
     let path = window.location.pathname;
+    console.log("toggleLang current path:", path);
 
-    // baseurl 제거한 "상대 경로" 기준으로 처리
+    // baseurl이 붙어 있는지 확인
+    // 예: path = "/sermon/en/", "/sermon/en/index.html", "/sermon/", "/sermon/index.html" 등
+    // 먼저 baseurl 제거
     if (base && path.startsWith(base)) {
       path = path.substring(base.length);
     }
+    console.log("after removing base:", path);
 
+    // 영어 여부 확인
+    // 영어 경로는 "/en/" 로 시작하거나 "/en" 만 있는 경우
     const isEnglish = path.startsWith("/en/");
     let newPath;
 
     if (isEnglish) {
       // 영어 → 한국어
+      // 영어 경로의 "/en/" 부분만 제거
       newPath = base + path.replace(/^\/en\//, "/");
     } else {
       // 한국어 → 영어
-      newPath = base + "/en" + path;
+      // 한국어의 경우 "/", 혹은 "/something" 등 다양하므로 "/en" 붙이기
+      // 만약 path 가 "/" 이면 "/en/" 로
+      if (path === "/" || path === "") {
+        newPath = base + "/en/";
+      } else {
+        // 일반적인 경우: "/about/" → "/en/about/"
+        newPath = base + "/en" + path;
+      }
     }
 
+    console.log("redirect to:", newPath);
     window.location.href = newPath;
   }
 
@@ -392,9 +407,10 @@ Google AdSense
     if (base && path.startsWith(base)) {
       path = path.substring(base.length);
     }
+    console.log("DOMContentLoaded path after base removal:", path);
 
     if (iconEl) {
-      iconEl.title = path.startsWith("/en/") ? "Switch to Korean" : "Switch to English";
+      iconEl.title = (path.startsWith("/en/") ? "Switch to Korean" : "Switch to English");
       iconEl.setAttribute("aria-label", iconEl.title);
 
       iconEl.addEventListener("click", toggleLang);
