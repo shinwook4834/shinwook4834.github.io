@@ -18,65 +18,50 @@
 </style>
 
 <div class="lang-icons" role="list" aria-label="Select Language">
-  <!-- 한국어 -->
   <span
     role="listitem"
     class="lang-icon"
     onclick="switchLang('ko')"
     title="한국어"
-    aria-current="{% if site.active_lang == 'ko' %}true{% else %}false{% endif %}"
     tabindex="0"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { switchLang('ko'); }"
+    aria-current="{{ site.active_lang == 'ko' }}"
+    onkeydown="if(event.key==='Enter' || event.key===' ') switchLang('ko')"
   >
     🇰🇷
   </span>
 
-  <!-- English -->
   <span
     role="listitem"
     class="lang-icon"
     onclick="switchLang('en')"
     title="English"
-    aria-current="{% if site.active_lang == 'en' %}true{% else %}false{% endif %}"
     tabindex="0"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { switchLang('en'); }"
+    aria-current="{{ site.active_lang == 'en' }}"
+    onkeydown="if(event.key==='Enter' || event.key===' ') switchLang('en')"
   >
     🇺🇸
   </span>
 </div>
 
 <script>
-  const base = "{{ site.baseurl }}"; // 예: "/sermon"
-
   function switchLang(targetLang) {
-    let path = window.location.pathname;
+    const base = "{{ site.baseurl }}"; // "/sermon"
+    const path = window.location.pathname;
 
-    // baseurl 붙여주기
-    if (!path.startsWith(base)) path = base + path;
+    // baseurl 제거한 상대 경로
+    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
 
-    let newPath;
+    // 언어 접두어 제거
+    const cleanPath = relativePath.replace(/^\/en/, "");
 
-    if (targetLang === 'ko') {
-      // 한국어 선택
-      if (path.startsWith(base + "/en")) {
-        newPath = path.replace(base + "/en", base);
-      } else {
-        newPath = path; // 이미 한국어
-      }
-    } else if (targetLang === 'en') {
-      // 영어 선택
-      if (path.startsWith(base + "/en")) {
-        newPath = path; // 이미 영어
-      } else if (path === base || path === base + "/") {
-        newPath = base + "/en/";
-      } else {
-        newPath = path.replace(base, base + "/en");
-      }
+    let newPath = base;
+    if (targetLang === "en") {
+      newPath += "/en" + cleanPath;
     } else {
-      newPath = base; // fallback
+      newPath += cleanPath;
     }
 
-    // 끝에 항상 "/" 추가
+    // 항상 끝에 "/" 붙이기
     if (!newPath.endsWith("/")) newPath += "/";
 
     window.location.href = newPath;

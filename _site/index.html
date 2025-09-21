@@ -399,50 +399,46 @@ Google AdSense
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  const base = "/sermon"; // 예: "/sermon"
+  function switchLang(targetLang) {
+    const base = "/sermon"; // 예: "/sermon"
+    const path = window.location.pathname;
 
-  function toggleLang() {
-    let path = window.location.pathname;
+    // baseurl 제거한 상대 경로
+    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
 
-    // baseurl 붙여주기
-    if (!path.startsWith(base)) path = base + path;
+    // 언어 접두어 제거
+    const cleanPath = relativePath.replace(/^\/en/, "");
 
-    let newPath;
-
-    if (path.startsWith(base + "/en")) {
-      // 영어 → 한국어
-      newPath = path.replace(base + "/en", base);
-    } else if (path.startsWith(base)) {
-      // 한국어 → 영어
-      // "/" 루트면 "/en/" 붙이기
-      if (path === base || path === base + "/") {
-        newPath = base + "/en/";
-      } else {
-        newPath = path.replace(base, base + "/en");
-      }
+    let newPath = base;
+    if (targetLang === "en") {
+      newPath += "/en" + cleanPath;
     } else {
-      // fallback
-      newPath = base;
+      newPath += cleanPath;
     }
 
-    // 항상 끝에 "/" 추가
+    // 항상 끝에 "/" 붙이기
     if (!newPath.endsWith("/")) newPath += "/";
 
     window.location.href = newPath;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    const base = "/sermon";
     const iconEl = document.getElementById("sidebar-lang-toggle");
     if (!iconEl) return;
 
     const path = window.location.pathname;
-    const isEnglish = path.startsWith(base + "/en");
+    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
+    const isEnglish = relativePath.startsWith("/en");
+
     iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
 
-    iconEl.addEventListener("click", toggleLang);
+    iconEl.addEventListener("click", () => switchLang(isEnglish ? "ko" : "en"));
     iconEl.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") toggleLang();
+      if (event.key === "Enter" || event.key === " ") {
+        switchLang(isEnglish ? "ko" : "en");
+      }
     });
   });
 </script>
