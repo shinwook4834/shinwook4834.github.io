@@ -58,9 +58,21 @@
         </url>
       
         <url>
+          <loc>http://localhost:4002/sermon/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4002/sermon/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4002/sermon/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
         </url>
       
         <url>
@@ -72,37 +84,44 @@
     
       <url>
         <loc>http://localhost:4002/sermon/posts/Why-Are-You-Anxious/</loc>
-        <lastmod>2025-09-20T16:00:00+09:00</lastmod>
+        <lastmod>2025-09-14T16:00:00+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/Why-Are-You-Anxious/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/Why-Are-You-Anxious/" />
+      </url>
+    
+      <url>
+        <loc>http://localhost:4002/sermon/posts/I-Am-Coming-Soon/</loc>
+        <lastmod>2025-09-07T16:00:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/I-Am-Coming-Soon/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/I-Am-Coming-Soon/" />
       </url>
     
   
     
       <url>
         <loc>http://localhost:4002/sermon/categories/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/tags/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/archives/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/about/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/about/" />
       </url>
@@ -165,9 +184,21 @@
         </url>
       
         <url>
+          <loc>http://localhost:4002/sermon/en/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D-22%EC%9E%A5-16-21%EC%A0%88/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4002/sermon/en/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%8B%9C%ED%8E%B8-42%EC%9E%A5-1-11%EC%A0%88/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4002/sermon/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
         </url>
       
         <url>
@@ -179,37 +210,44 @@
     
       <url>
         <loc>http://localhost:4002/sermon/en/posts/Why-Are-You-Anxious/</loc>
-        <lastmod>2025-09-20T16:00:00+09:00</lastmod>
+        <lastmod>2025-09-14T16:00:00+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/Why-Are-You-Anxious/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/Why-Are-You-Anxious/" />
+      </url>
+    
+      <url>
+        <loc>http://localhost:4002/sermon/en/posts/I-Am-Coming-Soon/</loc>
+        <lastmod>2025-09-07T16:00:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/I-Am-Coming-Soon/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/I-Am-Coming-Soon/" />
       </url>
     
   
     
       <url>
         <loc>http://localhost:4002/sermon/en/categories/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/en/tags/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/en/archives/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/sermon/en/about/</loc>
-        <lastmod>2025-09-20T22:03:34+09:00</lastmod>
+        <lastmod>2025-09-21T10:47:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/about/" />
       </url>
