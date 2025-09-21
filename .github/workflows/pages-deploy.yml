@@ -22,6 +22,9 @@ concurrency:
 
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages   # ✅ 반드시 필요
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
     steps:
@@ -58,19 +61,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-            
- #     - name: Setup Ads.txt
- #       run: |
- #         echo google.com, pub-8691553075583022, DIRECT, f08c47fec0942fa0 > ./_site/ads.txt
-      
-#      - name: Create CNAME file
-#        run: |
-#          echo www.yunseo.kim > ./_site/CNAME
-
-#      - name: Test site
-#        run: |
-#          bundle exec htmlproofer _site \
-#            \-\-disable-external \
-#            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
-              
