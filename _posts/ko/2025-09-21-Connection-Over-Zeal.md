@@ -1,7 +1,7 @@
 ---
 title: "열심보다 연결이다"
 author: SW Kim
-date: 2025-09-21 20:00:00 +09:00
+date: 2025-09-21 16:09:00 +09:00
 tags: [수영로교회, 이규현 목사님, 요한복음 15:1-5]
 categories: [요한복음]
 image: /assets/img/20250921-main.webp
