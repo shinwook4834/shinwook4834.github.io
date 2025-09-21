@@ -2,7 +2,7 @@
 title: "내가 속히 오리라"
 author: SW Kim
 date: 2025-09-07 16:00:00 +09:00
-tags: [수영로교회, 요한계시록 22장 16~21절]
+tags: [수영로교회, 이규현 목사님, 요한계시록 22장 16~21절]
 categories: [요한계시록]
 image: /assets/img/20250907-main.webp
 ---
