@@ -8,7 +8,7 @@
         {% capture avatar_url %}
           {% include media-url.html src=site.avatar %}
         {% endcapture %}
-        <a href="{{ '/' | relative_url }}" id="avatar">
+        <a href="{{ site.baseurl }}/" id="avatar">
           <img src="{{ avatar_url }}"
               width="140"
               height="140"
@@ -19,7 +19,7 @@
       {% endif %}
     </div>
 
-    <a class="site-title d-block" href="{{ '/' | relative_url }}" style="text-align: left; margin: 0 auto;">
+    <a class="site-title d-block" href="{{ site.baseurl }}/" style="text-align: left; margin: 0 auto;">
       {{ site.data.locales[lang].home.title }}
     </a>
 
@@ -31,7 +31,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link">
+        <a href="{{ site.baseurl }}/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[lang].tabs.home | upcase }}</span>
         </a>
@@ -39,7 +39,7 @@
       {% for tab in site.tabs %}
         {% assign tab_name = tab.url | remove: '/' %}
         <li class="nav-item{% if tab.url == page.url %} active{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
+          <a href="{{ site.baseurl }}{{ tab.url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
             <span>{{ site.data.locales[lang].tabs[tab_name] | default: tab.title | upcase }}</span>
           </a>
@@ -89,21 +89,29 @@
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  const base = "{{ site.baseurl }}"; // "/sermon"
+  const base = "{{ site.baseurl }}"; // 예: "/sermon"
 
   function toggleLang() {
-    let path = window.location.pathname; // 현재 URL path
-    if (!path.startsWith(base)) path = base + path; // baseurl 보정
+    let path = window.location.pathname;
+
+    // baseurl 붙여주기
+    if (!path.startsWith(base)) path = base + path;
 
     let newPath;
+
     if (path.startsWith(base + "/en")) {
       // 영어 → 한국어
       newPath = path.replace(base + "/en", base);
     } else if (path.startsWith(base)) {
       // 한국어 → 영어
-      newPath = path.replace(base, base + "/en");
+      // "/" 루트면 "/en/" 붙이기
+      if (path === base || path === base + "/") {
+        newPath = base + "/en/";
+      } else {
+        newPath = path.replace(base, base + "/en");
+      }
     } else {
-      // base가 아닌 경우 fallback
+      // fallback
       newPath = base;
     }
 
@@ -117,7 +125,8 @@
     const iconEl = document.getElementById("sidebar-lang-toggle");
     if (!iconEl) return;
 
-    const isEnglish = window.location.pathname.startsWith(base + "/en");
+    const path = window.location.pathname;
+    const isEnglish = path.startsWith(base + "/en");
     iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
 

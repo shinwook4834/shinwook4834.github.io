@@ -22,11 +22,11 @@
   <span
     role="listitem"
     class="lang-icon"
-    onclick="window.location.href='{{ '/sermon/' | relative_url }}'"
+    onclick="switchLang('ko')"
     title="한국어"
     aria-current="{% if site.active_lang == 'ko' %}true{% else %}false{% endif %}"
     tabindex="0"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { window.location.href='{{ '/sermon/' | relative_url }}'; }"
+    onkeydown="if(event.key==='Enter' || event.key===' ') { switchLang('ko'); }"
   >
     🇰🇷
   </span>
@@ -35,12 +35,50 @@
   <span
     role="listitem"
     class="lang-icon"
-    onclick="window.location.href='{{ '/sermon/en/' | relative_url }}'"
+    onclick="switchLang('en')"
     title="English"
     aria-current="{% if site.active_lang == 'en' %}true{% else %}false{% endif %}"
     tabindex="0"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { window.location.href='{{ '/sermon/en/' | relative_url }}'; }"
+    onkeydown="if(event.key==='Enter' || event.key===' ') { switchLang('en'); }"
   >
     🇺🇸
   </span>
 </div>
+
+<script>
+  const base = "{{ site.baseurl }}"; // 예: "/sermon"
+
+  function switchLang(targetLang) {
+    let path = window.location.pathname;
+
+    // baseurl 붙여주기
+    if (!path.startsWith(base)) path = base + path;
+
+    let newPath;
+
+    if (targetLang === 'ko') {
+      // 한국어 선택
+      if (path.startsWith(base + "/en")) {
+        newPath = path.replace(base + "/en", base);
+      } else {
+        newPath = path; // 이미 한국어
+      }
+    } else if (targetLang === 'en') {
+      // 영어 선택
+      if (path.startsWith(base + "/en")) {
+        newPath = path; // 이미 영어
+      } else if (path === base || path === base + "/") {
+        newPath = base + "/en/";
+      } else {
+        newPath = path.replace(base, base + "/en");
+      }
+    } else {
+      newPath = base; // fallback
+    }
+
+    // 끝에 항상 "/" 추가
+    if (!newPath.endsWith("/")) newPath += "/";
+
+    window.location.href = newPath;
+  }
+</script>

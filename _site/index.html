@@ -399,21 +399,29 @@ Google AdSense
 
 <!-- 언어 전환 스크립트 -->
 <script>
-  const base = "/sermon"; // "/sermon"
+  const base = "/sermon"; // 예: "/sermon"
 
   function toggleLang() {
-    let path = window.location.pathname; // 현재 URL path
-    if (!path.startsWith(base)) path = base + path; // baseurl 보정
+    let path = window.location.pathname;
+
+    // baseurl 붙여주기
+    if (!path.startsWith(base)) path = base + path;
 
     let newPath;
+
     if (path.startsWith(base + "/en")) {
       // 영어 → 한국어
       newPath = path.replace(base + "/en", base);
     } else if (path.startsWith(base)) {
       // 한국어 → 영어
-      newPath = path.replace(base, base + "/en");
+      // "/" 루트면 "/en/" 붙이기
+      if (path === base || path === base + "/") {
+        newPath = base + "/en/";
+      } else {
+        newPath = path.replace(base, base + "/en");
+      }
     } else {
-      // base가 아닌 경우 fallback
+      // fallback
       newPath = base;
     }
 
@@ -427,7 +435,8 @@ Google AdSense
     const iconEl = document.getElementById("sidebar-lang-toggle");
     if (!iconEl) return;
 
-    const isEnglish = window.location.pathname.startsWith(base + "/en");
+    const path = window.location.pathname;
+    const isEnglish = path.startsWith(base + "/en");
     iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
 
