@@ -133,7 +133,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const iconEl = document.getElementById("sidebar-lang-toggle");
   const currentPath = window.location.pathname;
 
-  // ko는 prefix 없이 루트, en은 /en/ prefix
+  // Jekyll의 baseurl 가져오기 (예: "/myblog" 또는 "")
+  const baseurl = "{{ site.baseurl }}";
+
+  // 현재 언어 체크
   const isEnglish = currentPath.includes("/en/");
 
   if (iconEl) {
@@ -145,11 +148,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let newPath;
 
     if (!isEnglish) {
-      // 한국어 → 영어 : /en/ prefix 추가
-      newPath = currentPath.replace(/^\/(sermon\/?)/, "/$1en/");
+      // 한국어 → 영어
+      newPath = currentPath.replace(baseurl + "/", baseurl + "/en/");
     } else {
-      // 영어 → 한국어 : /en/ 제거
-      newPath = currentPath.replace("/en/", "/");
+      // 영어 → 한국어
+      newPath = currentPath.replace(baseurl + "/en/", baseurl + "/");
     }
 
     window.location.pathname = newPath;
