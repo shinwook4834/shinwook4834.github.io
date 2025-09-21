@@ -18,28 +18,29 @@
 </style>
 
 <div class="lang-icons" role="list" aria-label="Select Language">
-  {%- for lang in site.languages -%}
-    {% if lang == "ko" or lang == "en" %}
-      <span
-        role="listitem"
-        class="lang-icon"
-        onclick="changeLang('{% if lang == site.default_lang %}{{ page.url | replace: '/en/', '/' }}{% else %}{{ page.url | replace: '/'+site.default_lang+'/', '/' }}/{{ lang }}/{% endif %}')"
-        title="{% if lang == 'ko' %}한국어{% else %}English{% endif %}"
-        aria-current="{% if lang == site.active_lang %}true{% else %}false{% endif %}"
-        tabindex="0"
-        onkeydown="if(event.key==='Enter' || event.key===' ') { changeLang('{% if lang == site.default_lang %}{{ page.url | replace: '/en/', '/' }}{% else %}{{ page.url | replace: '/'+site.default_lang+'/', '/' }}/{{ lang }}/{% endif %}'); }"
-      >
-        {% case lang %}
-        {% when 'ko' %}🇰🇷
-        {% when 'en' %}🇺🇸
-        {% endcase %}
-      </span>
-    {% endif %}
-  {%- endfor -%}
-</div>
+  <!-- 한국어 -->
+  <span
+    role="listitem"
+    class="lang-icon"
+    onclick="window.location.href='{{ '/sermon/' | relative_url }}'"
+    title="한국어"
+    aria-current="{% if site.active_lang == 'ko' %}true{% else %}false{% endif %}"
+    tabindex="0"
+    onkeydown="if(event.key==='Enter' || event.key===' ') { window.location.href='{{ '/sermon/' | relative_url }}'; }"
+  >
+    🇰🇷
+  </span>
 
-<script>
-function changeLang(url) {
-  window.location.href = url;
-}
-</script>
+  <!-- English -->
+  <span
+    role="listitem"
+    class="lang-icon"
+    onclick="window.location.href='{{ '/sermon/en/' | relative_url }}'"
+    title="English"
+    aria-current="{% if site.active_lang == 'en' %}true{% else %}false{% endif %}"
+    tabindex="0"
+    onkeydown="if(event.key==='Enter' || event.key===' ') { window.location.href='{{ '/sermon/en/' | relative_url }}'; }"
+  >
+    🇺🇸
+  </span>
+</div>
