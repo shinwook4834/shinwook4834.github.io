@@ -444,24 +444,28 @@ Google AdSense
 
 <!-- 언어 전환 스크립트 -->
 <script>
+const base = "/sermon";
+
+window.toggleLang = function() {
+  const path = window.location.pathname;
+  const isEnglish = path.startsWith(base + "/en/");
+  let newPath;
+
+  if (isEnglish) {
+    // 영어 → 한국어
+    newPath = path.replace(base + "/en", base);
+  } else {
+    // 한국어 → 영어
+    newPath = base + "/en" + path.slice(base.length);
+  }
+
+  window.location.href = newPath;
+};
+
+// 선택적: 아이콘 title 업데이트
 document.addEventListener("DOMContentLoaded", () => {
   const iconEl = document.getElementById("sidebar-lang-toggle");
-  const base = "/sermon";
   const path = window.location.pathname;
-
-  window.toggleLang = function() {
-    const isEnglish = path.startsWith(base + "/en/");
-    let newPath;
-    if (isEnglish) {
-      // 영어 → 한국어
-      newPath = path.replace(base + "/en", base);
-    } else {
-      // 한국어 → 영어
-      newPath = base + "/en" + path.slice(base.length);
-    }
-    window.location.href = newPath;
-  };
-
   if (iconEl) {
     iconEl.title = path.startsWith(base + "/en/") ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
