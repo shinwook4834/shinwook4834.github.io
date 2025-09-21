@@ -89,29 +89,35 @@
 
 <!-- 언어 전환 스크립트 -->
 <script>
+  const base = "/sermon"; // site.baseurl
+
   function toggleLang() {
     const path = window.location.pathname;
+    let newPath;
 
-    if (path.startsWith("/sermon/en")) {
+    if (path.startsWith(base + "/en")) {
       // 영어 → 한국어
-      // "/sermon/en/..." → "/sermon/..."
-      const newPath = path.replace("/sermon/en", "/sermon");
-      window.location.href = newPath;
-    } else if (path.startsWith("/sermon")) {
+      newPath = path.replace(base + "/en", base);
+    } else if (path.startsWith(base)) {
       // 한국어 → 영어
-      // "/sermon/..." → "/sermon/en/..."
-      const newPath = path.replace("/sermon", "/sermon/en");
-      window.location.href = newPath;
+      newPath = path.replace(base, base + "/en");
+    } else {
+      // base 경로가 아닌 경우 fallback
+      newPath = base;
     }
+
+    // 항상 끝에 "/" 추가
+    if (!newPath.endsWith("/")) newPath += "/";
+
+    window.location.href = newPath;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
     const iconEl = document.getElementById("sidebar-lang-toggle");
     if (!iconEl) return;
 
-    iconEl.title = window.location.pathname.startsWith("/sermon/en") 
-                    ? "Switch to Korean" 
-                    : "Switch to English";
+    const isEnglish = window.location.pathname.startsWith(base + "/en");
+    iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
 
     iconEl.addEventListener("click", toggleLang);
