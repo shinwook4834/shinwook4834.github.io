@@ -1,14 +1,15 @@
+<!-- 사이드바 -->
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   {% assign lang = include.lang | default: page.lang | default: site.lang %}
 
   <header class="profile-wrapper mt-0 pt-0">
     <div style="width: 80%; margin: 50px auto 0 auto;">
-      {% if site.avatar != empty and site.avatar %}
+      {% if site.avatar %}
         {% capture avatar_url %}
           {% include media-url.html src=site.avatar %}
         {% endcapture %}
         <a href="{{ '/' | relative_url }}" id="avatar">
-          <img src="{{- avatar_url -}}"
+          <img src="{{ avatar_url }}"
               width="140"
               height="140"
               alt="avatar"
@@ -18,29 +19,23 @@
       {% endif %}
     </div>
 
-    <a class="site-title d-block"
-      href="{{ '/' | relative_url }}"
-      style="text-align: left; margin: 0 auto;">
+    <a class="site-title d-block" href="{{ '/' | relative_url }}" style="text-align: left; margin: 0 auto;">
       {{ site.data.locales[lang].home.title }}
     </a>
 
-    <p class="site-subtitle fst-italic mb-0"
-      style="text-align: left; margin: 0 auto;">
+    <p class="site-subtitle fst-italic mb-0" style="text-align: left; margin: 0 auto;">
       {{ site.data.locales[lang].home.tagline }}
     </p>
   </header>
-  <!-- .profile-wrapper -->
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
-      <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[lang].tabs.home | upcase }}</span>
         </a>
       </li>
-      <!-- tabs -->
       {% for tab in site.tabs %}
         {% assign tab_name = tab.url | remove: '/' %}
         <li class="nav-item{% if tab.url == page.url %} active{% endif %}">
@@ -53,107 +48,78 @@
     </ul>
   </nav>
 
-  <!-- 사이드바 하단 -->
-<div class="sidebar-bottom d-flex flex-wrap align-items-center w-100 justify-content-center" style="gap: 0.15rem;">
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100 justify-content-center" style="gap: 0.15rem;">
+    {% unless site.theme_mode %}
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border"></span>
+      {% endif %}
+    {% endunless %}
 
-  {% unless site.theme_mode %}
-    <!-- 다크모드 토글 버튼 -->
-    <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-      <i class="fas fa-adjust"></i>
-    </button>
+    {% for entry in site.data.contact %}
+      {% case entry.type %}
+        {% when 'github' or 'twitter' or 'youtube' %}
+          {% capture url %}https://{{ entry.type }}.com/{{ site[entry.type].username }}{% endcapture %}
+        {% when 'email' %}
+          {% assign email = site.social.email | split: '@' %}
+          {% capture url %}javascript:location.href='mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'){% endcapture %}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' | relative_url %}
+        {% else %}
+          {% assign url = entry.url %}
+      {% endcase %}
 
-    {% if site.data.contact.size > 0 %}
-      <span class="icon-border"></span>
-    {% endif %}
-  {% endunless %}
+      {% if url %}
+        <a href="{{ url }}" aria-label="{{ entry.type }}"
+          {% unless entry.noblank %}target="_blank" rel="noopener noreferrer"{% endunless %}
+          class="nav-link px-2">
+          <i class="{{ entry.icon }}"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
 
-  <!-- 기존 소셜 아이콘들 -->
-  {% for entry in site.data.contact %}
-    {% case entry.type %}
-      {% when 'github' or 'twitter' or 'youtube' %}
-        {%- capture url -%}
-          https://{{ entry.type }}.com/{{ site[entry.type].username }}
-        {%- endcapture -%}
-      {% when 'email' %}
-        {% assign email = site.social.email | split: '@' %}
-        {%- capture url -%}
-          javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-        {%- endcapture -%}
-      {% when 'rss' %}
-        {% assign url = '/feed.xml' | relative_url %}
-      {% else %}
-        {% assign url = entry.url %}
-    {% endcase %}
-
-    {% if url %}
-      <a
-        href="{{ url }}"
-        aria-label="{{ entry.type }}"
-        {% assign link_types = '' %}
-
-        {% unless entry.noblank %}
-          target="_blank"
-          {% assign link_types = 'noopener noreferrer' %}
-        {% endunless %}
-
-        {% if entry.type == 'mastodon' %}
-          {% assign link_types = link_types | append: ' me' | strip %}
-        {% endif %}
-
-        {% unless link_types == empty %}
-          rel="{{ link_types }}"
-        {% endunless %}
-        class="nav-link px-2"
-      >
-        <i class="{{ entry.icon }}"></i>
-      </a>
-    {% endif %}
-  {% endfor %}
-
-  <!-- 🌐 언어 전환 아이콘 -->
-  <a
-    role="button"
-    tabindex="0"
-    id="sidebar-lang-toggle"
-    class="nav-link px-2"
-    style="font-size: 1.2rem;"
-    title=""
-    aria-label=""
-    onclick="toggleLang()"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { toggleLang(); }"
-  >
-    <i class="fas fa-globe"></i>
-  </a>
-</div>
+    <!-- 🌐 언어 전환 아이콘 -->
+    <a role="button" tabindex="0" id="sidebar-lang-toggle" class="nav-link px-2" style="font-size: 1.2rem;">
+      <i class="fas fa-globe"></i>
+    </a>
+  </div>
 </aside>
 
 <!-- 언어 전환 스크립트 -->
 <script>
-const base = "{{ site.baseurl }}";
+  const base = "{{ site.baseurl }}";
 
-window.toggleLang = function() {
-  const path = window.location.pathname;
-  const isEnglish = path.startsWith(base + "/en/");
-  let newPath;
+  function toggleLang() {
+    const path = window.location.pathname;
+    const isEnglish = path.includes("/en/");
+    let newPath;
 
-  if (isEnglish) {
-    // 영어 → 한국어
-    newPath = path.replace(base + "/en", base);
-  } else {
-    // 한국어 → 영어
-    newPath = base + "/en" + path.slice(base.length);
+    if (isEnglish) {
+      newPath = path.replace("/en/", "/");
+    } else {
+      const parts = path.split("/sermon/");
+      newPath = "/sermon/en/" + parts[1];
+    }
+
+    window.location.href = base + newPath;
   }
 
-  window.location.href = newPath;
-};
+  document.addEventListener("DOMContentLoaded", () => {
+    const iconEl = document.getElementById("sidebar-lang-toggle");
+    const path = window.location.pathname;
 
-// 선택적: 아이콘 title 업데이트
-document.addEventListener("DOMContentLoaded", () => {
-  const iconEl = document.getElementById("sidebar-lang-toggle");
-  const path = window.location.pathname;
-  if (iconEl) {
-    iconEl.title = path.startsWith(base + "/en/") ? "Switch to Korean" : "Switch to English";
-    iconEl.setAttribute("aria-label", iconEl.title);
-  }
-});
+    if (iconEl) {
+      iconEl.title = path.includes("/en/") ? "Switch to Korean" : "Switch to English";
+      iconEl.setAttribute("aria-label", iconEl.title);
+
+      iconEl.addEventListener("click", toggleLang);
+      iconEl.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          toggleLang();
+        }
+      });
+    }
+  });
 </script>

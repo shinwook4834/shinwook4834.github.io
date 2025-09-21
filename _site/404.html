@@ -263,7 +263,8 @@ Google AdSense
 
 
   <body>
-    <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+    <!-- 사이드바 -->
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   
 
   <header class="profile-wrapper mt-0 pt-0">
@@ -283,29 +284,23 @@ Google AdSense
       
     </div>
 
-    <a class="site-title d-block"
-      href="/sermon/"
-      style="text-align: left; margin: 0 auto;">
+    <a class="site-title d-block" href="/sermon/" style="text-align: left; margin: 0 auto;">
       <br>매주 기록하는<br>설교 말씀
     </a>
 
-    <p class="site-subtitle fst-italic mb-0"
-      style="text-align: left; margin: 0 auto;">
+    <p class="site-subtitle fst-italic mb-0" style="text-align: left; margin: 0 auto;">
       <br>주일의 은혜, 평일의 삶으로
     </p>
   </header>
-  <!-- .profile-wrapper -->
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
-      <!-- home -->
       <li class="nav-item">
         <a href="/sermon/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>홈</span>
         </a>
       </li>
-      <!-- tabs -->
       
         
         <li class="nav-item">
@@ -342,135 +337,94 @@ Google AdSense
     </ul>
   </nav>
 
-  <!-- 사이드바 하단 -->
-<div class="sidebar-bottom d-flex flex-wrap align-items-center w-100 justify-content-center" style="gap: 0.15rem;">
-
-  
-    <!-- 다크모드 토글 버튼 -->
-    <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-      <i class="fas fa-adjust"></i>
-    </button>
-
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100 justify-content-center" style="gap: 0.15rem;">
     
-      <span class="icon-border"></span>
-    
-  
-
-  <!-- 기존 소셜 아이콘들 -->
-  
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+      
+        <span class="icon-border"></span>
+      
     
 
     
-      <a
-        href="https://www.youtube.com/"
-        aria-label="youtube-custom"
-        
+      
 
-        
-          target="_blank"
+      
+        <a href="https://www.youtube.com/" aria-label="youtube-custom"
+          target="_blank" rel="noopener noreferrer"
+          class="nav-link px-2">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      
+    
+      
+
+      
+        <a href="javascript:location.href='mailto:' + ['example','domain.com'].join('@')" aria-label="email"
           
-        
-
-        
-
-        
-          rel="noopener noreferrer"
-        
-        class="nav-link px-2"
-      >
-        <i class="fa-brands fa-youtube"></i>
-      </a>
+          class="nav-link px-2">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      
     
-  
+      
+
+      
+        <a href="/sermon/feed.xml" aria-label="rss"
+          
+          class="nav-link px-2">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      
     
+      
 
-    
-      <a
-        href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
-        aria-label="email"
-        
-
-        
-
-        
-
-        
-        class="nav-link px-2"
-      >
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-    
-  
+      
     
 
-    
-      <a
-        href="/sermon/feed.xml"
-        aria-label="rss"
-        
-
-        
-
-        
-
-        
-        class="nav-link px-2"
-      >
-        <i class="fa-solid fa-rss"></i>
-      </a>
-    
-  
-    
-
-    
-  
-
-  <!-- 🌐 언어 전환 아이콘 -->
-  <a
-    role="button"
-    tabindex="0"
-    id="sidebar-lang-toggle"
-    class="nav-link px-2"
-    style="font-size: 1.2rem;"
-    title=""
-    aria-label=""
-    onclick="toggleLang()"
-    onkeydown="if(event.key==='Enter' || event.key===' ') { toggleLang(); }"
-  >
-    <i class="fas fa-globe"></i>
-  </a>
-</div>
+    <!-- 🌐 언어 전환 아이콘 -->
+    <a role="button" tabindex="0" id="sidebar-lang-toggle" class="nav-link px-2" style="font-size: 1.2rem;">
+      <i class="fas fa-globe"></i>
+    </a>
+  </div>
 </aside>
 
 <!-- 언어 전환 스크립트 -->
 <script>
-const base = "/sermon";
+  const base = "/sermon";
 
-window.toggleLang = function() {
-  const path = window.location.pathname;
-  const isEnglish = path.startsWith(base + "/en/");
-  let newPath;
+  function toggleLang() {
+    const path = window.location.pathname;
+    const isEnglish = path.includes("/en/");
+    let newPath;
 
-  if (isEnglish) {
-    // 영어 → 한국어
-    newPath = path.replace(base + "/en", base);
-  } else {
-    // 한국어 → 영어
-    newPath = base + "/en" + path.slice(base.length);
+    if (isEnglish) {
+      newPath = path.replace("/en/", "/");
+    } else {
+      const parts = path.split("/sermon/");
+      newPath = "/sermon/en/" + parts[1];
+    }
+
+    window.location.href = base + newPath;
   }
 
-  window.location.href = newPath;
-};
+  document.addEventListener("DOMContentLoaded", () => {
+    const iconEl = document.getElementById("sidebar-lang-toggle");
+    const path = window.location.pathname;
 
-// 선택적: 아이콘 title 업데이트
-document.addEventListener("DOMContentLoaded", () => {
-  const iconEl = document.getElementById("sidebar-lang-toggle");
-  const path = window.location.pathname;
-  if (iconEl) {
-    iconEl.title = path.startsWith(base + "/en/") ? "Switch to Korean" : "Switch to English";
-    iconEl.setAttribute("aria-label", iconEl.title);
-  }
-});
+    if (iconEl) {
+      iconEl.title = path.includes("/en/") ? "Switch to Korean" : "Switch to English";
+      iconEl.setAttribute("aria-label", iconEl.title);
+
+      iconEl.addEventListener("click", toggleLang);
+      iconEl.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          toggleLang();
+        }
+      });
+    }
+  });
 </script>
 
     <div id="main-wrapper" class="d-flex justify-content-center">
