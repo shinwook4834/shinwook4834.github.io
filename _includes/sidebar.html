@@ -131,30 +131,25 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const iconEl = document.getElementById("sidebar-lang-toggle");
-  const currentPath = window.location.pathname;
-  const baseurl = "{{ site.baseurl }}"; // Jekyll baseurl
+  const base = "{{ site.baseurl }}";
+  const path = window.location.pathname;
 
-  const isEnglish = currentPath.includes("/en/");
+  window.toggleLang = function() {
+    const isEnglish = path.startsWith(base + "/en/");
+    let newPath;
+    if (isEnglish) {
+      // 영어 → 한국어
+      newPath = path.replace(base + "/en", base);
+    } else {
+      // 한국어 → 영어
+      newPath = base + "/en" + path.slice(base.length);
+    }
+    window.location.href = newPath;
+  };
 
   if (iconEl) {
-    iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
+    iconEl.title = path.startsWith(base + "/en/") ? "Switch to Korean" : "Switch to English";
     iconEl.setAttribute("aria-label", iconEl.title);
   }
-
-  window.toggleLang = function () {
-    let newPath;
-    const regexEn = new RegExp(`^${baseurl}/en/?`);
-    const regexKo = new RegExp(`^${baseurl}/?`);
-
-    if (!isEnglish) {
-      // 한국어 → 영어
-      newPath = currentPath.replace(regexKo, `${baseurl}/en/`);
-    } else {
-      // 영어 → 한국어
-      newPath = currentPath.replace(regexEn, `${baseurl}/`);
-    }
-
-    window.location.pathname = newPath;
-  };
 });
 </script>
