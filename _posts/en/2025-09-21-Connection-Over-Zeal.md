@@ -18,6 +18,13 @@ John 15:1-5
 
 ---
 
+# 📖 Change Is Not Easy
+
+No matter how hard we try to diet, the temptation of delicious food around us and the cravings within us make physical change difficult to achieve.
+The same is true in our spiritual lives—true transformation does not come easily.
+So why do we keep repeating the same failures?
+It is because with our own strength, no matter how hard we try, we cannot overcome evil.
+
 # 📖 Connection Over Zeal
 
 Spiritual transformation does not come from **zeal alone**.  
