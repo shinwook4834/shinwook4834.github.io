@@ -391,39 +391,36 @@ Google AdSense
 </aside>
 
 <!-- 언어 전환 스크립트 -->
-<!-- 언어 전환 스크립트 -->
 <script>
   function toggleLang() {
     const path = window.location.pathname;
-    console.log("현재 path:", path);
 
-    let newPath;
     if (path.startsWith("/sermon/en")) {
       // 영어 → 한국어
-      newPath = "/sermon/";
-    } else {
+      // "/sermon/en/..." → "/sermon/..."
+      const newPath = path.replace("/sermon/en", "/sermon");
+      window.location.href = newPath;
+    } else if (path.startsWith("/sermon")) {
       // 한국어 → 영어
-      newPath = "/sermon/en/";
+      // "/sermon/..." → "/sermon/en/..."
+      const newPath = path.replace("/sermon", "/sermon/en");
+      window.location.href = newPath;
     }
-
-    console.log("redirect to:", newPath);
-    window.location.href = newPath;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
     const iconEl = document.getElementById("sidebar-lang-toggle");
-    if (iconEl) {
-      const path = window.location.pathname;
-      iconEl.title = path.startsWith("/sermon/en") ? "Switch to Korean" : "Switch to English";
-      iconEl.setAttribute("aria-label", iconEl.title);
+    if (!iconEl) return;
 
-      iconEl.addEventListener("click", toggleLang);
-      iconEl.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          toggleLang();
-        }
-      });
-    }
+    iconEl.title = window.location.pathname.startsWith("/sermon/en") 
+                    ? "Switch to Korean" 
+                    : "Switch to English";
+    iconEl.setAttribute("aria-label", iconEl.title);
+
+    iconEl.addEventListener("click", toggleLang);
+    iconEl.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") toggleLang();
+    });
   });
 </script>
 

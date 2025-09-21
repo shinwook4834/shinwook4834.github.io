@@ -68,13 +68,13 @@
 <meta property="og:url" content="http://localhost:4001/sermon/archives/" />
 <meta property="og:site_name" content="매주 기록하는 설교 말씀" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-09-21T21:15:37+09:00" />
+<meta property="article:published_time" content="2025-09-21T21:22:38+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Archives" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@SW Kim" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SW Kim"},"dateModified":"2025-09-21T21:15:37+09:00","datePublished":"2025-09-21T21:15:37+09:00","description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/sermon/archives/"},"url":"http://localhost:4001/sermon/archives/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SW Kim"},"dateModified":"2025-09-21T21:22:38+09:00","datePublished":"2025-09-21T21:22:38+09:00","description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/sermon/archives/"},"url":"http://localhost:4001/sermon/archives/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -388,39 +388,36 @@ Google AdSense
 </aside>
 
 <!-- 언어 전환 스크립트 -->
-<!-- 언어 전환 스크립트 -->
 <script>
   function toggleLang() {
     const path = window.location.pathname;
-    console.log("현재 path:", path);
 
-    let newPath;
     if (path.startsWith("/sermon/en")) {
       // 영어 → 한국어
-      newPath = "/sermon/";
-    } else {
+      // "/sermon/en/..." → "/sermon/..."
+      const newPath = path.replace("/sermon/en", "/sermon");
+      window.location.href = newPath;
+    } else if (path.startsWith("/sermon")) {
       // 한국어 → 영어
-      newPath = "/sermon/en/";
+      // "/sermon/..." → "/sermon/en/..."
+      const newPath = path.replace("/sermon", "/sermon/en");
+      window.location.href = newPath;
     }
-
-    console.log("redirect to:", newPath);
-    window.location.href = newPath;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
     const iconEl = document.getElementById("sidebar-lang-toggle");
-    if (iconEl) {
-      const path = window.location.pathname;
-      iconEl.title = path.startsWith("/sermon/en") ? "Switch to Korean" : "Switch to English";
-      iconEl.setAttribute("aria-label", iconEl.title);
+    if (!iconEl) return;
 
-      iconEl.addEventListener("click", toggleLang);
-      iconEl.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          toggleLang();
-        }
-      });
-    }
+    iconEl.title = window.location.pathname.startsWith("/sermon/en") 
+                    ? "Switch to Korean" 
+                    : "Switch to English";
+    iconEl.setAttribute("aria-label", iconEl.title);
+
+    iconEl.addEventListener("click", toggleLang);
+    iconEl.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") toggleLang();
+    });
   });
 </script>
 
