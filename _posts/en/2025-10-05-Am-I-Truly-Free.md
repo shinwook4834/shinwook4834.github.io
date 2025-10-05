@@ -43,7 +43,7 @@ But Satan twisted that boundary.
 Satan provoked human pride and led them to distrust God.  
 In the end, freedom was lost, and humanity became slaves to Satan.  
 
-![Tree of Knowledge](/assets/img/20251005-01.webp)
+![Tree of Knowledge](/assets/img/20251005-01-960.webp)
 
 ---
 
