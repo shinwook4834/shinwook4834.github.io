@@ -4,107 +4,56 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta property="og:image" content="./assets/img/avatar.png" />
   <meta
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
 
-  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
-
-  {% if site.default_lang -%}
-  <link rel="alternate" hreflang="{{site.default_lang}}" href="{{site.url}}{{page.url}}" />
-  {%- endif -%}
-  {% for lang in site.languages -%}
-    {% if lang == site.default_lang -%}
-      {%- continue -%}
-    {%- endif %}
-  <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}/{{lang}}{{page.url}}" />
-  {%- endfor %}
-
-  {%- if page.image -%}
-    {%- assign base = page.image | split: '.' | first -%}
-    {%- assign ext  = page.image | split: '.' | last  -%}
-    {%- assign widths = "360,540,720,960,1200" | split: "," -%}
-    {%- capture imagesrcset -%}
-    {%- for ww in widths -%}
-    {{ base }}-{{ ww | strip }}.{{ ext }} {{ ww | strip }}w{% if forloop.last == false %}, {% endif %}
-    {%- endfor -%}
-    {%- endcapture -%}
-    <link rel="preload"
-          as="image"
-          href="{{ page.image }}"
-          imagesrcset="{{ imagesrcset | strip }}"
-          imagesizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 388px"
-          fetchpriority="high">
-  {%- endif -%}
-
-
-
-  {% capture seo_tags -%}
+  {%- capture seo_tags -%}
     {% seo title=false %}
-  {%- endcapture %}
+  {%- endcapture -%}
 
-  <!-- 다국어 지원 - tagline 및 description 설정 -->
-  {% if site.active_lang == 'ko' %}
-    <meta name="description" content="매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.">
-    <meta property="og:description" content="매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.">
-    <meta name="twitter:description" content="매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.">
-  {% else %}
-    <meta name="description" content="Weekly Sermon Journal">
-    <meta property="og:description" content="Weekly Sermon Journal">
-    <meta name="twitter:description" content="Weekly Sermon Journal">
-  {% endif %}
+  <!-- Setup Open Graph image -->
 
-  <!-- CDN Preconnect -->
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-
-  <!-- Open Graph image 처리 -->
-  {% if page.image -%}
+  {% if page.image %}
     {% assign src = page.image.path | default: page.image %}
-    {% unless src contains '://' -%}
-      {% capture img_url %}{% include media-url.html src=src subpath=page.media_subpath absolute=true %}{% endcapture %}
-      {% capture old_url %}{{ src | absolute_url }}{% endcapture %}
-      {% capture new_url %}{{ img_url }}{% endcapture %}
+
+    {% unless src contains '://' %}
+      {%- capture img_url -%}
+        {% include media-url.html src=src subpath=page.media_subpath absolute=true %}
+      {%- endcapture -%}
+
+      {%- capture old_url -%}{{ src | absolute_url }}{%- endcapture -%}
+      {%- capture new_url -%}{{ img_url }}{%- endcapture -%}
+
       {% assign seo_tags = seo_tags | replace: old_url, new_url %}
     {% endunless %}
+
   {% elsif site.social_preview_image %}
-    {% capture img_url %}{% include media-url.html src=site.social_preview_image absolute=true %}{% endcapture %}
-    {% capture og_image %}<meta property="og:image" content="{{ img_url }}" />{% endcapture %}
-    {% capture twitter_image %}
+    {%- capture img_url -%}
+      {% include media-url.html src=site.social_preview_image absolute=true %}
+    {%- endcapture -%}
+
+    {%- capture og_image -%}
+      <meta property="og:image" content="{{ img_url }}" />
+    {%- endcapture -%}
+
+    {%- capture twitter_image -%}
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content="{{ img_url }}" />
-    {% endcapture %}
+    {%- endcapture -%}
+
     {% assign old_meta_clip = '<meta name="twitter:card" content="summary" />' %}
     {% assign new_meta_clip = og_image | append: twitter_image %}
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
   {% endif %}
 
-  {% capture old_og_locale %}<meta property="og:locale" content="{{site.lang}}" />{% endcapture %}
-  {% capture new_og_locale %}
-    <meta property="og:locale" content="{{site.active_lang}}" />
-    {% for lang in site.languages %}
-      {% if lang == site.active_lang %}{% continue %}{% endif %}
-      <meta property="og:locale:alternate" content="{{lang}}" />
-    {% endfor %}
-  {% endcapture %}
-  {% assign seo_tags = seo_tags | replace: old_og_locale, new_og_locale %}
-
-  {% unless site.active_lang == site.default_lang %}
-    {% capture old_canonical_link %}<link rel="canonical" href="{{site.url}}{{page.url}}" />{% endcapture %}
-    {% capture old_og_url %}<meta property="og:url" content="{{site.url}}{{page.url}}" />{% endcapture %}
-    {% capture new_canonical_link %}<link rel="canonical" href="{{site.url}}/{{site.active_lang}}{{page.url}}" />{% endcapture %}
-    {% capture new_og_url %}<meta property="og:url" content="{{site.url}}/{{site.active_lang}}{{page.url}}" />{% endcapture %}
-    {% assign seo_tags = seo_tags | replace: old_canonical_link, new_canonical_link %}
-    {% assign seo_tags = seo_tags | replace: old_og_url, new_og_url %}
-  {% endunless %}
-
   {{ seo_tags }}
 
   <title>
-    {% unless page.layout == 'home' %}
+    {%- unless page.layout == 'home' -%}
       {{ page.title | append: ' | ' }}
-    {% endunless %}
+    {%- endunless -%}
     {{ site.title }}
   </title>
 
@@ -129,10 +78,11 @@
 
   <!-- Web Font -->
   <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}">
-  <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
 
-  <!-- Font Awesome -->
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ site.data.origin[type].fontawesome.css | relative_url }}">
+
+  <!-- 3rd-party Dependencies -->
 
   {% if site.toc and page.toc %}
     <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
@@ -143,17 +93,26 @@
   {% endif %}
 
   {% if page.layout == 'page' or page.layout == 'post' %}
+    <!-- Image Popup -->
     <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
   {% endif %}
 
   <!-- Scripts -->
+
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
+
   {% include js-selector.html lang=lang %}
 
   {% if jekyll.environment == 'production' %}
+    <!-- PWA -->
     {% if site.pwa.enabled %}
-      <script defer src="{{ '/app.min.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"></script>
+      <script
+        defer
+        src="{{ '/app.min.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"
+      ></script>
     {% endif %}
+
+    <!-- Web Analytics -->
     {% for analytics in site.analytics %}
       {% capture str %}{{ analytics }}{% endcapture %}
       {% assign platform = str | split: '{' | first %}
@@ -164,31 +123,4 @@
   {% endif %}
 
   {% include metadata-hook.html %}
-
-<!-- 
-Google Analytics 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBSWTJ27CE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-FBSWTJ27CE');
-  </script>
--->
-
-<!-- 
-Google AdSense
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8691553075583022"
-    crossorigin="anonymous"></script>
- -->
-
-<!--  Microsoft Clarity -->  
-  <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "tlb273t9k6");
-  </script>
-
 </head>
