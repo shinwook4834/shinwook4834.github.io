@@ -67,7 +67,7 @@ Adolf Eichmann orchestrated the murder of 1.2 million people.
 When captured in Argentina, he looked like an ordinary neighbor.  
 > “I was just following orders,” he said.  
 
-![예루살렘의 아이히만](/assets/img/20250921-01-720.webp)
+![예루살렘의 아이히만](/assets/img/20251015-01-720.webp)
 
 In darkness, anything is possible.  
 Without light, even we can become monsters.  
