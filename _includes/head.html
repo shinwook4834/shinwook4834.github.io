@@ -29,6 +29,13 @@
       {% assign seo_tags = seo_tags | replace: old_url, new_url %}
     {% endunless %}
 
+    <!-- ✅ 카톡 공유용 JPG: -main-380.jpg -->
+    {% assign jpg_url = src | replace: '.webp', '-380.jpg' | absolute_url %}
+    <meta property="og:image" content="{{ jpg_url }}" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="{{ jpg_url }}" />
+
   {% elsif site.social_preview_image %}
     {%- capture img_url -%}
       {% include media-url.html src=site.social_preview_image absolute=true %}
