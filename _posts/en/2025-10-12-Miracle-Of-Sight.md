@@ -25,108 +25,130 @@ John 9:1–12
 
 ---
 
-# 📖 More Than a Healing—A Spiritual Awakening
+# 📖 The Light of the World Meets the Blind
 
-The healing of the man born blind is not just a miracle—  
-It’s a sign, a symbol, a revelation.  
-
-Jesus had just declared:  
+Jesus said:  
 > “I am the light of the world.” (John 8:12)  
+> “While I am in the world, I am the light of the world.” (John 9:5)
 
-And now, He meets a man who has never seen light.  
-This was no coincidence. Jesus approached him with intention.  
+And that light reached a man who had been blind from birth.  
+This encounter was no accident.  
+Jesus intentionally approached someone living in darkness.
 
-The disciples ask:  
-> “Who sinned?”  
-
-But Jesus redirects the question:  
-> “This happened so that the works of God might be displayed in him.” (John 9:3)  
-
-The focus shifts from the man’s blindness to **God’s purpose**.  
+John 8 and 9 are connected.  
+Jesus didn’t just heal a man—  
+He revealed the work of God through him.
 
 ---
 
-# 📖 Who Is Truly Blind?
+# 📖 The Disciples Ask About the Cause of Suffering
 
-This story is not just about physical sight.  
-It’s about **spiritual blindness**.  
+The disciples asked:  
+> “Who sinned, this man or his parents?”
 
-- The Pharisees argue about the Sabbath.  
-- They miss the miracle and fixate on the rules.  
-- Though they see, they are blind to the light.  
+People often want to find the cause of suffering.  
+But Jesus answered differently:  
+> “This happened so that the works of God might be displayed in him.” (John 9:3)
 
-The real question is:  
-**Who is truly blind?**  
-Those who cannot see, or those who refuse to see?  
+Rather than focusing on the cause,  
+**we must look for what God is doing through the suffering.**
 
 ---
 
-# 📖 In Darkness, Anyone Can Become a Monster
+# 📖 God’s Way of Opening Eyes
+
+Jesus spit on the ground, made mud, and put it on the man’s eyes.  
+Then He told him to wash in the Pool of Siloam.  
+It may seem unsanitary, but  
+**this was a method only God could use.**
+
+Miracles don’t follow human logic.  
+**They happen only by God’s power.**  
+Only God can open blind eyes.
+
+---
+
+# 📖 Humanity in Darkness
+
+This healing wasn’t just physical.  
+It symbolized Jesus’ mission to lead humanity out of darkness.
+
+Like Genesis 1:2,  
+the world was formless, empty, and dark.  
+Isaiah 6:9–10 says:  
+> “They see but do not perceive, hear but do not understand.”
+
+Without Christ, we were in total ignorance.  
+Without light, there is no moral compass.  
+Even when we hear the Word, we don’t recognize it.
+
+---
+
+# 📖 The Banality of Evil and the Need for Sight
 
 Adolf Eichmann orchestrated the murder of 1.2 million people.  
-When captured in Argentina, he looked like an ordinary neighbor.  
-> “I was just following orders,” he said.  
+Yet he looked like an ordinary man.  
+> “I was just following orders.”
 
-![예루살렘의 아이히만](/assets/img/20251012-01-360.webp)
+![Eichmann in Jerusalem](/assets/img/20251012-01-360.webp)
 
-In darkness, anything is possible.  
-Without light, even we can become monsters.  
-Darkness blurs the line between good and evil.  
-It numbs the conscience.  
+Hannah Arendt called this **“the banality of evil.”**  
+A person who doesn’t think or discern  
+can become a monster in the dark.
 
 ---
 
-# 📖 When the Eyes Open, Everything Changes
+# 📖 What Happens When Eyes Are Opened
 
-Helen Keller once said:  
-> “If I could see for just one day, I would first look at the faces of those I love.”  
+Jesus opened the blind man’s eyes.  
+But the real revelation was this:  
+**Who is truly blind?**  
+The Pharisees—those who rejected God.
 
-Though blind, her heart could see.  
-She longed for beauty, truth, and light.  
+When our eyes are opened:  
+- We hear the Word  
+- We see God’s work  
+- We recognize eternity and life
 
-When Jesus opens our eyes:  
-- We begin to hear the Word.  
-- We begin to see God’s work.  
-- We begin to understand eternity.  
-
-**Only those who have seen the light can describe it.**  
-And the first response is always: **awe.**
+When light comes,  
+**Scripture becomes clear, and our path becomes visible.**
 
 ---
 
 # 📖 Living as Children of Light
 
-Ephesians 5:8 says:  
-> “For you were once darkness, but now you are light in the Lord. Live as children of light.”
+> “For you were once darkness, but now you are light in the Lord.  
+> Live as children of light.” (Ephesians 5:8)
 
-We are no longer blind beggars.  
-We are children of light.  
+We are no longer blind.  
+Jesus opened our eyes.  
+Those who have seen the light cannot return to darkness.
 
-- The world cannot fight darkness on its own.  
-- Only light can expose evil.  
-- Only truth can awaken the soul.  
+Now we must:  
+- Stand in awe  
+- Live as those who see  
+- Lead others out of the dark
 
-Like Nicodemus, we must be born again.  
-We must receive **new senses**—  
-To see, hear, and feel the presence of God.  
+Like Nicodemus, we need **new senses**.  
+We must rise from the cave and walk toward the light.
 
 ---
 
 # 💡 Reflection Q&A
 
 **<span style="color:lightblue">1. Why did Jesus heal the blind man?</span>**  
-- Not just to restore sight, but to reveal the work of God and expose spiritual blindness.  
+- To reveal the work of God. It was not just a healing, but a sign of spiritual awakening.
 
-**<span style="color:lightblue">2. Who is the real blind person in this story?</span>**  
-- Not the man born blind, but those who refuse to see the truth—like the Pharisees.  
+**<span style="color:lightblue">2. Who is the real blind person?</span>**  
+- Not the one without physical sight, but the one whose heart cannot see God.
 
-**<span style="color:lightblue">3. What happens when we live in darkness?</span>**  
-- We lose moral clarity, become numb to evil, and risk becoming something we never imagined.  
+**<span style="color:lightblue">3. Why is darkness dangerous?</span>**  
+- Without light, there is no moral boundary. Anyone can become a monster in the dark.
 
-**<span style="color:lightblue">4. What changes when our eyes are opened by Christ?</span>**  
-- We begin to see God’s truth, beauty, and purpose in the world and in our lives.  
+**<span style="color:lightblue">4. What changes when our eyes are opened?</span>**  
+- We begin to hear God’s Word, see His work, and understand eternal life.
 
 **<span style="color:lightblue">5. What does it mean to live as children of light?</span>**  
-- To reflect Christ’s light in a dark world, to walk in truth, and to help others see.  
+- To shine in the darkness, walk in truth, and reveal God’s will through our lives.
 
 ---
