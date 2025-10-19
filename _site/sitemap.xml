@@ -208,28 +208,28 @@
     
       <url>
         <loc>http://localhost:4000/sermon/categories/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/tags/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/archives/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/about/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/about/" />
       </url>
@@ -442,28 +442,28 @@
     
       <url>
         <loc>http://localhost:4000/sermon/en/categories/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/tags/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/archives/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/about/</loc>
-        <lastmod>2025-10-19T15:42:25+09:00</lastmod>
+        <lastmod>2025-10-19T20:15:16+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/about/" />
       </url>
