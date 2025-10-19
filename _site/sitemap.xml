@@ -106,6 +106,18 @@
         </url>
       
         <url>
+          <loc>http://localhost:4000/sermon/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/sermon/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4000/sermon/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -129,6 +141,19 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EB%88%84%EA%B0%80%EB%B3%B5%EC%9D%8C/" />
         </url>
       
+        <url>
+          <loc>http://localhost:4000/sermon/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/" />
+        </url>
+      
+    
+      <url>
+        <loc>http://localhost:4000/sermon/posts/Christ-Centered-Spiritual-Formation/</loc>
+        <lastmod>2025-10-19T15:30:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/posts/Christ-Centered-Spiritual-Formation/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/posts/Christ-Centered-Spiritual-Formation/" />
+      </url>
     
       <url>
         <loc>http://localhost:4000/sermon/posts/Miracle-Of-Sight/</loc>
@@ -183,28 +208,28 @@
     
       <url>
         <loc>http://localhost:4000/sermon/categories/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/tags/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/archives/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/about/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/about/" />
       </url>
@@ -315,6 +340,18 @@
         </url>
       
         <url>
+          <loc>http://localhost:4000/sermon/en/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/%EC%A1%B4-%EC%BD%94-%EA%B5%90%EC%88%98%EB%8B%98/" />
+        </url>
+      
+        <url>
+          <loc>http://localhost:4000/sermon/en/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C-3-1-6/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4000/sermon/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -338,6 +375,19 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EB%88%84%EA%B0%80%EB%B3%B5%EC%9D%8C/" />
         </url>
       
+        <url>
+          <loc>http://localhost:4000/sermon/en/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/%EA%B0%88%EB%9D%BC%EB%94%94%EC%95%84%EC%84%9C/" />
+        </url>
+      
+    
+      <url>
+        <loc>http://localhost:4000/sermon/en/posts/Christ-Centered-Spiritual-Formation/</loc>
+        <lastmod>2025-10-19T15:30:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/posts/Christ-Centered-Spiritual-Formation/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/posts/Christ-Centered-Spiritual-Formation/" />
+      </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/posts/Miracle-Of-Sight/</loc>
@@ -392,28 +442,28 @@
     
       <url>
         <loc>http://localhost:4000/sermon/en/categories/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/tags/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/archives/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4000/sermon/en/about/</loc>
-        <lastmod>2025-10-17T23:16:16+09:00</lastmod>
+        <lastmod>2025-10-19T15:36:30+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4000/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/about/" />
       </url>
