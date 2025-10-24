@@ -19,114 +19,129 @@ Galatians 3:1–6
 
 ---
 
-# 📖 Returning to the Cross
+# 📖 Moral Temptation and Hidden Faith
 
-The apostle Paul speaks firmly to the Galatians:  
-> “You foolish Galatians!”
+Professor John Coe of Talbot Seminary once said:  
+> “Many seminary students want to be used by God,  
+> but deep inside, they carry shame and guilt.”
 
-They had believed in the cross of Jesus Christ,  
-but over time, they began turning back to law and human effort.  
-Paul asks:  
-> “Did you receive the Spirit by the works of the law, or by believing what you heard?”
+![존코 교수](/assets/img/20251019-01-360.webp)
 
-In other words:  
-**You began with the cross—why are you trying to finish by the flesh?**
+This isn’t just about students.  
+Many believers feel **“I’m not enough”** and try to cover it with effort and morality.  
+That’s the core of **moral temptation**—trying to fix spiritual emptiness with performance.
 
----
-
-# 📖 Moral Temptation and Spiritual Drought
-
-Preacher and Talbot Seminary professor John Coe once said:  
-Many students appear to be doing God’s work,  
-but deep inside, they are burdened by shame and guilt.
-
-They often ask:  
-> “Where is the never-failing well God promised?”
-
-Moral temptation isn’t just about bad behavior.  
-**“Maybe I just need to try harder.” “Maybe I can fix this myself.”**  
-These thoughts are temptations in themselves.  
-Instead of turning to God in guilt,  
-we try to solve it through effort and morality.
+Paul asks the Galatians:  
+> “After beginning by the Spirit, are you now trying to finish by the flesh?” (Gal 3:3)
 
 ---
 
-# 📖 Flesh vs. Spirit-Filled Faith
+# 📖 What Is Moral Temptation?
 
-When Paul speaks of “the flesh,”  
-he doesn’t just mean lust or evil deeds.  
-He means **trying to solve spiritual problems by human effort.**
+It’s not just about bad behavior.  
+It’s the thought:  
+**“Maybe I just need to try harder.”**  
+**“Maybe I can fix this myself.”**
 
-- Human approach → hiding, striving, moralism, perfectionism  
-- God’s approach → coming honestly to the cross, asking for help, relying on grace
+Instead of bringing guilt and shame to Jesus,  
+we try to solve it through effort, discipline, and moral performance.
 
-Adam and Eve didn’t say,  
-> “God, we need You.”  
+Paul reminds us:  
+> “Did you receive the Spirit by works of the law, or by believing what you heard?” (Gal 3:2)
+
+---
+
+# 📖 Hiding Faith, Covered Obedience
+
+Adam and Eve sinned—but they didn’t say,  
+> “God, help us.”  
 They hid.
 
-Are we still hiding in guilt and shame today?
+We do the same.  
+- Prayer becomes a mask  
+- Obedience becomes a cover  
+- Goodness becomes a disguise
+
+Paul warns:  
+> Even prayer and obedience can be used to hide from God.
 
 ---
 
-# 📖 Spiritual Formation Begins Where Hiding Ends
+# 📖 Honesty at the Cross
 
-To grow spiritually, we must first **step out from hiding.**
+Spiritual formation begins when we stop hiding.  
+Prayer is not a place to look good—  
+It’s a place to be real.
 
-- Speak honestly before God  
-- Don’t try to fix sin alone—confess and bring it into the light  
-- Prayer isn’t about sounding good—it’s about being real
+- “God, I don’t want to pray right now.”  
+- “God, I love You—but I also love other things.”  
+- “God, please forgive me.”
 
-Thinking “I’ll just be more moral”  
-is not spiritual growth—it may be **spiritual regression.**
-
-True formation begins with this confession:  
-> “God, I have much to hide. Please help me.”
+This is the heart of spiritual formation—  
+**honesty at the foot of the cross.**
 
 ---
 
-# 📖 Jesus Christ, the Center of Spiritual Formation
+# 📖 Law vs. Gospel, Effort vs. Grace
+
+The Judaizers said:  
+> “We’re saved by faith, but we grow by effort.”
+
+But Paul says:  
+> “We are saved by faith, and we grow by faith.”
+
+- The law is a tutor that leads us to Christ  
+- Shame and guilt cannot be solved by effort  
+- Only Jesus is the answer
+
+---
+
+# 📖 Justification: His Righteousness for Our Sin
 
 2 Corinthians 5:21 says:  
 > “God made him who had no sin to be sin for us,  
 > so that in him we might become the righteousness of God.”
 
-Jesus took all our sin.  
-He forgave us 100%.  
-So there’s no need to hide,  
-no need to live in guilt anymore.  
-We are now **free.**
+- Our sin was transferred to Jesus  
+- His righteousness was transferred to us
+
+**This is justification—the heart of the gospel.**  
+We are no longer condemned.  
+**Jesus is enough.**
 
 ---
 
 # 📖 Reflection and Challenge
 
-Try beginning your prayer like this:
+Try praying like this:
 
-- “Lord, I don’t want to hide anymore.”  
-- “I want to speak from the depths of my heart.”  
-- “I give You my shame, my sin, my fear—everything.”  
-- “I trust and follow the One who has forgiven me.”
+- “God, I don’t want to hide anymore.”  
+- “I give You my shame and guilt.”  
+- “I can’t fix this. Only Jesus can.”
 
-Then the cross will appear greater,  
-and God will feel closer.
+Then the cross will grow larger,  
+and God’s love will feel deeper.
 
 ---
 
 # 💡 Scripture Reflection Q&A
 
-**Q1. Why did Paul call the Galatians ‘foolish’?**  
-A1. Because they were trying to complete their faith through law and effort, after receiving the Spirit by faith.
+**<span style="color:lightblue">Q1. What does Paul mean by ‘finishing by the flesh’?</span>**  
+A1. Trying to complete our faith through effort and morality instead of trusting God.
 
-**Q2. What does it mean to ‘finish by the flesh’?**  
-A2. It means trying to resolve sin and guilt through personal effort and morality instead of trusting God.
+**<span style="color:lightblue">Q2. Why is moral temptation dangerous?</span>**  
+A2. Because it leads us to rely on ourselves instead of bringing our brokenness to Jesus.
 
-**Q3. What does moral temptation look like?**  
-A3. It’s the thought, “I just need to try harder,” which puts behavior above grace.
+**<span style="color:lightblue">Q3. What does hiding faith look like?</span>**  
+A3. Using prayer, obedience, and goodness to cover our weakness instead of confessing it.
 
-**Q4. Where does spiritual formation begin?**  
-A4. It begins when we stop hiding and honestly say, “God, I need You.”
+**<span style="color:lightblue">Q4. Where does spiritual formation begin?</span>**  
+A4. When we stop hiding and come honestly to the cross.
 
-**Q5. Why is Jesus Christ the center of spiritual formation?**  
-A5. Because He bore our sin completely and made us righteous—He is the starting point of grace and freedom.
+**<span style="color:lightblue">Q5. What is justification?</span>**  
+A5. Our sin was placed on Jesus, and His righteousness was given to us. That’s the gospel.
 
 ---
+
+👉 **Conclusion: Spiritual formation begins where hiding ends.  
+When we come honestly to the cross, we find true freedom.**
