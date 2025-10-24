@@ -1,6 +1,6 @@
 const swconf = {
   
-    cacheName: 'chirpy-1761322563',resources: [
+    cacheName: 'chirpy-1761322792',resources: [
       '/sermon/assets/css/jekyll-theme-chirpy.css',
       '/sermon/',
       
@@ -28,12 +28,7 @@ const swconf = {
         '/sermon/assets/js/dist/misc.min.js',
         '/sermon/assets/js/dist/page.min.js',
         '/sermon/assets/js/dist/post.min.js',
-        '/sermon/assets/js/dist/theme.min.js',
-        '/sermon/assets/img/favicons/android-chrome-192x192.png',
-        '/sermon/assets/img/favicons/android-chrome-512x512.png',
-        '/sermon/assets/img/favicons/favicon-16x16.png',
-        '/sermon/assets/img/favicons/favicon-32x32.png',
-        '/sermon/assets/img/favicons/mstile-150x150.png'
+        '/sermon/assets/js/dist/theme.min.js'
     ],
 
     interceptor: {paths: [
