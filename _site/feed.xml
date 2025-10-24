@@ -1,18 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/sermon/</id>
+  <id>http://localhost:4001/sermon/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-10-25T01:12:45+09:00</updated>
+  <updated>2025-10-25T01:16:02+09:00</updated>
   <author>
     <name>SW Kim</name>
-    <uri>http://localhost:4000/sermon/</uri>
+    <uri>http://localhost:4001/sermon/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/sermon/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4000/" />
+  <link rel="self" type="application/atom+xml" href="http://localhost:4001/sermon/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4001/" />
   
-  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4000/en/" />
+  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4001/en/" />
   
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 SW Kim </rights>
@@ -23,15 +23,15 @@
   
   <entry>
     <title xml:lang="ko">그리스도 중심의 영성 형성</title>
-    <link href="http://localhost:4000/sermon/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-19T15:30:00+09:00</published>
   
-    <updated>2025-10-19T20:44:09+09:00</updated>
+    <updated>2025-10-25T01:13:12+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Christ-Centered-Spiritual-Formation/</id>
+    <id>http://localhost:4001/sermon/posts/Christ-Centered-Spiritual-Formation/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -43,7 +43,7 @@
   
 
     <summary xml:lang="ko">갈라디아서 3:1-6 1 어리석도다 갈라디아 사람들아 예수 그리스도께서 십자가에 못 박히신 것이 너희 눈 앞에 밝히 보이거늘 누가 너희를 꾀더냐 2 내가 너희에게서 다만 이것을 알려 하노니 너희가 성령을 받은 것이 율법의 행위로냐 혹은 듣고 믿음으로냐 3 너희가 이같이 어리석으냐 성령으로 시작하였다가 이제는 육체로 마치겠느냐 4 너희가 이같이 많은 괴로움을 헛되이 받았느냐 과연 헛되냐 5 너희에게 성령을 주시고 너희 가운데서 능력을 행하시는 이의 일이 율법의 행위에서냐 혹은 듣고 믿음에서냐 6 아브라함이 하나님을 믿으매 그것을 그에게 의로 정하셨다 함과 같으니라     📖 도덕적 유혹과 숨는 신앙  설교자 탈봇 신학교의 존 코 교수는 말했다:    “신학생들은 하나님께 쓰임받고 싶어 하지만, 마음 깊은...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Christ-Centered-Spiritual-Formation/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Christ-Centered-Spiritual-Formation/">
     갈라디아서 3:1-6 1 어리석도다 갈라디아 사람들아 예수 그리스도께서 십자가에 못 박히신 것이 너희 눈 앞에 밝히 보이거늘 누가 너희를 꾀더냐 2 내가 너희에게서 다만 이것을 알려 하노니 너희가 성령을 받은 것이 율법의 행위로냐 혹은 듣고 믿음으로냐 3 너희가 이같이 어리석으냐 성령으로 시작하였다가 이제는 육체로 마치겠느냐 4 너희가 이같이 많은 괴로움을 헛되이 받았느냐 과연 헛되냐 5 너희에게 성령을 주시고 너희 가운데서 능력을 행하시는 이의 일이 율법의 행위에서냐 혹은 듣고 믿음에서냐 6 아브라함이 하나님을 믿으매 그것을 그에게 의로 정하셨다 함과 같으니라     📖 도덕적 유혹과 숨는 신앙  설교자 탈봇 신학교의 존 코 교수는 말했다:    “신학생들은 하나님께 쓰임받고 싶어 하지만, 마음 깊은...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -222,15 +222,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">눈뜸의 기적</title>
-    <link href="http://localhost:4000/sermon/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-12T15:30:00+09:00</published>
   
     <updated>2025-10-17T22:51:47+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Miracle-Of-Sight/</id>
+    <id>http://localhost:4001/sermon/posts/Miracle-Of-Sight/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -242,7 +242,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">요한복음 9:1-12 1 예수께서 길을 가실 때에 날 때부터 맹인 된 사람을 보신지라 2 제자들이 물어 이르되 랍비여 이 사람이 맹인으로 난 것이 누구의 죄로 인함이니이까 자기니이까 그의 부모니이까 3 예수께서 대답하시되 이 사람이나 그 부모의 죄로 인한 것이 아니라 그에게서 하나님이 하시는 일을 나타내고자 하심이라 4 때가 아직 낮이매 나를 보내신 이의 일을 우리가 하여야 하리라 밤이 오리니 그 때는 아무도 일할 수 없느니라 5 내가 세상에 있는 동안에는 세상의 빛이로라 6 이 말씀을 하시고 땅에 침을 뱉어 진흙을 이겨 그의 눈에 바르시고 7 이르시되 실로암 못에 가서 씻으라 하시니 (실로암은 번역하면 보냄을 받았다는 뜻이라) 이에 가서 씻고 밝은 눈으로 왔더라 8 이웃 사람들과 전에 그가 걸인인 것...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Miracle-Of-Sight/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Miracle-Of-Sight/">
     요한복음 9:1-12 1 예수께서 길을 가실 때에 날 때부터 맹인 된 사람을 보신지라 2 제자들이 물어 이르되 랍비여 이 사람이 맹인으로 난 것이 누구의 죄로 인함이니이까 자기니이까 그의 부모니이까 3 예수께서 대답하시되 이 사람이나 그 부모의 죄로 인한 것이 아니라 그에게서 하나님이 하시는 일을 나타내고자 하심이라 4 때가 아직 낮이매 나를 보내신 이의 일을 우리가 하여야 하리라 밤이 오리니 그 때는 아무도 일할 수 없느니라 5 내가 세상에 있는 동안에는 세상의 빛이로라 6 이 말씀을 하시고 땅에 침을 뱉어 진흙을 이겨 그의 눈에 바르시고 7 이르시되 실로암 못에 가서 씻으라 하시니 (실로암은 번역하면 보냄을 받았다는 뜻이라) 이에 가서 씻고 밝은 눈으로 왔더라 8 이웃 사람들과 전에 그가 걸인인 것...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -427,15 +427,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">나는 참된 자유인인가?</title>
-    <link href="http://localhost:4000/sermon/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-05T15:30:00+09:00</published>
   
     <updated>2025-10-12T14:54:14+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Am-I-Truly-Free/</id>
+    <id>http://localhost:4001/sermon/posts/Am-I-Truly-Free/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -447,7 +447,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">요한복음 8:31-36 31 그러므로 예수께서 자기를 믿은 유대인들에게 이르시되 너희가 내 말에 거하면 참으로 내 제자가 되고 32 진리를 알지니 진리가 너희를 자유롭게 하리라 33 그들이 대답하되 우리가 아브라함의 자손이라 남의 종이 된 적이 없거늘 어찌하여 우리가 자유롭게 되리라 하느냐 34 예수께서 대답하시되 진실로 진실로 너희에게 이르노니 죄를 범하는 자마다 죄의 종이라 35 종은 영원히 집에 거하지 못하되 아들은 영원히 거하나니 36 그러므로 아들이 너희를 자유롭게 하면 너희가 참으로 자유로우리라     📖 자유의 시대, 그러나 자유롭지 못한 인간  우리는 자유를 누리는 시대에 살고 있습니다. 그러나 실제로는 수많은 속박 속에 살아갑니다. 자유인처럼 보이지만, 죄와 중독, 집착, 두려움에 묶여...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Am-I-Truly-Free/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Am-I-Truly-Free/">
     요한복음 8:31-36 31 그러므로 예수께서 자기를 믿은 유대인들에게 이르시되 너희가 내 말에 거하면 참으로 내 제자가 되고 32 진리를 알지니 진리가 너희를 자유롭게 하리라 33 그들이 대답하되 우리가 아브라함의 자손이라 남의 종이 된 적이 없거늘 어찌하여 우리가 자유롭게 되리라 하느냐 34 예수께서 대답하시되 진실로 진실로 너희에게 이르노니 죄를 범하는 자마다 죄의 종이라 35 종은 영원히 집에 거하지 못하되 아들은 영원히 거하나니 36 그러므로 아들이 너희를 자유롭게 하면 너희가 참으로 자유로우리라     📖 자유의 시대, 그러나 자유롭지 못한 인간  우리는 자유를 누리는 시대에 살고 있습니다. 그러나 실제로는 수많은 속박 속에 살아갑니다. 자유인처럼 보이지만, 죄와 중독, 집착, 두려움에 묶여...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -600,15 +600,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">영원한 모래성은 없다</title>
-    <link href="http://localhost:4000/sermon/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-28T14:30:00+09:00</published>
   
     <updated>2025-09-28T15:15:57+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/No-sandcastle-lasts-forever/</id>
+    <id>http://localhost:4001/sermon/posts/No-sandcastle-lasts-forever/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -620,7 +620,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">누가복음 12:13-21 13 무리 중의 한 사람이 이르되 선생님, 내 형을 명하여 유산을 나와 나누게 하소서 하니 14 이르시되 이 사람아, 누가 나를 너희의 재판장이나 물건 나누는 자로 세웠느냐 하시고 15 그들에게 이르시되 삶과 모든 탐심을 물리치라 사람의 생명이 그 소유의 넉넉한 데 있지 아니하니라 하시고 16 또 비유로 그들에게 말하여 이르시되 한 부자가 그 밭에 소출이 풍성하매 17 심중에 생각하여 이르되 내가 곡식 쌓아 둘 곳이 없으니 어찌할까 하고 18 또 이르되 내가 이렇게 하리라 내 곡간을 헐고 더 크게 짓고 내 모든 곡식과 물건을 거기 쌓아 두리라 19 또 내가 내 영혼에게 이르되, 영혼아 여러 해 쓸 물건을 많이 쌓아 두었으니 평안히 쉬고 먹고 마시고 즐거워하자 하리라 하되 20 ...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/No-sandcastle-lasts-forever/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/No-sandcastle-lasts-forever/">
     누가복음 12:13-21 13 무리 중의 한 사람이 이르되 선생님, 내 형을 명하여 유산을 나와 나누게 하소서 하니 14 이르시되 이 사람아, 누가 나를 너희의 재판장이나 물건 나누는 자로 세웠느냐 하시고 15 그들에게 이르시되 삶과 모든 탐심을 물리치라 사람의 생명이 그 소유의 넉넉한 데 있지 아니하니라 하시고 16 또 비유로 그들에게 말하여 이르시되 한 부자가 그 밭에 소출이 풍성하매 17 심중에 생각하여 이르되 내가 곡식 쌓아 둘 곳이 없으니 어찌할까 하고 18 또 이르되 내가 이렇게 하리라 내 곡간을 헐고 더 크게 짓고 내 모든 곡식과 물건을 거기 쌓아 두리라 19 또 내가 내 영혼에게 이르되, 영혼아 여러 해 쓸 물건을 많이 쌓아 두었으니 평안히 쉬고 먹고 마시고 즐거워하자 하리라 하되 20 ...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -814,15 +814,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">열심보다 연결이다</title>
-    <link href="http://localhost:4000/sermon/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-21T16:09:00+09:00</published>
   
     <updated>2025-09-21T16:16:16+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Connection-Over-Zeal/</id>
+    <id>http://localhost:4001/sermon/posts/Connection-Over-Zeal/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -834,7 +834,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">요한복음 15:1-5 1 나는 참포도나무요 내 아버지는 농부라 2 무릇 내게 붙어 있어 열매를 맺지 아니하는 가지는 아버지께서 그것을 제거해 버리시고 무릇 열매를 맺는 가지는 더 열매를 맺게 하려 하여 그것을 깨끗하게 하시느니라 3 너희는 내가 일러준 말로 이미 깨끗하여졌으니 4 내 안에 거하라 나도 너희 안에 거하리라 가지가 포도나무에 붙어 있지 아니하면 스스로 열매를 맺을 수 없음 같이 너희도 내 안에 있지 아니하면 그러하리라 5 나는 포도나무요 너희는 가지라 그가 내 안에, 내가 그 안에 거하면 사람이 열매를 많이 맺나니 나를 떠나서는 너희가 아무 것도 할 수 없음이라    📖 변화는 쉽지 않다  아무리 다이어트를 열심히 해도, 주변의 맛있는 음식과 내면의 식욕이라는 유혹 때문에 몸의 변화는 쉽게...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Connection-Over-Zeal/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Connection-Over-Zeal/">
     요한복음 15:1-5 1 나는 참포도나무요 내 아버지는 농부라 2 무릇 내게 붙어 있어 열매를 맺지 아니하는 가지는 아버지께서 그것을 제거해 버리시고 무릇 열매를 맺는 가지는 더 열매를 맺게 하려 하여 그것을 깨끗하게 하시느니라 3 너희는 내가 일러준 말로 이미 깨끗하여졌으니 4 내 안에 거하라 나도 너희 안에 거하리라 가지가 포도나무에 붙어 있지 아니하면 스스로 열매를 맺을 수 없음 같이 너희도 내 안에 있지 아니하면 그러하리라 5 나는 포도나무요 너희는 가지라 그가 내 안에, 내가 그 안에 거하면 사람이 열매를 많이 맺나니 나를 떠나서는 너희가 아무 것도 할 수 없음이라    📖 변화는 쉽지 않다  아무리 다이어트를 열심히 해도, 주변의 맛있는 음식과 내면의 식욕이라는 유혹 때문에 몸의 변화는 쉽게...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -978,15 +978,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">어찌하여 불안하여 하는가?</title>
-    <link href="http://localhost:4000/sermon/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-14T16:00:00+09:00</published>
   
     <updated>2025-09-21T16:08:37+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Why-Are-You-Anxious/</id>
+    <id>http://localhost:4001/sermon/posts/Why-Are-You-Anxious/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -998,7 +998,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">시편 42장 1-11절 	1.	하나님이여 사슴이 시냇물을 찾기에 갈급함 같이 내 영혼이 주를 찾기에 갈급하니이다. 	2.	내 영혼이 하나님 곧 살아 계시는 하나님을 갈망하나니 내가 어느 때에 나아가서 하나님의 얼굴을 뵈올까. 	3.	사람들이 종일 내게 하는 말이 “네 하나님이 어디 있느뇨” 하오니 내 눈물이 주야로 내 음식이 되었도다. 	4.	내가 전에 성일을 지키는 무리와 동행하여 기쁨과 감사의 소리를 내며, 그들을 하나님의 집으로 인도하였더니 이제 이 일을 기억하고 내 마음이 상하는도다. 	5.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다. 	6.	내 하나님이여, 내 영혼이 내 속에서 낙...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Why-Are-You-Anxious/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Why-Are-You-Anxious/">
     시편 42장 1-11절 	1.	하나님이여 사슴이 시냇물을 찾기에 갈급함 같이 내 영혼이 주를 찾기에 갈급하니이다. 	2.	내 영혼이 하나님 곧 살아 계시는 하나님을 갈망하나니 내가 어느 때에 나아가서 하나님의 얼굴을 뵈올까. 	3.	사람들이 종일 내게 하는 말이 “네 하나님이 어디 있느뇨” 하오니 내 눈물이 주야로 내 음식이 되었도다. 	4.	내가 전에 성일을 지키는 무리와 동행하여 기쁨과 감사의 소리를 내며, 그들을 하나님의 집으로 인도하였더니 이제 이 일을 기억하고 내 마음이 상하는도다. 	5.	내 영혼아, 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해 하는가? 너는 하나님께 소망을 두라. 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다. 	6.	내 하나님이여, 내 영혼이 내 속에서 낙...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -1100,15 +1100,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">내가 속히 오리라</title>
-    <link href="http://localhost:4000/sermon/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-07T16:00:00+09:00</published>
   
     <updated>2025-09-21T16:08:37+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/I-Am-Coming-Soon/</id>
+    <id>http://localhost:4001/sermon/posts/I-Am-Coming-Soon/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1120,7 +1120,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">요한계시록 22장 16~21절 16   나 예수는 교회들을 위하여 내 사자를 보내어 이것들을 너희에게 증언하게 하였노라 나는 다윗의 뿌리요 자손이니 곧 광명한 새벽 별이라 하시더라 17   성령과 신부가 말씀하시기를 오라 하시는도다 듣는 자도 오라 할 것이요 목마른 자도 올 것이요 원하는 자는 값없이 생명수를 받으라 하시더라 18   내가 이 책의 예언의 말씀을 듣는 모든 사람에게 증언하노니 만일 누구든지 이것들 외에 더하면 하나님이 이 책에 기록된 재앙들을 그에게 더하실 터이요 19   만일 누구든지 이 예언의 책의 말씀에서 제하여 버리면 하나님이 이 책에 기록된 생명 나무와 및 거룩한 성에 참여함을 제하여 버리시리라 20   이것들을 증언하신 이가 이르시되 내가 진실로 속히 오리라 하시거늘 아멘 주...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/I-Am-Coming-Soon/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/I-Am-Coming-Soon/">
     요한계시록 22장 16~21절 16   나 예수는 교회들을 위하여 내 사자를 보내어 이것들을 너희에게 증언하게 하였노라 나는 다윗의 뿌리요 자손이니 곧 광명한 새벽 별이라 하시더라 17   성령과 신부가 말씀하시기를 오라 하시는도다 듣는 자도 오라 할 것이요 목마른 자도 올 것이요 원하는 자는 값없이 생명수를 받으라 하시더라 18   내가 이 책의 예언의 말씀을 듣는 모든 사람에게 증언하노니 만일 누구든지 이것들 외에 더하면 하나님이 이 책에 기록된 재앙들을 그에게 더하실 터이요 19   만일 누구든지 이 예언의 책의 말씀에서 제하여 버리면 하나님이 이 책에 기록된 생명 나무와 및 거룩한 성에 참여함을 제하여 버리시리라 20   이것들을 증언하신 이가 이르시되 내가 진실로 속히 오리라 하시거늘 아멘 주...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
@@ -1265,15 +1265,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">그리스도와 더불어 왕 노릇 하리라</title>
-    <link href="http://localhost:4000/sermon/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4001/sermon/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4000/sermon/en/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4001/sermon/en/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-08-24T14:30:00+09:00</published>
   
     <updated>2025-08-24T14:30:00+09:00</updated>
   
-    <id>http://localhost:4000/sermon/posts/Reigning-With-Christ/</id>
+    <id>http://localhost:4001/sermon/posts/Reigning-With-Christ/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1285,7 +1285,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
 
     <summary xml:lang="ko">요한계시록 20:1-6 1 또 내가 보매 천사가 무저갱의 열쇠와 큰 쇠사슬을 그의 손에 가지고 하늘로부터 내려와서 2 용을 잡으니 곧 옛 뱀이요 마귀요 사탄이라 잡아서 천 년 동안 결박하여 3 무저갱에 던져 넣어 잠그고 그 위에 인봉하여 천 년이 차도록 다시는 만국을 미혹하지 못하게 하였는데 그 후에는 반드시 잠깐 놓이리라 4 또 내가 보좌들을 보니 거기에 앉은 자들이 있어 심판하는 권세를 받았더라 또 내가 보니 예수를 증언함과 하나님의 말씀 때문에 목 베임을 당한 자들의 영혼들과 또 짐승과 그의 우상에게 경배하지 아니하고 그들의 이마와 손에 그의 표를 받지 아니한 자들이 살아서 그리스도와 더불어 천 년 동안 왕 노릇 하니 5 (그 나머지 죽은 자들은 그 천 년이 차기까지 살지 못하더라) 이는 첫째 부...</summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4000/sermon/posts/Reigning-With-Christ/">
+    <content type="html" xml:lang="ko" src="http://localhost:4001/sermon/posts/Reigning-With-Christ/">
     요한계시록 20:1-6 1 또 내가 보매 천사가 무저갱의 열쇠와 큰 쇠사슬을 그의 손에 가지고 하늘로부터 내려와서 2 용을 잡으니 곧 옛 뱀이요 마귀요 사탄이라 잡아서 천 년 동안 결박하여 3 무저갱에 던져 넣어 잠그고 그 위에 인봉하여 천 년이 차도록 다시는 만국을 미혹하지 못하게 하였는데 그 후에는 반드시 잠깐 놓이리라 4 또 내가 보좌들을 보니 거기에 앉은 자들이 있어 심판하는 권세를 받았더라 또 내가 보니 예수를 증언함과 하나님의 말씀 때문에 목 베임을 당한 자들의 영혼들과 또 짐승과 그의 우상에게 경배하지 아니하고 그들의 이마와 손에 그의 표를 받지 아니한 자들이 살아서 그리스도와 더불어 천 년 동안 왕 노릇 하니 5 (그 나머지 죽은 자들은 그 천 년이 차기까지 살지 못하더라) 이는 첫째 부...
     <![CDATA[
     <em><p>* Mathematical equations and diagrams included in posts may not display properly when viewed with a feed reader.</p></em>
