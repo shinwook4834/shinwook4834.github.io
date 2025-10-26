@@ -124,92 +124,21 @@ script_includes:
     {{ content }}
   </div>
 
-<div id="cusdis_thread"
-     data-host="https://cusdis.com"
-     data-app-id="3024db81-bfb7-4784-aa21-b66f93b517c4"
-     data-page-id="{{ PAGE_ID }}"
-     data-page-url="{{ PAGE_URL }}"
-     data-page-title="{{ PAGE_TITLE }}"
-     data-theme="dark">
-</div>
-
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-<script>
-(function() {
-  const container = document.getElementById('cusdis_thread');
-  if (!container) return;
-
-  let iframe = null;
-
-  // iframe 찾기
-  const findIframe = () => {
-    iframe = container.querySelector('iframe[src*="cusdis.com"]');
-    return iframe;
-  };
-
-  // 테마 가져오기
-  const getTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-
-  // 테마 적용
-  const applyTheme = () => {
-    if (!findIframe()) return;
-    iframe.contentWindow.postMessage(
-      { type: 'cusdis:set-theme', theme: getTheme() },
-      'https://cusdis.com'
-    );
-  };
-
-  // iframe 생성 감지
-  const observer = new MutationObserver(() => {
-    if (findIframe()) {
-      // iframe이 로드되면 테마 반복 적용
-      iframe.addEventListener('load', () => {
-        applyTheme();
-        setTimeout(applyTheme, 200);
-        setTimeout(applyTheme, 500);
-        setTimeout(applyTheme, 1000);
-      });
-      applyTheme();
-      observer.disconnect();
-    }
-  });
-  observer.observe(container, { childList: true });
-
-  // 시스템 다크/라이트 모드 변경 시 적용
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    const interval = setInterval(() => {
-      if (findIframe()) {
-        applyTheme();
-        clearInterval(interval);
-      }
-    }, 200);
-  });
-
-  // iframe 높이 자동 조절
-  window.addEventListener('message', (event) => {
-    if (!event.data || event.origin !== 'https://cusdis.com') return;
-    if (event.data.from === 'cusdis' && event.data.type === 'cusdis:resize' && event.data.height) {
-      if (!findIframe()) return;
-      iframe.style.height = event.data.height + 'px';
-      iframe.style.width = '100%';
-      iframe.style.border = 'none';
-      iframe.style.overflow = 'hidden';
-    }
-  });
-
-})();
+<script src="https://giscus.app/client.js"
+        data-repo="shinwook4834/sermon"
+        data-repo-id="R_kgDOPzeXMQ"
+        data-category="General"
+        data-category-id="DIC_kwDOPzeXMc4CxFdP"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
 </script>
-
-<style>
-#cusdis_thread iframe {
-  width: 100%;
-  min-height: 400px;
-  border: none;
-  overflow: hidden;
-  transition: height 0.2s ease;
-}
-</style>
 
   <div class="post-tail-wrapper text-muted">
     {% if page.categories.size > 0 %}
