@@ -2,7 +2,7 @@
 title: "어찌하여 불안하여 하는가?"
 author: SW Kim
 date: 2025-09-14 16:00:00 +09:00
-tags: [수영로교회, 이규현 목사님, 시편 42장 1~11절]
+tags: [수영로교회, 이규현 목사님, 시편 42:1~11]
 categories: [시편]
 image: /assets/img/20250914-main.webp
 ---
