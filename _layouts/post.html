@@ -128,24 +128,21 @@ script_includes:
 <div id="giscus_container"></div>
 
 <script>
-  // 현재 시스템 테마 가져오기
   function getTheme() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
-  // Giscus 삽입
   function loadGiscus() {
     const container = document.getElementById('giscus_container');
-    container.innerHTML = ''; // 기존 giscus 제거
+    container.innerHTML = '';
 
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'shinwook4834/sermon');
-    script.setAttribute('data-repo-id', 'R_kgDOPzeXMQ');
+    script.setAttribute('data-repo-id', '👉 여기에 giscus.app에서 복사한 repo-id 👈');
     script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', 'DIC_kwDOPzeXMc4CxFdP');
+    script.setAttribute('data-category-id', '👉 여기에 giscus.app에서 복사한 category-id 👈');
     script.setAttribute('data-mapping', 'pathname');
-    script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
@@ -153,14 +150,12 @@ script_includes:
     script.setAttribute('data-lang', 'ko');
     script.crossOrigin = 'anonymous';
     script.async = true;
-
     container.appendChild(script);
   }
 
-  // 초기 로드
   loadGiscus();
 
-  // 시스템 테마 변경 감지 → giscus 다시 렌더링
+  // 다크/라이트 모드 변경 시 iframe 다시 로드
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     loadGiscus();
   });
