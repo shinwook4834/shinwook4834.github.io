@@ -124,6 +124,7 @@ script_includes:
     {{ content }}
   </div>
 
+<!-- 💬 Giscus 댓글 -->
 <script src="https://giscus.app/client.js"
         data-repo="shinwook4834/sermon"
         data-repo-id="R_kgDOPzeXMQ"
@@ -134,11 +135,51 @@ script_includes:
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="ko"
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+(function () {
+  // 테마 적용 함수
+  const setTheme = (theme) => {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage(
+      { giscus: { setConfig: { theme } } },
+      'https://giscus.app'
+    );
+  };
+
+  // 시스템 테마 감지 후 적용
+  const applySystemTheme = () => {
+    const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTheme(dark ? 'dark' : 'light');
+  };
+
+  // 페이지 로드 후 즉시 + 지연 적용
+  window.addEventListener('load', () => {
+    applySystemTheme();
+    setTimeout(applySystemTheme, 300);
+    setTimeout(applySystemTheme, 1000);
+  });
+
+  // 시스템 테마 변경 시 자동 반영
+  window.matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', applySystemTheme);
+})();
+</script>
+
+<style>
+  .giscus-frame {
+    width: 100% !important;
+    border: none;
+    min-height: 400px;
+  }
+</style>
+<!-- 💬 Giscus 댓글 끝 -->
 
   <div class="post-tail-wrapper text-muted">
     {% if page.categories.size > 0 %}
