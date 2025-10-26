@@ -124,54 +124,56 @@ script_includes:
     {{ content }}
   </div>
 
-<!-- 💬 Giscus 댓글 -->
-<div id="giscus_container"></div>
+<!-- 💬 Giscus 댓글 영역 -->
+<div id="giscus_container" style="margin-top: 2rem;">
+  <script src="https://giscus.app/client.js"
+          data-repo="shinwook4834/sermon"
+          data-repo-id="R_kgDOPzeXMQ"
+          data-category="General"
+          data-category-id="DIC_kwDOPzeXMc4CxFdP"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="light"
+          data-lang="ko"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
 
 <script>
-  function getTheme() {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+(function() {
+  const getTheme = () =>
+    window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+  function setGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage(
+      { giscus: { setConfig: { theme } } },
+      'https://giscus.app'
+    );
   }
 
-  function loadGiscus() {
-    const container = document.getElementById('giscus_container');
-    container.innerHTML = '';
-
-    const script = document.createElement('script');
-    script.src = 'https://giscus.app/client.js';
-    script.setAttribute('data-repo', 'shinwook4834/sermon');
-    script.setAttribute('data-repo-id', '👉 여기에 giscus.app에서 복사한 repo-id 👈');
-    script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', '👉 여기에 giscus.app에서 복사한 category-id 👈');
-    script.setAttribute('data-mapping', 'pathname');
-    script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-emit-metadata', '0');
-    script.setAttribute('data-input-position', 'bottom');
-    script.setAttribute('data-theme', getTheme());
-    script.setAttribute('data-lang', 'ko');
-    script.crossOrigin = 'anonymous';
-    script.async = true;
-    container.appendChild(script);
-  }
-
-  loadGiscus();
-
-  // 다크/라이트 모드 변경 시 iframe 다시 로드
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    loadGiscus();
+  // iframe 로드 감지 및 초기 테마 적용
+  const observer = new MutationObserver(() => {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (iframe) {
+      iframe.addEventListener('load', () => setGiscusTheme(getTheme()));
+      setGiscusTheme(getTheme());
+      observer.disconnect();
+    }
   });
-</script>
+  observer.observe(document.getElementById('giscus_container'), { childList: true });
 
-<style>
-  #giscus_container {
-    margin-top: 2rem;
-  }
-  .giscus-frame {
-    width: 100% !important;
-    border: none;
-    min-height: 400px;
-  }
-</style>
-<!-- 💬 Giscus 댓글 끝 -->
+  // 시스템 테마 변경 시 실시간 반영
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    setGiscusTheme(e.matches ? 'dark' : 'light');
+  });
+})();
+</script>
 
   <div class="post-tail-wrapper text-muted">
     {% if page.categories.size > 0 %}
