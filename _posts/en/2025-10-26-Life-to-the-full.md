@@ -1,9 +1,9 @@
 ---
-title: "Life to the Full"
+title: "Life, and Life Abundantly"
 author: SW Kim
 date: 2025-10-26 15:30:00 +09:00
 tags: [Sooyoungro Church, John 10:1-12, Pastor KyuHyun Lee]
-categories: [John]
+categories: [Gospel of John]
 image: /assets/img/20251026-main.webp
 ---
 
@@ -20,118 +20,189 @@ John 10:1-12
 9 I am the gate; whoever enters through me will be saved. They will come in and go out, and find pasture.  
 10 The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full.  
 11 “I am the good shepherd. The good shepherd lays down his life for the sheep.  
-12 The hired hand is not the shepherd and does not own the sheep. So when he sees the wolf coming, he abandons the sheep and runs away. Then the wolf attacks the flock and scatters it.  
+12 The hired hand is not the shepherd and does not own the sheep. So when he sees the wolf coming, he abandons the sheep and runs away. Then the wolf attacks the flock and scatters it.”  
 {: .prompt-info }
 
 ---
 
-# 📖 The True Shepherd, Jesus Christ
+# 📖 Jesus, the True Shepherd
 
-In John 9, Jesus exposed the Pharisees’ spiritual blindness.  
-In chapter 10, the focus shifts to **the one true Shepherd, Jesus Christ.**
+John 9 ends with Jesus exposing the spiritual blindness of the Pharisees.  
+John 10 opens by directing our attention to one central figure:  
+**Jesus Christ, the True and Good Shepherd.**
 
-The Bible describes our relationship with God in many ways:  
-- Father and child  
+Scripture describes the relationship between God and His people through various metaphors:
+- Father and son  
 - Bridegroom and bride  
 - Vine and branches  
 - Shepherd and sheep  
 
 ![God and Us](/assets/img/20251026-01-540.webp)
 
-All of these are **inseparable covenant relationships.**  
-For Israel, once nomadic shepherds, the image of shepherd and sheep was deeply familiar.  
+Each of these highlights an **unbreakable covenant relationship**.  
+Among them, “shepherd and sheep” was especially familiar to Israel’s pastoral culture.
+
+> Where there is a shepherd, there are sheep.  
+> And where there are sheep, there must be a shepherd.
+
+This is the very picture of God and His people.
 
 ---
 
-# 📖 The Nature of Sheep and Our Condition
+# 📖 The Nature of Sheep — and the Nature of Humanity
 
-Pastor Philip Keller, who once raised sheep, observed:  
-Sheep reflect the human condition well.  
+Phillip Keller, a shepherd and pastor, wrote that sheep mirror human nature.
 
-- Weak and unable to survive alone  
-- Defenseless, without weapons  
-- Poor eyesight, easily lost  
-- Stubborn and fearful  
-- Absolutely dependent on the shepherd’s care  
+Sheep show us our spiritual condition.
 
-**We too are like sheep—unable to live without our Shepherd.**
+- They cannot defend themselves  
+- They easily lose their way  
+- Even with good pasture nearby, they wander elsewhere  
+- They are fearful and stubborn  
+- They cannot survive without a shepherd  
 
----
-
-# 📖 The Hired Hand and the Thief
-
-- **The hired hand**: does not own the sheep.  
-  When the wolf comes, he abandons them. He works for wages, not for the sheep.  
-
-- **The thief**: represents the Pharisees and teachers of the law.  
-  They come only to steal, kill, and destroy.  
+We are the same.  
+Away from the Shepherd, we inevitably lose our way and fall into danger.
 
 ---
 
-# 📖 The Good Shepherd
+# 📖 The Hired Hand and the Thief — False Shepherds Exposed
 
-Jesus declares:  
+### The Hired Hand
+- The sheep do not belong to him  
+- He avoids anything that costs him  
+- When danger comes, he runs  
+- He uses the sheep for his benefit  
+
+### The Thief  
+- Seeks to steal, kill, and destroy  
+- Represents the Pharisees and teachers of the law  
+- They looked like shepherds but devoured the flock  
+
+Jesus condemned them plainly:  
+They carried religious authority but did not lead souls to God.
+
+---
+
+# 📖 The Good Shepherd — The One Who Lays Down His Life
+
 > “I am the good shepherd. The good shepherd lays down his life for the sheep.” (John 10:11)
 
-- The Good Shepherd protects His sheep even at the cost of His life.  
-- Jesus gave His life on the cross to save us from thieves, wolves, and hired hands.  
-- The Shepherd knows each sheep by name.  
-  God knows us intimately because He created us.  
+“Good” does not merely mean kind.  
+It means **true, authentic, perfect Shepherd**.
+
+- Jesus protects His sheep by offering His own life  
+- The cross is the ultimate proof of the Shepherd’s love  
+- He calls His sheep by name  
+- He knows everything about us—  
+  our past, our pain, our weaknesses—yet never abandons us
+
+Where people leave when they see weakness,  
+**God embraces us deeper.**
 
 ---
 
-# 📖 Hearing the Shepherd’s Voice
+# 📖 Sheep Follow the Voice of the Shepherd
 
-Sheep may have poor eyesight, but they have keen hearing.  
-God gave them the ability to recognize the shepherd’s voice.  
+Sheep have poor eyesight—but **highly developed hearing**.  
+God created them this way intentionally.
 
-- The Lord’s sheep hear and respond to His voice.  
-- Through sermons, Bible study, and daily life, we must listen for His voice.  
-- As faith matures, **God’s voice becomes clearer.**  
-- We must not rely on our own reasoning or stubbornness, but on His voice.  
+True sheep recognize and respond to the Shepherd’s voice.
 
----
+- Through sermons  
+- Through Scripture meditation  
+- Through the faith community  
+- Through circumstances  
+- Through the illumination of the Holy Spirit  
 
-# 📖 Life Abundantly
+When the Shepherd speaks, the heart reacts and obeys.
 
-Jesus says:  
-> “I have come that they may have life, and have it to the full.” (John 10:10)
+> If the Word of God touches your heart, you are His sheep.  
+> If it never moves you, you may not be.
 
-- A skilled shepherd leads to green pastures.  
-- Psalm 23 reminds us:  
-  > “Surely goodness and mercy shall follow me…”  
-  God never lets go of His sheep.  
-- John 10:28-29 promises:  
-  > “No one will snatch them out of my hand.”  
+The Pharisees heard Jesus but understood nothing—  
+because they were not His.
 
 ---
 
-# 📖 Conclusion: Following the Shepherd
+# 📖 Life to the Full — The Shepherd’s Purpose
 
-In John 21, Jesus’ encounter with Peter again reveals who the Good Shepherd is.  
+Jesus reveals why He came:
 
-Our task is simple:  
-- Follow the Shepherd.  
-- Live as His sheep.  
-- Listen daily to His Word and obey, even when it conflicts with our own thoughts.  
+> “I have come that they may have life, and have it abundantly.” (John 10:10)
+
+###  This life is not mere survival.
+It is:  
+- **Eternal life**,  
+- Life freed from the power of sin and death,  
+- The life of God Himself within us  
+
+John 20:31 explains the purpose of the Gospel:
+
+> “…that by believing you may have life in His name.”
+
+###  Abundant life means:
+- Inner fulfillment  
+- Peace and joy not tied to circumstances  
+- Overflowing grace  
+- Strength to endure suffering  
+- The ability to love and share generously  
+
+Zacchaeus gave freely because  
+**abundant life had entered his heart.**
 
 ---
 
-# 💡 Scripture Reflection Q&A
+# 📖 The Shepherd Who Never Gives Up
 
-**<span style="color:lightblue">Q1. Why did Jesus call Himself the “gate for the sheep”?</span>**  
-A1. To show that salvation, life, and true pasture are found only through Him.  
+Psalm 23:6 reveals a stunning truth:
 
-**<span style="color:lightblue">Q2. What do sheep teach us about ourselves?</span>**  
-A2. Sheep are weak, easily lost, and dependent—just like us without our Shepherd.  
+> “Surely Your goodness and love will follow me…”
 
-**<span style="color:lightblue">Q3. Who are the hired hand and the thief?</span>**  
-A3. The hired hand works only for wages and abandons the sheep; the thief seeks to steal, kill, and destroy.  
+We follow the Shepherd,  
+but **His goodness and love are actually pursuing us.**
 
-**<span style="color:lightblue">Q4. How do sheep follow the shepherd?</span>**  
-A4. By recognizing and responding to his voice. As faith grows, God’s voice becomes clearer.  
+John 10:28–29 strengthens this promise:
 
-**<span style="color:lightblue">Q5. Why is Jesus Christ the center of spiritual formation?</span>**  
-A5. Because He is the Good Shepherd who laid down His life for us, knows us by name, and leads us into abundant life.  
+> “No one will snatch them out of My hand.”
+
+We wander, stumble, and drift—  
+but the Shepherd finds us and brings us back.
+
+---
+
+# 📖 Conclusion — What the Sheep Must Do
+
+Sheep do not need skill.  
+Only one thing:
+
+**Stay near the Shepherd and follow His voice.**
+
+Even when the Word challenges us,  
+obedience is the mark of true discipleship.
+
+> The success of the sheep is not ability,  
+> but simply following the Shepherd.
+
+The Good Shepherd leads us to green pastures every day.
+
+---
+
+# 💡 Reflection Q&A
+
+**Q1. Why did Jesus call Himself “the gate for the sheep”?**  
+A1. Because only through Him can we receive salvation, protection, and true pasture.
+
+**Q2. How are sheep like us spiritually?**  
+A2. Sheep are weak, easily lost, and stubborn. We too cannot survive without the Shepherd.
+
+**Q3. Who are the “hired hand” and “thief”?**  
+A3. The hired hand is one who uses the flock; the thief destroys it. They represent false leaders like the Pharisees.
+
+**Q4. How do we know if we are the Lord’s sheep?**  
+A4. We respond to the Shepherd’s voice. The Word touches and guides our hearts.
+
+**Q5. What is the “abundant life” Jesus promised?**  
+A5. Not survival, but eternal, Spirit-filled, overflowing life—joy, peace, and strength that the world cannot give.
 
 ---
