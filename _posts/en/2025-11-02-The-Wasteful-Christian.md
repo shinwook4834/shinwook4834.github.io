@@ -47,6 +47,8 @@ And in that setting, Mary performed an act that drew everyone’s attention.
 
 # 📖 Mary’s Perfume — Worship That Gives All
 
+![엘리엇의 일기](/assets/img/20251102-main-960.webp)
+
 Mary took a pint of pure nard, an expensive perfume, and poured it on Jesus’ feet.  
 Its value was three hundred denarii, about a year’s wages for a laborer.  
 She did not give a portion but poured out everything.  
