@@ -199,19 +199,19 @@ we still remember Mary.
 
 # 💡 Reflection Q&A
 
-**Q1. Why was Mary’s perfume so special?**  
+**<span style="color:lightblue">Q1. Why was Mary’s perfume so special?</span>**  
 A1. It represented her everything—an offering of absolute devotion to Christ.
 
-**Q2. Why was Judas’ criticism wrong?**  
+**<span style="color:lightblue">Q2. Why was Judas’ criticism wrong?</span>**  
 A2. His words were practical, but his heart was attached to money, not God.
 
-**Q3. Why did Jesus affirm Mary’s act?**  
+**<span style="color:lightblue">Q3. Why did Jesus affirm Mary’s act?</span>**  
 A3. She sensed the coming cross and offered her love in its perfect moment.
 
-**Q4. What is “holy waste”?**  
+**<span style="color:lightblue">Q4. What is “holy waste”?</span>**  
 A4. It is devotion that looks excessive to the world but is precious to God.
 
-**Q5. What alabaster jar must I break?**  
+**<span style="color:lightblue">Q5. What alabaster jar must I break?</span>**  
 A5. Success, money, children, ego—anything placed above God must be surrendered.
 
 ---
