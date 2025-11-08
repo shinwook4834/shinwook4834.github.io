@@ -1,187 +1,217 @@
 ---
-title: "The Wasteful Christian"
+title: "The Christian Who ‘Wastes’ for Christ"
 author: SW Kim
 date: 2025-11-02 15:30:00 +09:00
 tags: [Sooyoungro Church, John 12:1-19, Pastor KyuHyun Lee]
-categories: [John]
+categories: [Gospel of John]
 image: /assets/img/20251102-main.webp
 ---
 
 >
 John 12:1–19  
-1 Six days before the Passover, Jesus came to Bethany, where Lazarus lived, the one Jesus had raised from the dead.  
-2 Here a dinner was given in Jesus’ honor. Martha served, while Lazarus was among those reclining at the table with him.  
-3 Then Mary took about a pint of pure nard, an expensive perfume; she poured it on Jesus’ feet and wiped his feet with her hair. And the house was filled with the fragrance of the perfume.  
+1 Six days before the Passover, Jesus arrived at Bethany, where Lazarus lived, whom Jesus had raised from the dead.  
+2 Here a dinner was given in Jesus' honor. Martha served, while Lazarus was among those reclining at the table with him.  
+3 Then Mary took about a pint of pure nard, an expensive perfume; she poured it on Jesus' feet and wiped his feet with her hair. And the house was filled with the fragrance of the perfume.  
 4 But one of his disciples, Judas Iscariot, who was later to betray him, objected,  
-5 “Why wasn’t this perfume sold and the money given to the poor? It was worth a year’s wages.”  
+5 “Why wasn't this perfume sold and the money given to the poor? It was worth a year's wages.”  
 6 He did not say this because he cared about the poor but because he was a thief; as keeper of the money bag, he used to help himself to what was put into it.  
-7 “Leave her alone,” Jesus replied. “It was intended that she should save this perfume for the day of my burial.  
-8 You will always have the poor among you, but you will not always have me.”  
-9 Meanwhile a large crowd of Jews found out that Jesus was there and came, not only because of him but also to see Lazarus, whom he had raised from the dead.  
-10 So the chief priests made plans to kill Lazarus as well,  
-11 for on account of him many of the Jews were going over to Jesus and believing in him.  
-12 The next day the great crowd that had come for the festival heard that Jesus was on his way to Jerusalem.  
-13 They took palm branches and went out to meet him, shouting, “Hosanna! Blessed is he who comes in the name of the Lord! Blessed is the King of Israel!”  
-14 Jesus found a young donkey and sat on it, as it is written:  
-15 “Do not be afraid, Daughter Zion; see, your king is coming, seated on a donkey’s colt.”  
-16 At first his disciples did not understand all this. Only after Jesus was glorified did they realize that these things had been written about him and that these things had been done to him.  
-17 Now the crowd that was with him when he called Lazarus from the tomb and raised him from the dead continued to spread the word.  
-18 Many people, because they had heard that he had performed this sign, went out to meet him.  
-19 So the Pharisees said to one another, “See, this is getting us nowhere. Look how the whole world has gone after him!”  
+7 “Leave her alone,” Jesus replied. “It was intended that she should save this perfume for the day of my burial.”  
+8 “You will always have the poor among you, but you will not always have me.”  
 {: .prompt-info }
 
 ---
 
-# 📖 Jesus Who Raised the Dead, and the Different Responses
+# 📖 Jesus Who Raised the Dead — Two Very Different Responses
 
-The raising of Lazarus was a shocking event.  
-The world marveled at this miracle, and many began to pay attention to Jesus.  
-But the Pharisees took it as a reason to plot His death.  
-The same event drew completely opposite responses.  
+John 12 marks a significant turning point.  
+Jesus’ public ministry is ending, and the shadow of the cross approaches.
 
-At Bethany, a banquet of thanksgiving was held.  
-Martha and Mary prepared it to thank Jesus for raising their brother Lazarus.  
-And in that setting, Mary performed an act that drew everyone’s attention.  
+The resurrection of Lazarus in chapter 11 caused a massive stir.  
+Some responded with deeper faith,  
+while the Pharisees and chief priests made plans to kill Jesus.
 
----
+The same miracle produced two opposite responses:
+- Some grew **stronger in faith**  
+- Others hardened in **unbelief and hostility**
 
-# 📖 Mary’s Perfume — Worship That Gives All
-
-![엘리엇의 일기](/assets/img/20251102-main-960.webp)
-
-Mary took a pint of pure nard, an expensive perfume, and poured it on Jesus’ feet.  
-Its value was three hundred denarii, about a year’s wages for a laborer.  
-She did not give a portion but poured out everything.  
-For her, it may well have been her all.  
-
-This scene reveals the essence of worship.  
-If David was the worshiper of the Old Testament, Mary is the worshiper of the New.  
-She bowed at Jesus’ feet, acknowledged Him as Lord,  
-and offered her whole self to Him.  
-
-Worship is not calculation but surrender.  
-Mary even laid down her dignity.  
-Wiping Jesus’ feet with her hair symbolized  
-offering her honor to the Lord.  
+In Bethany, a banquet was prepared to honor Jesus.  
+Lazarus sat with Him,  
+Martha served,  
+and Mary offered one of the most astonishing acts of devotion in Scripture.
 
 ---
 
-# 📖 Judas’ Perspective — A Pragmatic Faith
+# 📖 Mary’s Perfume — Worship That Gives Everything
 
-But Judas Iscariot said:  
+![Anointing Oil](/assets/img/20251102-main-960.webp)
 
-> “Why wasn’t this perfume sold and the money given to the poor? It was worth a year’s wages.”  
+Mary brought a pound of **pure nard**,  
+worth **300 denarii**—about one year’s wages.
 
-At first glance, it sounds reasonable.  
-It was practical and economical.  
-But Judas’ concern was never the poor.  
-His heart was on money.  
-He would later sell Jesus for **thirty pieces of silver (about 120 denarii)**—  
-far less than the value of Mary’s perfume.  
+She did not offer a portion of it.  
+She poured **all** of it on Jesus’ feet  
+and wiped His feet with her hair.
 
-From Judas’ perspective, Mary’s act was wasteful.  
-From Jesus’ perspective, it was holy devotion.  
+A woman’s hair was her honor and dignity.  
+Mary laid even that at the feet of Jesus—  
+a striking act of **self-abandonment** and **adoration**.
+
+**What is worship?**  
+Worship is acknowledging Christ as supreme  
+and giving Him our very best.
+
+Mary’s alabaster jar represented the most precious thing in her life.  
+When she broke it,  
+her gaze shifted from her treasure  
+to **Christ Himself**.
+
+Worship is this movement of the heart:  
+from “mine” to “His.”
 
 ---
 
-# 📖 Jesus Commends Mary’s “Holy Waste”
+# 📖 Judas Iscariot — A Faith Trapped in Calculation
 
-Jesus said:  
+Yet Judas sharply criticized Mary.
 
-> “Leave her alone. It was intended that she should save this perfume for the day of my burial.” (John 12:7)  
+> “Why wasn’t this perfume sold and the money given to the poor?” (v. 5)
+
+His words sounded noble,  
+but his heart was far from compassion.
+
+Scripture exposes him plainly:
+
+> “He was a thief.” (v. 6)
+
+Judas:
+- valued efficiency over devotion  
+- measured everything by profit  
+- called Mary’s sacrifice “waste”
+
+Ironically, Judas later sold Jesus for  
+**thirty pieces of silver**—about *120 denarii*,  
+far less than Mary’s offering.
+
+A heart captured by money cannot see the worth of Christ.
+
+---
+
+# 📖 Jesus Defends Mary’s “Holy Waste”
+
+Jesus silenced Judas:
+
+> “Leave her alone.  
+> It was intended that she should save this perfume for the day of my burial.” (v. 7)
 
 Mary sensed what was coming.  
-Her act was misunderstood by others,  
-but Jesus knew it was an expression of love for Him.  
+She understood Jesus’ heart  
+while the other disciples remained unaware.
 
-Mary’s love was love beyond calculation.  
-True love cannot be measured.  
-Parents do not calculate their love for their children.  
-When calculation enters, relationships collapse.  
-The world lives by “this time me, next time you.”  
-But true love is not calculation—it is devotion.  
+Why did she see what others missed?
 
----
+Because Mary was always at Jesus’ feet—  
+listening, learning, loving.
 
-# 📖 Holy Waste — The Love of the Cross
+Love sharpens discernment.  
+Love recognizes the right moment.
 
-The world runs on efficiency and calculation.  
-But the gospel is the pinnacle of inefficiency, the ultimate “waste.”  
-The cross—God giving His only Son for the sins of humanity—  
-is the greatest “waste” of all.  
-The Father gave His innocent Son for guilty sinners.  
-That is holy waste.  
-
-What are we “wasting” for the Lord?  
-- Taking vacation time to go on mission  
-- Spending much cost and time for worship  
-
-The world calls it waste.  
-Scripture calls it holy waste.  
+Mary perceived the **kairos** moment  
+and responded with wholehearted devotion.
 
 ---
 
-# 📖 A Life of Holy Waste — The Story of Jim Elliot
+# 📖 The Cross — God’s Own “Holy Waste”
 
-Missionary **Jim Elliot** went to bring the gospel to the Auca tribe in Ecuador.  
-Within five days of beginning his mission, he was martyred.  
+The world demands efficiency and logic.  
+But the gospel is not built on efficiency—it is built on love.
 
-People said the death of such a gifted man was a “waste.”  
-But his wife replied:  
+From a human perspective,  
+the cross is the greatest “waste” in history.
 
-![Jim Elliot’s Journal](/assets/img/20251102-01-540.webp)
+Why would God  
+give His **one and only Son**  
+for sinners?
 
-> “He lived his whole life for that very moment.  
-> His death was not a waste.”  
+Yet this “waste”  
+is the most holy, beautiful, and saving act of all time.
 
-At age 19, Jim Elliot wrote in his journal:  
+God poured out **His everything**  
+to redeem us.
 
-> “God, make my life a display case for Your glory.  
-> This body is Yours. I do not ask for a long life.”  
-
-His life looked like waste to the world,  
-but in God’s kingdom it became an eternal fragrance.  
+Mary’s perfume points forward  
+to the extravagant love of the cross.
 
 ---
 
-# 📖 Love Beyond Calculation
+# 📖 Jim Elliot — A Life of Holy Waste
 
-The world obsesses over self-indulgent waste—  
-better clothes, bigger houses, greater pleasures.  
-But true waste is not for self, but for the Lord.  
-To give your cloak to the naked is the most valuable waste.  
+![Jim Elliot Journal](/assets/img/20251102-01-540.webp)
 
-Jesus gladly received Mary’s holy waste.  
-In Mark 14:9, He said:  
+Missionary **Jim Elliot**,  
+serving the Auca tribe in Ecuador,  
+was killed just five days after arriving.
 
-> “Wherever the gospel is preached throughout the world,  
-> what she has done will also be told, in memory of her.”  
+Reporters called it foolish—  
+a tragic waste of young lives.
 
-Two thousand years later,  
-we still remember Mary’s act of devotion.  
+His wife, Elisabeth Elliot, responded:
 
-We too must open our eyes to holy waste—  
-love that cannot be explained by calculation,  
-devotion that cannot be understood by reason.  
-That is the way of the Christian.  
+> “A waste?  
+> He was prepared for that moment his entire life.”
+
+At 19 years old, Jim Elliot wrote:
+
+> “He is no fool who gives what he cannot keep  
+> to gain what he cannot lose.”
+
+The world saw loss.  
+Heaven saw eternal fruit.
+
+---
+
+# 📖 The Christian Life — A Life of Holy Waste
+
+The world pours endlessly into itself  
+yet remains empty.
+
+But Christians are people who  
+**pour themselves out for Christ.**
+
+We “waste” for Christ through:
+- time offered to Him  
+- resources given for His kingdom  
+- tears shed for souls  
+- a life surrendered to His calling
+
+What the world labels “inefficient,”  
+God calls a **fragrant offering**.
+
+Jesus said in Mark 14:9:
+
+> “Wherever the gospel is preached  
+> throughout the world,  
+> what she has done will also be told.”
+
+And 2,000 years later,  
+we still remember Mary.
 
 ---
 
 # 💡 Reflection Q&A
 
-**<span style="color:lightblue">Q1. Why was Mary’s perfume so special?</span>**  
-A1. It was her all, a costly expression of worship wholly poured out to Jesus.  
+**Q1. Why was Mary’s perfume so special?**  
+A1. It represented her everything—an offering of absolute devotion to Christ.
 
-**<span style="color:lightblue">Q2. Why was Judas’ comment wrong?</span>**  
-A2. Though practical on the surface, his true concern was money, not the poor.  
+**Q2. Why was Judas’ criticism wrong?**  
+A2. His words were practical, but his heart was attached to money, not God.
 
-**<span style="color:lightblue">Q3. Why did Jesus commend Mary’s act?</span>**  
-A3. She sensed His coming death, and her love and devotion were pleasing to Him.  
+**Q3. Why did Jesus affirm Mary’s act?**  
+A3. She sensed the coming cross and offered her love in its perfect moment.
 
-**<span style="color:lightblue">Q4. What is holy waste?</span>**  
-A4. What the world calls waste, but what God sees as the most precious devotion of love.  
+**Q4. What is “holy waste”?**  
+A4. It is devotion that looks excessive to the world but is precious to God.
 
-**<span style="color:lightblue">Q5. Why is Jesus Christ the center of spiritual formation?</span>**  
-A5. Because He “wasted” His life for sinners on the cross, and His love shapes our spiritual lives.  
+**Q5. What alabaster jar must I break?**  
+A5. Success, money, children, ego—anything placed above God must be surrendered.
 
 ---
