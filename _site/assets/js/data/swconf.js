@@ -1,34 +1,34 @@
 const swconf = {
   
-    cacheName: 'chirpy-1762672161',resources: [
-      '/sermon/assets/css/jekyll-theme-chirpy.css',
-      '/sermon/',
+    cacheName: 'chirpy-1762822289',resources: [
+      '/assets/css/jekyll-theme-chirpy.css',
+      '/',
       
-        '/sermon/categories/',
+        '/categories/',
       
-        '/sermon/tags/',
+        '/tags/',
       
-        '/sermon/archives/',
+        '/archives/',
       
-        '/sermon/about/',
+        '/about/',
       
 
       
       
-        '/sermon/assets/img/favicons/apple-touch-icon.png',
-        '/sermon/assets/img/favicons/favicon-96x96.png',
-        '/sermon/assets/img/favicons/favicon.ico',
-        '/sermon/assets/img/favicons/favicon.svg',
-        '/sermon/assets/img/favicons/site.webmanifest',
-        '/sermon/assets/img/favicons/web-app-manifest-192x192.png',
-        '/sermon/assets/img/favicons/web-app-manifest-512x512.png',
-        '/sermon/assets/js/dist/categories.min.js',
-        '/sermon/assets/js/dist/commons.min.js',
-        '/sermon/assets/js/dist/home.min.js',
-        '/sermon/assets/js/dist/misc.min.js',
-        '/sermon/assets/js/dist/page.min.js',
-        '/sermon/assets/js/dist/post.min.js',
-        '/sermon/assets/js/dist/theme.min.js'
+        '/assets/img/favicons/apple-touch-icon.png',
+        '/assets/img/favicons/favicon-96x96.png',
+        '/assets/img/favicons/favicon.ico',
+        '/assets/img/favicons/favicon.svg',
+        '/assets/img/favicons/site.webmanifest',
+        '/assets/img/favicons/web-app-manifest-192x192.png',
+        '/assets/img/favicons/web-app-manifest-512x512.png',
+        '/assets/js/dist/categories.min.js',
+        '/assets/js/dist/commons.min.js',
+        '/assets/js/dist/home.min.js',
+        '/assets/js/dist/misc.min.js',
+        '/assets/js/dist/page.min.js',
+        '/assets/js/dist/post.min.js',
+        '/assets/js/dist/theme.min.js'
     ],
 
     interceptor: {paths: [

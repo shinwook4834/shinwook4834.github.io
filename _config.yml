@@ -24,7 +24,7 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://shinwook4834.github.io"
-baseurl: "/sermon"
+baseurl:
 
 github:
   username: shinwook4834                    # change to your GitHub username
@@ -127,7 +127,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: shinwook4834/sermon # <gh-username>/<repo>
+    repo: shinwook4834 # <gh-username>/<repo>
     repo_id: R_kgDOPzeXMQ
     category: General
     category_id: DIC_kwDOPzeXMc4CxFdP
