@@ -1,25 +1,21 @@
-
-
 {
-  "name": "매주 기록하는 설교 말씀",
-  "short_name": "매주 기록하는 설교 말씀",
-  "description": "“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
-      "src": "/assets/img/favicons/web-app-manifest-192x192.png",
+      "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
-      "src": "/assets/img/favicons/web-app-manifest-512x512.png",
+      "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "start_url": "/index.html",
-  "theme_color": "#2a1e6b",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "fullscreen"
+  "display": "standalone"
 }
-
