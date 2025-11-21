@@ -71,37 +71,39 @@
       console.log("DOMContentLoaded event fired.");
       
       const iconEl = document.getElementById("sidebar-lang-toggle");
+      const langPanel = document.getElementById("lang-selector-panel");
       
-      if (iconEl) {
-        console.log("Found sidebar language toggle icon (sidebar-lang-toggle).");
+      if (iconEl && langPanel) {
+        console.log("Found sidebar language toggle icon and panel.");
         
-        const path = window.location.pathname;
-        const base = "{{ site.baseurl | default: '' }}";
-        const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
-        const isEnglish = relativePath.startsWith("/en");
-        console.log(`Based on path, isEnglish is: ${isEnglish}`);
+        iconEl.setAttribute("aria-label", "Language Selector");
+        iconEl.title = "Language Selector";
 
-        iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
-        iconEl.setAttribute("aria-label", iconEl.title);
+        function togglePanel() {
+          console.log("Toggling language panel.");
+          langPanel.classList.toggle("d-none");
+        }
 
         iconEl.addEventListener("click", () => {
           console.log("Sidebar icon clicked.");
-          const target = isEnglish ? "ko" : "en";
-          console.log(`Determined target language: ${target}`);
-          window.switchLang(target);
+          togglePanel();
         });
         
         iconEl.addEventListener("keydown", (event) => {
           if (event.key === "Enter" || event.key === " ") {
             console.log(`Sidebar icon keydown event: ${event.key}`);
-            const target = isEnglish ? "ko" : "en";
-            console.log(`Determined target language: ${target}`);
-            window.switchLang(target);
+            event.preventDefault();
+            togglePanel();
           }
         });
 
       } else {
-        console.error("Could not find sidebar language toggle icon (#sidebar-lang-toggle).");
+        if (!iconEl) {
+          console.error("Could not find sidebar language toggle icon (#sidebar-lang-toggle).");
+        }
+        if (!langPanel) {
+          console.error("Could not find language selector panel (#lang-selector-panel).");
+        }
       }
     });
   })();
