@@ -22,65 +22,69 @@ Luke 17:11–19
 
 ---
 
-# 📖 The Text and the Absence of Gratitude
+# 📖 Leprosy and the Reality of Despair
 
-As Jesus passed between Samaria and Galilee, ten lepers cried out from a distance:  
-> “Jesus, Master, have pity on us!”  
+In Jesus’ time, leprosy was the most hopeless disease.  
+It began with spots on the skin, grew into swelling, disfigured the face, and eventually led to death.  
 
-Jesus told them, “Go, show yourselves to the priests,” and as they went, they were cleansed.  
-Yet only one returned to give thanks—and he was a Samaritan.  
+- Lepers were isolated from family and community  
+- The Law required them to stay at least 45 meters away from others  
+- Healing was rare, and if healed, they had to be certified by a priest  
+
+Into this desperate situation, Jesus encountered ten lepers.  
+
+---
+
+# 📖 The Event: Ten Healed, One Grateful
+
+The ten lepers cried out:  
+> “Jesus, Master, have pity on us.” (Luke 17:13)  
+
+Jesus commanded:  
+> “Go, show yourselves to the priests.” (Luke 17:14)  
+
+As they went, they were cleansed.  
+Yet only one—a Samaritan—returned to glorify God and thank Jesus.  
 
 Jesus asked:  
-> “Where are the other nine?”  
+> “Were not all ten cleansed? Where are the other nine?” (Luke 17:17)  
 
-All ten received physical healing, but only one received salvation.  
-**Gratitude completes healing.**
+And to the one who returned He said:  
+> “Rise and go; your faith has made you well.” (Luke 17:19)  
 
 ---
 
-# 📖 The Timing of Gratitude Matters
+# 📖 The Priority of Gratitude — Do Not Miss the Timing
 
-Gratitude must be expressed at the right moment, or it fades.  
-When prayer is answered, we must give thanks immediately.  
-Delaying gratitude often robs us of it.  
-
-- Grace grows dim with time  
-- Human memory is short  
+- Nine rushed to the priests, but the Samaritan first returned to Jesus with thanks.  
+- Gratitude is about timing: it must be given at the moment grace is received.  
+- Grace fades quickly, and human memory is short.  
 - Psalm 103:2: *“Forget not all his benefits.”*  
 
-If we miss the moment, we may never give thanks at all.  
+**Gratitude delayed is gratitude lost.**
 
 ---
 
-# 📖 Complaining Is Easier Than Gratitude
+# 📖 The Rarity of Gratitude — Where Are the Nine?
 
-Only one out of ten gave thanks.  
-Am I among the 10% who are grateful, or the 90% who are not?  
-
-Human nature leans more easily toward complaint than gratitude.  
-- Consumer culture makes us feel perpetually lacking  
-- Greed is never satisfied  
-- Greed only breeds more greed  
+- Only one out of ten gave thanks.  
+- Gratitude is not natural; complaint and grumbling are.  
+- Israel’s history was filled with murmuring despite God’s miracles.  
+- Today, consumerism and comparison rob us of gratitude.  
 
 But gratitude breaks the power of greed.  
-Gratitude changes the direction of the heart.  
-- Comparison reveals lack  
-- Gratitude reveals abundance  
-
-> “I already have so much” — gratitude teaches us this truth.  
+**Gratitude redirects the heart toward abundance.**
 
 ---
 
 # 📖 Gratitude Must Be Expressed
 
-Gratitude is not real until it is expressed.  
-It becomes gratitude when shown in words, actions, and life.  
+- Silent gratitude is incomplete.  
+- Worship is the concrete expression of thanks to God.  
+- Prayer must include expressed thanksgiving.  
+- Keep a gratitude journal to record even small blessings.  
 
-- Simply being present in worship is an expression of thanks  
-- Gratitude requires practice  
-- Writing down thanksgiving topics can easily yield a hundred items  
-
-**Gratitude is not just a feeling—it is the fruit of faith expressed.**
+**Small acts of gratitude create great waves of blessing.**
 
 ---
 
@@ -88,53 +92,46 @@ It becomes gratitude when shown in words, actions, and life.
 
 ![Paul Tournier](/assets/img/20251116-01-960.webp)
 
-Paul Tournier once said: *“Do not treat the disease, treat the patient.”*  
-Healing is not complete until gratitude is expressed.  
+Paul Tournier: *“Do not treat the disease; treat the patient.”*  
+Physical healing alone is incomplete; gratitude brings wholeness to the soul.  
 
-Only the one who returned heard Jesus say:  
-> “Your faith has made you well.”  
-
+Only the one who returned received salvation.  
 - Experiencing a miracle is not the blessing  
-- Responding to the miracle with gratitude is the blessing  
+- Responding with gratitude is the true blessing  
 
-Gratitude strengthens faith and brings confidence in prayer.  
+**Gratitude strengthens faith and brings confidence in prayer.**
 
 ---
 
-# 📖 Gratitude Is the Mark of the Spiritual Person
+# 📖 Gratitude as a Mark of Spiritual Health
 
-Romans 1:21 teaches that ingratitude marks the unbeliever.  
-Every moment and every gift is God’s grace.  
-
-- Gratitude transforms life  
-- Gratitude and despair cannot coexist  
-- Gratitude is the light that dispels darkness  
-
-Abraham Heschel wrote:  
-> “Receive everything in life with gratitude,  
-> and practice never taking anything for granted.”  
+- The most deadly leprosy is spiritual leprosy: sin and separation from God.  
+- An ungrateful soul remains sick.  
+- Romans 1:21: *“For although they knew God, they neither glorified him as God nor gave thanks to him…”*  
 
 ![Abraham Heschel](/assets/img/20251116-02-960.webp)
 
+Abraham Heschel:  
+> “Receive everything in life with gratitude,  
+> and practice never taking anything for granted.”  
+
+**Gratitude is the evidence of spiritual health.**
+
 ---
 
-# 📖 Conclusion — Which of the Ten Are We?
+# 📖 Conclusion — Am I Among the Nine or the One?
 
-Jesus still asks about the nine who did not return.  
-Because gratitude is necessary for complete healing.  
+Jesus still asks about the nine.  
+Because gratitude is essential for complete healing.  
 
-- Gratitude must become our second nature  
-- Gratitude must become our habit  
-- Every moment of life must become gratitude  
+- Gratitude must become a habit  
+- Gratitude must be a natural way of life, not forced  
+- Gratitude restores relationships and transforms communities  
 
-The one who returned received not only healing but salvation and transformation.  
-**Gratitude gave him a gift far greater than the other nine received.**  
+**Only the grateful truly experience complete salvation.**
 
-So let us ask ourselves:  
-Am I among the one who gives thanks, or the nine who do not?  
-
-May gratitude become the character of our lives,  
-so that in every area we live as people who give thanks to God.  
+Like the Samaritan who returned,  
+may we all live lives marked by gratitude.  
 
 ---
 
@@ -144,15 +141,15 @@ so that in every area we live as people who give thanks to God.
 A1. Because gratitude goes beyond physical healing to bring salvation and transformation.  
 
 **<span style="color:lightblue">Q2. Why is the timing of gratitude important?</span>**  
-A2. Grace fades with time; gratitude must be given immediately when received.  
+A2. Grace fades quickly; gratitude must be expressed immediately.  
 
 **<span style="color:lightblue">Q3. Why do humans find complaining easier than gratitude?</span>**  
-A3. Human nature leans toward complaint, and consumer culture fosters feelings of lack.  
+A3. Human nature leans toward complaint, and greed and comparison rob us of thankfulness.  
 
 **<span style="color:lightblue">Q4. How should gratitude be expressed?</span>**  
-A4. Through words, actions, worship, and daily life—it must be visible and tangible.  
+A4. Through worship, prayer, journaling, and daily actions—visible and repeated expressions of thanks.  
 
 **<span style="color:lightblue">Q5. Why is Jesus Christ the center of spiritual formation?</span>**  
-A5. Because He heals our deepest problems and, through gratitude, gives salvation and life.  
+A5. Because He heals our spiritual leprosy, and through gratitude gives salvation and life.  
 
 ---
