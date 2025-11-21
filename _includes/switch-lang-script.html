@@ -1,16 +1,26 @@
 <script>
   // Encapsulate and make switchLang globally available
   (function() {
+    console.log("Language switch script loaded.");
+
     /**
      * Switch language and navigate to the new URL.
      * @param {string} targetLang - The target language code, e.g., 'en' or 'ko'.
      */
     function _switchLang(targetLang) {
+      console.log(`--- switchLang called with target: ${targetLang} ---`);
+      
       const base = "{{ site.baseurl | default: '' }}";
+      console.log(`Base URL (base): '${base}'`);
+
       const path = window.location.pathname;
+      console.log(`Current Path (path): '${path}'`);
 
       const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
+      console.log(`Path relative to base (relativePath): '${relativePath}'`);
+
       const cleanPath = relativePath.replace(/^\/en/, "");
+      console.log(`Path after removing /en prefix (cleanPath): '${cleanPath}'`);
 
       let newPath = base;
       if (targetLang === "en") {
@@ -18,50 +28,80 @@
       } else {
         newPath += cleanPath;
       }
+      console.log(`Constructed new path (before cleanup): '${newPath}'`);
+
 
       // Handle case where the path becomes empty (e.g., switching from '/en' to 'ko')
       if (newPath === "") {
         newPath = "/";
+        console.log("newPath was empty, set to '/'");
       }
 
       // Ensure directory-like paths have a trailing slash
       if (!newPath.endsWith("/")) {
         newPath += "/";
+        console.log("Added trailing slash. newPath is now: '" + newPath + "'");
       }
       
       // Prevent double slashes, e.g., /en//foo
       if (newPath.length > 1) {
+          const original = newPath;
           newPath = newPath.replace(/\/\//g, '/');
+          if (original !== newPath) {
+            console.log(`Replaced double slashes. newPath is now: '${newPath}'`);
+          }
       }
 
+      console.log(`Final calculated newPath: '${newPath}'`);
+      console.log(`Current window.location.pathname: '${window.location.pathname}'`);
+
       if (window.location.pathname !== newPath) {
+        console.log("Pathnames are different. Navigating to new URL...");
         window.location.href = newPath;
+      } else {
+        console.log("Pathnames are the same. Navigation cancelled.");
       }
+      console.log("--- switchLang finished ---");
     }
 
     // Make it globally accessible for inline 'onclick' handlers and the sidebar.
     window.switchLang = _switchLang;
 
     document.addEventListener("DOMContentLoaded", () => {
-      // Attach listener to the sidebar globe icon
+      console.log("DOMContentLoaded event fired.");
+      
       const iconEl = document.getElementById("sidebar-lang-toggle");
+      
       if (iconEl) {
+        console.log("Found sidebar language toggle icon (sidebar-lang-toggle).");
+        
         const path = window.location.pathname;
         const base = "{{ site.baseurl | default: '' }}";
         const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
         const isEnglish = relativePath.startsWith("/en");
+        console.log(`Based on path, isEnglish is: ${isEnglish}`);
 
         iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
         iconEl.setAttribute("aria-label", iconEl.title);
 
         iconEl.addEventListener("click", () => {
-          window.switchLang(isEnglish ? "ko" : "en");
+          console.log("Sidebar icon clicked.");
+          const target = isEnglish ? "ko" : "en";
+          console.log(`Determined target language: ${target}`);
+          window.switchLang(target);
         });
+        
         iconEl.addEventListener("keydown", (event) => {
           if (event.key === "Enter" || event.key === " ") {
-            window.switchLang(isEnglish ? "ko" : "en");
+            console.log(`Sidebar icon keydown event: ${event.key}`);
+            const target = isEnglish ? "ko" : "en";
+            console.log(`Determined target language: ${target}`);
+            window.switchLang(target);
           }
         });
+
+      } else {
+        console.error("Could not find sidebar language toggle icon (#sidebar-lang-toggle).");
       }
     });
   })();
