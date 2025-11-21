@@ -1,0 +1,68 @@
+<script>
+  // Encapsulate and make switchLang globally available
+  (function() {
+    /**
+     * Switch language and navigate to the new URL.
+     * @param {string} targetLang - The target language code, e.g., 'en' or 'ko'.
+     */
+    function _switchLang(targetLang) {
+      const base = "{{ site.baseurl | default: '' }}";
+      const path = window.location.pathname;
+
+      const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
+      const cleanPath = relativePath.replace(/^\/en/, "");
+
+      let newPath = base;
+      if (targetLang === "en") {
+        newPath += "/en" + cleanPath;
+      } else {
+        newPath += cleanPath;
+      }
+
+      // Handle case where the path becomes empty (e.g., switching from '/en' to 'ko')
+      if (newPath === "") {
+        newPath = "/";
+      }
+
+      // Ensure directory-like paths have a trailing slash
+      if (!newPath.endsWith("/")) {
+        newPath += "/";
+      }
+      
+      // Prevent double slashes, e.g., /en//foo
+      if (newPath.length > 1) {
+          newPath = newPath.replace(/\/\//g, '/');
+      }
+
+      if (window.location.pathname !== newPath) {
+        window.location.href = newPath;
+      }
+    }
+
+    // Make it globally accessible for inline 'onclick' handlers and the sidebar.
+    window.switchLang = _switchLang;
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // Attach listener to the sidebar globe icon
+      const iconEl = document.getElementById("sidebar-lang-toggle");
+      if (iconEl) {
+        const path = window.location.pathname;
+        const base = "{{ site.baseurl | default: '' }}";
+        const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
+        const isEnglish = relativePath.startsWith("/en");
+
+        iconEl.title = isEnglish ? "Switch to Korean" : "Switch to English";
+        iconEl.setAttribute("aria-label", iconEl.title);
+
+        iconEl.addEventListener("click", () => {
+          window.switchLang(isEnglish ? "ko" : "en");
+        });
+        iconEl.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            window.switchLang(isEnglish ? "ko" : "en");
+          }
+        });
+      }
+    });
+  })();
+</script>

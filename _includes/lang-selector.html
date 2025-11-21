@@ -42,28 +42,3 @@
     🇺🇸
   </span>
 </div>
-
-<script>
-  function switchLang(targetLang) {
-    const base = "{{ site.baseurl }}"; // "/sermon"
-    const path = window.location.pathname;
-
-    // baseurl 제거한 상대 경로
-    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
-
-    // 언어 접두어 제거
-    const cleanPath = relativePath.replace(/^\/en/, "");
-
-    let newPath = base;
-    if (targetLang === "en") {
-      newPath += "/en" + cleanPath;
-    } else {
-      newPath += cleanPath;
-    }
-
-    // 항상 끝에 "/" 붙이기
-    if (!newPath.endsWith("/")) newPath += "/";
-
-    window.location.href = newPath;
-  }
-</script>
