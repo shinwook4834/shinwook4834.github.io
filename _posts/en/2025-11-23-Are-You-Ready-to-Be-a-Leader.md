@@ -34,7 +34,7 @@ John 13:1–17
 
 At the Last Supper, the disciples looked for someone to wash their feet.  
 In those days, people wore sandals on dusty roads, and servants customarily washed the guests’ feet.  
-But Jesus Himself took off His outer garment, tied a towel around His waist, and began to wash His disciples’ feet.  
+But Jesus took off His outer garment, tied a towel around His waist, and began to wash His disciples’ feet.  
 
 ![Jesus Washing Feet](/assets/img/20251123-main-960.webp)
 
@@ -48,94 +48,69 @@ But Jesus said:
 
 ---
 
-# 📖 The Example of the Lord — Jesus the Servant
+# 📖 A Shocking Act of a Servant
 
-Jesus showed His disciples the path they must walk.  
-Within this act lay the essence of salvation.  
-The Lord came as a servant and lived as one.  
+Jesus’ foot washing was not simply an act of service but carried a **message of salvation**.  
 
-- In a time when the Roman emperor was worshiped as absolute power  
-- People sought authority, and some wanted to make Jesus a ruler  
-- Yet Jesus did not go to the public square but to the wilderness  
-- The towel around His waist was the image of a perfect servant  
+- **Cleansing of sin:** Washing feet symbolized cleansing humanity’s sin.  
+- **Humility:** He laid aside divine glory, took the form of a servant, and revealed the humility of the cross.  
+- **Came as a servant:** From the beginning, Jesus came in the form of a servant and lived as one.  
 
-Philippians 2:7–8 says:  
-> “He made himself nothing by taking the very nature of a servant, being made in human likeness…”  
-
-Jesus’ humility was not a momentary gesture but His entire life as a servant.  
+Philippians 2:7–8 explains:  
+> “He made himself nothing by taking the very nature of a servant, being made in human likeness… He humbled himself by becoming obedient to death—even death on a cross!”
 
 ---
 
-# 📖 Wash One Another’s Feet
+# 📖 Resistance to the World’s Power Structures
+
+Human nature desires to be served and seeks power, but power is often abused and leads to corruption.  
+
+- Jesus rejected the devil’s temptation of worldly power.  
+- After the feeding of the five thousand, He refused to be made king.  
+- Instead of power struggles, He chose the wilderness.  
+
+**True leadership is not about power but about being a servant.**
+
+---
+
+# 📖 The Example and Practice of Service
 
 Jesus said:  
 > “Now that I, your Lord and Teacher, have washed your feet, you also should wash one another’s feet.” (John 13:14)
 
-- Our identity is that of servants.  
-- In the church, a deacon means one who serves at the table.  
-- An elder means one who leads by example.  
-- Both deacons and elders must serve from the position of a servant.  
+- **Meaning of office:** Church offices are not ranks but functional roles of service.  
+  - Elder: one who leads by example, a role model of faith.  
+  - Deacon: one who serves at the table.  
+- **Attitude of a servant:** A church ruled by hierarchy and privilege is already corrupt.  
+- **True service:** Pride must die at the cross; the safest place is at the foot of the cross.  
+- **Motivation of love:** Jesus even washed Judas’ feet, showing that service must not discriminate.  
 
 ---
 
-# 📖 The Limits of the Disciples and the World’s Order
+# 📖 Discipleship as Towel-Men
 
-Though the disciples followed Jesus for three years, they still argued about status and position.  
-They knew in their minds but failed to act in service.  
-In a fallen world, true service does not exist.  
-People seek to dominate and rise above others.  
+Jesus was not a “superman” but a **towel-man**.  
+He tied a towel around His waist and washed dirty feet—the image of a servant.  
 
----
+- Our goal is not to be glamorous superstars but towel-men.  
+- Service is not performance but identity.  
+- Jesus showed service not only in words but through the cross.  
 
-# 📖 Service from the Cross
+> “I have set you an example that you should do as I have done for you.” (John 13:15)  
+> “Now that you know these things, you will be blessed if you do them.” (John 13:17)
 
-True service begins at the cross.  
-Service is difficult.  
-We may think, “At my age, in my position, with my experience, should I do this?”  
-But Jesus silently set the example.  
-> “I have set you an example that you should do as I have done for you.” (John 13:15)
-
-- The humility of the cross does not fear descending.  
-- Those who have experienced the cross do not worry.  
-- The safest place is at the foot of the cross.  
-
----
-
-# 📖 The Lord Still Seeks Servants
-
-- The humble are always ready to be used.  
-- The world is full of places to serve.  
-- A healthy community is marked by service.  
-- A good church is one with many servants.  
-- A church with more people wanting to be served than to serve will fall into corruption.  
-
-Service must follow Christ’s example, not our own.  
-The King of kings tied a towel around His waist.  
-We do not need “supermen” but **towel-men.**  
-We must always carry the towel, ready to serve.  
+Service involves sacrifice, but serving is itself a blessing, and the more we serve, the brighter we shine.  
 
 ---
 
 # 📖 The Lord Who Loved to the End
 
-John 13:1–2 says:  
+John 13:1 says:  
 > “Having loved his own who were in the world, he loved them to the end.”  
 
 - The Lord’s love does not yield to evil.  
 - Nothing can stop His love.  
 - If we choose whom to serve, we will serve no one.  
-
----
-
-# 📖 Know and Do
-
-Jesus said:  
-> “Now that you know these things, you will be blessed if you do them.” (John 13:17)
-
-- Knowing is not enough.  
-- Saying “Amen” is easy, but serving with our bodies is hard.  
-- Having received Jesus’ service, we are now able to serve others.  
-- It is not enough to know; we must act.  
 
 ---
 
