@@ -114,6 +114,12 @@ image: /assets/img/20251123-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 요약말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/dahgMdvv/mp3_256k.mp3' %}
+
+---
 
 # 💡 말씀 묵상 Q&A
 

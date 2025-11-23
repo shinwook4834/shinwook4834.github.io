@@ -4,7 +4,7 @@
   <id>http://localhost:4002/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-11-23T16:52:16+09:00</updated>
+  <updated>2025-11-24T00:47:27+09:00</updated>
   <author>
     <name>SW Kim</name>
     <uri>http://localhost:4002/</uri>
@@ -29,7 +29,7 @@
     
     <published>2025-11-23T16:10:00+09:00</published>
   
-    <updated>2025-11-23T16:10:00+09:00</updated>
+    <updated>2025-11-23T16:53:38+09:00</updated>
   
     <id>http://localhost:4002/posts/Are-You-Ready-to-Be-a-Leader/</id>
     <author>
@@ -179,6 +179,38 @@
   <li>주님의 사랑은 막을 수 없다.</li>
   <li>섬김의 대상을 가리면 아무도 섬길 수 없다.</li>
 </ul>
+
+<hr />
+
+<h1 id="-오디오로-정리하는-요약말씀">📖 오디오로 정리하는 요약말씀</h1>
+
+<p><img src="/assets/img/audio-960.webp" alt="오디오" /></p>
+
+<p>
+  <audio class="embed-audio" controls="">
+    
+    
+
+    
+    
+    
+
+    
+
+    
+      
+      
+      
+      <source src="https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/dahgMdvv/mp3_256k.mp3" type="audio/mp3" />
+    
+
+    Your browser does not support the audio tag. Here is a
+    <a href="https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/dahgMdvv/mp3_256k.mp3">link to the audio file</a> instead.
+  </audio>
+  
+    <em></em>
+  
+</p>
 
 <hr />
 
