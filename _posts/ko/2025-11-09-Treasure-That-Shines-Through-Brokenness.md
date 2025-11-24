@@ -107,6 +107,13 @@ image: /assets/img/20251109-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/Hwyk6rxy/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">Q1. 왜 바울은 자신을 ‘질그릇’이라 했는가?</span>**  
