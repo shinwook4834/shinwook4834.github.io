@@ -187,6 +187,13 @@ image: /assets/img/20251102-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/D8pN5vau/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">Q1. 마리아의 향유는 왜 특별한가?</span>**  
