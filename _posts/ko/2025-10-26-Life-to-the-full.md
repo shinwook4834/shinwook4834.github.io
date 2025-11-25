@@ -187,21 +187,28 @@ image: /assets/img/20251026-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/vAMuJjLT/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
-**Q1. 왜 예수님은 자신을 ‘양의 문’이라 하셨는가?**  
+**<span style="color:lightblue">Q1. 왜 예수님은 자신을 ‘양의 문’이라 하셨는가?</span>**  
 A1. 오직 예수님을 통해서만 구원, 생명, 보호, 참된 양식(꼴)을 얻을 수 있기 때문이다.
 
-**Q2. 양의 특징은 무엇이며, 왜 인간과 비슷한가?**  
+**<span style="color:lightblue">Q2. 양의 특징은 무엇이며, 왜 인간과 비슷한가?</span>**  
 A2. 양은 연약하고 길을 잃기 쉽고 고집이 세다. 우리의 영적 상태를 그대로 반영한다.
 
-**Q3. 삯꾼과 도둑은 누구인가?**  
+**<span style="color:lightblue">Q3. 삯꾼과 도둑은 누구인가?</span>**  
 A3. 삯꾼은 양을 이용하는 자, 도둑은 양을 멸망으로 인도하는 자이다. 당시 바리새인과 서기관들이 여기에 해당한다.
 
-**Q4. 주님의 양은 어떻게 구별되는가?**  
+**<span style="color:lightblue">Q4. 주님의 양은 어떻게 구별되는가?</span>**  
 A4. 주님의 음성을 듣고 반응하며 따라간다. 말씀에 반응이 있다면 주님의 양이다.
 
-**Q5. 예수님이 주시는 ‘풍성한 생명’이란 무엇인가?**  
+**<span style="color:lightblue">Q5. 예수님이 주시는 ‘풍성한 생명’이란 무엇인가?</span>**  
 A5. 단순한 생존이 아니라 성령의 생명력, 영원한 생명, 기쁨과 평안이 충만한 삶이다.
 
 ---
