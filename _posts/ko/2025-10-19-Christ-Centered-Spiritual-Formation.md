@@ -126,6 +126,13 @@ image: /assets/img/20251019-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/QlQRN_d9/mp3_256k.mp3' %}
+
+---
+
 # 📖 말씀 묵상 Q&A  
 
 **<span style="color:lightblue">Q1. 왜 바울은 갈라디아 교인들에게 ‘어리석도다’라고 말했는가?</span>**  
