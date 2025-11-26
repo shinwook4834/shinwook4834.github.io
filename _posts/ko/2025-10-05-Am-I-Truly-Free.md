@@ -48,7 +48,7 @@ image: /assets/img/20251005-main.webp
 
 ---
 
-![선악과](/assets/img/20251005-01.webp)
+![선악과](/assets/img/20251005-01-720.webp)
 
 ---
 
