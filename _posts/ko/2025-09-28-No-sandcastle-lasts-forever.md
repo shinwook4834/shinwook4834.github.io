@@ -141,6 +141,13 @@ C.S. 루이스는 말했다:
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/0MdOV1TG/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">1. 모래성 비유에서 무엇을 배울 수 있나?</span>**  

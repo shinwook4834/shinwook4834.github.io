@@ -91,6 +91,13 @@ image: /assets/img/20250921-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/eUmFXUAk/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">1. 왜 우리의 열심만으로는 신앙의 변화를 이룰 수 없습니까?</span>**  
