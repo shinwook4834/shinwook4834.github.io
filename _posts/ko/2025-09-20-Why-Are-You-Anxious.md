@@ -71,6 +71,13 @@ image: /assets/img/20250914-main.webp
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/iwendxH5/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">1. 시인의 정서적 문제는 무엇이며 우리가 알 수 있는 사실은 무엇입니까? (1-2절)</span>**  
