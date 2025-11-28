@@ -80,6 +80,13 @@ C.S. 루이스는 “하늘을 바라보는 자만이 이 땅을 제대로 사�
 
 ---
 
+# 📖 오디오로 정리하는 말씀
+
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='https://stream.adilo.com/adilo-encoding/FwQzHLnPPmu96Ir8/0Phsk7tt/mp3_256k.mp3' %}
+
+---
+
 # 💡 말씀 묵상 Q&A
 
 **<span style="color:lightblue">1. 이천년 전 예수님이 말씀하신 ‘내가 속히 오리라'는 약속에 담긴 의미는 무엇입니까?</span>**  
