@@ -4,7 +4,7 @@
   <id>http://localhost:4002/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-11-28T09:23:14+09:00</updated>
+  <updated>2025-11-29T08:56:38+09:00</updated>
   <author>
     <name>SW Kim</name>
     <uri>http://localhost:4002/</uri>
@@ -2550,7 +2550,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
     
     <published>2025-09-07T16:00:00+09:00</published>
   
-    <updated>2025-10-26T22:23:03+09:00</updated>
+    <updated>2025-11-28T09:23:30+09:00</updated>
   
     <id>http://localhost:4002/posts/I-Am-Coming-Soon/</id>
     <author>
@@ -2887,6 +2887,38 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 <p>그리스도인은 언제나 준비된 자로 살아야 한다.<br />
 종말 신앙은 허무주의가 아니라, 오늘을 살아내는 힘이다.<br />
 <strong>그리스도와 함께 고난 받은 자는, 장차 그리스도와 함께 왕 노릇 할 것이다.</strong></p>
+
+<hr />
+
+<h1 id="-오디오로-정리하는-말씀">📖 오디오로 정리하는 말씀</h1>
+
+<p><img src="/assets/img/audio-960.webp" alt="오디오" /></p>
+
+<p>
+  <audio class="embed-audio" controls="">
+    
+    
+
+    
+    
+    
+
+    
+
+    
+      
+      
+      
+      <source src="/assets/audio/20250824.mp3" type="audio/mp3" />
+    
+
+    Your browser does not support the audio tag. Here is a
+    <a href="/assets/audio/20250824.mp3">link to the audio file</a> instead.
+  </audio>
+  
+    <em></em>
+  
+</p>
 
 <hr />
 
