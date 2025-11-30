@@ -4,7 +4,7 @@
   <id>http://localhost:4002/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-11-30T15:42:41+09:00</updated>
+  <updated>2025-11-30T15:47:22+09:00</updated>
   <author>
     <name>SW Kim</name>
     <uri>http://localhost:4002/</uri>
@@ -23,15 +23,15 @@
   
   <entry>
     <title xml:lang="ko">참된 제자 감별법</title>
-    <link href="http://localhost:4002/posts/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4002/en/posts/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-30T15:30:00+09:00</published>
   
     <updated>2025-11-30T15:30:00+09:00</updated>
   
-    <id>http://localhost:4002/posts/</id>
+    <id>http://localhost:4002/posts/True-Mark-of-a-Disciple/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -44,7 +44,7 @@
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/True-Mark-of-a-Disciple/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
