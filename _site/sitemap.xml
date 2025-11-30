@@ -148,6 +148,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4002/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4002/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -189,6 +195,13 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/page2/" />
         </url>
       
+    
+      <url>
+        <loc>http://localhost:4002/posts/</loc>
+        <lastmod>2025-11-30T15:30:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/" />
+      </url>
     
       <url>
         <loc>http://localhost:4002/posts/Are-You-Ready-to-Be-a-Leader/</loc>
@@ -276,7 +289,7 @@
     
       <url>
         <loc>http://localhost:4002/posts/Reigning-With-Christ/</loc>
-        <lastmod>2025-08-24T14:30:00+09:00</lastmod>
+        <lastmod>2025-11-29T08:57:38+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/Reigning-With-Christ/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/Reigning-With-Christ/" />
       </url>
@@ -285,28 +298,28 @@
     
       <url>
         <loc>http://localhost:4002/categories/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/tags/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/archives/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/about/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/about/" />
       </url>
@@ -459,6 +472,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4002/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-13-34-35/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4002/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -500,6 +519,13 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/page2/" />
         </url>
       
+    
+      <url>
+        <loc>http://localhost:4002/en/posts/</loc>
+        <lastmod>2025-11-30T15:30:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/" />
+      </url>
     
       <url>
         <loc>http://localhost:4002/en/posts/Are-You-Ready-to-Be-a-Leader/</loc>
@@ -587,7 +613,7 @@
     
       <url>
         <loc>http://localhost:4002/en/posts/Reigning-With-Christ/</loc>
-        <lastmod>2025-08-24T14:30:00+09:00</lastmod>
+        <lastmod>2025-11-29T08:57:38+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/posts/Reigning-With-Christ/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/posts/Reigning-With-Christ/" />
       </url>
@@ -596,28 +622,28 @@
     
       <url>
         <loc>http://localhost:4002/en/categories/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/en/tags/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/en/archives/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4002/en/about/</loc>
-        <lastmod>2025-11-29T08:56:38+09:00</lastmod>
+        <lastmod>2025-11-30T15:42:41+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4002/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4002/en/about/" />
       </url>
