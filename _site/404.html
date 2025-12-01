@@ -34,8 +34,8 @@
 <meta property="og:locale" content="ko" />
 <meta name="description" content="“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”" />
 <meta property="og:description" content="“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”" />
-<link rel="canonical" href="http://localhost:4002/404.html" />
-<meta property="og:url" content="http://localhost:4002/404.html" />
+<link rel="canonical" href="http://localhost:4001/404.html" />
+<meta property="og:url" content="http://localhost:4001/404.html" />
 <meta property="og:site_name" content="매주 기록하는 설교 말씀" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
@@ -43,7 +43,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@SW Kim" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"SW Kim"},"description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"404: Page not found","url":"http://localhost:4002/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"SW Kim"},"description":"“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”","headline":"404: Page not found","url":"http://localhost:4001/404.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -190,7 +190,7 @@
                                                                     
  
                                                                     
-<script defer src="/assets/js/dist/page.min.js?v=1764591998"></script>           
+<script defer src="/assets/js/dist/page.min.js?v=1764592881"></script>           
                                                                     
                                                          
                                                                     
@@ -325,11 +325,48 @@
     
 
     <!-- 🌐 언어 전환 아이콘 -->
-    <a href="#" onclick="performLanguageToggle(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
+    <a href="#" onclick="toggleLang(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
       <i class="fas fa-globe"></i>
     </a>
   </div>
 </aside>
+
+<!-- 언어 전환 스크립트 -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const iconEl = document.getElementById("sidebar-lang-toggle");
+    const baseurl = "";
+    const currentPathname = window.location.pathname;
+
+    const isEnglish = currentPathname.startsWith(baseurl + "/en/");
+
+    if (iconEl) {
+      iconEl.title = isEnglish ? "한국어로 전환" : "Switch to English";
+      iconEl.setAttribute("aria-label", iconEl.title);
+    }
+
+    window.toggleLang = function () {
+      let newPathname;
+      if (isEnglish) {
+        // English to Korean: Remove /en/ prefix
+        newPathname = currentPathname.replace(baseurl + "/en", baseurl);
+      } else {
+        // Korean to English: Add /en/ prefix
+        newPathname = baseurl + "/en" + currentPathname.substring(baseurl.length);
+      }
+      
+      // Clean up double slashes or extra slashes
+      newPathname = newPathname.replace(/\/\/+/g, '/');
+      if (newPathname === baseurl && newPathname !== '/') {
+        newPathname = baseurl + '/'; // Ensure homepage has trailing slash
+      } else if (newPathname === '') {
+        newPathname = '/'; // Ensure root is '/'
+      }
+
+      window.location.pathname = newPathname;
+    };
+  });
+</script>
 
 
     <div id="main-wrapper" class="d-flex justify-content-center">

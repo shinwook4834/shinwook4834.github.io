@@ -81,8 +81,45 @@
     {% endfor %}
 
     <!-- 🌐 언어 전환 아이콘 -->
-    <a href="#" onclick="performLanguageToggle(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
+    <a href="#" onclick="toggleLang(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
       <i class="fas fa-globe"></i>
     </a>
   </div>
 </aside>
+
+<!-- 언어 전환 스크립트 -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const iconEl = document.getElementById("sidebar-lang-toggle");
+    const baseurl = "{{ site.baseurl | default: '' }}";
+    const currentPathname = window.location.pathname;
+
+    const isEnglish = currentPathname.startsWith(baseurl + "/en/");
+
+    if (iconEl) {
+      iconEl.title = isEnglish ? "한국어로 전환" : "Switch to English";
+      iconEl.setAttribute("aria-label", iconEl.title);
+    }
+
+    window.toggleLang = function () {
+      let newPathname;
+      if (isEnglish) {
+        // English to Korean: Remove /en/ prefix
+        newPathname = currentPathname.replace(baseurl + "/en", baseurl);
+      } else {
+        // Korean to English: Add /en/ prefix
+        newPathname = baseurl + "/en" + currentPathname.substring(baseurl.length);
+      }
+      
+      // Clean up double slashes or extra slashes
+      newPathname = newPathname.replace(/\/\/+/g, '/');
+      if (newPathname === baseurl && newPathname !== '/') {
+        newPathname = baseurl + '/'; // Ensure homepage has trailing slash
+      } else if (newPathname === '') {
+        newPathname = '/'; // Ensure root is '/'
+      }
+
+      window.location.pathname = newPathname;
+    };
+  });
+</script>
