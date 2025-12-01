@@ -110,6 +110,8 @@
 
   {% include js-selector.html lang=lang %}
 
+  {% include simple-lang-switcher.html %}
+
   {% if jekyll.environment == 'production' %}
     <!-- PWA -->
     {% if site.pwa.enabled %}

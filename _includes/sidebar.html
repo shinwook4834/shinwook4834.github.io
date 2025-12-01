@@ -81,22 +81,7 @@
     {% endfor %}
 
     <!-- 🌐 언어 전환 아이콘 -->
-    {% if page.url contains '/en/' %}
-      {% assign current_lang = 'en' %}
-    {% else %}
-      {% assign current_lang = 'ko' %}
-    {% endif %}
-
-    {% if current_lang == 'en' %}
-      {% assign target_lang_label = '한국어' %}
-      {% assign new_url = page.url | remove_first: '/en' %}
-      {% assign new_url_size = new_url | size %}
-      {% if new_url_size == 0 %}{% assign new_url = "/" %}{% endif %}
-    {% else %}
-      {% assign target_lang_label = 'English' %}
-      {% assign new_url = '/en' | append: page.url %}
-    {% endif %}
-    <a href="{{ new_url | relative_url }}" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch to {{ target_lang_label }}" title="Switch to {{ target_lang_label }}">
+    <a href="#" onclick="toggleLanguage(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
       <i class="fas fa-globe"></i>
     </a>
   </div>
