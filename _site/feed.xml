@@ -1,18 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4001/</id>
+  <id>http://localhost:4002/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-12-01T16:12:02+09:00</updated>
+  <updated>2025-12-01T16:16:25+09:00</updated>
   <author>
     <name>SW Kim</name>
-    <uri>http://localhost:4001/</uri>
+    <uri>http://localhost:4002/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4001/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4001/" />
+  <link rel="self" type="application/atom+xml" href="http://localhost:4002/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko" href="http://localhost:4002/" />
   
-  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4001/en/" />
+  <link rel="alternate" type="text/html" hreflang="en" href="http://localhost:4002/en/" />
   
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 SW Kim </rights>
@@ -23,15 +23,15 @@
   
   <entry>
     <title xml:lang="ko">참된 제자 감별법</title>
-    <link href="http://localhost:4001/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/True-Mark-of-a-Disciple/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-30T15:30:00+09:00</published>
   
     <updated>2025-11-30T16:22:22+09:00</updated>
   
-    <id>http://localhost:4001/posts/True-Mark-of-a-Disciple/</id>
+    <id>http://localhost:4002/posts/True-Mark-of-a-Disciple/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -44,7 +44,7 @@
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/True-Mark-of-a-Disciple/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/True-Mark-of-a-Disciple/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -251,15 +251,15 @@ A5. 기술이나 문명이 아니라 사랑이다. 교회를 통해 드러나는
   
   <entry>
     <title xml:lang="ko">리더가 될 준비가 되었는가?</title>
-    <link href="http://localhost:4001/posts/Are-You-Ready-to-Be-a-Leader/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Are-You-Ready-to-Be-a-Leader/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Are-You-Ready-to-Be-a-Leader/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Are-You-Ready-to-Be-a-Leader/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-23T16:10:00+09:00</published>
   
     <updated>2025-11-24T03:30:33+09:00</updated>
   
-    <id>http://localhost:4001/posts/Are-You-Ready-to-Be-a-Leader/</id>
+    <id>http://localhost:4002/posts/Are-You-Ready-to-Be-a-Leader/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -272,7 +272,7 @@ A5. 기술이나 문명이 아니라 사랑이다. 교회를 통해 드러나는
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Are-You-Ready-to-Be-a-Leader/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Are-You-Ready-to-Be-a-Leader/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -469,15 +469,15 @@ A5. 말씀을 아는 것만으로는 부족하며, 실제 행동으로 섬길 �
   
   <entry>
     <title xml:lang="ko">온전한 치유의 길, 감사</title>
-    <link href="http://localhost:4001/posts/The-Path-to-Complete-Healing-Gratitude/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/The-Path-to-Complete-Healing-Gratitude/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/The-Path-to-Complete-Healing-Gratitude/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/The-Path-to-Complete-Healing-Gratitude/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-16T11:40:00+09:00</published>
   
     <updated>2025-11-24T16:27:08+09:00</updated>
   
-    <id>http://localhost:4001/posts/The-Path-to-Complete-Healing-Gratitude/</id>
+    <id>http://localhost:4002/posts/The-Path-to-Complete-Healing-Gratitude/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -490,7 +490,7 @@ A5. 말씀을 아는 것만으로는 부족하며, 실제 행동으로 섬길 �
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/The-Path-to-Complete-Healing-Gratitude/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/The-Path-to-Complete-Healing-Gratitude/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -708,15 +708,15 @@ A5. 우리의 죄와 영적 나병을 치유하시고, 감사 속에서 구원�
   
   <entry>
     <title xml:lang="ko">깨질수록 빛나는 보화, 예수님</title>
-    <link href="http://localhost:4001/posts/Treasure-That-Shines-Through-Brokenness/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Treasure-That-Shines-Through-Brokenness/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Treasure-That-Shines-Through-Brokenness/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Treasure-That-Shines-Through-Brokenness/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-09T15:52:00+09:00</published>
   
     <updated>2025-11-24T21:31:35+09:00</updated>
   
-    <id>http://localhost:4001/posts/Treasure-That-Shines-Through-Brokenness/</id>
+    <id>http://localhost:4002/posts/Treasure-That-Shines-Through-Brokenness/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -729,7 +729,7 @@ A5. 우리의 죄와 영적 나병을 치유하시고, 감사 속에서 구원�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Treasure-That-Shines-Through-Brokenness/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Treasure-That-Shines-Through-Brokenness/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -901,15 +901,15 @@ A5. 자랑과 위장을 벗어버리고 예수 그리스도를 보배로 삼아 
   
   <entry>
     <title xml:lang="ko">낭비하는 그리스도인</title>
-    <link href="http://localhost:4001/posts/The-Wasteful-Christian/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/The-Wasteful-Christian/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/The-Wasteful-Christian/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/The-Wasteful-Christian/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-11-02T15:30:00+09:00</published>
   
     <updated>2025-11-24T22:01:32+09:00</updated>
   
-    <id>http://localhost:4001/posts/The-Wasteful-Christian/</id>
+    <id>http://localhost:4002/posts/The-Wasteful-Christian/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -922,7 +922,7 @@ A5. 자랑과 위장을 벗어버리고 예수 그리스도를 보배로 삼아 
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/The-Wasteful-Christian/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/The-Wasteful-Christian/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -1189,15 +1189,15 @@ A5. 성공, 돈, 자녀, 자아… 하나님보다 앞세운 모든 것들이다
   
   <entry>
     <title xml:lang="ko">생명을 얻고, 더 풍성히</title>
-    <link href="http://localhost:4001/posts/Life-to-the-full/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Life-to-the-full/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Life-to-the-full/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Life-to-the-full/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-26T15:30:00+09:00</published>
   
     <updated>2025-11-25T14:17:22+09:00</updated>
   
-    <id>http://localhost:4001/posts/Life-to-the-full/</id>
+    <id>http://localhost:4002/posts/Life-to-the-full/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1210,7 +1210,7 @@ A5. 성공, 돈, 자녀, 자아… 하나님보다 앞세운 모든 것들이다
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Life-to-the-full/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Life-to-the-full/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -1491,15 +1491,15 @@ A5. 단순한 생존이 아니라 성령의 생명력, 영원한 생명, 기쁨�
   
   <entry>
     <title xml:lang="ko">그리스도 중심의 영성 형성</title>
-    <link href="http://localhost:4001/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Christ-Centered-Spiritual-Formation/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-19T15:30:00+09:00</published>
   
     <updated>2025-11-25T22:17:39+09:00</updated>
   
-    <id>http://localhost:4001/posts/Christ-Centered-Spiritual-Formation/</id>
+    <id>http://localhost:4002/posts/Christ-Centered-Spiritual-Formation/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1512,7 +1512,7 @@ A5. 단순한 생존이 아니라 성령의 생명력, 영원한 생명, 기쁨�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Christ-Centered-Spiritual-Formation/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Christ-Centered-Spiritual-Formation/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -1724,15 +1724,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">눈뜸의 기적</title>
-    <link href="http://localhost:4001/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Miracle-Of-Sight/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-12T15:30:00+09:00</published>
   
     <updated>2025-11-25T22:17:39+09:00</updated>
   
-    <id>http://localhost:4001/posts/Miracle-Of-Sight/</id>
+    <id>http://localhost:4002/posts/Miracle-Of-Sight/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1745,7 +1745,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Miracle-Of-Sight/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Miracle-Of-Sight/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -1963,15 +1963,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">나는 참된 자유인인가?</title>
-    <link href="http://localhost:4001/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Am-I-Truly-Free/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-10-05T15:30:00+09:00</published>
   
     <updated>2025-11-26T21:08:31+09:00</updated>
   
-    <id>http://localhost:4001/posts/Am-I-Truly-Free/</id>
+    <id>http://localhost:4002/posts/Am-I-Truly-Free/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -1984,7 +1984,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Am-I-Truly-Free/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Am-I-Truly-Free/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -2170,15 +2170,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">영원한 모래성은 없다</title>
-    <link href="http://localhost:4001/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/No-sandcastle-lasts-forever/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-28T14:30:00+09:00</published>
   
     <updated>2025-11-26T21:08:31+09:00</updated>
   
-    <id>http://localhost:4001/posts/No-sandcastle-lasts-forever/</id>
+    <id>http://localhost:4002/posts/No-sandcastle-lasts-forever/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -2191,7 +2191,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/No-sandcastle-lasts-forever/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/No-sandcastle-lasts-forever/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -2418,15 +2418,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">열심보다 연결이다</title>
-    <link href="http://localhost:4001/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Connection-Over-Zeal/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-21T16:09:00+09:00</published>
   
     <updated>2025-11-26T21:08:31+09:00</updated>
   
-    <id>http://localhost:4001/posts/Connection-Over-Zeal/</id>
+    <id>http://localhost:4002/posts/Connection-Over-Zeal/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -2439,7 +2439,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Connection-Over-Zeal/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Connection-Over-Zeal/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -2616,15 +2616,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">어찌하여 불안하여 하는가?</title>
-    <link href="http://localhost:4001/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Why-Are-You-Anxious/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-14T16:00:00+09:00</published>
   
     <updated>2025-11-28T00:13:02+09:00</updated>
   
-    <id>http://localhost:4001/posts/Why-Are-You-Anxious/</id>
+    <id>http://localhost:4002/posts/Why-Are-You-Anxious/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -2637,7 +2637,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Why-Are-You-Anxious/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Why-Are-You-Anxious/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -2772,15 +2772,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">내가 속히 오리라</title>
-    <link href="http://localhost:4001/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/I-Am-Coming-Soon/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-09-07T16:00:00+09:00</published>
   
     <updated>2025-11-28T09:23:30+09:00</updated>
   
-    <id>http://localhost:4001/posts/I-Am-Coming-Soon/</id>
+    <id>http://localhost:4002/posts/I-Am-Coming-Soon/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -2793,7 +2793,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/I-Am-Coming-Soon/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/I-Am-Coming-Soon/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[
@@ -2971,15 +2971,15 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
   
   <entry>
     <title xml:lang="ko">그리스도와 더불어 왕 노릇 하리라</title>
-    <link href="http://localhost:4001/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="ko" />
+    <link href="http://localhost:4002/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="ko" />
     
-    <link href="http://localhost:4001/en/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="en" />
+    <link href="http://localhost:4002/en/posts/Reigning-With-Christ/" rel="alternate" type="text/html" hreflang="en" />
     
     <published>2025-08-24T14:30:00+09:00</published>
   
     <updated>2025-11-29T08:57:38+09:00</updated>
   
-    <id>http://localhost:4001/posts/Reigning-With-Christ/</id>
+    <id>http://localhost:4002/posts/Reigning-With-Christ/</id>
     <author>
       <name>SW Kim</name>
     </author>
@@ -2992,7 +2992,7 @@ A5. 그분이 우리의 죄를 100% 담당하셨고, 우리를 하나님의 의�
 
     <summary xml:lang="ko"><!-- _includes/post‐description.html -->
 </summary>
-    <content type="html" xml:lang="ko" src="http://localhost:4001/posts/Reigning-With-Christ/">
+    <content type="html" xml:lang="ko" src="http://localhost:4002/posts/Reigning-With-Christ/">
     <!-- _includes/post‐description.html -->
 
     <![CDATA[

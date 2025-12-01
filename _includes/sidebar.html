@@ -85,7 +85,8 @@
     {% if current_lang == 'en' %}
       {% assign target_lang_label = '한국어' %}
       {% assign new_url = page.url | remove_first: '/en' %}
-      {% if new_url == "" %}{% assign new_url = "/" %}{% endif %}
+      {% assign new_url_size = new_url | size %}
+      {% if new_url_size == 0 %}{% assign new_url = "/" %}{% endif %}
     {% else %}
       {% assign target_lang_label = 'English' %}
       {% assign new_url = '/en' | append: page.url %}
