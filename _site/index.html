@@ -199,12 +199,14 @@
                                                                     
  
                                                                     
-<script defer src="/assets/js/dist/home.min.js?v=1764593421"></script>           
+<script defer src="/assets/js/dist/home.min.js?v=1764594195"></script>           
                                                                     
                                                          
                                                                     
 <!-- Pageviews -->                                                  
 
+
+  <script defer src="/assets/js/lang-switcher.js"></script>
 
   
 
@@ -339,44 +341,6 @@
     </a>
   </div>
 </aside>
-
-<!-- 언어 전환 스크립트 -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const iconEl = document.getElementById("sidebar-lang-toggle");
-    const currentPathname = window.location.pathname;
-
-    // Use a precise regex to check for the '/en' language prefix at the start.
-    const isEnglish = /^\/en(\/|$)/.test(currentPathname);
-
-    if (iconEl) {
-      iconEl.title = isEnglish ? "한국어로 전환" : "Switch to English";
-      iconEl.setAttribute("aria-label", iconEl.title);
-    }
-
-    window.toggleLang = function () {
-      let newPathname;
-      if (isEnglish) {
-        // English to Korean: Remove the /en prefix.
-        newPathname = currentPathname.replace(/^\/en/, '');
-        // If the path becomes empty, it means it was the english homepage. Go to root.
-        if (newPathname === '') {
-          newPathname = '/';
-        }
-      } else {
-        // Korean to English: Add the /en prefix.
-        if (currentPathname === '/') {
-          newPathname = '/en/';
-        } else {
-          newPathname = '/en' + currentPathname;
-        }
-      }
-      
-      // Use location.href for navigation
-      window.location.href = newPathname;
-    };
-  });
-</script>
 
 
     <div id="main-wrapper" class="d-flex justify-content-center">
