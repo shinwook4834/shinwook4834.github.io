@@ -81,7 +81,7 @@
     {% endfor %}
 
     <!-- 🌐 언어 전환 아이콘 -->
-    <a href="#" onclick="toggleLanguage(); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
+    <a href="#" onclick="try{const path=window.location.pathname;let newPath;if(path.startsWith('/en')){newPath=path.substring(3);if(newPath===''){newPath='/'}}else{if(path==='/'){newPath='/en/'}else{newPath='/en'+path}}const finalUrl=new URL(newPath,window.location.origin).href;if(finalUrl!==window.location.href){window.location.href=finalUrl}}catch(e){console.error(e)}return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch Language" title="Switch Language">
       <i class="fas fa-globe"></i>
     </a>
   </div>
