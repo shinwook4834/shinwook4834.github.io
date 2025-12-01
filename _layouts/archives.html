@@ -11,13 +11,12 @@ layout: page
 <div id="archives" class="pl-xl-3">
   {% for post in site.posts %}
     {% assign cur_year = post.date | date: '%Y' %}
-
     {% if cur_year != last_year %}
-      {% unless forloop.first %}</ul>{% endunless %}
-
+      {% if forloop.first == false %}
+        </ul>
+      {% endif %}
       <time class="year lead d-block">{{ cur_year }}</time>
-      {{ '<ul class="list-unstyled">' }}
-
+      <ul class="list-unstyled">
       {% assign last_year = cur_year %}
     {% endif %}
 
@@ -37,6 +36,8 @@ layout: page
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
 
-    {% if forloop.last %}</ul>{% endif %}
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
   {% endfor %}
 </div>
