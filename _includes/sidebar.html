@@ -81,7 +81,6 @@
     {% endfor %}
 
     <!-- 🌐 언어 전환 아이콘 -->
-    {% comment %}--- Start Language Switcher Logic ---{% endcomment %}
     {% if page.url contains '/en/' %}
       {% assign current_lang = 'en' %}
     {% else %}
@@ -97,21 +96,6 @@
       {% assign target_lang_label = 'English' %}
       {% assign new_url = '/en' | append: page.url %}
     {% endif %}
-    {% comment %}--- End Language Switcher Logic ---{% endcomment %}
-
-    <!-- DEBUGGING OVERLAY -->
-    <div style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; z-index: 9999; font-family: monospace; font-size: 12px; border-radius: 5px; max-width: 90vw; word-wrap: break-word;">
-      <h4 style="margin: 0 0 5px 0; color: #0f0; font-size: 14px;">DEBUG INFO</h4>
-      <p style="margin: 0;"><b>page.url:</b> <code style="color: #ff0;">{{ page.url | inspect }}</code></p>
-      <p style="margin: 0;"><b>page.lang:</b> <code style="color: #ff0;">{{ page.lang | inspect }}</code></p>
-      <p style="margin: 0;"><b>site.lang:</b> <code style="color: #ff0;">{{ site.lang | inspect }}</code></p>
-      <hr style="border-top: 1px solid #555; margin: 5px 0;">
-      <p style="margin: 0;"><b>Detected Lang:</b> <code style="color: #0ff;">{{ current_lang | inspect }}</code></p>
-      <p style="margin: 0;"><b>New URL (raw):</b> <code style="color: #0ff;">{{ new_url | inspect }}</code></p>
-      <p style="margin: 0;"><b>Final Href:</b> <code style="color: #0ff;">{{ new_url | relative_url | inspect }}</code></p>
-    </div>
-    <!-- END DEBUGGING OVERLAY -->
-
     <a href="{{ new_url | relative_url }}" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch to {{ target_lang_label }}" title="Switch to {{ target_lang_label }}">
       <i class="fas fa-globe"></i>
     </a>
