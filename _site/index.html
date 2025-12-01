@@ -118,6 +118,41 @@
 
   <!-- Scripts -->
 
+  <script>
+function toggleLanguage() {
+  const base = "";
+  const path = window.location.pathname;
+
+  let newPath;
+
+  if (path.startsWith(base + '/en')) {
+    // English to Korean
+    newPath = base + path.substring(base.length + 3); // Remove '/en' including the slash
+    if (newPath === base || newPath === base + '/') {
+      newPath = base + '/';
+    }
+  } else {
+    // Korean to English
+    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
+    if (relativePath === '/') {
+      newPath = base + '/en/';
+    } else {
+      newPath = base + '/en' + relativePath;
+    }
+  }
+  
+  // Clean up double slashes, but be careful not to remove the protocol's ones
+  const protocol = window.location.protocol + '//';
+  const domain = window.location.host;
+  let fullUrl = new URL(newPath, protocol + domain).href;
+
+  // Final check to prevent navigating to the same page
+  if (fullUrl !== window.location.href) {
+    window.location.href = fullUrl;
+  }
+}
+</script>
+
   <script src="/assets/js/dist/theme.min.js"></script>
 
   <!-- JS selector for site. -->
@@ -199,47 +234,12 @@
                                                                     
  
                                                                     
-<script defer src="/assets/js/dist/home.min.js?v=1764576708"></script>           
+<script defer src="/assets/js/dist/home.min.js?v=1764577105"></script>           
                                                                     
                                                          
                                                                     
 <!-- Pageviews -->                                                  
 
-
-  <script>
-function toggleLanguage() {
-  const base = "";
-  const path = window.location.pathname;
-
-  let newPath;
-
-  if (path.startsWith(base + '/en')) {
-    // English to Korean
-    newPath = base + path.substring(base.length + 3); // Remove '/en' including the slash
-    if (newPath === base || newPath === base + '/') {
-      newPath = base + '/';
-    }
-  } else {
-    // Korean to English
-    const relativePath = path.startsWith(base) ? path.slice(base.length) : path;
-    if (relativePath === '/') {
-      newPath = base + '/en/';
-    } else {
-      newPath = base + '/en' + relativePath;
-    }
-  }
-  
-  // Clean up double slashes, but be careful not to remove the protocol's ones
-  const protocol = window.location.protocol + '//';
-  const domain = window.location.host;
-  let fullUrl = new URL(newPath, protocol + domain).href;
-
-  // Final check to prevent navigating to the same page
-  if (fullUrl !== window.location.href) {
-    window.location.href = fullUrl;
-  }
-}
-</script>
 
   
 
