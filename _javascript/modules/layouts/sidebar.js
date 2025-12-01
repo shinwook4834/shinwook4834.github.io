@@ -19,7 +19,7 @@ export function initSidebar() {
 }
 
 // Language switcher
-window.toggleLanguage = function() {
+window.performLanguageToggle = function() {
   try {
     const path = window.location.pathname;
     let newPath;
