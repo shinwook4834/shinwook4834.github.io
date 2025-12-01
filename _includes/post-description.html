@@ -1,6 +1,6 @@
 <!-- _includes/post‐description.html -->
-{% if page.description %}
-  <p class="post-desc fw-light mb-4">{{ page.description }}</p>
-{% elsif page.excerpt %}
-  <p class="post-desc fw-light mb-4">{{ page.excerpt | strip_html | truncate: 160 }}</p>
+{% if include.post.description %}
+  <p class="post-desc fw-light mb-4">{{ include.post.description }}</p>
+{% elsif include.post.excerpt %}
+  <p class="post-desc fw-light mb-4">{{ include.post.excerpt | strip_html | truncate: 160 }}</p>
 {% endif %}
