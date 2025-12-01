@@ -199,7 +199,7 @@
                                                                     
  
                                                                     
-<script defer src="/assets/js/dist/home.min.js?v=1764592881"></script>           
+<script defer src="/assets/js/dist/home.min.js?v=1764593421"></script>           
                                                                     
                                                          
                                                                     
@@ -344,10 +344,10 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const iconEl = document.getElementById("sidebar-lang-toggle");
-    const baseurl = "";
     const currentPathname = window.location.pathname;
 
-    const isEnglish = currentPathname.startsWith(baseurl + "/en/");
+    // Use a precise regex to check for the '/en' language prefix at the start.
+    const isEnglish = /^\/en(\/|$)/.test(currentPathname);
 
     if (iconEl) {
       iconEl.title = isEnglish ? "한국어로 전환" : "Switch to English";
@@ -357,22 +357,23 @@
     window.toggleLang = function () {
       let newPathname;
       if (isEnglish) {
-        // English to Korean: Remove /en/ prefix
-        newPathname = currentPathname.replace(baseurl + "/en", baseurl);
+        // English to Korean: Remove the /en prefix.
+        newPathname = currentPathname.replace(/^\/en/, '');
+        // If the path becomes empty, it means it was the english homepage. Go to root.
+        if (newPathname === '') {
+          newPathname = '/';
+        }
       } else {
-        // Korean to English: Add /en/ prefix
-        newPathname = baseurl + "/en" + currentPathname.substring(baseurl.length);
+        // Korean to English: Add the /en prefix.
+        if (currentPathname === '/') {
+          newPathname = '/en/';
+        } else {
+          newPathname = '/en' + currentPathname;
+        }
       }
       
-      // Clean up double slashes or extra slashes
-      newPathname = newPathname.replace(/\/\/+/g, '/');
-      if (newPathname === baseurl && newPathname !== '/') {
-        newPathname = baseurl + '/'; // Ensure homepage has trailing slash
-      } else if (newPathname === '') {
-        newPathname = '/'; // Ensure root is '/'
-      }
-
-      window.location.pathname = newPathname;
+      // Use location.href for navigation
+      window.location.href = newPathname;
     };
   });
 </script>
