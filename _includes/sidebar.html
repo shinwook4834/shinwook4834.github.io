@@ -83,13 +83,14 @@
     <!-- 🌐 언어 전환 아이콘 -->
     {% assign current_lang = page.lang | default: site.lang %}
     {% if current_lang == 'en' %}
-      {% assign target_lang_code = 'ko' %}
       {% assign target_lang_label = '한국어' %}
+      {% assign new_url = page.url | remove_first: '/en' %}
+      {% if new_url == "" %}{% assign new_url = "/" %}{% endif %}
     {% else %}
-      {% assign target_lang_code = 'en' %}
       {% assign target_lang_label = 'English' %}
+      {% assign new_url = '/en' | append: page.url %}
     {% endif %}
-    <a href="#" onclick="switchLang('{{ target_lang_code }}'); return false;" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch to {{ target_lang_label }}" title="Switch to {{ target_lang_label }}">
+    <a href="{{ new_url | relative_url }}" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch to {{ target_lang_label }}" title="Switch to {{ target_lang_label }}">
       <i class="fas fa-globe"></i>
     </a>
   </div>
