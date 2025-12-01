@@ -199,7 +199,7 @@
                                                                     
  
                                                                     
-<script defer src="/assets/js/dist/home.min.js?v=1764575376"></script>           
+<script defer src="/assets/js/dist/home.min.js?v=1764575648"></script>           
                                                                     
                                                          
                                                                     
@@ -335,8 +335,24 @@
 
     <!-- 🌐 언어 전환 아이콘 -->
     
+    
 
     
+    
+
+    <!-- DEBUGGING OVERLAY -->
+    <div style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; z-index: 9999; font-family: monospace; font-size: 12px; border-radius: 5px; max-width: 90vw; word-wrap: break-word;">
+      <h4 style="margin: 0 0 5px 0; color: #0f0; font-size: 14px;">DEBUG INFO</h4>
+      <p style="margin: 0;"><b>page.url:</b> <code style="color: #ff0;">&quot;/&quot;</code></p>
+      <p style="margin: 0;"><b>page.lang:</b> <code style="color: #ff0;">nil</code></p>
+      <p style="margin: 0;"><b>site.lang:</b> <code style="color: #ff0;">&quot;ko&quot;</code></p>
+      <hr style="border-top: 1px solid #555; margin: 5px 0;">
+      <p style="margin: 0;"><b>Detected Lang:</b> <code style="color: #0ff;">&quot;ko&quot;</code></p>
+      <p style="margin: 0;"><b>New URL (raw):</b> <code style="color: #0ff;">&quot;/en/&quot;</code></p>
+      <p style="margin: 0;"><b>Final Href:</b> <code style="color: #0ff;">&quot;/en/&quot;</code></p>
+    </div>
+    <!-- END DEBUGGING OVERLAY -->
+
     <a href="/en/" class="nav-link px-2" style="font-size: 1.2rem;" aria-label="Switch to English" title="Switch to English">
       <i class="fas fa-globe"></i>
     </a>
