@@ -152,6 +152,9 @@ So we can confess:
 
 # 📖 Audio Summary  
 
+![오디오](/assets/img/audio-960.webp)
+{% include embed/audio.html src='/assets/audio/20251207-E.mp3' %}
+
 ---
 
 # 💡 Reflection Q&A  

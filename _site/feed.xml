@@ -4,7 +4,7 @@
   <id>http://localhost:4001/</id>
   <title>매주 기록하는 설교 말씀</title>
   <subtitle>“매주 예배에서 들은 설교 말씀을 기록하고 묵상하며, 내 삶 속에서 하나님을 더 가까이 경험하기 위한 신앙 여정의 기록입니다.”</subtitle>
-  <updated>2025-12-07T14:28:38+09:00</updated>
+  <updated>2025-12-07T14:58:11+09:00</updated>
   <author>
     <name>SW Kim</name>
     <uri>http://localhost:4001/</uri>
@@ -234,6 +234,34 @@
 <hr />
 
 <h1 id="-오디오로-정리하는-말씀">📖 오디오로 정리하는 말씀</h1>
+
+<p><img src="/assets/img/audio-960.webp" alt="오디오" /></p>
+
+<p>
+  <audio class="embed-audio" controls="">
+    
+    
+
+    
+    
+    
+
+    
+
+    
+      
+      
+      
+      <source src="/assets/audio/20251207.mp3" type="audio/mp3" />
+    
+
+    Your browser does not support the audio tag. Here is a
+    <a href="/assets/audio/20251207.mp3">link to the audio file</a> instead.
+  </audio>
+  
+    <em></em>
+  
+</p>
 
 <hr />
 
