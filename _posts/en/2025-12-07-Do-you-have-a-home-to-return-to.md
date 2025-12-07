@@ -171,10 +171,10 @@ So we can confess:
 **<span style="color:lightblue">Q4. Why must we overcome the fear of death with faith?</span>**  
 - A4. Because death is not the end but leads to eternity, and only trust in Jesus brings true peace.  
 
-**<span style="color:lightblue">Q5. Why can’t this world become heaven?**  
+**<span style="color:lightblue">Q5. Why can’t this world become heaven?</span>**  
 - A5. Because politics, philosophy, or systems cannot overcome sin. Only God’s kingdom is our true homeland.  
 
-**<span style="color:lightblue">Q6. What lesson does the travel metaphor teach us?**  
+**<span style="color:lightblue">Q6. What lesson does the travel metaphor teach us?</span>**  
 - A6. Travel is joyful because we have a home to return to. Spiritually, our eternal home is the Father’s house.  
 
 **<span style="color:lightblue">Q7. What decisive difference occurs after death?</span>**  
