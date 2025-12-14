@@ -1,137 +1,152 @@
 ---
-title: "성령 안에서 사는 삶"
+title: "Life in the Holy Spirit"
 author: SW Kim
 date: 2025-12-14 14:06:00 +09:00
-tags: [수영로교회, 요한복음 14:16-18, 이규현 목사님]
-categories: [요한복음]
+tags: [Sooyoungro Church, John 14:16-18, Pastor KyuHyun Lee]
+categories: [John]
 image: /assets/img/20251214-main.webp
 ---
 
 >
-16 내가 아버지께 구하겠으니 그가 또 다른 보혜사를 너희에게 주사 영원토록 너희와 함께 있게 하리니  
-17 그는 진리의 영이라 세상은 능히 그를 받지 못하나니 이는 그를 보지도 못하고 알지도 못함이라 그러나 너희는 그를 아나니 그는 너희와 함께 거하심이요 또 너희 속에 계시겠음이라  
-18 내가 너희를 고아와 같이 버려두지 아니하고 너희에게로 오리라  
+John 14:16–18  
+16 And I will ask the Father, and he will give you another Advocate to help you and be with you forever—  
+17 the Spirit of truth. The world cannot accept him, because it neither sees him nor knows him. But you know him, for he lives with you and will be in you.  
+18 I will not leave you as orphans; I will come to you.  
 {: .prompt-info }
 
 ---
 
-# 📖 믿음, 나의 선택인가 하나님의 선물인가?  
-  
-교회를 오래 다니다 보면 문득 이런 질문을 하게 된다. ‘나는 어떻게 예수를 믿게 되었을까?’
-생각해 보면 참으로 신기하고 놀라운 일이다. 내가 예수님을 믿게 된 것 자체가 기적과 같은 일이다. 예수님이 나를 위해 십자가에서 죽으셨다는 사실을 마음으로 받아들이는 것은 결코 쉬운 일이 아니다.
-그래서 ‘내가 믿었다’라는 표현보다 **‘내가 믿어졌다’**라는 고백이 더 정확하다. 내가 믿게 된 그 놀라운 이유를 오늘 성경 말씀이 설명해 준다.
+# 📖 Faith: My Choice or God’s Gift?  
 
----
- 
-# 📖 떠남의 유익, 오심의 약속  
-  
-제자들에게는 예수님이 전부였다. 그런 예수님이 떠나신다는 말은 그들에게 하늘이 무너지는 듯한 충격이었을 것이다.
-그런데 예수님은 뜻밖의 말씀을 하신다.
-
-“내가 떠나가는 것이 너희에게 유익이라” (요한복음 16:7)
-절망적인 이별처럼 보이는 이 사건이 왜 유익이 될까? 바로 예수님이 떠나셔야 보혜사 성령님을 보내실 수 있기 때문이라고 말씀한다.
+As we walk in faith, we may wonder: “How did I come to believe in Jesus?”  
+It is truly a miracle. Accepting that Jesus died for me on the cross is not easy.  
+That is why the confession **“I was enabled to believe”** is more accurate than “I believed.”  
+The reason we believe is explained in Scripture: it is the work of the Holy Spirit.  
 
 ---
 
-# 📖 성령이 아니고서는  
-  
-요한복음 3장에서 당대 최고의 지식인이었던 니고데모는 예수님의 말씀을 전혀 이해하지 못했다. 예수님은 그에게 “물과 성령으로 거듭나지 않으면 하나님 나라를 볼 수 없다”고 하셨다.
-성경은 분명히 선언한다.
+# 📖 The Benefit of Departure, the Promise of Coming  
 
-“성령으로 아니하고는 누구든지 예수를 주시라 할 수 없느니라” (고린도전서 12:3)
-“누구든지 그리스도의 영이 없으면 그리스도의 사람이 아니라” (로마서 8:9)
-우리가 예수를 믿는다는 것은 전적으로 성령님의 역사이다. 성령님이 내 안에 오셔서 일하시기에 우리가 믿음을 가질 수 있게 된 것이다.
+For the disciples, Jesus was everything. His departure felt like the end of the world.  
+Yet Jesus said:  
+> “It is for your good that I am going away.” (John 16:7)  
 
----
-  
-# 📖 또 다른 보혜사는 누구인가?  
-  
-예수님은 성령님을 ‘또 다른 보혜사’라고 소개한다.
-여기서 ‘또 다른’은 완전히 다른 종류가 아니라, **‘똑같은 종류의 또 하나’**를 의미한다. 즉, 예수님도 보혜사이시고, 성령님도 보혜사이시다.
-‘보혜사(파라클레토스)’는 ‘곁에서 돕고 위로하시는 분’을 뜻한다.
-예수님의 떠남으로 고아처럼 버려질 것을 두려워하는 제자들에게, 예수님과 똑같은 역할을 하시는 성령님이 오신다는 약속이다.
-
-예수님: 육신의 눈으로 볼 수 있었지만, 시간과 공간의 제약을 받으셨다.
-성령님: 육신의 눈으로 볼 수 없지만, 시간과 공간의 제약 없이 모든 신자와 영원히 함께하신다.
+Why? Because only by leaving could He send the Advocate, the Holy Spirit, to be with them forever.  
 
 ---
 
-# 📖 내면의 전쟁과 성령의 승리  
-  
-우리의 내면에는 끊임없는 갈등이 있다.
-“내가 원하는 바 선은 행하지 아니하고 도리어 원하지 아니하는 바 악을 행하는도다” (로마서 7:19)
-이것이 바로 우리의 정직한 모습이다. 만약 성경이 로마서 7장에서 끝났다면 우리에게는 아무런 희망이 없었을 것이다.
-그러나 로마서 8장은 위대한 선포로 시작한다.
-“그러므로 이제 그리스도 예수 안에 있는 자에게는 결코 정죄함이 없나니 이는 그리스도 예수 안에 있는 생명의 성령의 법이 죄와 사망의 법에서 너를 해방하였음이라” (로마서 8:1-2)
-성령님께서 우리의 삶을 절망에서 희망으로, 패배에서 승리로 바꾸어 놓으신다.
+# 📖 Without the Spirit  
+
+Nicodemus, a learned man, could not understand Jesus’ words in John 3.  
+Jesus told him: “No one can enter the kingdom of God unless they are born of water and the Spirit.”  
+
+Scripture declares:  
+- “No one can say, ‘Jesus is Lord,’ except by the Holy Spirit.” (1 Corinthians 12:3)  
+- “If anyone does not have the Spirit of Christ, they do not belong to Christ.” (Romans 8:9)  
+
+Faith is entirely the work of the Spirit. We believe because the Spirit dwells in us.  
 
 ---
 
-# 📖 결코 혼자가 아니다  
-  
-때로 우리는 깊은 자기 연민과 외로움에 빠진다. ‘나 혼자’라는 감정은 우리를 무척 힘들게 하고, 때로는 극단적인 선택으로 몰아가기도 한다.
-하지만 분명한 사실은, 그리스도인은 성령님 때문에 절대로 혼자일 수 없다는 것이다. 성령님은 우리를 잠시도 떠나지 않으시고, 우리와 함께하시며, 심지어 우리 ‘안에’ 거하신다.
-성령님은 최고의 위로자이며, 가장 지혜로운 상담가이며, 완전한 치유자이시다. 그분은 세상이 줄 수 없는 완전한 평안을 주시는 분이다. (요한복음 14:27)
-내가 성령님의 임재를 느끼지 못하는 순간에도 그분은 여전히 내 안에 계신다. 성령으로 충만한 것과, 충만하다고 ‘느끼는 것’은 다를 수 있다. 그분의 존재는 우리의 감정과 상관없는 진리이다.
+# 📖 Who Is the “Another Advocate”?  
+
+Jesus called the Spirit “another Advocate.”  
+“Another” means **another of the same kind.** Jesus is the Advocate, and so is the Spirit.  
+
+- Advocate (Parakletos): one who comes alongside to help and comfort.  
+- Jesus: visible in the flesh, but limited by time and space.  
+- Spirit: invisible, but unlimited, dwelling with all believers forever.  
 
 ---
 
-# 📖 진리의 영, 성경의 조명자  
-  
-성령님은 ‘진리의 영’이시다.
-성경의 진리는 인간의 지성만으로 깨달을 수 없다. 지식인이었던 니고데모는 이해하지 못했지만, 어린아이는 순수하게 받아들이기도 한다.
-C.S. 루이스 역시 지성의 힘으로 기독교를 거부했지만, 이성으로 설명할 수 없는 하나님의 압도적인 임재 앞에 무너져 믿음을 고백했다.
-성령님의 도움 없이는 아무리 성경을 읽어도 그 깊은 진리를 깨달을 수 없다. (요한복음 14:26) 성령님은 우리의 조명이 되셔서 우리를 진리 가운데로 인도하시고, 깨달은 말씀을 통해 우리를 그리스도의 증인으로 살게 하신다.
+# 📖 Inner Conflict and the Spirit’s Victory  
+
+Our inner life is full of conflict:  
+> “For I do not do the good I want to do, but the evil I do not want to do—this I keep on doing.” (Romans 7:19)  
+
+If Scripture ended at Romans 7, we would have no hope.  
+But Romans 8 begins with triumph:  
+> “Therefore, there is now no condemnation for those who are in Christ Jesus, because through Christ Jesus the law of the Spirit who gives life has set you free from the law of sin and death.” (Romans 8:1–2)  
+
+The Spirit transforms despair into hope, defeat into victory.  
 
 ---
 
-# ✨ 결론: 성령과 동행하는 삶  
-  
-우리는 혹시 우리 안에 계신 성령님의 존재를 너무나 당연하게 여기거나 소홀히 하고 있지는 않는가?
-신앙생활은 다른 것이 아니라, **‘성령님과 함께하는 일상’**이다. 우리의 힘으로는 기도도, 예배도, 거룩한 삶도 불가능하다.
-성령님을 무시하고 살면 신앙은 무기력한 종교 생활로 전락하고 만다.
-이제 우리는 이미 내 안에 와 계시고, 한 번도 우리를 떠나신 적 없는 성령님을 믿어야 한다. 그분을 의식하고, 존중하며, 그분과 함께 사는 법을 배워야 한다.
-모든 감각을 성령님께 열어두고, “나는 한순간도 성령님 없이는 살 수 없습니다”라고 고백하는 삶이 우리의 목표가 되어야 한다.
+# 📖 Never Alone  
 
-“너희는 성령을 따라 행하라 그리하면 육체의 욕심을 이루지 아니하리라” (갈라디아서 5:16)
+We often feel lonely, overwhelmed by self-pity.  
+But believers are never alone—the Spirit dwells with us and within us.  
+
+- He is the greatest Comforter, the wisest Counselor, the perfect Healer.  
+- He gives peace the world cannot give (John 14:27).  
+- Even when we do not feel His presence, He remains in us.  
+
+The Spirit’s indwelling is truth, not dependent on our emotions.  
 
 ---
 
-# 📖 오디오로 정리하는 말씀  
-  
-![오디오](/assets/img/audio-960.webp)
+# 📖 Spirit of Truth, Illuminator of Scripture  
+
+The Spirit is the “Spirit of truth.”  
+Human intellect alone cannot grasp Scripture. Nicodemus failed to understand, but children often receive it simply.  
+
+C.S. Lewis resisted Christianity intellectually, but surrendered when confronted by God’s overwhelming presence.  
+Without the Spirit, we cannot truly understand Scripture. (John 14:26)  
+The Spirit illuminates truth, guides us, and empowers us to live as witnesses of Christ.  
+
+---
+
+# ✨ Conclusion: Walking with the Spirit  
+
+Do we take the Spirit’s presence for granted?  
+Christian life is nothing other than **“daily life with the Spirit.”**  
+
+- Without Him, prayer, worship, and holiness are impossible.  
+- Ignoring Him reduces faith to powerless religion.  
+- We must trust, honor, and walk with the Spirit who never leaves us.  
+
+Let us open every part of our lives to Him and confess:  
+> “I cannot live a single moment without the Holy Spirit.”  
+
+> “So I say, walk by the Spirit, and you will not gratify the desires of the flesh.” (Galatians 5:16)  
+
+---
+
+# 📖 Audio Summary  
+
+![Audio](/assets/img/audio-960.webp)  
 {% include embed/audio.html src='/assets/audio/20251214.mp3' %}
 
 ---
 
-# 💡 말씀 묵상 Q&A  
-  
-<span style="color:lightblue">Q1. 우리가 예수님을 믿게 된 것이 왜 기적과 같은 일인가?</span>  
-A1. 그것은 나의 결단이나 노력의 결과가 아니라, 전적으로 내 안에 오신 성령님의 역사이기 때문이다.  
+# 💡 Reflection Q&A  
 
-<span style="color:lightblue">Q2. 예수님이 떠나시는 것이 제자들에게 왜 유익이 된다고 하셨는가?</span>  
-A2. 예수님이 가셔야 시간과 공간을 초월하여 모든 신자와 영원히 함께하실 또 다른 보혜사 성령님을 보내실 수 있기 때문이다.  
- 
-<span style="color:lightblue">Q3. ‘또 다른 보혜사’의 의미는 무엇인가?</span>  
-A3. 예수님과 ‘똑같은 종류의’ 위로자, 조력자라는 뜻으로, 예수님과 동일한 역할을 하시는 성령님을 가리킨다.  
+**Q1. Why is believing in Jesus a miracle?**  
+A1. Because it is not human effort but the work of the Spirit dwelling within us.  
 
-<span style="color:lightblue">Q4. 성령님은 예수님과 비교하여 어떤 특징을 가지시는가?</span>  
-A4. 눈에 보이지 않지만 시간과 공간의 제약이 없으셔서, 언제 어디서나 모든 믿는 자 안에 거하실 수 있다.  
+**Q2. Why did Jesus say His departure was beneficial?**  
+A2. Because only then could He send the Spirit, the Advocate, to dwell with all believers forever.  
 
-<span style="color:lightblue">Q5. 로마서 7장의 인간적 고뇌에 대한 로마서 8장의 해답은 무엇인가?</span>  
-A5. 선을 행하고 싶지만 악을 행하는 죄의 법 아래 있던 우리를, ‘생명의 성령의 법’이 해방시켜 주셨다는 것이다.  
+**Q3. What does “another Advocate” mean?**  
+A3. It means another of the same kind—Jesus and the Spirit both act as Advocates.  
 
-<span style="color:lightblue">Q6. 외로움을 느낄 때 우리가 기억해야 할 가장 중요한 진리는 무엇인가?</span>  
-A6. 그리스도인은 결코 혼자가 아니라는 사실이다. 성령님께서 우리를 떠나지 않으시고 항상 우리 안에 함께 계시기 때문이다.  
+**Q4. How does the Spirit differ from Jesus in His presence?**  
+A4. Jesus was visible but limited by time and space; the Spirit is invisible yet dwells everywhere with believers.  
 
-<span style="color:lightblue">Q7. 성령님의 임재를 느끼지 못할 때도 그분은 우리와 함께 하시는가?</span>  
-A7. 그렇다. 성령님의 내주하심은 우리의 감정이나 느낌과 상관없는 객관적인 진리이다.  
+**Q5. What is the answer to the struggle described in Romans 7?**  
+A5. Romans 8 declares freedom: the law of the Spirit of life sets us free from sin and death.  
 
-<span style="color:lightblue">Q8. 성령님을 ‘진리의 영’이라고 부르는 이유는 무엇인가?</span>  
-A8. 우리의 지성만으로는 깨달을 수 없는 성경의 진리를 조명하여 깨닫게 하시고, 우리를 진리 가운데로 인도하시기 때문이다.  
+**Q6. What truth must we remember when we feel lonely?**  
+A6. That believers are never alone—the Spirit always dwells with us and within us.  
 
-<span style="color:lightblue">Q9. 성령님을 무시하고 신앙생활을 하면 어떤 결과가 나타나는가?</span>  
-A9. 생명력과 능력을 잃어버리고, 신앙이 무기력한 종교 생활로 변질되고 만다.  
+**Q7. Is the Spirit with us even when we do not feel Him?**  
+A7. Yes. His indwelling is objective truth, not dependent on our emotions.  
 
-<span style="color:lightblue">Q10. 성령 안에서 사는 삶이란 구체적으로 무엇을 의미하는가?</span>  
-A10. 내 안에 계신 성령님을 항상 의식하고 존중하며, 모든 일에 그분을 의지하고 친밀한 관계를 유지하며 살아가는 일상이다.  
+**Q8. Why is the Spirit called the “Spirit of truth”?**  
+A8. Because He illuminates Scripture, guides us into truth, and empowers us to live as witnesses.  
+
+**Q9. What happens if we ignore the Spirit in our faith?**  
+A9. Faith loses vitality and becomes powerless religion.  
+
+**Q10. What does it mean to live in the Spirit?**  
+A10. To consciously honor His presence, depend on Him in all things, and maintain intimate fellowship daily.
