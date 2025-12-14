@@ -115,7 +115,7 @@ Let us open every part of our lives to Him and confess:
 # 📖 Audio Summary  
 
 ![Audio](/assets/img/audio-960.webp)  
-{% include embed/audio.html src='/assets/audio/20251214.mp3' %}
+{% include embed/audio.html src='/assets/audio/20251214-E.mp3' %}
 
 ---
 
