@@ -69,7 +69,7 @@ Those who have truly experienced the gospel develop wider hearts and learn to em
 
 # 💡 Scripture Meditation Q&A
 
-<span style="color:lightblue">Q1. What is more fundamentally necessary for human life than money or success?</span>  
+<span style="color:lightblue">Q1. What is more fundamentally necessary for human life than money or success?</span>   
 A1. *Joy*, which gives meaning and happiness to life.
 
 <span style="color:lightblue">Q2. What are the characteristics of the joy the world offers?</span>  

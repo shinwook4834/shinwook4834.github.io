@@ -69,32 +69,32 @@ image: /assets/img/20251225-main.webp
 
 # 💡 말씀 묵상 Q&A
 
-<span style="color:lightblue">Q1. 사람이 살아가는데 돈, 성공보다 더 근본적으로 필요한 것은 무엇인가?</span>
+<span style="color:lightblue">Q1. 사람이 살아가는데 돈, 성공보다 더 근본적으로 필요한 것은 무엇인가?</span>  
 A1. 삶의 의미와 행복을 주는 '기쁨'이다.
 
-<span style="color:lightblue">Q2. 세상이 주는 기쁨의 특징은 무엇인가?</span>
+<span style="color:lightblue">Q2. 세상이 주는 기쁨의 특징은 무엇인가?</span>  
 A2. 잠깐의 즐거움 뒤에 더 큰 허무와 고통이 따라오며, 결코 참된 만족을 주지 못한다.
 
-<span style="color:lightblue">Q3. 천사가 전한 예수님의 탄생 소식은 왜 '큰 기쁨의 좋은 소식'인가?</span>
+<span style="color:lightblue">Q3. 천사가 전한 예수님의 탄생 소식은 왜 '큰 기쁨의 좋은 소식'인가?</span>  
 A3. 세상의 기쁨과는 질적으로 다른, 우리의 존재를 바꾸는 '죄 사함과 구원'의 기쁨을 주기 때문이다.
 
-<span style="color:lightblue">Q4. 인간의 모든 불행의 근원적인 원인은 무엇인가?</span>
+<span style="color:lightblue">Q4. 인간의 모든 불행의 근원적인 원인은 무엇인가?</span>  
 A4. 바로 '죄'의 문제이다. 죄는 우리 영혼을 짓누르고 기쁨을 빼앗아간다.
 
-<span style="color:lightblue">Q5. 왜 인간의 힘으로는 죄의 문제를 해결할 수 없는가?</span>
+<span style="color:lightblue">Q5. 왜 인간의 힘으로는 죄의 문제를 해결할 수 없는가?</span>  
 A5. 죄의 힘은 매우 강력해서 우리를 종으로 만들기 때문에, 우리 스스로의 노력으로는 결코 죄를 이길 수 없다.
 
-<span style="color:lightblue">Q6. 우리의 죄 문제를 해결하기 위한 하나님의 유일한 방법은 무엇이었는가?</span>
+<span style="color:lightblue">Q6. 우리의 죄 문제를 해결하기 위한 하나님의 유일한 방법은 무엇이었는가?</span>  
 A6. 하나님의 아들 예수 그리스도를 이 땅에 보내시어, 십자가에서 우리의 모든 죄를 대신 담당하게 하시는 것이었다.
 
-<span style="color:lightblue">Q7. 구원의 기쁨이 특별한 이유는 무엇인가?</span>
+<span style="color:lightblue">Q7. 구원의 기쁨이 특별한 이유는 무엇인가?</span>  
 A7. 세상의 어떤 가치와도 비교할 수 없는 가장 큰 선물이며, 우리에게 참된 생명과 자유를 주기 때문이다.
 
-<span style="color:lightblue">Q8. 다윗 왕이 모든 것을 가졌음에도 불구하고 가장 갈망했던 것은 무엇이었는가?</span>
+<span style="color:lightblue">Q8. 다윗 왕이 모든 것을 가졌음에도 불구하고 가장 갈망했던 것은 무엇이었는가?</span>  
 A8. 세상의 부귀영화가 아닌, '구원의 즐거움'의 회복이었다.
 
-<span style="color:lightblue">Q9. 예수님이 주시는 기쁨은 개인적인 차원에서만 머무르는가?</span>
+<span style="color:lightblue">Q9. 예수님이 주시는 기쁨은 개인적인 차원에서만 머무르는가?</span>  
 A9. 그렇지 않다. 이 기쁨은 나를 넘어 이웃에게로 흘러가, 깨어진 관계를 회복시키고 평화를 만들게 한다.
 
-<span style="color:lightblue">Q10. '화평하게 하는 자'가 받는 복은 무엇이며, 이것은 성탄의 기쁨과 어떤 관련이 있는가?</span>
+<span style="color:lightblue">Q10. '화평하게 하는 자'가 받는 복은 무엇이며, 이것은 성탄의 기쁨과 어떤 관련이 있는가?</span>  
 A10. '하나님의 아들'이라 불리는 복을 받는다. 성탄의 기쁨을 참으로 누리는 사람은 이웃과의 관계 속에서 평화를 만들어가는 삶을 살게 된다.
