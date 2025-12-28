@@ -178,6 +178,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4001/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -221,8 +227,15 @@
       
     
       <url>
+        <loc>http://localhost:4001/posts/A-Life-That-Cannot-End-in-Failure/</loc>
+        <lastmod>2025-12-28T15:26:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/A-Life-That-Cannot-End-in-Failure/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/A-Life-That-Cannot-End-in-Failure/" />
+      </url>
+    
+      <url>
         <loc>http://localhost:4001/posts/The-Reason-for-Our-Joy/</loc>
-        <lastmod>2025-12-25T16:01:00+09:00</lastmod>
+        <lastmod>2025-12-25T16:46:39+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/The-Reason-for-Our-Joy/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/The-Reason-for-Our-Joy/" />
       </url>
@@ -350,28 +363,28 @@
     
       <url>
         <loc>http://localhost:4001/categories/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/tags/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/archives/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/about/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/about/" />
       </url>
@@ -554,6 +567,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4001/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/%EC%9A%94%ED%95%9C%EB%B3%B5%EC%9D%8C-16-28-33/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -597,8 +616,15 @@
       
     
       <url>
+        <loc>http://localhost:4001/en/posts/A-Life-That-Cannot-End-in-Failure/</loc>
+        <lastmod>2025-12-28T15:26:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/A-Life-That-Cannot-End-in-Failure/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/A-Life-That-Cannot-End-in-Failure/" />
+      </url>
+    
+      <url>
         <loc>http://localhost:4001/en/posts/The-Reason-for-Our-Joy/</loc>
-        <lastmod>2025-12-25T16:01:00+09:00</lastmod>
+        <lastmod>2025-12-25T16:46:39+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/The-Reason-for-Our-Joy/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/The-Reason-for-Our-Joy/" />
       </url>
@@ -726,28 +752,28 @@
     
       <url>
         <loc>http://localhost:4001/en/categories/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/tags/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/archives/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/about/</loc>
-        <lastmod>2025-12-25T16:46:33+09:00</lastmod>
+        <lastmod>2025-12-28T16:11:26+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/about/" />
       </url>
