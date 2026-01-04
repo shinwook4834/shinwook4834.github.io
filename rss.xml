@@ -1,0 +1,42 @@
+---
+layout: null
+permalink: /rss.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{{ site.title }} Audio RSS</title>
+  <link>{{ site.url }}</link>
+  <description>Auto-download audio feed for Synology Download Station</description>
+  <language>ko</language>
+  <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
+{% for post in site.posts %}
+  {% assign datestr = post.date | date: "%Y%m%d" %}
+
+  <!-- Korean version -->
+  <item>
+    <title>{{ post.title }} (KO)</title>
+    <link>{{ post.url | absolute_url }}</link>
+    <guid>{{ post.url | absolute_url }}#ko</guid>
+    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    <enclosure
+      url="{{ '/assets/audio/' | append: datestr | append: '.mp3' | absolute_url }}"
+      type="audio/mpeg" />
+  </item>
+
+  <!-- English version -->
+  <item>
+    <title>{{ post.title }} (EN)</title>
+    <link>{{ post.url | absolute_url }}</link>
+    <guid>{{ post.url | absolute_url }}#en</guid>
+    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    <enclosure
+      url="{{ '/assets/audio/' | append: datestr | append: '-E.mp3' | absolute_url }}"
+      type="audio/mpeg" />
+  </item>
+
+{% endfor %}
+
+</channel>
+</rss>
