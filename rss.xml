@@ -3,7 +3,9 @@ layout: null
 permalink: /rss.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
   <title>{{ site.title }} Audio RSS</title>
   <link>{{ site.url }}</link>
@@ -11,8 +13,21 @@ permalink: /rss.xml
   <language>ko</language>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
+  <atom:link href="{{ '/rss.xml' | absolute_url }}"
+             rel="self"
+             type="application/rss+xml"/>
+
 {% for post in site.posts %}
-  {% assign datestr = post.date | date: "%Y%m%d" %}
+{% assign datestr = post.date | date: "%Y%m%d" %}
+{% assign ko_file = datestr | append: '.mp3' %}
+{% assign en_file = datestr | append: '-E.mp3' %}
+
+{% assign has_en = false %}
+{% for f in site.static_files %}
+  {% if f.path == '/assets/audio/' | append: en_file %}
+    {% assign has_en = true %}
+  {% endif %}
+{% endfor %}
 
   <!-- Korean version -->
   <item>
@@ -21,20 +36,22 @@ permalink: /rss.xml
     <guid>{{ post.url | absolute_url }}#ko</guid>
     <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     <enclosure
-      url="{{ '/assets/audio/' | append: datestr | append: '.mp3' | absolute_url }}"
+      url="{{ '/assets/audio/' | append: ko_file | absolute_url }}"
       type="audio/mpeg" />
   </item>
 
-  <!-- English version -->
+{% if has_en %}
+  <!-- English version (only if exists) -->
   <item>
     <title>{{ post.title }} (EN)</title>
     <link>{{ post.url | absolute_url }}</link>
     <guid>{{ post.url | absolute_url }}#en</guid>
     <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     <enclosure
-      url="{{ '/assets/audio/' | append: datestr | append: '-E.mp3' | absolute_url }}"
+      url="{{ '/assets/audio/' | append: en_file | absolute_url }}"
       type="audio/mpeg" />
   </item>
+{% endif %}
 
 {% endfor %}
 
