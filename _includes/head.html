@@ -10,7 +10,7 @@
   >
 
   {%- capture seo_tags -%}
-    {% seo title=false %}
+    {% seo title=false % image=false %}
   {%- endcapture -%}
 
   <!-- Setup Open Graph image -->
@@ -33,8 +33,6 @@
     {% assign jpg_url = src | replace: '.webp', '-380.jpg' | absolute_url %}
     <meta property="og:image" content="{{ jpg_url }}" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="{{ jpg_url }}" />
 
   {% elsif site.social_preview_image %}
     {%- capture img_url -%}
