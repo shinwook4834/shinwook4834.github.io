@@ -230,6 +230,9 @@ compress_html:
   ignore:
     envs: [development]
 
+include:
+  - rss.xml
+
 exclude: # https://github.com/untra/polyglot/issues/204 이슈 참고하여 수정.
   # - "*.gem"
   - jekyll-theme-chirpy.gemspec # - "*.gemspec"
