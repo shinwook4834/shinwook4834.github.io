@@ -3,7 +3,7 @@
 title: "Make the First Truly First"  
 author: SW Kim  
 date: 2026-01-04 15:18:00 +09:00  
-tags: [Suyeongro Church, Matthew 22:37-40, Pastor Kyuhyun Lee]  
+tags: [Suyoungro Church, Matthew 22:37-40, Pastor KyuHyun Lee]  
 categories: [Matthew]  
 image: /assets/img/20260104-main.webp  
 
