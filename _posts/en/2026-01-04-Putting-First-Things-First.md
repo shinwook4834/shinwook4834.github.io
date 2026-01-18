@@ -114,5 +114,3 @@ A9. It means setting aside time, preparing our hearts, and sacrificing other ple
 A10. A person who truly loves God has their heart aligned with Him, so every free choice naturally brings joy to God.  
 
 ---
-
-Would you like me to refine this translation into a more **sermon-like English style** (flowing and natural for spoken delivery), or keep it as a **study note style** for written reading?
