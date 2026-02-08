@@ -196,6 +196,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4001/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -249,6 +255,13 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/page3/" />
         </url>
       
+    
+      <url>
+        <loc>http://localhost:4001/posts/Those-Who-Mourn/</loc>
+        <lastmod>2026-02-08T17:07:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/Those-Who-Mourn/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/Those-Who-Mourn/" />
+      </url>
     
       <url>
         <loc>http://localhost:4001/posts/The-Signpost-of-Our-Lives/</loc>
@@ -408,28 +421,28 @@
     
       <url>
         <loc>http://localhost:4001/categories/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/tags/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/archives/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/about/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/about/" />
       </url>
@@ -630,6 +643,12 @@
         </url>
       
         <url>
+          <loc>http://localhost:4001/en/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/</loc>
+          <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/" />
+          <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-5-4/" />
+        </url>
+      
+        <url>
           <loc>http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/</loc>
           <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/%EC%9A%94%ED%95%9C%EA%B3%84%EC%8B%9C%EB%A1%9D/" />
@@ -683,6 +702,13 @@
           <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/page3/" />
         </url>
       
+    
+      <url>
+        <loc>http://localhost:4001/en/posts/Those-Who-Mourn/</loc>
+        <lastmod>2026-02-08T17:07:00+09:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/posts/Those-Who-Mourn/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/posts/Those-Who-Mourn/" />
+      </url>
     
       <url>
         <loc>http://localhost:4001/en/posts/The-Signpost-of-Our-Lives/</loc>
@@ -842,28 +868,28 @@
     
       <url>
         <loc>http://localhost:4001/en/categories/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/categories/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/categories/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/tags/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/tags/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/tags/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/archives/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/archives/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/archives/" />
       </url>
     
       <url>
         <loc>http://localhost:4001/en/about/</loc>
-        <lastmod>2026-01-19T21:09:44+09:00</lastmod>
+        <lastmod>2026-02-08T17:43:27+09:00</lastmod>
         <xhtml:link rel="alternate" hreflang="ko" href="http://localhost:4001/about/" />
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4001/en/about/" />
       </url>
