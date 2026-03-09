@@ -2,7 +2,7 @@
 title: "Reigning with Christ"
 author: SW Kim
 date: 2025-08-24 14:30:00 +09:00
-tags: [Sooyoungro Church, Revelation 20:1-6]
+tags: [Sooyoungro Church, Revelation 20:1-6, Pastor KyuHyun Lee]
 categories: [Revelation]
 image: /assets/img/20250824-main.webp
 ---

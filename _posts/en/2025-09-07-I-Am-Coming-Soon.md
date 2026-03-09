@@ -2,7 +2,7 @@
 title: "I Am Coming Soon"
 author: SW Kim
 date: 2025-09-07 16:00:00 +09:00
-tags: [Sooyoungro Church, Revelation 22:16–21]
+tags: [Sooyoungro Church, Revelation 22:16–21, Pastor KyuHyun Lee]
 categories: [Revelation]
 image: /assets/img/20250907-main.webp
 ---

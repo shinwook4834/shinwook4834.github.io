@@ -2,7 +2,7 @@
 title: "Why Are You Anxious, My Soul?"
 author: SW Kim
 date: 2025-09-14 16:00:00 +09:00
-tags: [Sooyoungro Church, Psalm 42:1-11]
+tags: [Sooyoungro Church, Psalm 42:1-11, Pastor KyuHyun Lee]
 categories: [Psalm]
 image: /assets/img/20250914-main.webp
 ---

@@ -2,7 +2,7 @@
 title: "Connection Over Zeal"
 author: SW Kim
 date: 2025-09-21 15:48:00 +09:00
-tags: [Sooyoungro Church, John 15:1-5]
+tags: [Sooyoungro Church, John 15:1-5, Pastor KyuHyun Lee]
 categories: [John]
 image: /assets/img/20250921-main.webp
 ---
